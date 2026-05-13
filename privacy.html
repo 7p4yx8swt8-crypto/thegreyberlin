@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Privacy Policy – thegrey.berlin. Information on the processing of personal data in accordance with the GDPR.">
+    <meta name="robots" content="noindex, follow">
+    <title>Privacy Policy – thegrey.berlin</title>
+
+    <link rel="canonical" href="https://thegrey.berlin/privacy.html">
+    <link rel="alternate" hreflang="de" href="https://thegrey.berlin/datenschutz.html">
+    <link rel="alternate" hreflang="en" href="https://thegrey.berlin/privacy.html">
+    <link rel="alternate" hreflang="x-default" href="https://thegrey.berlin/datenschutz.html">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        :root { --color-dark: #383838; --color-darker: #1f1f1f; --color-light: #fff; --color-grey-mid: #8a8a8a; --color-grey-light: #e5e3df; --font-heading: 'Archivo', -apple-system, sans-serif; --font-body: 'Inter', -apple-system, sans-serif; --max-width: 1320px; --content-width: 760px; --transition: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+        html { scroll-behavior: smooth; }
+        body { font-family: var(--font-body); font-weight: 300; color: var(--color-dark); background: #fff; line-height: 1.7; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+        a { color: inherit; text-decoration: none; transition: opacity var(--transition); }
+        a:hover { opacity: 0.65; }
+
+        .header { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; padding: 1.25rem clamp(1.25rem, 5vw, 4rem); background: rgba(255,255,255,0.95); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-bottom: 1px solid var(--color-grey-light); }
+        .nav { display: flex; justify-content: space-between; align-items: center; max-width: var(--max-width); margin: 0 auto; }
+        .nav__logo img { height: 52px; width: auto; }
+        .nav__menu { display: flex; gap: 2.5rem; list-style: none; align-items: center; }
+        .nav__link { font-size: 0.85rem; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: var(--color-dark); padding: 0.5rem 0; position: relative; }
+        .nav__link::after { content: ''; position: absolute; bottom: 0; left: 0; width: 0; height: 1px; background: var(--color-dark); transition: width var(--transition); }
+        .nav__link:hover { opacity: 1; }
+        .nav__link:hover::after { width: 100%; }
+
+        .nav__lang { display: flex; align-items: center; gap: 0.4rem; font-size: 0.8rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; }
+        .nav__lang a { color: var(--color-grey-mid); padding: 0.5rem 0.15rem; transition: color var(--transition); }
+        .nav__lang a.active { color: var(--color-dark); }
+        .nav__lang a:hover { color: var(--color-dark); opacity: 1; }
+        .nav__lang span { color: var(--color-grey-light); font-weight: 300; }
+
+        .nav__cta { border: 1px solid var(--color-dark); padding: 0.6rem 1.4rem; border-radius: 999px; transition: background-color var(--transition), color var(--transition); }
+        .nav__cta:hover { background: var(--color-dark); color: var(--color-light); opacity: 1; }
+        .nav__cta::after { display: none; }
+
+        .burger { display: none; background: none; border: none; cursor: pointer; width: 32px; height: 32px; padding: 0; }
+        .burger span { display: block; width: 24px; height: 1.5px; background: var(--color-dark); margin: 5px auto; transition: transform var(--transition), opacity var(--transition); }
+        .burger.active span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
+        .burger.active span:nth-child(2) { opacity: 0; }
+        .burger.active span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
+
+        .legal { padding: 10rem clamp(1.25rem, 5vw, 4rem) clamp(4rem, 10vw, 8rem); }
+        .legal__container { max-width: var(--content-width); margin: 0 auto; }
+        .legal__eyebrow { font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--color-grey-mid); margin-bottom: 1.25rem; display: inline-flex; align-items: center; gap: 0.75rem; }
+        .legal__eyebrow::before { content: ''; width: 32px; height: 1px; background: var(--color-grey-mid); }
+        .legal__title { font-family: var(--font-heading); font-weight: 600; font-size: clamp(2.5rem, 6vw, 4rem); line-height: 1; letter-spacing: -0.035em; color: var(--color-darker); margin-bottom: 4rem; }
+        .legal__content h2 { font-family: var(--font-heading); font-weight: 600; font-size: 1.4rem; letter-spacing: -0.02em; color: var(--color-darker); margin: 3rem 0 1rem; line-height: 1.3; }
+        .legal__content h2:first-child { margin-top: 0; }
+        .legal__content h3 { font-family: var(--font-heading); font-weight: 500; font-size: 1.1rem; letter-spacing: -0.01em; color: var(--color-darker); margin: 2rem 0 0.75rem; }
+        .legal__content p { font-size: 1rem; line-height: 1.8; color: var(--color-dark); margin-bottom: 1.25rem; }
+        .legal__content ul { margin: 0 0 1.5rem 1.5rem; padding-left: 0.5rem; }
+        .legal__content li { font-size: 1rem; line-height: 1.8; margin-bottom: 0.5rem; }
+        .legal__content a { color: var(--color-dark); text-decoration: underline; text-decoration-color: var(--color-grey-light); text-underline-offset: 4px; }
+        .legal__content a:hover { text-decoration-color: var(--color-dark); opacity: 1; }
+        .legal__content strong { font-weight: 500; color: var(--color-darker); }
+        .legal__placeholder { background: #fff8e1; border-left: 2px solid #c8a951; padding: 2px 8px; font-style: italic; color: #6b5318; font-size: 0.95em; }
+        .legal__address { margin: 1.5rem 0; padding: 1.5rem 1.75rem; border: 1px solid var(--color-grey-light); border-radius: 4px; background: #fafaf9; }
+        .legal__address p { margin-bottom: 0.25rem; }
+        .legal__back { display: inline-flex; align-items: center; gap: 0.75rem; margin-top: 4rem; padding: 1rem 2.25rem; background: var(--color-dark); color: var(--color-light); font-size: 0.85rem; letter-spacing: 0.12em; text-transform: uppercase; font-weight: 500; border-radius: 999px; border: 1px solid var(--color-dark); transition: background-color var(--transition), color var(--transition); }
+        .legal__back:hover { background: transparent; color: var(--color-dark); opacity: 1; }
+
+        .footer { background: var(--color-darker); color: var(--color-grey-light); padding: 5rem clamp(1.25rem, 5vw, 4rem) 2rem; }
+        .footer__container { max-width: var(--max-width); margin: 0 auto; }
+        .footer__top { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1.2fr; gap: 3rem; padding-bottom: 3rem; border-bottom: 1px solid rgba(255,255,255,0.1); margin-bottom: 2rem; }
+        .footer__brand h3 { font-family: var(--font-heading); font-size: 1.65rem; font-weight: 600; letter-spacing: -0.02em; color: var(--color-light); margin-bottom: 1rem; }
+        .footer__brand p { font-size: 0.9rem; line-height: 1.7; color: var(--color-grey-light); max-width: 320px; }
+        .footer__col h4 { font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--color-light); margin-bottom: 1.25rem; font-weight: 500; }
+        .footer__col ul { list-style: none; display: grid; gap: 0.65rem; margin: 0; padding: 0; }
+        .footer__col a { font-size: 0.9rem; color: var(--color-grey-light); }
+        .footer__bottom { display: flex; justify-content: space-between; align-items: center; font-size: 0.8rem; color: var(--color-grey-mid); letter-spacing: 0.05em; }
+        .footer__social { display: flex; gap: 1.25rem; }
+        .footer__social a { width: 36px; height: 36px; border: 1px solid rgba(255,255,255,0.2); border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; transition: background-color var(--transition), border-color var(--transition); }
+        .footer__social a:hover { background: var(--color-light); border-color: var(--color-light); opacity: 1; }
+        .footer__social a:hover svg { fill: var(--color-darker); }
+        .footer__social svg { width: 14px; height: 14px; fill: var(--color-grey-light); transition: fill var(--transition); }
+
+        @media (max-width: 960px) { .footer__top { grid-template-columns: 1fr 1fr; gap: 2.5rem; } }
+        @media (max-width: 720px) {
+            .nav__menu { position: fixed; top: 0; right: 0; bottom: 0; width: min(280px, 80vw); background: #fff; flex-direction: column; justify-content: center; gap: 2rem; padding: 2rem; transform: translateX(100%); transition: transform var(--transition); box-shadow: -4px 0 24px rgba(0,0,0,0.08); }
+            .nav__menu.active { transform: translateX(0); }
+            .burger { display: block; }
+            .footer__top { grid-template-columns: 1fr; }
+            .footer__bottom { flex-direction: column; gap: 1rem; text-align: center; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <a href="index-en.html" class="nav__logo" aria-label="thegrey - Home">
+                <img src="https://static.wixstatic.com/media/bdc123_37188656e7a04cebb530fc75bc1a552b~mv2.png/v1/fill/w_201,h_70,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/GREY-logo-383838-freigestellt.png" alt="thegrey Logo">
+            </a>
+            <ul class="nav__menu" id="navMenu">
+                <li><a href="index-en.html#designs" class="nav__link">Designs</a></li>
+                <li><a href="index-en.html#projects" class="nav__link">Projects</a></li>
+                <li><a href="index-en.html#process" class="nav__link">Process</a></li>
+                <li><a href="index-en.html#about" class="nav__link">About</a></li>
+                <li class="nav__lang"><a href="datenschutz.html">DE</a><span>/</span><a href="privacy.html" class="active">EN</a></li>
+                <li><a href="index-en.html#contact" class="nav__link nav__cta">Start to Design</a></li>
+            </ul>
+            <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+    </header>
+
+    <section class="legal">
+        <div class="legal__container">
+            <span class="legal__eyebrow">Legal</span>
+            <h1 class="legal__title">Privacy Policy</h1>
+            <div class="legal__content">
+
+                <h2>1. Privacy at a glance</h2>
+                <h3>General information</h3>
+                <p>
+                    The following notes provide a simple overview of what happens to your personal data
+                    when you visit this website. Personal data is any data that can be used to identify
+                    you personally.
+                </p>
+
+                <h3>Data collection on this website</h3>
+                <p>
+                    <strong>Who is responsible for the data collection on this website?</strong><br>
+                    The data processing on this website is carried out by the website operator. You can
+                    find their contact details in the section "Information on the responsible party"
+                    below.
+                </p>
+                <p>
+                    <strong>How do we collect your data?</strong><br>
+                    Your data is collected by you providing it to us (e.g., via the contact form).
+                    Other data is collected automatically or with your consent when you visit the
+                    website (e.g., browser, operating system, time of access).
+                </p>
+                <p>
+                    <strong>What do we use your data for?</strong><br>
+                    Part of the data is collected to ensure the error-free provision of the website.
+                    Other data may be used to analyse your user behaviour.
+                </p>
+                <p>
+                    <strong>What rights do you have regarding your data?</strong><br>
+                    You have the right at any time to obtain information free of charge about the origin,
+                    recipient, and purpose of your stored personal data. You also have the right to
+                    request the correction or deletion of this data.
+                </p>
+
+                <h2>2. Hosting</h2>
+                <p>We host the content of our website with the following provider:</p>
+                <p><span class="legal__placeholder">[Enter hosting provider, e.g. "1&amp;1 IONOS SE, Elgendorfer Straße 57, 56410 Montabaur, Germany"]</span></p>
+                <p>
+                    The collection and processing of your data is based on our legitimate interest in
+                    the secure, fast, and efficient provision of our online services by a professional
+                    provider (Art. 6 (1) (f) GDPR).
+                </p>
+
+                <h2>3. General notes and mandatory information</h2>
+
+                <h3>Privacy</h3>
+                <p>
+                    The operators of these pages take the protection of your personal data very
+                    seriously. We treat your personal data confidentially and in accordance with
+                    statutory data protection regulations and this privacy policy.
+                </p>
+
+                <h3>Information on the responsible party</h3>
+                <p>The party responsible for the data processing on this website is:</p>
+                <div class="legal__address">
+                    <p><strong>thegrey.berlin</strong></p>
+                    <p>Sole proprietorship</p>
+                    <p>Gardeschützenweg 18</p>
+                    <p>12203 Berlin</p>
+                    <p>Phone: <a href="tel:+491781308965">+49 178 1308965</a></p>
+                    <p>Email: <a href="mailto:hello@thegrey.berlin">hello@thegrey.berlin</a></p>
+                </div>
+
+                <h3>Storage duration</h3>
+                <p>
+                    Unless a more specific storage period is mentioned within this privacy policy, your
+                    personal data will remain with us until the purpose for processing the data no
+                    longer applies.
+                </p>
+
+                <h3>Revocation of your consent to data processing</h3>
+                <p>
+                    Many data processing operations are only possible with your express consent. You
+                    can revoke consent you have already given at any time. The legality of the data
+                    processing carried out up to the revocation remains unaffected by the revocation.
+                </p>
+
+                <h3>Right to lodge a complaint with the competent supervisory authority</h3>
+                <p>
+                    In the event of breaches of the GDPR, data subjects have the right to lodge a
+                    complaint with a supervisory authority. The competent authority is the Berlin
+                    Commissioner for Data Protection and Freedom of Information (Alt-Moabit 59–61,
+                    10555 Berlin, Germany).
+                </p>
+
+                <h3>SSL / TLS encryption</h3>
+                <p>
+                    For security reasons and to protect the transmission of confidential content,
+                    this site uses SSL or TLS encryption. You can recognise an encrypted connection
+                    by the fact that the address line of the browser changes from "http://" to
+                    "https://" and by the lock icon in your browser bar.
+                </p>
+
+                <h2>4. Data collection on this website</h2>
+
+                <h3>Server log files</h3>
+                <p>
+                    The provider of the pages automatically collects and stores information in
+                    server log files, which your browser automatically transmits to us. This includes:
+                </p>
+                <ul>
+                    <li>Browser type and browser version</li>
+                    <li>Operating system used</li>
+                    <li>Referrer URL</li>
+                    <li>Hostname of the accessing computer</li>
+                    <li>Time of the server request</li>
+                    <li>IP address</li>
+                </ul>
+                <p>
+                    The collection of this data is based on Art. 6 (1) (f) GDPR. The website operator
+                    has a legitimate interest in the technically error-free presentation and
+                    optimisation of the website.
+                </p>
+
+                <h3>Contact form</h3>
+                <p>
+                    If you send us inquiries via the contact form, your details from the inquiry form,
+                    including the contact data you provide there, will be stored by us for the purpose
+                    of processing the inquiry and in the event of follow-up questions. We do not share
+                    this data without your consent.
+                </p>
+
+                <h3>Inquiries by email or phone</h3>
+                <p>
+                    If you contact us by email or phone, your inquiry, including all personal data
+                    arising from it (name, inquiry), will be stored and processed by us for the
+                    purpose of handling your request.
+                </p>
+
+                <h2>5. Plugins and tools</h2>
+
+                <h3>Google Fonts</h3>
+                <p>
+                    This site uses Google Fonts for the uniform display of fonts. When you visit a page,
+                    your browser loads the required fonts into its browser cache. As a result, Google
+                    becomes aware that this website has been accessed via your IP address. The use is
+                    based on legitimate interests (Art. 6 (1) (f) GDPR). Further information:
+                    <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.
+                </p>
+
+                <h3>Instagram &amp; LinkedIn</h3>
+                <p>
+                    Our website contains links to our profiles on Instagram (Meta Platforms Ireland
+                    Limited) and LinkedIn (LinkedIn Ireland Unlimited Company). These links are not
+                    embedded content – data is only transmitted to the respective providers when you
+                    actively click on the link.
+                </p>
+                <ul>
+                    <li>Instagram: <a href="https://privacycenter.instagram.com/policy/" target="_blank" rel="noopener">privacycenter.instagram.com/policy/</a></li>
+                    <li>LinkedIn: <a href="https://www.linkedin.com/legal/privacy-policy" target="_blank" rel="noopener">linkedin.com/legal/privacy-policy</a></li>
+                </ul>
+
+                <h2>6. Your rights as a data subject</h2>
+                <p>Under the GDPR, you have the following rights:</p>
+                <ul>
+                    <li><strong>Right of access</strong> (Art. 15 GDPR)</li>
+                    <li><strong>Right to rectification</strong> (Art. 16 GDPR)</li>
+                    <li><strong>Right to erasure</strong> (Art. 17 GDPR)</li>
+                    <li><strong>Right to restriction of processing</strong> (Art. 18 GDPR)</li>
+                    <li><strong>Right to data portability</strong> (Art. 20 GDPR)</li>
+                    <li><strong>Right to object</strong> (Art. 21 GDPR)</li>
+                    <li><strong>Right to lodge a complaint</strong> (Art. 77 GDPR)</li>
+                </ul>
+                <p>
+                    To exercise your rights, please contact us informally at
+                    <a href="mailto:hello@thegrey.berlin">hello@thegrey.berlin</a>.
+                </p>
+
+                <p style="margin-top: 3rem; font-size: 0.85rem; color: var(--color-grey-mid);">
+                    Last updated: May 2026.<br>
+                    This English translation is provided for convenience. In legal matters, the
+                    original German version applies.
+                </p>
+
+                <a href="index-en.html" class="legal__back">← Back to homepage</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__top">
+                <div class="footer__brand">
+                    <h3>thegrey</h3>
+                    <p>Handcrafted rugs from Berlin. Made from pure wool. For rooms that tell a story.</p>
+                </div>
+                <div class="footer__col">
+                    <h4>Studio</h4>
+                    <ul>
+                        <li><a href="index-en.html#designs">Designs</a></li>
+                        <li><a href="index-en.html#projects">Projects</a></li>
+                        <li><a href="index-en.html#process">Process</a></li>
+                        <li><a href="index-en.html#about">About</a></li>
+                        <li><a href="index-en.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4>Service</h4>
+                    <ul>
+                        <li><a href="#">Shipping Policy</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="imprint.html">Imprint</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div>© 2026 thegrey.berlin · All rights reserved</div>
+                <div class="footer__social">
+                    <a href="https://www.instagram.com/thegrey.berlin/" target="_blank" rel="noopener" aria-label="Instagram"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41-.56-.22-.96-.48-1.38-.9-.42-.42-.68-.82-.9-1.38-.16-.42-.36-1.06-.41-2.23C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16M12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63c-.79.31-1.46.72-2.13 1.39C1.34 2.69.93 3.36.62 4.14.33 4.91.13 5.78.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.91.31.79.72 1.46 1.39 2.13.67.67 1.34 1.08 2.13 1.39.76.3 1.64.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.91-.56.79-.31 1.46-.72 2.13-1.39.67-.67 1.08-1.34 1.39-2.13.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.91-.31-.79-.72-1.46-1.39-2.13C21.31 1.34 20.64.93 19.86.62c-.76-.3-1.64-.5-2.91-.56C15.67.01 15.26 0 12 0zm0 5.84A6.16 6.16 0 1 0 12 18.16 6.16 6.16 0 0 0 12 5.84zm0 10.16A4 4 0 1 1 12 8a4 4 0 0 1 0 8zm6.41-11.85a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88z"/></svg></a>
+                    <a href="https://www.linkedin.com/company/thegreyberlin/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.95v5.66H9.36V9h3.41v1.56h.05c.47-.9 1.64-1.85 3.37-1.85 3.6 0 4.26 2.37 4.26 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const burger = document.getElementById('burger');
+        const navMenu = document.getElementById('navMenu');
+        burger.addEventListener('click', () => { const isActive = navMenu.classList.toggle('active'); burger.classList.toggle('active'); burger.setAttribute('aria-expanded', isActive); });
+    </script>
+</body>
+</html>
