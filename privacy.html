@@ -7,10 +7,10 @@
     <meta name="robots" content="noindex, follow">
     <title>Privacy Policy – thegrey.berlin</title>
 
-    <link rel="canonical" href="https://thegrey.berlin/privacy.html">
-    <link rel="alternate" hreflang="de" href="https://thegrey.berlin/datenschutz.html">
-    <link rel="alternate" hreflang="en" href="https://thegrey.berlin/privacy.html">
-    <link rel="alternate" hreflang="x-default" href="https://thegrey.berlin/datenschutz.html">
+    <link rel="canonical" href="https://www.thegrey.berlin/privacy.html">
+    <link rel="alternate" hreflang="de" href="https://www.thegrey.berlin/datenschutz.html">
+    <link rel="alternate" hreflang="en" href="https://www.thegrey.berlin/privacy.html">
+    <link rel="alternate" hreflang="x-default" href="https://www.thegrey.berlin/datenschutz.html">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -86,9 +86,14 @@
 
         @media (max-width: 960px) { .footer__top { grid-template-columns: 1fr 1fr; gap: 2.5rem; } }
         @media (max-width: 720px) {
-            .nav__menu { position: fixed; top: 0; right: 0; bottom: 0; width: min(280px, 80vw); background: #fff; flex-direction: column; justify-content: center; gap: 2rem; padding: 2rem; transform: translateX(100%); transition: transform var(--transition); box-shadow: -4px 0 24px rgba(0,0,0,0.08); }
+            .nav__menu { position: fixed; top: 0; right: 0; bottom: 0; width: min(320px, 85vw); background: #fff; flex-direction: column; justify-content: flex-start; align-items: stretch; gap: 0.25rem; padding: 6rem 2rem 2.5rem; transform: translateX(100%); transition: transform var(--transition); box-shadow: -8px 0 32px rgba(0,0,0,0.12); overflow-y: auto; }
             .nav__menu.active { transform: translateX(0); }
-            .burger { display: block; }
+            .nav__menu li { padding: 0.65rem 0; }
+            .nav__link { font-size: 1rem; display: block; }
+            .nav__lang { padding: 1.25rem 0 0.5rem !important; margin-top: 0.75rem; border-top: 1px solid var(--color-grey-light); justify-content: flex-start; }
+            .nav__cta { display: inline-flex !important; align-self: flex-start; white-space: nowrap; margin-top: 0.75rem; padding: 0.75rem 1.5rem; }
+            .nav__cta::after { display: none; }
+            .burger { display: block; position: relative; z-index: 1101; }
             .footer__top { grid-template-columns: 1fr; }
             .footer__bottom { flex-direction: column; gap: 1rem; text-align: center; }
         }
@@ -123,54 +128,22 @@
 
                 <h2>1. Privacy at a glance</h2>
                 <h3>General information</h3>
-                <p>
-                    The following notes provide a simple overview of what happens to your personal data
-                    when you visit this website. Personal data is any data that can be used to identify
-                    you personally.
-                </p>
+                <p>The following notes provide a simple overview of what happens to your personal data when you visit this website. Personal data is any data that can be used to identify you personally.</p>
 
                 <h3>Data collection on this website</h3>
-                <p>
-                    <strong>Who is responsible for the data collection on this website?</strong><br>
-                    The data processing on this website is carried out by the website operator. You can
-                    find their contact details in the section "Information on the responsible party"
-                    below.
-                </p>
-                <p>
-                    <strong>How do we collect your data?</strong><br>
-                    Your data is collected by you providing it to us (e.g., via the contact form).
-                    Other data is collected automatically or with your consent when you visit the
-                    website (e.g., browser, operating system, time of access).
-                </p>
-                <p>
-                    <strong>What do we use your data for?</strong><br>
-                    Part of the data is collected to ensure the error-free provision of the website.
-                    Other data may be used to analyse your user behaviour.
-                </p>
-                <p>
-                    <strong>What rights do you have regarding your data?</strong><br>
-                    You have the right at any time to obtain information free of charge about the origin,
-                    recipient, and purpose of your stored personal data. You also have the right to
-                    request the correction or deletion of this data.
-                </p>
+                <p><strong>Who is responsible for the data collection on this website?</strong><br>The data processing on this website is carried out by the website operator. You can find their contact details in the section "Information on the responsible party" below.</p>
+                <p><strong>How do we collect your data?</strong><br>Your data is collected by you providing it to us (e.g., via the contact form). Other data is collected automatically or with your consent when you visit the website (e.g., browser, operating system, time of access).</p>
+                <p><strong>What do we use your data for?</strong><br>Part of the data is collected to ensure the error-free provision of the website. Other data may be used to analyse your user behaviour.</p>
+                <p><strong>What rights do you have regarding your data?</strong><br>You have the right at any time to obtain information free of charge about the origin, recipient, and purpose of your stored personal data. You also have the right to request the correction or deletion of this data.</p>
 
                 <h2>2. Hosting</h2>
                 <p>We host the content of our website with the following provider:</p>
-                <p><span class="legal__placeholder">[Enter hosting provider, e.g. "1&amp;1 IONOS SE, Elgendorfer Straße 57, 56410 Montabaur, Germany"]</span></p>
-                <p>
-                    The collection and processing of your data is based on our legitimate interest in
-                    the secure, fast, and efficient provision of our online services by a professional
-                    provider (Art. 6 (1) (f) GDPR).
-                </p>
+                <p><span class="legal__placeholder">[Enter hosting provider, e.g. "Cloudflare, Inc., 101 Townsend Street, San Francisco, CA 94107, USA"]</span></p>
+                <p>The collection and processing of your data is based on our legitimate interest in the secure, fast, and efficient provision of our online services by a professional provider (Art. 6 (1) (f) GDPR).</p>
 
                 <h2>3. General notes and mandatory information</h2>
-
                 <h3>Privacy</h3>
-                <p>
-                    The operators of these pages take the protection of your personal data very
-                    seriously. We treat your personal data confidentially and in accordance with
-                    statutory data protection regulations and this privacy policy.
-                </p>
+                <p>The operators of these pages take the protection of your personal data very seriously. We treat your personal data confidentially and in accordance with statutory data protection regulations and this privacy policy.</p>
 
                 <h3>Information on the responsible party</h3>
                 <p>The party responsible for the data processing on this website is:</p>
@@ -184,42 +157,20 @@
                 </div>
 
                 <h3>Storage duration</h3>
-                <p>
-                    Unless a more specific storage period is mentioned within this privacy policy, your
-                    personal data will remain with us until the purpose for processing the data no
-                    longer applies.
-                </p>
+                <p>Unless a more specific storage period is mentioned within this privacy policy, your personal data will remain with us until the purpose for processing the data no longer applies.</p>
 
                 <h3>Revocation of your consent to data processing</h3>
-                <p>
-                    Many data processing operations are only possible with your express consent. You
-                    can revoke consent you have already given at any time. The legality of the data
-                    processing carried out up to the revocation remains unaffected by the revocation.
-                </p>
+                <p>Many data processing operations are only possible with your express consent. You can revoke consent you have already given at any time. The legality of the data processing carried out up to the revocation remains unaffected by the revocation.</p>
 
                 <h3>Right to lodge a complaint with the competent supervisory authority</h3>
-                <p>
-                    In the event of breaches of the GDPR, data subjects have the right to lodge a
-                    complaint with a supervisory authority. The competent authority is the Berlin
-                    Commissioner for Data Protection and Freedom of Information (Alt-Moabit 59–61,
-                    10555 Berlin, Germany).
-                </p>
+                <p>In the event of breaches of the GDPR, data subjects have the right to lodge a complaint with a supervisory authority. The competent authority is the Berlin Commissioner for Data Protection and Freedom of Information (Alt-Moabit 59–61, 10555 Berlin, Germany).</p>
 
                 <h3>SSL / TLS encryption</h3>
-                <p>
-                    For security reasons and to protect the transmission of confidential content,
-                    this site uses SSL or TLS encryption. You can recognise an encrypted connection
-                    by the fact that the address line of the browser changes from "http://" to
-                    "https://" and by the lock icon in your browser bar.
-                </p>
+                <p>For security reasons and to protect the transmission of confidential content, this site uses SSL or TLS encryption. You can recognise an encrypted connection by the fact that the address line of the browser changes from "http://" to "https://" and by the lock icon in your browser bar.</p>
 
                 <h2>4. Data collection on this website</h2>
-
                 <h3>Server log files</h3>
-                <p>
-                    The provider of the pages automatically collects and stores information in
-                    server log files, which your browser automatically transmits to us. This includes:
-                </p>
+                <p>The provider of the pages automatically collects and stores information in server log files, which your browser automatically transmits to us. This includes:</p>
                 <ul>
                     <li>Browser type and browser version</li>
                     <li>Operating system used</li>
@@ -228,45 +179,20 @@
                     <li>Time of the server request</li>
                     <li>IP address</li>
                 </ul>
-                <p>
-                    The collection of this data is based on Art. 6 (1) (f) GDPR. The website operator
-                    has a legitimate interest in the technically error-free presentation and
-                    optimisation of the website.
-                </p>
+                <p>The collection of this data is based on Art. 6 (1) (f) GDPR. The website operator has a legitimate interest in the technically error-free presentation and optimisation of the website.</p>
 
                 <h3>Contact form</h3>
-                <p>
-                    If you send us inquiries via the contact form, your details from the inquiry form,
-                    including the contact data you provide there, will be stored by us for the purpose
-                    of processing the inquiry and in the event of follow-up questions. We do not share
-                    this data without your consent.
-                </p>
+                <p>If you send us inquiries via the contact form, your details from the inquiry form, including the contact data you provide there, will be stored by us for the purpose of processing the inquiry and in the event of follow-up questions. We do not share this data without your consent.</p>
 
                 <h3>Inquiries by email or phone</h3>
-                <p>
-                    If you contact us by email or phone, your inquiry, including all personal data
-                    arising from it (name, inquiry), will be stored and processed by us for the
-                    purpose of handling your request.
-                </p>
+                <p>If you contact us by email or phone, your inquiry, including all personal data arising from it (name, inquiry), will be stored and processed by us for the purpose of handling your request.</p>
 
                 <h2>5. Plugins and tools</h2>
-
                 <h3>Google Fonts</h3>
-                <p>
-                    This site uses Google Fonts for the uniform display of fonts. When you visit a page,
-                    your browser loads the required fonts into its browser cache. As a result, Google
-                    becomes aware that this website has been accessed via your IP address. The use is
-                    based on legitimate interests (Art. 6 (1) (f) GDPR). Further information:
-                    <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.
-                </p>
+                <p>This site uses Google Fonts for the uniform display of fonts. When you visit a page, your browser loads the required fonts into its browser cache. As a result, Google becomes aware that this website has been accessed via your IP address. The use is based on legitimate interests (Art. 6 (1) (f) GDPR). Further information: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.</p>
 
                 <h3>Instagram &amp; LinkedIn</h3>
-                <p>
-                    Our website contains links to our profiles on Instagram (Meta Platforms Ireland
-                    Limited) and LinkedIn (LinkedIn Ireland Unlimited Company). These links are not
-                    embedded content – data is only transmitted to the respective providers when you
-                    actively click on the link.
-                </p>
+                <p>Our website contains links to our profiles on Instagram (Meta Platforms Ireland Limited) and LinkedIn (LinkedIn Ireland Unlimited Company). These links are not embedded content – data is only transmitted to the respective providers when you actively click on the link.</p>
                 <ul>
                     <li>Instagram: <a href="https://privacycenter.instagram.com/policy/" target="_blank" rel="noopener">privacycenter.instagram.com/policy/</a></li>
                     <li>LinkedIn: <a href="https://www.linkedin.com/legal/privacy-policy" target="_blank" rel="noopener">linkedin.com/legal/privacy-policy</a></li>
@@ -283,16 +209,9 @@
                     <li><strong>Right to object</strong> (Art. 21 GDPR)</li>
                     <li><strong>Right to lodge a complaint</strong> (Art. 77 GDPR)</li>
                 </ul>
-                <p>
-                    To exercise your rights, please contact us informally at
-                    <a href="mailto:hello@thegrey.berlin">hello@thegrey.berlin</a>.
-                </p>
+                <p>To exercise your rights, please contact us informally at <a href="mailto:hello@thegrey.berlin">hello@thegrey.berlin</a>.</p>
 
-                <p style="margin-top: 3rem; font-size: 0.85rem; color: var(--color-grey-mid);">
-                    Last updated: May 2026.<br>
-                    This English translation is provided for convenience. In legal matters, the
-                    original German version applies.
-                </p>
+                <p style="margin-top: 3rem; font-size: 0.85rem; color: var(--color-grey-mid);">Last updated: May 2026.<br>This English translation is provided for convenience. In legal matters, the original German version applies.</p>
 
                 <a href="index-en.html" class="legal__back">← Back to homepage</a>
             </div>
@@ -302,35 +221,10 @@
     <footer class="footer">
         <div class="footer__container">
             <div class="footer__top">
-                <div class="footer__brand">
-                    <h3>thegrey</h3>
-                    <p>Handcrafted rugs from Berlin. Made from pure wool. For rooms that tell a story.</p>
-                </div>
-                <div class="footer__col">
-                    <h4>Studio</h4>
-                    <ul>
-                        <li><a href="index-en.html#designs">Designs</a></li>
-                        <li><a href="index-en.html#projects">Projects</a></li>
-                        <li><a href="index-en.html#process">Process</a></li>
-                        <li><a href="index-en.html#about">About</a></li>
-                        <li><a href="index-en.html#contact">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer__col">
-                    <h4>Service</h4>
-                    <ul>
-                        <li><a href="#">Shipping Policy</a></li>
-                        <li><a href="#">Return Policy</a></li>
-                        <li><a href="#">FAQ</a></li>
-                    </ul>
-                </div>
-                <div class="footer__col">
-                    <h4>Legal</h4>
-                    <ul>
-                        <li><a href="imprint.html">Imprint</a></li>
-                        <li><a href="privacy.html">Privacy Policy</a></li>
-                    </ul>
-                </div>
+                <div class="footer__brand"><h3>thegrey</h3><p>Handcrafted rugs from Berlin. Made from pure wool. For rooms that tell a story.</p></div>
+                <div class="footer__col"><h4>Studio</h4><ul><li><a href="index-en.html#designs">Designs</a></li><li><a href="index-en.html#projects">Projects</a></li><li><a href="index-en.html#process">Process</a></li><li><a href="index-en.html#about">About</a></li><li><a href="index-en.html#contact">Contact</a></li></ul></div>
+                <div class="footer__col"><h4>Service</h4><ul><li><a href="#">Shipping Policy</a></li><li><a href="#">Return Policy</a></li><li><a href="#">FAQ</a></li></ul></div>
+                <div class="footer__col"><h4>Legal</h4><ul><li><a href="imprint.html">Imprint</a></li><li><a href="privacy.html">Privacy Policy</a></li></ul></div>
             </div>
             <div class="footer__bottom">
                 <div>© 2026 thegrey.berlin · All rights reserved</div>

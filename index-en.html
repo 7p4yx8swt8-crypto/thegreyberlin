@@ -6,10 +6,10 @@
     <meta name="description" content="thegrey - Handcrafted custom rugs from Berlin. 100% custom, handmade, natural fibers, built to last. No Rules. Just Rugs.">
     <title>thegrey – Handcrafted Custom Rugs from Berlin</title>
 
-    <link rel="canonical" href="https://thegrey.berlin/index-en.html">
-    <link rel="alternate" hreflang="de" href="https://thegrey.berlin/index.html">
-    <link rel="alternate" hreflang="en" href="https://thegrey.berlin/index-en.html">
-    <link rel="alternate" hreflang="x-default" href="https://thegrey.berlin/index.html">
+    <link rel="canonical" href="https://www.thegrey.berlin/index-en.html">
+    <link rel="alternate" hreflang="de" href="https://www.thegrey.berlin/index.html">
+    <link rel="alternate" hreflang="en" href="https://www.thegrey.berlin/index-en.html">
+    <link rel="alternate" hreflang="x-default" href="https://www.thegrey.berlin/index.html">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -179,10 +179,14 @@
             .footer__top { grid-template-columns: 1fr 1fr; gap: 2.5rem; }
         }
         @media (max-width: 720px) {
-            .nav__menu { position: fixed; top: 0; right: 0; bottom: 0; width: min(280px, 80vw); background-color: #fff; flex-direction: column; justify-content: center; gap: 2rem; padding: 2rem; transform: translateX(100%); transition: transform var(--transition); box-shadow: -4px 0 24px rgba(0,0,0,0.08); }
+            .nav__menu { position: fixed; top: 0; right: 0; bottom: 0; width: min(320px, 85vw); background-color: #fff; flex-direction: column; justify-content: flex-start; align-items: stretch; gap: 0.25rem; padding: 6rem 2rem 2.5rem; transform: translateX(100%); transition: transform var(--transition); box-shadow: -8px 0 32px rgba(0,0,0,0.12); overflow-y: auto; }
             .nav__menu.active { transform: translateX(0); }
-            .nav__link { font-size: 1rem; }
-            .burger { display: block; }
+            .nav__menu li { padding: 0.65rem 0; }
+            .nav__link { font-size: 1rem; display: block; }
+            .nav__lang { padding: 1.25rem 0 0.5rem !important; margin-top: 0.75rem; border-top: 1px solid var(--color-grey-light); justify-content: flex-start; }
+            .nav__cta { display: inline-flex !important; align-self: flex-start; white-space: nowrap; margin-top: 0.75rem; padding: 0.75rem 1.5rem; }
+            .nav__cta::after { display: none; }
+            .burger { display: block; position: relative; z-index: 1101; }
             .hero { min-height: auto; padding-top: 7rem; }
             .hero__title { font-size: clamp(2.75rem, 11vw, 4rem); }
             .footer__top { grid-template-columns: 1fr; }
@@ -431,17 +435,7 @@
 
         const filterBtns = document.querySelectorAll('.filter-btn');
         const galleryItems = document.querySelectorAll('.gallery-item');
-        filterBtns.forEach(btn => {
-            btn.addEventListener('click', () => {
-                const filter = btn.dataset.filter;
-                filterBtns.forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
-                galleryItems.forEach(item => {
-                    if (filter === 'all' || item.dataset.category === filter) item.classList.remove('hidden');
-                    else item.classList.add('hidden');
-                });
-            });
-        });
+        filterBtns.forEach(btn => { btn.addEventListener('click', () => { const filter = btn.dataset.filter; filterBtns.forEach(b => b.classList.remove('active')); btn.classList.add('active'); galleryItems.forEach(item => { if (filter === 'all' || item.dataset.category === filter) item.classList.remove('hidden'); else item.classList.add('hidden'); }); }); });
 
         const lightbox = document.getElementById('lightbox');
         const lightboxImg = document.getElementById('lightboxImg');
