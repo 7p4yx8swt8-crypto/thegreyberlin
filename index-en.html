@@ -148,7 +148,7 @@
         .filter-btn:hover { border-color: var(--color-dark); color: var(--color-dark); }
         .filter-btn.active { background-color: var(--color-darker); color: var(--color-light); border-color: var(--color-darker); }
 
-        .gallery-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+        .gallery-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
         .gallery-item { position: relative; aspect-ratio: 4/3; overflow: hidden; cursor: pointer; background-color: var(--color-grey-light); transition: opacity var(--transition), transform var(--transition); }
         .gallery-item img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease; }
         .gallery-item:hover img { transform: scale(1.04); }
@@ -211,7 +211,7 @@
             .hero__container, .design-grid, .about-grid, .contact-grid { grid-template-columns: 1fr; }
             .hero__visual { aspect-ratio: 4/3; max-height: 400px; }
             .features__grid { grid-template-columns: repeat(2, 1fr); gap: 2.5rem 1rem; }
-            .gallery-grid { gap: 0.6rem; }
+            .gallery-grid { grid-template-columns: repeat(2, 1fr); gap: 0.6rem; }
             .filter-btn { padding: 0.7rem 1.1rem; font-size: 0.7rem; letter-spacing: 0.18em; }
             .process-steps { grid-template-columns: 1fr; gap: 2.5rem; }
             .footer__top { grid-template-columns: 1fr 1fr; gap: 2.5rem; }
@@ -324,18 +324,59 @@
                 <button class="filter-btn active" data-filter="all" type="button">All</button>
                 <button class="filter-btn" data-filter="projects" type="button">Project References</button>
                 <button class="filter-btn" data-filter="wannadoes" type="button">Wanna Does</button>
-                <button class="filter-btn" data-filter="inspirations" type="button">Design Inspirations</button>
             </div>
 
             <div class="gallery-grid" id="galleryGrid">
-                <div class="gallery-item reveal" data-category="projects"><img src="https://static.wixstatic.com/media/bdc123_41bea9212bc0487da3c51e61add26b2f~mv2.png/v1/fill/w_1200,h_900,al_c,q_85,enc_avif,quality_auto/bdc123_41bea9212bc0487da3c51e61add26b2f~mv2.png" alt="Handwoven wool rug with abstract pattern – project reference thegrey Berlin"></div>
-                <div class="gallery-item reveal" data-category="projects"><img src="https://static.wixstatic.com/media/bdc123_575a74bf6a64438fba007d4f8349f6eb~mv2.png/v1/fill/w_1200,h_900,al_c,q_85,enc_avif,quality_auto/bdc123_575a74bf6a64438fba007d4f8349f6eb~mv2.png" alt="Custom bespoke rug in natural tones – client project thegrey Berlin"></div>
-                <div class="gallery-item reveal" data-category="wannadoes"><img src="https://static.wixstatic.com/media/bdc123_6876d1e2c610422e9909942f9d82353b~mv2.png/v1/fill/w_1200,h_900,al_c,q_85,enc_avif,quality_auto/bdc123_6876d1e2c610422e9909942f9d82353b~mv2.png" alt="Rug design study with geometric pattern – Wanna Does thegrey"></div>
-                <div class="gallery-item reveal" data-category="wannadoes"><img src="https://static.wixstatic.com/media/bdc123_41bea9212bc0487da3c51e61add26b2f~mv2.png/v1/fill/w_1200,h_900,al_c,q_85,enc_avif,quality_auto/bdc123_41bea9212bc0487da3c51e61add26b2f~mv2.png" alt="Handwoven rug with contemporary design – dream commission thegrey Berlin"></div>
-                <div class="gallery-item reveal" data-category="inspirations"><img src="https://static.wixstatic.com/media/bdc123_575a74bf6a64438fba007d4f8349f6eb~mv2.png/v1/fill/w_1200,h_900,al_c,q_85,enc_avif,quality_auto/bdc123_575a74bf6a64438fba007d4f8349f6eb~mv2.png" alt="Design inspiration for custom wool rug – thegrey Berlin"></div>
-                <div class="gallery-item reveal" data-category="inspirations"><img src="https://static.wixstatic.com/media/bdc123_6876d1e2c610422e9909942f9d82353b~mv2.png/v1/fill/w_1200,h_900,al_c,q_85,enc_avif,quality_auto/bdc123_6876d1e2c610422e9909942f9d82353b~mv2.png" alt="Colourful design inspiration for handcrafted rug – thegrey"></div>
-                <div class="gallery-item reveal" data-category="projects"><img src="https://static.wixstatic.com/media/bdc123_6876d1e2c610422e9909942f9d82353b~mv2.png/v1/fill/w_1200,h_900,al_c,q_85,enc_avif,quality_auto/bdc123_6876d1e2c610422e9909942f9d82353b~mv2.png" alt="Bespoke rug for hotel or gallery – project reference thegrey Berlin"></div>
-                <div class="gallery-item reveal" data-category="wannadoes"><img src="https://static.wixstatic.com/media/bdc123_575a74bf6a64438fba007d4f8349f6eb~mv2.png/v1/fill/w_1200,h_900,al_c,q_85,enc_avif,quality_auto/bdc123_575a74bf6a64438fba007d4f8349f6eb~mv2.png" alt="Creative rug design study in earth tones – Wanna Does thegrey"></div>
+                <!-- Project Inspirations -->
+                <div class="gallery-item reveal" data-category="projects">
+                    <img src="proj-01.jpg" alt="Green round hand-tufted rug in bright living room with palm-print chair, Berlin">
+                </div>
+                <div class="gallery-item reveal" data-category="projects">
+                    <img src="proj-02.jpg" alt="Large organic biomorphic rug in modern office with wooden room dividers and stepped platform">
+                </div>
+                <div class="gallery-item reveal" data-category="projects">
+                    <img src="proj-03.png" alt="Round yellow rug with purple character design in Berlin loft office, handmade">
+                </div>
+                <div class="gallery-item reveal" data-category="projects">
+                    <img src="proj-04.png" alt="Biomorphic rug design in co-working space with wooden stepped platform, close angle">
+                </div>
+                <div class="gallery-item reveal" data-category="projects">
+                    <img src="proj-05.png" alt="White lounge area with black graphic rug and iridescent side tables">
+                </div>
+                <div class="gallery-item reveal" data-category="projects">
+                    <img src="proj-06.png" alt="Round rug in pink and orange tones in elegant arched room, hand-tufted wool">
+                </div>
+                <div class="gallery-item reveal" data-category="projects">
+                    <img src="proj-07.png" alt="Organic round rug in blue and white in sunny living room with monstera plant">
+                </div>
+                <!-- Wanna Does -->
+                <div class="gallery-item reveal" data-category="wannadoes">
+                    <img src="wanna-01.png" alt="Abstract geometric rug in rust, black, yellow and grey – thegrey Wanna Does concept">
+                </div>
+                <div class="gallery-item reveal" data-category="wannadoes">
+                    <img src="wanna-02.png" alt="Hand sketch of a round rug in pink-red tones on grey background, thegrey design concept">
+                </div>
+                <div class="gallery-item reveal" data-category="wannadoes">
+                    <img src="wanna-03.png" alt="Circular floor concept in earth tones on dark background, scale 1:20, 2 m × 2 m">
+                </div>
+                <div class="gallery-item reveal" data-category="wannadoes">
+                    <img src="wanna-04.png" alt="Circular rug sketch in terracotta, grey and dark brown on grey paper, hand-drawn">
+                </div>
+                <div class="gallery-item reveal" data-category="wannadoes">
+                    <img src="wanna-05.png" alt="Geometric round rug in blue and pink, hand-tufted, 200 cm diameter">
+                </div>
+                <div class="gallery-item reveal" data-category="wannadoes">
+                    <img src="wanna-06.png" alt="Round designer rug concept with Pantone Ultramarine 17-4037 and Bubble Gum 16-2120, 200 cm">
+                </div>
+                <div class="gallery-item reveal" data-category="wannadoes">
+                    <img src="wanna-07.png" alt="Organic freeform rug in terracotta and sand, hand-tufted New Zealand wool">
+                </div>
+                <div class="gallery-item reveal" data-category="wannadoes">
+                    <img src="wanna-08.png" alt="Design sketch for organic rug 2m × 3m in terracotta, hand-tufted wool">
+                </div>
+                <div class="gallery-item reveal" data-category="wannadoes">
+                    <img src="wanna-09.png" alt="Scandi-Block Round Rug Concept A – Pantone Ultramarine, 100% wool, 200 cm diameter">
+                </div>
             </div>
         </div>
     </section>

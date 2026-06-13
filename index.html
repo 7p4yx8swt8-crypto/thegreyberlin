@@ -148,7 +148,7 @@
         .filter-btn:hover { border-color: var(--color-dark); color: var(--color-dark); }
         .filter-btn.active { background-color: var(--color-darker); color: var(--color-light); border-color: var(--color-darker); }
 
-        .gallery-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+        .gallery-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
         .gallery-item { position: relative; aspect-ratio: 4/3; overflow: hidden; cursor: pointer; background-color: var(--color-grey-light); transition: opacity var(--transition), transform var(--transition); }
         .gallery-item img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease; }
         .gallery-item:hover img { transform: scale(1.04); }
@@ -211,7 +211,7 @@
             .hero__container, .design-grid, .about-grid, .contact-grid { grid-template-columns: 1fr; }
             .hero__visual { aspect-ratio: 4/3; max-height: 400px; }
             .features__grid { grid-template-columns: repeat(2, 1fr); gap: 2.5rem 1rem; }
-            .gallery-grid { gap: 0.6rem; }
+            .gallery-grid { grid-template-columns: repeat(2, 1fr); gap: 0.6rem; }
             .filter-btn { padding: 0.7rem 1.1rem; font-size: 0.7rem; letter-spacing: 0.18em; }
             .process-steps { grid-template-columns: 1fr; gap: 2.5rem; }
             .footer__top { grid-template-columns: 1fr 1fr; gap: 2.5rem; }
@@ -322,20 +322,61 @@
 
             <div class="gallery-filters reveal">
                 <button class="filter-btn active" data-filter="all" type="button">Alle</button>
-                <button class="filter-btn" data-filter="projects" type="button">Projektreferenzen</button>
+                <button class="filter-btn" data-filter="projects" type="button">Projektinspirationen</button>
                 <button class="filter-btn" data-filter="wannadoes" type="button">Wanna Does</button>
-                <button class="filter-btn" data-filter="inspirations" type="button">Designinspirationen</button>
             </div>
 
             <div class="gallery-grid" id="galleryGrid">
-                <div class="gallery-item reveal" data-category="projects"><img src="https://static.wixstatic.com/media/bdc123_41bea9212bc0487da3c51e61add26b2f~mv2.png/v1/fill/w_1200,h_900,al_c,q_85,enc_avif,quality_auto/bdc123_41bea9212bc0487da3c51e61add26b2f~mv2.png" alt="Handgewebter Wollteppich mit abstraktem Muster – Projektreferenz thegrey Berlin"></div>
-                <div class="gallery-item reveal" data-category="projects"><img src="https://static.wixstatic.com/media/bdc123_575a74bf6a64438fba007d4f8349f6eb~mv2.png/v1/fill/w_1200,h_900,al_c,q_85,enc_avif,quality_auto/bdc123_575a74bf6a64438fba007d4f8349f6eb~mv2.png" alt="Individueller Teppich auf Maß in Naturfarben – Kundenprojekt thegrey Berlin"></div>
-                <div class="gallery-item reveal" data-category="wannadoes"><img src="https://static.wixstatic.com/media/bdc123_6876d1e2c610422e9909942f9d82353b~mv2.png/v1/fill/w_1200,h_900,al_c,q_85,enc_avif,quality_auto/bdc123_6876d1e2c610422e9909942f9d82353b~mv2.png" alt="Teppich-Designstudie mit geometrischem Muster – Wanna Does thegrey"></div>
-                <div class="gallery-item reveal" data-category="wannadoes"><img src="https://static.wixstatic.com/media/bdc123_41bea9212bc0487da3c51e61add26b2f~mv2.png/v1/fill/w_1200,h_900,al_c,q_85,enc_avif,quality_auto/bdc123_41bea9212bc0487da3c51e61add26b2f~mv2.png" alt="Handgewebter Teppich mit modernem Design – Wunschprojekt thegrey Berlin"></div>
-                <div class="gallery-item reveal" data-category="inspirations"><img src="https://static.wixstatic.com/media/bdc123_575a74bf6a64438fba007d4f8349f6eb~mv2.png/v1/fill/w_1200,h_900,al_c,q_85,enc_avif,quality_auto/bdc123_575a74bf6a64438fba007d4f8349f6eb~mv2.png" alt="Designinspiration für individuellen Teppich aus Wolle – thegrey Berlin"></div>
-                <div class="gallery-item reveal" data-category="inspirations"><img src="https://static.wixstatic.com/media/bdc123_6876d1e2c610422e9909942f9d82353b~mv2.png/v1/fill/w_1200,h_900,al_c,q_85,enc_avif,quality_auto/bdc123_6876d1e2c610422e9909942f9d82353b~mv2.png" alt="Farbige Designinspiration für handgefertigten Wollteppich – thegrey"></div>
-                <div class="gallery-item reveal" data-category="projects"><img src="https://static.wixstatic.com/media/bdc123_6876d1e2c610422e9909942f9d82353b~mv2.png/v1/fill/w_1200,h_900,al_c,q_85,enc_avif,quality_auto/bdc123_6876d1e2c610422e9909942f9d82353b~mv2.png" alt="Maßgefertigter Teppich für Hotel oder Galerie – Projektreferenz thegrey Berlin"></div>
-                <div class="gallery-item reveal" data-category="wannadoes"><img src="https://static.wixstatic.com/media/bdc123_575a74bf6a64438fba007d4f8349f6eb~mv2.png/v1/fill/w_1200,h_900,al_c,q_85,enc_avif,quality_auto/bdc123_575a74bf6a64438fba007d4f8349f6eb~mv2.png" alt="Kreative Teppich-Designstudie in Erdtönen – Wanna Does thegrey"></div>
+                <!-- Projektinspirationen -->
+                <div class="gallery-item reveal" data-category="projects">
+                    <img src="proj-01.png" alt="Grüner runder Handtufting-Teppich in weißem Wohnraum mit Palmen-Sessel, Berlin">
+                </div>
+                <div class="gallery-item reveal" data-category="projects">
+                    <img src="proj-02.png" alt="Großflächiger organischer Teppich in modernem Büro mit Holz-Raumteilern und Stufenpodest">
+                </div>
+                <div class="gallery-item reveal" data-category="projects">
+                    <img src="proj-03.png" alt="Runder gelber Teppich mit lila Charakterdesign in Berliner Loft-Büro, handgefertigt">
+                </div>
+                <div class="gallery-item reveal" data-category="projects">
+                    <img src="proj-04.png" alt="Biomorphes Teppichdesign in Coworking-Space mit Holz-Stufenpodest, Nahaufnahme">
+                </div>
+                <div class="gallery-item reveal" data-category="projects">
+                    <img src="proj-05.png" alt="Weißer Lounge-Bereich mit schwarzem Grafikteppich und irisierenden Beistelltischen">
+                </div>
+                <div class="gallery-item reveal" data-category="projects">
+                    <img src="proj-06.png" alt="Runder Teppich in Rosa-Orangetönen in elegantem Bogenraum, handgetuftet aus Wolle">
+                </div>
+                <div class="gallery-item reveal" data-category="projects">
+                    <img src="proj-07.png" alt="Organischer Rundteppich in Blau-Weiß in sonnigem Wohnzimmer mit Monstera-Pflanze">
+                </div>
+                <!-- Wanna Does -->
+                <div class="gallery-item reveal" data-category="wannadoes">
+                    <img src="wanna-01.png" alt="Abstrakter geometrischer Teppich in Rost, Schwarz, Gelb und Grau – thegrey Wanna Does">
+                </div>
+                <div class="gallery-item reveal" data-category="wannadoes">
+                    <img src="wanna-02.png" alt="Handskizze eines runden Teppichs in Rosa-Rottönen auf grauem Hintergrund, thegrey Konzept">
+                </div>
+                <div class="gallery-item reveal" data-category="wannadoes">
+                    <img src="wanna-03.png" alt="Circular Floor Concept in Erdtönen auf dunklem Hintergrund, Maßstab 1:20, 2 m × 2 m">
+                </div>
+                <div class="gallery-item reveal" data-category="wannadoes">
+                    <img src="wanna-04.png" alt="Kreisteppich-Skizze in Terrakotta, Grau und Dunkelbraun auf grauem Papier, handgezeichnet">
+                </div>
+                <div class="gallery-item reveal" data-category="wannadoes">
+                    <img src="wanna-05.png" alt="Geometrischer Rundteppich in Blau und Pink, handgetuftet, 200 cm Durchmesser">
+                </div>
+                <div class="gallery-item reveal" data-category="wannadoes">
+                    <img src="wanna-06.png" alt="Round Designer Rug Concept mit Pantone Ultramarine 17-4037 und Bubble Gum 16-2120, 200 cm">
+                </div>
+                <div class="gallery-item reveal" data-category="wannadoes">
+                    <img src="wanna-07.png" alt="Organischer Freiformteppich in Terrakotta und Sand, handgetuftet aus neuseeländischer Wolle">
+                </div>
+                <div class="gallery-item reveal" data-category="wannadoes">
+                    <img src="wanna-08.png" alt="Entwurfsskizze für organischen Teppich 2m × 3m in Terrakotta, Hand-Tufted Wool">
+                </div>
+                <div class="gallery-item reveal" data-category="wannadoes">
+                    <img src="wanna-09.png" alt="Scandi-Block Round Rug Concept A – Pantone Ultramarine, 100 % Wolle, 200 cm Durchmesser">
+                </div>
             </div>
         </div>
     </section>
