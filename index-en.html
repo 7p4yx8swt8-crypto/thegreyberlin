@@ -159,6 +159,13 @@
         .lightbox__img { max-width: 95%; max-height: 90vh; object-fit: contain; border-radius: 2px; }
         .lightbox__close { position: absolute; top: 1.5rem; right: 1.5rem; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.25); color: white; font-size: 1.5rem; font-weight: 300; cursor: pointer; width: 48px; height: 48px; border-radius: 50%; display: flex; align-items: center; justify-content: center; line-height: 1; transition: background-color var(--transition); }
         .lightbox__close:hover { background-color: rgba(255,255,255,0.2); }
+        .lightbox__nav { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.25); color: white; font-size: 1.8rem; font-weight: 300; cursor: pointer; width: 52px; height: 52px; border-radius: 50%; display: none; align-items: center; justify-content: center; line-height: 1; transition: background-color var(--transition); }
+        .lightbox__nav:hover:not(:disabled) { background-color: rgba(255,255,255,0.2); }
+        .lightbox__nav:disabled { opacity: 0.25; cursor: default; }
+        .lightbox__prev { left: 1.5rem; }
+        .lightbox__next { right: 5rem; }
+        .lightbox__counter { position: absolute; bottom: 1.5rem; left: 50%; transform: translateX(-50%); color: rgba(255,255,255,0.5); font-size: 0.75rem; letter-spacing: 0.15em; display: none; }
+        .series-badge { position: absolute; bottom: 0.75rem; left: 0.75rem; background: rgba(31,31,31,0.82); color: #fff; font-size: 0.68rem; letter-spacing: 0.14em; text-transform: uppercase; font-weight: 500; padding: 0.3rem 0.65rem; border-radius: 2px; pointer-events: none; }
 
         .process-section { background-color: var(--color-darker); color: var(--color-light); }
         .process-section .section__title, .process-section .section__title em { color: var(--color-light); }
@@ -349,33 +356,24 @@
                 <div class="gallery-item reveal" data-category="projects">
                     <img src="proj-07.png" alt="Organic round rug in blue and white in sunny living room with monstera plant">
                 </div>
-                <!-- Wanna Does -->
+                <!-- Wanna Does – Single -->
                 <div class="gallery-item reveal" data-category="wannadoes">
                     <img src="wanna-01.png" alt="Abstract geometric rug in rust, black, yellow and grey – thegrey Wanna Does concept">
                 </div>
-                <div class="gallery-item reveal" data-category="wannadoes">
-                    <img src="wanna-02.png" alt="Hand sketch of a round rug in pink-red tones on grey background, thegrey design concept">
+                <!-- Wanna Does – Series 1: Scandi-Block / Organic -->
+                <div class="gallery-item reveal" data-category="wannadoes" data-series="serie-1">
+                    <img src="wanna-09.png" alt="Scandi-Block Round Rug – Concept A, Pantone Ultramarine, 200 cm diameter">
+                    <span class="series-badge">3 Designs</span>
                 </div>
-                <div class="gallery-item reveal" data-category="wannadoes">
+                <!-- Wanna Does – Series 2: Desert Earth -->
+                <div class="gallery-item reveal" data-category="wannadoes" data-series="serie-2">
                     <img src="wanna-03.png" alt="Circular floor concept in earth tones on dark background, scale 1:20, 2 m × 2 m">
+                    <span class="series-badge">2 Designs</span>
                 </div>
-                <div class="gallery-item reveal" data-category="wannadoes">
-                    <img src="wanna-04.png" alt="Circular rug sketch in terracotta, grey and dark brown on grey paper, hand-drawn">
-                </div>
-                <div class="gallery-item reveal" data-category="wannadoes">
-                    <img src="wanna-05.png" alt="Geometric round rug in blue and pink, hand-tufted, 200 cm diameter">
-                </div>
-                <div class="gallery-item reveal" data-category="wannadoes">
-                    <img src="wanna-06.png" alt="Round designer rug concept with Pantone Ultramarine 17-4037 and Bubble Gum 16-2120, 200 cm">
-                </div>
-                <div class="gallery-item reveal" data-category="wannadoes">
-                    <img src="wanna-07.png" alt="Organic freeform rug in terracotta and sand, hand-tufted New Zealand wool">
-                </div>
-                <div class="gallery-item reveal" data-category="wannadoes">
-                    <img src="wanna-08.png" alt="Design sketch for organic rug 2m × 3m in terracotta, hand-tufted wool">
-                </div>
-                <div class="gallery-item reveal" data-category="wannadoes">
-                    <img src="wanna-09.png" alt="Scandi-Block Round Rug Concept A – Pantone Ultramarine, 100% wool, 200 cm diameter">
+                <!-- Wanna Does – Series 3: Pink / Blue Geometric -->
+                <div class="gallery-item reveal" data-category="wannadoes" data-series="serie-3">
+                    <img src="wanna-02.png" alt="Hand sketch of a round rug in pink-red tones on grey background">
+                    <span class="series-badge">3 Designs</span>
                 </div>
             </div>
         </div>
@@ -498,7 +496,10 @@
 
     <div class="lightbox" id="lightbox" aria-hidden="true">
         <button class="lightbox__close" id="lightboxClose" aria-label="Close">×</button>
+        <button class="lightbox__nav lightbox__prev" id="lightboxPrev" aria-label="Previous image">‹</button>
         <img class="lightbox__img" id="lightboxImg" src="" alt="">
+        <button class="lightbox__nav lightbox__next" id="lightboxNext" aria-label="Next image">›</button>
+        <span class="lightbox__counter" id="lightboxCounter"></span>
     </div>
 
     <script>
@@ -517,15 +518,83 @@
         const galleryItems = document.querySelectorAll('.gallery-item');
         filterBtns.forEach(btn => { btn.addEventListener('click', () => { const filter = btn.dataset.filter; filterBtns.forEach(b => b.classList.remove('active')); btn.classList.add('active'); galleryItems.forEach(item => { if (filter === 'all' || item.dataset.category === filter) item.classList.remove('hidden'); else item.classList.add('hidden'); }); }); });
 
+        const seriesData = {
+            'serie-1': [
+                { src: 'wanna-09.png', alt: 'Scandi-Block Round Rug – Concept A, Pantone Ultramarine, 200 cm diameter' },
+                { src: 'wanna-08.png', alt: 'Design sketch organic rug 2m × 3m, hand-tufted wool' },
+                { src: 'wanna-07.png', alt: 'Organic freeform rug in terracotta and sand, hand-tufted' },
+            ],
+            'serie-2': [
+                { src: 'wanna-03.png', alt: 'Circular floor concept in earth tones on dark background, 2m × 2m' },
+                { src: 'wanna-04.png', alt: 'Circular rug sketch in terracotta and grey, hand-drawn' },
+            ],
+            'serie-3': [
+                { src: 'wanna-02.png', alt: 'Hand sketch round rug in pink-red tones on grey background' },
+                { src: 'wanna-05.png', alt: 'Geometric round rug in blue and pink, hand-tufted, 200 cm' },
+                { src: 'wanna-06.png', alt: 'Round Designer Rug Concept, Pantone Ultramarine & Bubble Gum, 200 cm' },
+            ],
+        };
+
         const lightbox = document.getElementById('lightbox');
         const lightboxImg = document.getElementById('lightboxImg');
         const lightboxClose = document.getElementById('lightboxClose');
-        function openLightbox(src, alt) { lightboxImg.src = src; lightboxImg.alt = alt || ''; lightbox.classList.add('active'); lightbox.setAttribute('aria-hidden', 'false'); document.body.style.overflow = 'hidden'; }
-        function closeLightbox() { lightbox.classList.remove('active'); lightbox.setAttribute('aria-hidden', 'true'); document.body.style.overflow = ''; }
-        galleryItems.forEach(item => { item.addEventListener('click', () => { const img = item.querySelector('img'); if (img) openLightbox(img.src, img.alt); }); });
+        const lightboxPrev = document.getElementById('lightboxPrev');
+        const lightboxNext = document.getElementById('lightboxNext');
+        const lightboxCounter = document.getElementById('lightboxCounter');
+        let currentSeries = null;
+        let currentSeriesIdx = 0;
+
+        function updateLightboxNav() {
+            const series = currentSeries ? seriesData[currentSeries] : null;
+            const show = series && series.length > 1;
+            lightboxPrev.style.display = show ? 'flex' : 'none';
+            lightboxNext.style.display = show ? 'flex' : 'none';
+            lightboxCounter.style.display = show ? 'block' : 'none';
+            if (show) {
+                lightboxPrev.disabled = currentSeriesIdx === 0;
+                lightboxNext.disabled = currentSeriesIdx === series.length - 1;
+                lightboxCounter.textContent = (currentSeriesIdx + 1) + ' / ' + series.length;
+            }
+        }
+
+        function openLightbox(src, alt, seriesKey) {
+            currentSeries = seriesKey || null;
+            currentSeriesIdx = 0;
+            lightboxImg.src = src;
+            lightboxImg.alt = alt || '';
+            lightbox.classList.add('active');
+            lightbox.setAttribute('aria-hidden', 'false');
+            document.body.style.overflow = 'hidden';
+            updateLightboxNav();
+        }
+
+        function navigateSeries(dir) {
+            if (!currentSeries) return;
+            const series = seriesData[currentSeries];
+            currentSeriesIdx = Math.max(0, Math.min(series.length - 1, currentSeriesIdx + dir));
+            lightboxImg.src = series[currentSeriesIdx].src;
+            lightboxImg.alt = series[currentSeriesIdx].alt;
+            updateLightboxNav();
+        }
+
+        function closeLightbox() {
+            lightbox.classList.remove('active');
+            lightbox.setAttribute('aria-hidden', 'true');
+            document.body.style.overflow = '';
+            currentSeries = null;
+        }
+
+        galleryItems.forEach(item => { item.addEventListener('click', () => { const img = item.querySelector('img'); if (img) openLightbox(img.src, img.alt, item.dataset.series || null); }); });
+        lightboxPrev.addEventListener('click', (e) => { e.stopPropagation(); navigateSeries(-1); });
+        lightboxNext.addEventListener('click', (e) => { e.stopPropagation(); navigateSeries(1); });
         lightboxClose.addEventListener('click', closeLightbox);
         lightbox.addEventListener('click', (e) => { if (e.target === lightbox) closeLightbox(); });
-        document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && lightbox.classList.contains('active')) closeLightbox(); });
+        document.addEventListener('keydown', (e) => {
+            if (!lightbox.classList.contains('active')) return;
+            if (e.key === 'Escape') closeLightbox();
+            if (e.key === 'ArrowLeft') navigateSeries(-1);
+            if (e.key === 'ArrowRight') navigateSeries(1);
+        });
     </script>
 </body>
 </html>
