@@ -153,16 +153,11 @@
         .wd-teaser__tile:hover img { border-color: #6E6A61; }
         .wd-teaser__tile span { display: block; margin-top: 0.75rem; font-size: 0.75rem; letter-spacing: 0.18em; text-transform: uppercase; color: #6E6A61; }
 
-        .process-section { background-color: var(--color-darker); color: var(--color-light); }
-        .process-section .section__title, .process-section .section__title em { color: var(--color-light); }
-        .process-section .section__eyebrow { background-color: transparent; color: var(--color-grey-light); }
-        .process-section .section__eyebrow::before { background-color: var(--color-grey-light); }
-        .process-section .section__intro { color: var(--color-grey-light); }
-        .process-steps { margin-top: 4rem; display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
-        .process-step { border-top: 1px solid rgba(255,255,255,0.15); padding-top: 2rem; }
+        .process-steps { margin-top: clamp(3rem, 6vw, 4.5rem); display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
+        .process-step { border-top: 1px solid var(--color-grey-light); padding-top: 2rem; }
         .process-step__number { font-family: var(--font-heading); font-weight: 400; font-size: 0.85rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--color-grey-mid); margin-bottom: 1rem; }
-        .process-step__title { font-family: var(--font-heading); font-size: 1.65rem; font-weight: 600; letter-spacing: -0.02em; margin-bottom: 1rem; color: var(--color-light); }
-        .process-step__text { color: var(--color-grey-light); font-size: 0.95rem; line-height: 1.7; font-weight: 300; }
+        .process-step__title { font-family: var(--font-heading); font-size: 1.65rem; font-weight: 600; letter-spacing: -0.02em; margin-bottom: 1rem; color: var(--color-darker); }
+        .process-step__text { color: var(--color-dark); font-size: 0.95rem; line-height: 1.7; font-weight: 300; }
 
         .about-section { background-color: var(--color-cream); }
         .about-grid { display: grid; grid-template-columns: 1fr 1.3fr; gap: clamp(2rem, 6vw, 6rem); align-items: center; }
@@ -233,9 +228,8 @@
                 <img src="https://static.wixstatic.com/media/bdc123_37188656e7a04cebb530fc75bc1a552b~mv2.png/v1/fill/w_201,h_70,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/GREY-logo-383838-freigestellt.png" alt="thegrey Logo – Handcrafted Custom Rugs from Berlin">
             </a>
             <ul class="nav__menu" id="navMenu">
-                <li><a href="#designs" class="nav__link">Designs</a></li>
+                <li><a href="#designs" class="nav__link">Design &amp; Process</a></li>
                 <li><a href="wanna-do-collection/" class="nav__link">Wanna Do</a></li>
-                <li><a href="#process" class="nav__link">Process</a></li>
                 <li><a href="#about" class="nav__link">About</a></li>
                 <li class="nav__lang"><a href="index.html">DE</a><span>/</span><a href="index-en.html" class="active">EN</a></li>
                 <li><a href="#contact" class="nav__link nav__cta">Start to Design</a></li>
@@ -286,7 +280,7 @@
                         We combine your creativity with our craftsmanship to create extraordinary rugs. Your idea, a rough sketch, or a brief description is all we need to get started on your custom rug. The entire process is free of restrictions and is guided entirely by your vision.
                     </p>
                     <p>
-                        Design. Color. Dimensions. Shape. You have complete freedom in the design and can plan your rug exactly as you envision it. Feel free to send us your initial ideas—together, we'll figure out what we want to create.
+                        Our expertise: handcrafted rugs made from durable New Zealand wool—customizable in design, color, size, shape, and texture. Feel free to send us your initial ideas—together, we'll figure out what we want to create.
                     </p>
                     <div class="design-pillars">
                         <div class="pillar">Design</div>
@@ -299,6 +293,25 @@
                     <img src="skizze-entwurf-teppich-pantone.png" alt="Custom rug design sketch with Pantone color palette – thegrey Berlin">
                 </div>
             </div>
+
+            <div class="process-steps" id="process">
+                <div class="process-step reveal">
+                    <div class="process-step__number">01 — Idea</div>
+                    <h3 class="process-step__title">Brief & Sketch</h3>
+                    <p class="process-step__text">A sketch, a mood, an idea. We take any form of input and develop it into a concrete design concept for your custom rug.</p>
+                </div>
+                <div class="process-step reveal">
+                    <div class="process-step__number">02 — Craft</div>
+                    <h3 class="process-step__title">Handmade Production</h3>
+                    <p class="process-step__text">Each rug is meticulously handcrafted by experienced artisans who blend traditional manufacturing techniques with contemporary aesthetics.</p>
+                </div>
+                <div class="process-step reveal">
+                    <div class="process-step__number">03 — Story</div>
+                    <h3 class="process-step__title">Part of Your Story</h3>
+                    <p class="process-step__text">The result: a product that not only complements your interior but becomes part of its story. Built to be lived with, built to last.</p>
+                </div>
+            </div>
+
         </div>
     </section>
 
@@ -335,34 +348,7 @@
         </section>
         <!-- WANNA-DO-TEASER:END -->
 
-    <section class="section process-section" id="process">
-        <div class="section__container">
-            <div class="section__header reveal">
-                <span class="section__eyebrow">Production Process</span>
-                <h2 class="section__title">Production<br><em>Process.</em></h2>
-                <p class="section__intro">
-                    Our expertise lies in handcrafted rugs made from durable New Zealand wool, which can be customized in design, color, size, shape, and texture to perfectly match your vision and ideas. Uniquely crafted. Durable in use.
-                </p>
-            </div>
-            <div class="process-steps">
-                <div class="process-step reveal">
-                    <div class="process-step__number">01 — Idea</div>
-                    <h3 class="process-step__title">Brief & Sketch</h3>
-                    <p class="process-step__text">A sketch, a mood, an idea. We take any form of input and develop it into a concrete design concept for your custom rug.</p>
-                </div>
-                <div class="process-step reveal">
-                    <div class="process-step__number">02 — Craft</div>
-                    <h3 class="process-step__title">Handmade Production</h3>
-                    <p class="process-step__text">Each rug is meticulously handcrafted by experienced artisans who blend traditional manufacturing techniques with contemporary aesthetics.</p>
-                </div>
-                <div class="process-step reveal">
-                    <div class="process-step__number">03 — Story</div>
-                    <h3 class="process-step__title">Part of Your Story</h3>
-                    <p class="process-step__text">The result: a product that not only complements your interior but becomes part of its story. Built to be lived with, built to last.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+
 
     <section class="section about-section" id="about">
         <div class="section__container">
@@ -417,9 +403,8 @@
                 <div class="footer__col">
                     <h4>Studio</h4>
                     <ul>
-                        <li><a href="#designs">Designs</a></li>
+                        <li><a href="#designs">Design &amp; Process</a></li>
                         <li><a href="wanna-do-collection/">Wanna Do Collection</a></li>
-                        <li><a href="#process">Process</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
