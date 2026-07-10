@@ -143,31 +143,15 @@
         .design-visual img { width: 100%; height: 100%; object-fit: cover; transition: transform 1s ease; }
         .design-visual:hover img { transform: scale(1.03); }
 
-        .projects-section { background-color: var(--color-light); }
-        .gallery-filters { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: clamp(2.5rem, 6vw, 4rem); }
-        .filter-btn { font-family: var(--font-body); font-size: 0.75rem; letter-spacing: 0.22em; text-transform: uppercase; font-weight: 500; padding: 0.85rem 1.6rem; background-color: transparent; color: var(--color-grey-mid); border: 1px solid var(--color-grey-light); border-radius: 2px; cursor: pointer; transition: background-color var(--transition), color var(--transition), border-color var(--transition); }
-        .filter-btn:hover { border-color: var(--color-dark); color: var(--color-dark); }
-        .filter-btn.active { background-color: var(--color-darker); color: var(--color-light); border-color: var(--color-darker); }
-
-        .gallery-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
-        .gallery-item { position: relative; aspect-ratio: 4/3; overflow: hidden; cursor: pointer; background-color: var(--color-grey-light); transition: opacity var(--transition), transform var(--transition); }
-        .gallery-item img { width: 100%; height: 100%; object-fit: cover; object-position: center bottom; transition: transform 0.6s ease; }
-        .gallery-item[data-category="wannadoes"] img { object-position: center center; }
-        .gallery-item:hover img { transform: scale(1.04); }
-        .gallery-item.hidden { display: none; }
-
-        .lightbox { position: fixed; inset: 0; background-color: rgba(20,20,20,0.96); z-index: 2000; display: flex; align-items: center; justify-content: center; padding: 4rem 2rem; opacity: 0; pointer-events: none; transition: opacity 0.3s ease; }
-        .lightbox.active { opacity: 1; pointer-events: auto; }
-        .lightbox__img { max-width: 95%; max-height: 90vh; object-fit: contain; border-radius: 2px; }
-        .lightbox__close { position: absolute; top: 1.5rem; right: 1.5rem; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.25); color: white; font-size: 1.5rem; font-weight: 300; cursor: pointer; width: 48px; height: 48px; border-radius: 50%; display: flex; align-items: center; justify-content: center; line-height: 1; transition: background-color var(--transition); }
-        .lightbox__close:hover { background-color: rgba(255,255,255,0.2); }
-        .lightbox__nav { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.25); color: white; font-size: 1.8rem; font-weight: 300; cursor: pointer; width: 52px; height: 52px; border-radius: 50%; display: none; align-items: center; justify-content: center; line-height: 1; transition: background-color var(--transition); }
-        .lightbox__nav:hover:not(:disabled) { background-color: rgba(255,255,255,0.2); }
-        .lightbox__nav:disabled { opacity: 0.25; cursor: default; }
-        .lightbox__prev { left: 1.5rem; }
-        .lightbox__next { right: 5rem; }
-        .lightbox__counter { position: absolute; bottom: 1.5rem; left: 50%; transform: translateX(-50%); color: rgba(255,255,255,0.5); font-size: 0.75rem; letter-spacing: 0.15em; display: none; }
-        .series-badge { position: absolute; bottom: 0.75rem; left: 0.75rem; background: rgba(31,31,31,0.82); color: #fff; font-size: 0.68rem; letter-spacing: 0.14em; text-transform: uppercase; font-weight: 500; padding: 0.3rem 0.65rem; border-radius: 2px; pointer-events: none; }
+        .wd-teaser { background-color: #FAF9F6; }
+        .wd-teaser .section__title { color: #2E2B26; }
+        .wd-teaser .section__intro { color: #2E2B26; }
+        .wd-teaser .section__eyebrow { color: #6E6A61; }
+        .wd-teaser__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; }
+        .wd-teaser__tile { display: block; }
+        .wd-teaser__tile img { width: 100%; height: auto; background-color: #fff; border: 1px solid #E4E0D6; padding: 0.9rem; transition: border-color var(--transition); }
+        .wd-teaser__tile:hover img { border-color: #6E6A61; }
+        .wd-teaser__tile span { display: block; margin-top: 0.75rem; font-size: 0.75rem; letter-spacing: 0.18em; text-transform: uppercase; color: #6E6A61; }
 
         .process-section { background-color: var(--color-darker); color: var(--color-light); }
         .process-section .section__title, .process-section .section__title em { color: var(--color-light); }
@@ -220,8 +204,7 @@
             .hero__container, .design-grid, .about-grid, .contact-grid { grid-template-columns: 1fr; }
             .hero__visual { aspect-ratio: 4/3; max-height: 400px; }
             .features__grid { grid-template-columns: repeat(2, 1fr); gap: 2.5rem 1rem; }
-            .gallery-grid { grid-template-columns: repeat(2, 1fr); gap: 0.6rem; }
-            .filter-btn { padding: 0.7rem 1.1rem; font-size: 0.7rem; letter-spacing: 0.18em; }
+            .wd-teaser__grid { grid-template-columns: repeat(2, 1fr); }
             .process-steps { grid-template-columns: 1fr; gap: 2.5rem; }
             .footer__top { grid-template-columns: 1fr 1fr; gap: 2.5rem; }
         }
@@ -251,7 +234,7 @@
             </a>
             <ul class="nav__menu" id="navMenu">
                 <li><a href="#designs" class="nav__link">Designs</a></li>
-                <li><a href="#projects" class="nav__link">Projekte</a></li>
+                <li><a href="wanna-do-collection/" class="nav__link">Wanna Do</a></li>
                 <li><a href="#process" class="nav__link">Prozess</a></li>
                 <li><a href="#about" class="nav__link">Über uns</a></li>
                 <li class="nav__lang"><a href="index.html" class="active">DE</a><span>/</span><a href="index-en.html">EN</a></li>
@@ -319,56 +302,38 @@
         </div>
     </section>
 
-    <section class="section projects-section" id="projects">
-        <div class="section__container">
-            <div class="section__header reveal">
-                <span class="section__eyebrow">Ausgewählte Arbeiten</span>
-                <h2 class="section__title">Projekte &<br><em>Referenzen.</em></h2>
-                <p class="section__intro">
-                    Eine Auswahl realisierter Teppiche, Wunschprojekte und Designinspirationen – für Privatkunden, Hotels, Galerien und Architekturbüros. Filter nutzen, Bild anklicken, vergrößert ansehen.
-                </p>
-            </div>
-
-            <div class="gallery-filters reveal">
-                <button class="filter-btn active" data-filter="all" type="button">Alle</button>
-                <button class="filter-btn" data-filter="projects" type="button">Projektinspirationen</button>
-                <button class="filter-btn" data-filter="wannadoes" type="button">Wanna Does</button>
-            </div>
-
-            <div class="gallery-grid" id="galleryGrid">
-                <div class="gallery-item reveal" data-category="projects">
-                    <img src="organischer-teppich-buero-berlin-handgefertigt.png" alt="Großflächiger organischer Teppich in modernem Büro mit Holz-Raumteilern und Stufenpodest">
+    <!-- WANNA-DO-TEASER:START -->
+        <section class="section wd-teaser" id="wanna-do">
+            <div class="section__container">
+                <div class="section__header reveal">
+                    <span class="section__eyebrow">Wanna Do Collection N°1</span>
+                    <h2 class="section__title">CAMPO</h2>
+                    <p class="section__intro">Kuratierte Teppichentwürfe als Inspiration für Planer:innen und Innenarchitekt:innen: harte geometrische Farbfelder in der Sprache zeitgenössischer Farbfeld-Malerei, gedacht als Ausgangspunkt für individuell gefertigte Teppiche.</p>
                 </div>
-                <!-- Wanna Does – Serie 1: Scandi-Block / Organisch -->
-                <div class="gallery-item reveal" data-category="wannadoes" data-series="serie-1">
-                    <img src="scandi-block-rundteppich-pantone-wolle-berlin.png" alt="Scandi-Block Round Rug – Concept A, Pantone Ultramarine, 200 cm Durchmesser">
-                    <span class="series-badge">3 Entwürfe</span>
+                <div class="wd-teaser__grid reveal">
+                <a class="wd-teaser__tile" href="wanna-do-collection/serie-1-fond/">
+                    <img src="/images/campo/campo-01-horizonte_400.webp" alt="CAMPO 01 HORIZONTE — Fond-Entwurf, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection" width="400" height="600" loading="lazy" decoding="async">
+                    <span>Serie 1 — Fond</span>
+                </a>
+                <a class="wd-teaser__tile" href="wanna-do-collection/serie-2-cheio/">
+                    <img src="/images/campo/campo-11-bloco_400.webp" alt="CAMPO 11 BLOCO — Vollflächig, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection" width="400" height="600" loading="lazy" decoding="async">
+                    <span>Serie 2 — CHEIO (vollflächig)</span>
+                </a>
+                <a class="wd-teaser__tile" href="wanna-do-collection/serie-3-amanha/">
+                    <img src="/images/campo/campo-17-hora-azul_400.webp" alt="CAMPO 17 HORA AZUL — Vollflächig, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection" width="400" height="600" loading="lazy" decoding="async">
+                    <span>Serie 3 — AMANHÃ (Trend 2027)</span>
+                </a>
+                <a class="wd-teaser__tile" href="wanna-do-collection/serie-4-elo/">
+                    <img src="/images/campo/campo-22-elo_400.webp" alt="CAMPO 22 ELO — Vollflächig, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection" width="400" height="600" loading="lazy" decoding="async">
+                    <span>Serie 4 — ELO (Farbfamilien 2027)</span>
+                </a>
                 </div>
-                <!-- Wanna Does – Serie 2: Desert Earth -->
-                <div class="gallery-item reveal" data-category="wannadoes" data-series="serie-2">
-                    <img src="circular-teppich-konzept-erdtoene-handgetuftet.png" alt="Circular Floor Concept in Erdtönen auf dunklem Hintergrund, Maßstab 1:20, 2 m × 2 m">
-                    <span class="series-badge">2 Entwürfe</span>
-                </div>
-                <div class="gallery-item reveal" data-category="projects">
-                    <img src="gelber-charakter-teppich-loft-berlin-wolle.png" alt="Runder gelber Teppich mit lila Charakterdesign in Berliner Loft-Büro, handgefertigt">
-                </div>
-                <!-- Wanna Does – Serie 3: Pink / Blau-Geometrisch -->
-                <div class="gallery-item reveal" data-category="wannadoes" data-series="serie-3">
-                    <img src="handskizze-runder-teppich-rosa-design-thegrey.png" alt="Handskizze runder Teppich in Rosa-Rottönen auf grauem Hintergrund, thegrey Konzept">
-                    <span class="series-badge">3 Entwürfe</span>
-                </div>
-                <div class="gallery-item reveal" data-category="projects">
-                    <img src="grafik-teppich-lounge-berlin-handgetuftet.png" alt="Weißer Lounge-Bereich mit schwarzem Grafikteppich und irisierenden Beistelltischen" style="object-position: center 30%;">
-                </div>
-                <div class="gallery-item reveal" data-category="projects">
-                    <img src="runder-teppich-rosa-bogenraum-wolle-berlin.png" alt="Runder Teppich in Rosa-Orangetönen in elegantem Bogenraum, handgetuftet aus Wolle">
-                </div>
-                <div class="gallery-item reveal" data-category="projects">
-                    <img src="organischer-rundteppich-blau-weiss-wohnzimmer.png" alt="Organischer Rundteppich in Blau-Weiß in sonnigem Wohnzimmer mit Monstera-Pflanze" style="object-position: center 70%;">
+                <div class="reveal" style="margin-top: 2.5rem;">
+                    <a href="wanna-do-collection/" class="btn">Zur Kollektion <span class="btn__arrow">→</span></a>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <!-- WANNA-DO-TEASER:END -->
 
     <section class="section process-section" id="process">
         <div class="section__container">
@@ -432,10 +397,10 @@
                     <div class="contact-block"><span class="contact-block__label">LinkedIn</span><a href="https://www.linkedin.com/company/thegreyberlin/" class="contact-block__value" target="_blank" rel="noopener">thegrey.berlin</a></div>
                 </div>
                 <form class="contact-form reveal" onsubmit="event.preventDefault(); alert('Danke! Wir melden uns kurzfristig bei dir.'); this.reset();">
-                    <div class="contact-form__field"><input type="text" class="contact-form__input" placeholder="Name" required></div>
-                    <div class="contact-form__field"><input type="email" class="contact-form__input" placeholder="E-Mail" required></div>
-                    <div class="contact-form__field"><input type="text" class="contact-form__input" placeholder="Betreff (optional)"></div>
-                    <div class="contact-form__field"><textarea class="contact-form__textarea" placeholder="Erzähl uns von deinem Projekt …" required></textarea></div>
+                    <div class="contact-form__field"><input type="text" name="name" class="contact-form__input" placeholder="Name" required></div>
+                    <div class="contact-form__field"><input type="email" name="email" class="contact-form__input" placeholder="E-Mail" required></div>
+                    <div class="contact-form__field"><input type="text" name="betreff" class="contact-form__input" placeholder="Betreff (optional)"></div>
+                    <div class="contact-form__field"><textarea name="nachricht" class="contact-form__textarea" placeholder="Erzähl uns von deinem Projekt …" required></textarea></div>
                     <button type="submit" class="btn">Anfrage senden <span class="btn__arrow">→</span></button>
                 </form>
             </div>
@@ -453,7 +418,7 @@
                     <h4>Studio</h4>
                     <ul>
                         <li><a href="#designs">Designs</a></li>
-                        <li><a href="#projects">Projekte</a></li>
+                        <li><a href="wanna-do-collection/">Wanna Do Collection</a></li>
                         <li><a href="#process">Prozess</a></li>
                         <li><a href="#about">Über uns</a></li>
                         <li><a href="#contact">Kontakt</a></li>
@@ -485,14 +450,6 @@
         </div>
     </footer>
 
-    <div class="lightbox" id="lightbox" aria-hidden="true">
-        <button class="lightbox__close" id="lightboxClose" aria-label="Schließen">×</button>
-        <button class="lightbox__nav lightbox__prev" id="lightboxPrev" aria-label="Vorheriges Bild">‹</button>
-        <img class="lightbox__img" id="lightboxImg" src="" alt="">
-        <button class="lightbox__nav lightbox__next" id="lightboxNext" aria-label="Nächstes Bild">›</button>
-        <span class="lightbox__counter" id="lightboxCounter"></span>
-    </div>
-
     <script>
         const header = document.getElementById('header');
         window.addEventListener('scroll', () => { if (window.scrollY > 30) header.classList.add('scrolled'); else header.classList.remove('scrolled'); });
@@ -505,88 +462,12 @@
         const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('is-visible'); observer.unobserve(entry.target); } }); }, { threshold: 0.12, rootMargin: '0px 0px -50px 0px' });
         document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
-        const filterBtns = document.querySelectorAll('.filter-btn');
-        const galleryItems = document.querySelectorAll('.gallery-item');
-        filterBtns.forEach(btn => { btn.addEventListener('click', () => { const filter = btn.dataset.filter; filterBtns.forEach(b => b.classList.remove('active')); btn.classList.add('active'); galleryItems.forEach(item => { if (filter === 'all' || item.dataset.category === filter) item.classList.remove('hidden'); else item.classList.add('hidden'); }); }); });
-
-        // Serien-Daten
-        const seriesData = {
-            'serie-1': [
-                { src: 'scandi-block-rundteppich-pantone-wolle-berlin.png', alt: 'Scandi-Block Round Rug – Concept A, Pantone Ultramarine, 200 cm Durchmesser' },
-                { src: 'teppich-entwurf-organische-form-handtufted-wool.png', alt: 'Entwurfsskizze organischer Teppich 2m × 3m, Hand-Tufted Wool' },
-                { src: 'organischer-freiformteppich-terrakotta-wolle-berlin.png', alt: 'Organischer Freiformteppich in Terrakotta und Sand, handgetuftet' },
-            ],
-            'serie-2': [
-                { src: 'circular-teppich-konzept-erdtoene-handgetuftet.png', alt: 'Circular Floor Concept in Erdtönen auf dunklem Hintergrund, 2m × 2m' },
-                { src: 'kreisteppich-skizze-terrakotta-grau-berlin.png', alt: 'Kreisteppich-Skizze in Terrakotta und Grau, handgezeichnet' },
-            ],
-            'serie-3': [
-                { src: 'handskizze-runder-teppich-rosa-design-thegrey.png', alt: 'Handskizze runder Teppich in Rosa-Rottönen auf grauem Hintergrund' },
-                { src: 'geometrischer-rundteppich-blau-pink-200cm-wolle.png', alt: 'Geometrischer Rundteppich in Blau und Pink, handgetuftet, 200 cm' },
-                { src: 'teppich-konzept-pantone-ultramarine-handgetuftet.png', alt: 'Round Designer Rug Concept, Pantone Ultramarine & Bubble Gum, 200 cm' },
-            ],
-        };
-
-        const lightbox = document.getElementById('lightbox');
-        const lightboxImg = document.getElementById('lightboxImg');
-        const lightboxClose = document.getElementById('lightboxClose');
-        const lightboxPrev = document.getElementById('lightboxPrev');
-        const lightboxNext = document.getElementById('lightboxNext');
-        const lightboxCounter = document.getElementById('lightboxCounter');
-        let currentSeries = null;
-        let currentSeriesIdx = 0;
-
-        function updateLightboxNav() {
-            const series = currentSeries ? seriesData[currentSeries] : null;
-            const show = series && series.length > 1;
-            lightboxPrev.style.display = show ? 'flex' : 'none';
-            lightboxNext.style.display = show ? 'flex' : 'none';
-            lightboxCounter.style.display = show ? 'block' : 'none';
-            if (show) {
-                lightboxPrev.disabled = currentSeriesIdx === 0;
-                lightboxNext.disabled = currentSeriesIdx === series.length - 1;
-                lightboxCounter.textContent = (currentSeriesIdx + 1) + ' / ' + series.length;
-            }
+        // Betreff-Vorbefüllung (CTA „Entwurf anpassen lassen" aus der Wanna Do Collection)
+        const betreff = new URLSearchParams(window.location.search).get('betreff');
+        if (betreff) {
+            const feld = document.querySelector('.contact-form input[name="betreff"]');
+            if (feld) feld.value = betreff;
         }
-
-        function openLightbox(src, alt, seriesKey) {
-            currentSeries = seriesKey || null;
-            currentSeriesIdx = 0;
-            lightboxImg.src = src;
-            lightboxImg.alt = alt || '';
-            lightbox.classList.add('active');
-            lightbox.setAttribute('aria-hidden', 'false');
-            document.body.style.overflow = 'hidden';
-            updateLightboxNav();
-        }
-
-        function navigateSeries(dir) {
-            if (!currentSeries) return;
-            const series = seriesData[currentSeries];
-            currentSeriesIdx = Math.max(0, Math.min(series.length - 1, currentSeriesIdx + dir));
-            lightboxImg.src = series[currentSeriesIdx].src;
-            lightboxImg.alt = series[currentSeriesIdx].alt;
-            updateLightboxNav();
-        }
-
-        function closeLightbox() {
-            lightbox.classList.remove('active');
-            lightbox.setAttribute('aria-hidden', 'true');
-            document.body.style.overflow = '';
-            currentSeries = null;
-        }
-
-        galleryItems.forEach(item => { item.addEventListener('click', () => { const img = item.querySelector('img'); if (img) openLightbox(img.src, img.alt, item.dataset.series || null); }); });
-        lightboxPrev.addEventListener('click', (e) => { e.stopPropagation(); navigateSeries(-1); });
-        lightboxNext.addEventListener('click', (e) => { e.stopPropagation(); navigateSeries(1); });
-        lightboxClose.addEventListener('click', closeLightbox);
-        lightbox.addEventListener('click', (e) => { if (e.target === lightbox) closeLightbox(); });
-        document.addEventListener('keydown', (e) => {
-            if (!lightbox.classList.contains('active')) return;
-            if (e.key === 'Escape') closeLightbox();
-            if (e.key === 'ArrowLeft') navigateSeries(-1);
-            if (e.key === 'ArrowRight') navigateSeries(1);
-        });
     </script>
 </body>
 </html>

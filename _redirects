@@ -1,0 +1,15 @@
+# 301-Redirects: alte Galerie-Struktur → Wanna Do Collection
+# (Cloudflare Pages Redirects-Datei)
+# Die alte Galerie lebte als Anker /#projects auf der Startseite;
+# hier zusätzlich alle plausiblen alten Galerie-Pfade absichern.
+/projekte              /wanna-do-collection/  301
+/projekte.html         /wanna-do-collection/  301
+/projects              /wanna-do-collection/  301
+/projects.html         /wanna-do-collection/  301
+/galerie               /wanna-do-collection/  301
+/galerie.html          /wanna-do-collection/  301
+/gallery               /wanna-do-collection/  301
+/gallery.html          /wanna-do-collection/  301
+/wannadoes             /wanna-do-collection/  301
+/wanna-does            /wanna-do-collection/  301
+/wanna-do              /wanna-do-collection/  301

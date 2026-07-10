@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Die Farbe läuft bis an die Kante; Linho wird eigenständiges Feld. 5 Teppichentwürfe der Kollektion CAMPO.">
+    <title>Serie 2 — CHEIO (vollflächig) — CAMPO — THE GREY Wanna Do Collection</title>
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="canonical" href="https://www.thegrey.berlin/wanna-do-collection/serie-2-cheio/">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.thegrey.berlin/wanna-do-collection/serie-2-cheio/">
+    <meta property="og:title" content="Serie 2 — CHEIO (vollflächig) — CAMPO — THE GREY Wanna Do Collection">
+    <meta property="og:description" content="Die Farbe läuft bis an die Kante; Linho wird eigenständiges Feld. 5 Teppichentwürfe der Kollektion CAMPO.">
+    <meta property="og:image" content="https://www.thegrey.berlin/images/campo/campo-11-bloco_1500.jpg">
+    <meta property="og:locale" content="de_DE">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"></noscript>
+
+    <style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+:root {
+  --wd-bg: #FAF9F6; --wd-ink: #2E2B26; --wd-muted: #6E6A61; --wd-accent: #E7DECB;
+  --wd-line: #E4E0D6;
+  --font-heading: 'Archivo', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --max-width: 1320px;
+  --pad-x: clamp(1.25rem, 5vw, 4rem);
+  --transition: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+html { scroll-behavior: smooth; scroll-padding-top: 90px; }
+body { font-family: var(--font-body); font-weight: 300; color: var(--wd-ink); background-color: var(--wd-bg); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+img { max-width: 100%; height: auto; display: block; }
+a { color: inherit; text-decoration: none; transition: opacity var(--transition); }
+a:hover { opacity: 0.65; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--wd-ink); outline-offset: 3px; }
+
+.header { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; padding: 1.25rem var(--pad-x); background-color: rgba(250,249,246,0.92); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); transition: padding var(--transition), box-shadow var(--transition); }
+.header.scrolled { padding: 0.85rem var(--pad-x); background-color: rgba(250,249,246,0.98); box-shadow: 0 1px 0 rgba(46,43,38,0.08); }
+.nav { display: flex; justify-content: space-between; align-items: center; max-width: var(--max-width); margin: 0 auto; }
+.nav__logo img { height: 56px; width: auto; transition: height var(--transition); }
+.header.scrolled .nav__logo img { height: 46px; }
+.nav__menu { display: flex; gap: 2.5rem; list-style: none; align-items: center; }
+.nav__link { font-size: 0.85rem; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: var(--wd-ink); position: relative; padding: 0.5rem 0; }
+.nav__link::after { content: ''; position: absolute; bottom: 0; left: 0; width: 0; height: 1px; background-color: var(--wd-ink); transition: width var(--transition); }
+.nav__link:hover { opacity: 1; }
+.nav__link:hover::after, .nav__link[aria-current]::after { width: 100%; }
+.nav__cta { border: 1px solid var(--wd-ink); padding: 0.6rem 1.4rem; border-radius: 999px; transition: background-color var(--transition), color var(--transition); }
+.nav__cta:hover { background-color: var(--wd-ink); color: var(--wd-bg); opacity: 1; }
+.nav__cta::after { display: none; }
+.burger { display: none; background: none; border: none; cursor: pointer; width: 32px; height: 32px; padding: 0; position: relative; z-index: 1100; }
+.burger span { display: block; width: 24px; height: 1.5px; background-color: var(--wd-ink); margin: 5px auto; transition: transform var(--transition), opacity var(--transition); }
+.burger.active span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
+.burger.active span:nth-child(2) { opacity: 0; }
+.burger.active span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
+
+.wd-main { padding-top: 96px; }
+.wd-section { padding: clamp(3rem, 7vw, 6rem) var(--pad-x); }
+.wd-container { max-width: var(--max-width); margin: 0 auto; }
+.wd-kicker { font-size: 0.78rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--wd-muted); font-weight: 500; display: inline-flex; align-items: center; gap: 0.75rem; margin-bottom: 1.25rem; }
+.wd-kicker::before { content: ''; width: 32px; height: 1px; background-color: var(--wd-muted); }
+h1.wd-title { font-family: var(--font-heading); font-weight: 600; font-size: clamp(3rem, 9vw, 6.5rem); line-height: 0.95; letter-spacing: -0.03em; color: var(--wd-ink); }
+.wd-lead { margin-top: 1.75rem; font-size: 1.1rem; line-height: 1.75; color: var(--wd-ink); max-width: 640px; }
+.wd-note { margin-top: 1rem; font-size: 0.9rem; color: var(--wd-muted); max-width: 640px; }
+
+.wd-breadcrumb { padding: 1.25rem var(--pad-x) 0; max-width: calc(var(--max-width) + 2 * var(--pad-x)); margin: 0 auto; font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--wd-muted); }
+.wd-breadcrumb ol { list-style: none; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.wd-breadcrumb li + li::before { content: '/'; margin-right: 0.5rem; color: var(--wd-line); }
+.wd-breadcrumb a:hover { color: var(--wd-ink); opacity: 1; }
+
+.serien-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(1.5rem, 4vw, 3rem); margin-top: clamp(2.5rem, 6vw, 4rem); }
+.serie-card { display: block; }
+.serie-card figure { background-color: #fff; border: 1px solid var(--wd-line); padding: clamp(1.25rem, 3vw, 2.5rem); transition: border-color var(--transition); }
+.serie-card:hover { opacity: 1; }
+.serie-card:hover figure { border-color: var(--wd-muted); }
+.serie-card img { margin: 0 auto; max-height: min(72vh, 640px); width: auto; }
+.serie-card__meta { padding: 1.25rem 0.25rem 0; }
+.serie-card__name { font-family: var(--font-heading); font-weight: 600; font-size: 1.35rem; letter-spacing: -0.01em; color: var(--wd-ink); }
+.serie-card__claim { margin-top: 0.4rem; font-size: 0.95rem; color: var(--wd-muted); line-height: 1.6; max-width: 46ch; }
+.serie-card__count { margin-top: 0.6rem; font-size: 0.75rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--wd-muted); }
+
+.companions { background-color: var(--wd-accent); }
+.companions .wd-kicker { color: var(--wd-ink); }
+.companions .wd-kicker::before { background-color: var(--wd-ink); }
+.companions__grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(1.5rem, 4vw, 3rem); margin-top: clamp(2rem, 5vw, 3rem); }
+.companions h2 { font-family: var(--font-heading); font-weight: 600; font-size: clamp(1.8rem, 4vw, 2.6rem); letter-spacing: -0.02em; }
+.companions .serie-card__claim, .companions .serie-card__count { color: var(--wd-ink); }
+.companion-card figure { background-color: var(--wd-bg); padding: clamp(1.25rem, 3vw, 2.5rem); display: flex; justify-content: center; }
+.companion-card img { max-height: 460px; width: auto; }
+.companion-card:hover { opacity: 1; }
+.companion-card:hover img { opacity: 0.85; }
+
+.gallery { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(2rem, 5vw, 4rem); margin-top: clamp(2.5rem, 6vw, 4rem); }
+.gallery-card { display: block; position: relative; }
+.gallery-card figure { position: relative; background-color: #fff; border: 1px solid var(--wd-line); padding: clamp(1.5rem, 4vw, 3rem); display: flex; justify-content: center; transition: border-color var(--transition); }
+.gallery-card:hover { opacity: 1; }
+.gallery-card:hover figure, .gallery-card:focus-visible figure { border-color: var(--wd-muted); }
+.gallery-card img { max-height: min(75vh, 720px); width: auto; }
+.gallery-card figcaption { position: absolute; inset: auto 0 0 0; padding: 0.85rem 1.25rem; background-color: rgba(250,249,246,0.94); font-size: 0.8rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--wd-ink); opacity: 0; transform: translateY(4px); transition: opacity var(--transition), transform var(--transition); display: flex; justify-content: space-between; gap: 1rem; }
+.gallery-card:hover figcaption, .gallery-card:focus-visible figcaption { opacity: 1; transform: translateY(0); }
+.gallery-card figcaption .fmt { color: var(--wd-muted); letter-spacing: 0.08em; text-transform: none; }
+@media (hover: none) {
+  .gallery-card figcaption { position: static; opacity: 1; transform: none; background: none; padding: 0.85rem 0.25rem 0; }
+}
+
+.detail { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: clamp(2.5rem, 6vw, 5rem); align-items: start; }
+.detail__visual { position: sticky; top: 110px; display: flex; justify-content: center; }
+.detail__visual img { max-height: min(80vh, 760px); width: auto; }
+.detail__nummer { font-size: 0.78rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--wd-muted); font-weight: 500; margin-bottom: 1rem; }
+.detail h1 { font-family: var(--font-heading); font-weight: 600; font-size: clamp(2.6rem, 6vw, 4.2rem); line-height: 1; letter-spacing: -0.03em; }
+.detail__bedeutung { margin-top: 0.6rem; font-size: 1rem; color: var(--wd-muted); }
+.detail__format { margin-top: 1.5rem; font-size: 0.85rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--wd-ink); }
+.detail__text { margin-top: 1.75rem; font-size: 1.02rem; line-height: 1.8; }
+.detail h2 { font-size: 0.78rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--wd-muted); font-weight: 500; margin: 2.75rem 0 1rem; }
+.palette { list-style: none; display: grid; gap: 0.6rem; }
+.palette li { display: flex; align-items: center; gap: 0.9rem; font-size: 0.9rem; }
+.palette .chip { flex: none; width: 44px; height: 44px; border-radius: 2px; border: 1px solid rgba(46,43,38,0.12); }
+.palette .chip-name { color: var(--wd-ink); }
+.palette .chip-ref { color: var(--wd-muted); font-size: 0.82rem; }
+.pantone-hinweis { margin-top: 1rem; font-size: 0.8rem; color: var(--wd-muted); line-height: 1.6; max-width: 52ch; }
+.spec { display: grid; grid-template-columns: max-content 1fr; gap: 0.55rem 1.5rem; font-size: 0.92rem; }
+.spec dt { color: var(--wd-muted); }
+.spec dd { color: var(--wd-ink); }
+.downloads { list-style: none; display: grid; gap: 0.6rem; }
+.downloads a { display: inline-flex; align-items: center; gap: 0.6rem; font-size: 0.92rem; border-bottom: 1px solid var(--wd-line); padding-bottom: 0.35rem; transition: border-color var(--transition); }
+.downloads a:hover { border-color: var(--wd-ink); opacity: 1; }
+.downloads a::before { content: '↓'; color: var(--wd-muted); }
+
+.wannado { background-color: var(--wd-accent); }
+.wannado h2, .wannado .wannado__title { font-family: var(--font-heading); font-weight: 600; font-size: clamp(2rem, 5vw, 3.2rem); letter-spacing: -0.025em; color: var(--wd-ink); margin: 0 0 0.75rem; text-transform: none; }
+.wannado .wd-kicker { color: var(--wd-ink); }
+.wannado .wd-kicker::before { background-color: var(--wd-ink); }
+.wannado__standard { font-size: 0.95rem; color: var(--wd-ink); max-width: 560px; }
+.prozess { list-style: none; counter-reset: schritt; display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem; margin-top: 2.5rem; }
+.prozess li { counter-increment: schritt; border-top: 1px solid rgba(46,43,38,0.25); padding-top: 1.25rem; font-size: 0.95rem; line-height: 1.65; }
+.prozess li::before { content: '0' counter(schritt); display: block; font-family: var(--font-heading); font-size: 0.85rem; letter-spacing: 0.18em; color: var(--wd-muted); margin-bottom: 0.75rem; }
+.prozess strong { display: block; font-family: var(--font-heading); font-weight: 600; font-size: 1.1rem; margin-bottom: 0.35rem; }
+.wannado__cta { margin-top: 2.75rem; display: flex; flex-wrap: wrap; gap: 1.25rem; align-items: center; }
+.btn { display: inline-flex; align-items: center; gap: 0.75rem; padding: 1rem 2.25rem; background-color: var(--wd-ink); color: var(--wd-bg); font-size: 0.85rem; letter-spacing: 0.12em; text-transform: uppercase; font-weight: 500; border-radius: 999px; border: 1px solid var(--wd-ink); cursor: pointer; transition: background-color var(--transition), color var(--transition), transform var(--transition); }
+.btn:hover { background-color: transparent; color: var(--wd-ink); opacity: 1; transform: translateY(-2px); }
+.btn--ghost { background-color: transparent; color: var(--wd-ink); }
+.btn--ghost:hover { background-color: var(--wd-ink); color: var(--wd-bg); }
+
+.pager { display: flex; justify-content: space-between; gap: 1rem; border-top: 1px solid var(--wd-line); padding-top: 1.75rem; margin-top: clamp(2.5rem, 6vw, 4rem); font-size: 0.85rem; letter-spacing: 0.12em; text-transform: uppercase; }
+.pager a { color: var(--wd-ink); }
+.pager span.off { color: var(--wd-muted); }
+.pager .dir { color: var(--wd-muted); margin: 0 0.4rem; }
+
+.footer { background-color: var(--wd-ink); color: var(--wd-accent); padding: 3.5rem var(--pad-x) 2rem; margin-top: clamp(3rem, 7vw, 5rem); }
+.footer__container { max-width: var(--max-width); margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1.5rem; font-size: 0.85rem; }
+.footer a { border-bottom: 1px solid transparent; }
+.footer a:hover { border-color: currentColor; opacity: 1; }
+.footer nav { display: flex; flex-wrap: wrap; gap: 1.5rem; }
+
+@media (max-width: 960px) {
+  .serien-grid, .companions__grid, .gallery, .detail { grid-template-columns: 1fr; }
+  .detail__visual { position: static; }
+  .prozess { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 720px) {
+  .header { backdrop-filter: none !important; -webkit-backdrop-filter: none !important; background-color: rgba(250,249,246,0.98); }
+  .nav__menu { position: fixed; top: 0; right: 0; height: 100vh; height: 100dvh; width: min(320px, 85vw); background-color: var(--wd-bg); flex-direction: column; justify-content: flex-start; align-items: stretch; gap: 0.25rem; padding: 6rem 2rem 2.5rem; transform: translateX(100%); transition: transform var(--transition); box-shadow: -8px 0 32px rgba(0,0,0,0.12); overflow-y: auto; -webkit-overflow-scrolling: touch; }
+  .nav__menu.active { transform: translateX(0); }
+  .nav__menu li { padding: 0.65rem 0; }
+  .nav__link { font-size: 1rem; display: block; }
+  .nav__cta { display: inline-flex !important; align-self: flex-start; white-space: nowrap; margin-top: 0.75rem; padding: 0.75rem 1.5rem; }
+  .burger { display: block; }
+  .prozess { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+    <header class="header" id="header">
+        <nav class="nav">
+            <a href="/" class="nav__logo" aria-label="thegrey – Startseite">
+                <img src="https://static.wixstatic.com/media/bdc123_37188656e7a04cebb530fc75bc1a552b~mv2.png/v1/fill/w_201,h_70,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/GREY-logo-383838-freigestellt.png" alt="thegrey Logo – Handgefertigte Teppiche aus Berlin" width="201" height="70">
+            </a>
+            <ul class="nav__menu" id="navMenu">
+                <li><a href="/#designs" class="nav__link">Designs</a></li>
+                <li><a href="/wanna-do-collection/" class="nav__link" aria-current="true">Wanna Do</a></li>
+                <li><a href="/#process" class="nav__link">Prozess</a></li>
+                <li><a href="/#about" class="nav__link">Über uns</a></li>
+                <li><a href="/#contact" class="nav__link nav__cta">Jetzt entwerfen</a></li>
+            </ul>
+            <button class="burger" id="burger" aria-label="Menü öffnen" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+    </header>
+
+    <nav class="wd-breadcrumb" aria-label="Pfad" style="padding-top:96px;margin-bottom:-72px;">
+        <ol><li><a href="/wanna-do-collection/">Wanna Do Collection</a></li><li aria-current="page">Serie 2 — CHEIO (vollflächig)</li></ol>
+    </nav>
+    <main class="wd-main">
+        <section class="wd-section" aria-labelledby="serie-title">
+            <div class="wd-container">
+                <span class="wd-kicker">THE GREY — Wanna Do Collection N°1 — CAMPO</span>
+                <h1 class="wd-title" id="serie-title" style="font-size:clamp(2.4rem,6vw,4.5rem);">Serie 2 — CHEIO (vollflächig)</h1>
+                <p class="wd-lead">Die Farbe läuft bis an die Kante; Linho wird eigenständiges Feld.</p>
+                <div class="gallery">
+                <a class="gallery-card" href="/wanna-do-collection/campo-08-horizonte-cheio/">
+                    <figure>
+                        <picture>
+  <source type="image/webp" srcset="/images/campo/campo-08-horizonte-cheio_400.webp 400w, /images/campo/campo-08-horizonte-cheio_800.webp 800w" sizes="(min-width: 960px) 44vw, 92vw">
+  <img src="/images/campo/campo-08-horizonte-cheio_1500.jpg" alt="CAMPO 08 HORIZONTE CHEIO — Vollflächig, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection" width="800" height="1200" loading="lazy" decoding="async">
+</picture>
+                        <figcaption><span>08 — HORIZONTE CHEIO</span><span class="fmt">200 × 300 cm</span></figcaption>
+                    </figure>
+                </a>
+                <a class="gallery-card" href="/wanna-do-collection/campo-09-sobre-cheio/">
+                    <figure>
+                        <picture>
+  <source type="image/webp" srcset="/images/campo/campo-09-sobre-cheio_400.webp 400w, /images/campo/campo-09-sobre-cheio_800.webp 800w" sizes="(min-width: 960px) 44vw, 92vw">
+  <img src="/images/campo/campo-09-sobre-cheio_1500.jpg" alt="CAMPO 09 SOBRE CHEIO — Vollflächig, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection" width="800" height="1200" loading="lazy" decoding="async">
+</picture>
+                        <figcaption><span>09 — SOBRE CHEIO</span><span class="fmt">200 × 300 cm</span></figcaption>
+                    </figure>
+                </a>
+                <a class="gallery-card" href="/wanna-do-collection/campo-10-terra-cheio/">
+                    <figure>
+                        <picture>
+  <source type="image/webp" srcset="/images/campo/campo-10-terra-cheio_400.webp 400w, /images/campo/campo-10-terra-cheio_800.webp 800w" sizes="(min-width: 960px) 44vw, 92vw">
+  <img src="/images/campo/campo-10-terra-cheio_1500.jpg" alt="CAMPO 10 TERRA CHEIO — Vollflächig, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection" width="800" height="1200" loading="lazy" decoding="async">
+</picture>
+                        <figcaption><span>10 — TERRA CHEIO</span><span class="fmt">200 × 300 cm</span></figcaption>
+                    </figure>
+                </a>
+                <a class="gallery-card" href="/wanna-do-collection/campo-11-bloco/">
+                    <figure>
+                        <picture>
+  <source type="image/webp" srcset="/images/campo/campo-11-bloco_400.webp 400w, /images/campo/campo-11-bloco_800.webp 800w" sizes="(min-width: 960px) 44vw, 92vw">
+  <img src="/images/campo/campo-11-bloco_1500.jpg" alt="CAMPO 11 BLOCO — Vollflächig, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection" width="800" height="1200" loading="lazy" decoding="async">
+</picture>
+                        <figcaption><span>11 — BLOCO</span><span class="fmt">200 × 300 cm</span></figcaption>
+                    </figure>
+                </a>
+                <a class="gallery-card" href="/wanna-do-collection/campo-12-patio/">
+                    <figure>
+                        <picture>
+  <source type="image/webp" srcset="/images/campo/campo-12-patio_400.webp 400w, /images/campo/campo-12-patio_800.webp 800w" sizes="(min-width: 960px) 44vw, 92vw">
+  <img src="/images/campo/campo-12-patio_1500.jpg" alt="CAMPO 12 PÁTIO — Vollflächig, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection" width="800" height="1200" loading="lazy" decoding="async">
+</picture>
+                        <figcaption><span>12 — PÁTIO</span><span class="fmt">200 × 300 cm</span></figcaption>
+                    </figure>
+                </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="wd-section wannado" aria-labelledby="wannado-title">
+            <div class="wd-container">
+                <span class="wd-kicker">Der Weg zum eigenen Stück</span>
+                <h2 class="wannado__title" id="wannado-title">Wanna do?</h2>
+                <p class="wannado__standard">Alle Teppiche: handgetuftet, 100 % Neuseelandwolle, matt. Formate frei skalierbar.</p>
+                <ol class="prozess">
+                <li><strong>Auswählen</strong>ein Entwurf als Ausgangspunkt</li>
+                <li><strong>Anpassen</strong>Format, Proportion, Palette projektspezifisch</li>
+                <li><strong>Bemustern</strong>maßstäbliche Zeichnung + Handmuster der Wollfarben</li>
+                <li><strong>Fertigen</strong>einzeln von Hand getuftet; jeder realisierte Entwurf erhält einen eigenen Namen</li>
+                </ol>
+                <div class="wannado__cta">
+                    <a class="btn" href="/index.html?betreff=Wanna%20do%3A%20CAMPO#contact">Entwurf anpassen lassen <span aria-hidden="true">→</span></a>
+                    <a class="btn btn--ghost" href="mailto:hallo@thegrey.berlin?subject=Wanna%20do%3A%20CAMPO">Direkt per E-Mail</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div>© 2026 thegrey.berlin · Alle Rechte vorbehalten</div>
+            <nav aria-label="Footer">
+                <a href="/wanna-do-collection/">Wanna Do Collection</a>
+                <a href="/#contact">Kontakt</a>
+                <a href="/impressum.html">Impressum</a>
+                <a href="/datenschutz.html">Datenschutz</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script>
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => { if (window.scrollY > 30) header.classList.add('scrolled'); else header.classList.remove('scrolled'); });
+        const burger = document.getElementById('burger');
+        const navMenu = document.getElementById('navMenu');
+        burger.addEventListener('click', () => { const isActive = navMenu.classList.toggle('active'); burger.classList.toggle('active'); burger.setAttribute('aria-expanded', isActive); });
+    </script>
+</body>
+</html>
