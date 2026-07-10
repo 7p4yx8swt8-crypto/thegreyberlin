@@ -250,9 +250,8 @@ ${jsonld ? `    <script type="application/ld+json">\n    ${JSON.stringify(jsonld
                 <img src="${LOGO}" alt="thegrey Logo – Handgefertigte Teppiche aus Berlin" width="201" height="70">
             </a>
             <ul class="nav__menu" id="navMenu">
-                <li><a href="/#designs" class="nav__link">Designs</a></li>
+                <li><a href="/#designs" class="nav__link">Design &amp; Prozess</a></li>
                 <li><a href="${BASE}/" class="nav__link" aria-current="true">Wanna Do</a></li>
-                <li><a href="/#process" class="nav__link">Prozess</a></li>
                 <li><a href="/#about" class="nav__link">Über uns</a></li>
                 <li><a href="/#contact" class="nav__link nav__cta">Jetzt entwerfen</a></li>
             </ul>

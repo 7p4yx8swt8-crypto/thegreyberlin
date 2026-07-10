@@ -153,16 +153,11 @@
         .wd-teaser__tile:hover img { border-color: #6E6A61; }
         .wd-teaser__tile span { display: block; margin-top: 0.75rem; font-size: 0.75rem; letter-spacing: 0.18em; text-transform: uppercase; color: #6E6A61; }
 
-        .process-section { background-color: var(--color-darker); color: var(--color-light); }
-        .process-section .section__title, .process-section .section__title em { color: var(--color-light); }
-        .process-section .section__eyebrow { background-color: transparent; color: var(--color-grey-light); }
-        .process-section .section__eyebrow::before { background-color: var(--color-grey-light); }
-        .process-section .section__intro { color: var(--color-grey-light); }
-        .process-steps { margin-top: 4rem; display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
-        .process-step { border-top: 1px solid rgba(255,255,255,0.15); padding-top: 2rem; }
+        .process-steps { margin-top: clamp(3rem, 6vw, 4.5rem); display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
+        .process-step { border-top: 1px solid var(--color-grey-light); padding-top: 2rem; }
         .process-step__number { font-family: var(--font-heading); font-weight: 400; font-size: 0.85rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--color-grey-mid); margin-bottom: 1rem; }
-        .process-step__title { font-family: var(--font-heading); font-size: 1.65rem; font-weight: 600; letter-spacing: -0.02em; margin-bottom: 1rem; color: var(--color-light); }
-        .process-step__text { color: var(--color-grey-light); font-size: 0.95rem; line-height: 1.7; font-weight: 300; }
+        .process-step__title { font-family: var(--font-heading); font-size: 1.65rem; font-weight: 600; letter-spacing: -0.02em; margin-bottom: 1rem; color: var(--color-darker); }
+        .process-step__text { color: var(--color-dark); font-size: 0.95rem; line-height: 1.7; font-weight: 300; }
 
         .about-section { background-color: var(--color-cream); }
         .about-grid { display: grid; grid-template-columns: 1fr 1.3fr; gap: clamp(2rem, 6vw, 6rem); align-items: center; }
@@ -233,9 +228,8 @@
                 <img src="https://static.wixstatic.com/media/bdc123_37188656e7a04cebb530fc75bc1a552b~mv2.png/v1/fill/w_201,h_70,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/GREY-logo-383838-freigestellt.png" alt="thegrey Logo – Handgefertigte Teppiche aus Berlin">
             </a>
             <ul class="nav__menu" id="navMenu">
-                <li><a href="#designs" class="nav__link">Designs</a></li>
+                <li><a href="#designs" class="nav__link">Design &amp; Prozess</a></li>
                 <li><a href="wanna-do-collection/" class="nav__link">Wanna Do</a></li>
-                <li><a href="#process" class="nav__link">Prozess</a></li>
                 <li><a href="#about" class="nav__link">Über uns</a></li>
                 <li class="nav__lang"><a href="index.html" class="active">DE</a><span>/</span><a href="index-en.html">EN</a></li>
                 <li><a href="#contact" class="nav__link nav__cta">Jetzt entwerfen</a></li>
@@ -286,7 +280,7 @@
                         Wir verbinden deine Kreativität mit unserer Handwerkskunst, um außergewöhnliche Teppiche zu schaffen. Eine Idee, eine grobe Skizze oder eine kurze Beschreibung – mehr brauchen wir nicht, um deinen individuellen Teppich zu starten. Der gesamte Prozess ist frei von Restriktionen und folgt einzig deiner Vision.
                     </p>
                     <p>
-                        Design. Farbe. Dimensionen. Form. Du hast volle gestalterische Freiheit und kannst deinen Teppich genau so planen, wie du ihn dir vorstellst. Schick uns deine ersten Ideen – gemeinsam finden wir heraus, was wir kreieren wollen.
+                        Unsere Expertise: handgefertigte Teppiche aus strapazierfähiger neuseeländischer Wolle – individuell in Design, Farbe, Größe, Form und Textur. Schick uns deine ersten Ideen – gemeinsam finden wir heraus, was wir kreieren wollen.
                     </p>
                     <div class="design-pillars">
                         <div class="pillar">Design</div>
@@ -299,6 +293,25 @@
                     <img src="skizze-entwurf-teppich-pantone.png" alt="Teppich-Entwurfsskizze mit Pantone-Farbpalette – individuelles Design bei thegrey Berlin">
                 </div>
             </div>
+
+            <div class="process-steps" id="process">
+                <div class="process-step reveal">
+                    <div class="process-step__number">01 — Idee</div>
+                    <h3 class="process-step__title">Brief & Skizze</h3>
+                    <p class="process-step__text">Eine Skizze, ein Stimmungsbild, eine Idee. Wir nehmen jede Form von Input auf und entwickeln daraus ein konkretes Designkonzept für deinen individuellen Teppich.</p>
+                </div>
+                <div class="process-step reveal">
+                    <div class="process-step__number">02 — Handwerk</div>
+                    <h3 class="process-step__title">Handgefertigte Produktion</h3>
+                    <p class="process-step__text">Jeder Teppich wird von erfahrenen Manufakturen mit größter Sorgfalt gefertigt – traditionelle Techniken treffen auf zeitgenössische Ästhetik.</p>
+                </div>
+                <div class="process-step reveal">
+                    <div class="process-step__number">03 — Geschichte</div>
+                    <h3 class="process-step__title">Teil deiner Geschichte</h3>
+                    <p class="process-step__text">Das Ergebnis: ein Stück, das deinen Raum nicht nur ergänzt, sondern Teil seiner Geschichte wird. Gemacht zum Leben, gemacht für die Ewigkeit.</p>
+                </div>
+            </div>
+
         </div>
     </section>
 
@@ -335,34 +348,7 @@
         </section>
         <!-- WANNA-DO-TEASER:END -->
 
-    <section class="section process-section" id="process">
-        <div class="section__container">
-            <div class="section__header reveal">
-                <span class="section__eyebrow">Unser Prozess</span>
-                <h2 class="section__title">Vom ersten Strich<br>zum <em>fertigen Stück.</em></h2>
-                <p class="section__intro">
-                    Unsere Expertise: handgefertigte Teppiche aus strapazierfähiger neuseeländischer Wolle – individuell in Design, Farbe, Größe, Form und Textur. Einzigartig im Charakter. Langlebig im Gebrauch.
-                </p>
-            </div>
-            <div class="process-steps">
-                <div class="process-step reveal">
-                    <div class="process-step__number">01 — Idee</div>
-                    <h3 class="process-step__title">Brief & Skizze</h3>
-                    <p class="process-step__text">Eine Skizze, ein Stimmungsbild, eine Idee. Wir nehmen jede Form von Input auf und entwickeln daraus ein konkretes Designkonzept für deinen individuellen Teppich.</p>
-                </div>
-                <div class="process-step reveal">
-                    <div class="process-step__number">02 — Handwerk</div>
-                    <h3 class="process-step__title">Handgefertigte Produktion</h3>
-                    <p class="process-step__text">Jeder Teppich wird von erfahrenen Manufakturen mit größter Sorgfalt gefertigt – traditionelle Techniken treffen auf zeitgenössische Ästhetik.</p>
-                </div>
-                <div class="process-step reveal">
-                    <div class="process-step__number">03 — Geschichte</div>
-                    <h3 class="process-step__title">Teil deiner Geschichte</h3>
-                    <p class="process-step__text">Das Ergebnis: ein Stück, das deinen Raum nicht nur ergänzt, sondern Teil seiner Geschichte wird. Gemacht zum Leben, gemacht für die Ewigkeit.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+
 
     <section class="section about-section" id="about">
         <div class="section__container">
@@ -417,9 +403,8 @@
                 <div class="footer__col">
                     <h4>Studio</h4>
                     <ul>
-                        <li><a href="#designs">Designs</a></li>
+                        <li><a href="#designs">Design &amp; Prozess</a></li>
                         <li><a href="wanna-do-collection/">Wanna Do Collection</a></li>
-                        <li><a href="#process">Prozess</a></li>
                         <li><a href="#about">Über uns</a></li>
                         <li><a href="#contact">Kontakt</a></li>
                     </ul>
