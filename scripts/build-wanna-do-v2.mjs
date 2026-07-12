@@ -226,7 +226,7 @@ const CSS = `
 .foot { display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
 .chips { display: flex; gap: 0; }
 .chip { width: 15px; height: 15px; display: inline-block; }
-.read { font-family: var(--wd-sans); font-size: 9.5px; letter-spacing: .22em; text-transform: uppercase; color: var(--wd-ink); border-bottom: 1px solid var(--wd-ink); padding-bottom: 2px; white-space: nowrap; }
+.wd-body a.read { font-family: var(--wd-sans); font-size: 9.5px; letter-spacing: .22em; text-transform: uppercase; color: var(--wd-ink); border-bottom: 1px solid var(--wd-ink); padding-bottom: 2px; white-space: nowrap; }
 
 .band { border-top: 1px solid var(--wd-hair); border-bottom: 1px solid var(--wd-hair); padding: 2.75rem 0 2.85rem; text-align: center; }
 .band .claim { font-family: var(--wd-serif); font-style: italic; font-size: 1.35rem; line-height: 1.55; color: #37342D; max-width: 640px; margin: 1.1rem auto 1.35rem; }
@@ -256,8 +256,8 @@ const CSS = `
 .palette-list .chip-sm { width: 15px; height: 15px; flex: none; border: 1px solid rgba(31,29,26,.12); }
 .spec { font-size: 11px; letter-spacing: .06em; line-height: 2; color: var(--wd-grey); border-top: 1px solid var(--wd-hair); padding-top: 1.1rem; margin-bottom: 1.9rem; text-transform: uppercase; }
 .ovcta { display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; }
-.cta { display: inline-block; font-family: var(--wd-sans); font-size: 11px; letter-spacing: .26em; text-transform: uppercase; color: var(--wd-paper); background: var(--wd-ink); padding: 1rem 1.6rem; text-decoration: none; }
-.cta--ghost { color: var(--wd-ink); background: none; border: 1px solid var(--wd-ink); }
+.wd-body a.cta { display: inline-block; font-family: var(--wd-sans); font-size: 11px; letter-spacing: .26em; text-transform: uppercase; color: var(--wd-paper); background: var(--wd-ink); padding: 1rem 1.6rem; text-decoration: none; }
+.wd-body a.cta--ghost { color: var(--wd-ink); background: none; border: 1px solid var(--wd-ink); }
 .ovclose { position: fixed; top: 1.35rem; right: clamp(1.25rem, 4vw, 1.9rem); z-index: 2010; font-size: 2.1rem; font-family: var(--wd-serif); color: #fff; background: rgba(31,29,26,.35); border: none; cursor: pointer; line-height: 1; width: 46px; height: 46px; border-radius: 50%; }
 .ovclose:hover { background: rgba(31,29,26,.55); }
 
