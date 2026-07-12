@@ -1,0 +1,6 @@
+# Cloudflare Workers liest "assets.directory" (siehe wrangler.jsonc, aktuell ".") direkt
+# vom Dateisystem und respektiert dabei .assetsignore (Gitignore-Syntax). .git/ muss
+# hier explizit raus, sonst versucht wrangler auch interne Git-Objekte (z. B. gepackte
+# Historie) als Static Asset hochzuladen — das überschreitet irgendwann das 25-MiB-Limit
+# pro Datei und lässt den Deploy fehlschlagen ("Asset too large").
+.git
