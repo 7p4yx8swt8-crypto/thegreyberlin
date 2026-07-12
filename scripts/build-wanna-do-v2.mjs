@@ -894,8 +894,8 @@ function injectTeaser(file, lang) {
         <section class="section wd-teaser" id="wanna-do">
             <div class="section__container">
                 <div class="section__header reveal">
-                    <span class="section__eyebrow">${de ? 'Wanna Do Collection' : 'Wanna Do Collection'}</span>
-                    <h2 class="section__title">${de ? 'Campo &amp;<br><em>Trama.</em>' : 'Campo &amp;<br><em>Trama.</em>'}</h2>
+                    <span class="section__eyebrow">Campo &amp; Trama</span>
+                    <h2 class="section__title">Wanna Do<br><em>Collection.</em></h2>
                     <p class="section__intro">${de
                       ? esc(DATA.wanna_do_collection.kurzbeschreibung) + ' 39 Entwürfe in zwei Kollektionen — durchsuchbar, filterbar, einen Klick von ihrer ganzen Geschichte entfernt.'
                       : 'Curated rug designs as inspiration for planners and interior architects — starting points for individually crafted rugs, not end products. 39 designs across two collections, searchable and filterable — in German.'}</p>
