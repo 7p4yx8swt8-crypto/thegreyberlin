@@ -36,6 +36,12 @@ const SERIEN_PDF = {
 };
 const FARBKARTE_PDF = 'thegrey-wannado-campo-farbkarte.pdf';
 
+// Filterzeile (Suche + Stimmung/Farbe/Typ/Format/Special) vorerst ausgeblendet —
+// Kunden sollen beide Kollektionen zunächst frei durchscrollen. Technik bleibt
+// vollständig erhalten (Markup + JS), nur unsichtbar/aus dem Tab-Fokus via `hidden`.
+// Zum Reaktivieren einfach auf `true` setzen und neu bauen.
+const FILTERS_ENABLED = false;
+
 /* ---------------------------------------------------------------- Utils */
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -472,7 +478,7 @@ ${openScript}
         </div>
     </header>
 
-    <nav class="fline" aria-label="Filter">
+    <nav class="fline" aria-label="Filter"${FILTERS_ENABLED ? '' : ' hidden'}>
         <div class="wd-wrap">
             <input id="q" type="search" placeholder="Suchen — Name, Wort, Geschichte …" aria-label="Suche">
             <span class="sep">|</span>
@@ -494,7 +500,7 @@ ${openScript}
             <button class="reset" id="reset" type="button">Alles zeigen</button>
         </div>
     </nav>
-    <div class="wd-wrap"><div class="rcount" id="count" aria-live="polite"></div></div>
+    <div class="wd-wrap"${FILTERS_ENABLED ? '' : ' hidden'}><div class="rcount" id="count" aria-live="polite"></div></div>
 
     <main class="stream"><div class="wd-wrap" id="stream">
 ${renderKollektionStream('campo')}
