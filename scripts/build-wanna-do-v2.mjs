@@ -135,7 +135,7 @@ const CSS = `
   --wd-transition: .35s cubic-bezier(.25,.46,.45,.94);
 }
 .wd-body { background: var(--wd-paper); color: var(--wd-ink); font-family: var(--wd-sans); }
-.wd-body img { max-width: 100%; display: block; }
+.wd-body img { max-width: 100%; height: auto; display: block; }
 .wd-body a { color: inherit; }
 .wd-wrap { max-width: 1280px; margin: 0 auto; padding: 0 clamp(1.25rem, 5vw, 3.5rem); }
 
@@ -222,7 +222,7 @@ const CSS = `
 .ovbox { background: var(--wd-paper); width: min(1020px, 100%); overflow: auto; display: grid; grid-template-columns: minmax(0,45%) 1fr; }
 @media (max-width: 820px) { .ovbox { grid-template-columns: 1fr; } }
 .ovimg { background: var(--wd-ovbg); display: flex; flex-direction: column; align-items: center; padding: clamp(1.5rem, 4vw, 2.75rem); }
-.ovimg img { width: 100%; box-shadow: 0 18px 50px rgba(31,29,26,.22); }
+.ovimg img { width: 100%; height: auto; box-shadow: 0 18px 50px rgba(31,29,26,.22); }
 .ovimg .plantoggle { margin-top: 1.25rem; font-family: var(--wd-sans); font-size: 9.5px; letter-spacing: .2em; text-transform: uppercase; color: var(--wd-grey); background: none; border: none; border-bottom: 1px solid var(--wd-grey); cursor: pointer; padding: 0 0 2px; }
 .ovtxt { padding: clamp(2.5rem, 6vw, 4.75rem) clamp(1.5rem, 4vw, 4rem) 4.25rem; }
 .ovtxt h2 { font-family: var(--wd-serif); font-weight: normal; font-size: clamp(1.9rem, 3.6vw, 2.9rem); margin: 1.1rem 0 .25rem; }
