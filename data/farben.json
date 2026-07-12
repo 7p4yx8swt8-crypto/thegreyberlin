@@ -1,7 +1,7 @@
 [
   {
     "hex": "#E7DECB",
-    "name": "Linho — Fond, NZ-Wolle ungefärbt",
+    "name": "Linho/Cru — Fond, NZ-Wolle ungefärbt",
     "pantone_fhi": "12-0703 TCX Seedpearl"
   },
   {
@@ -36,7 +36,7 @@
   },
   {
     "hex": "#DDA13D",
-    "name": "Ocker",
+    "name": "Ocker/Ocre",
     "pantone_fhi": "14-0952 TCX Spicy Mustard"
   },
   {
@@ -51,7 +51,7 @@
   },
   {
     "hex": "#4B4844",
-    "name": "Graphit",
+    "name": "Graphit/Grafite",
     "pantone_fhi": "19-0508 TCX Peat"
   },
   {
@@ -81,7 +81,7 @@
   },
   {
     "hex": "#333F96",
-    "name": "Luminous Blue — Colour of the Year 2027",
+    "name": "Luminous Blue — COTY 2027",
     "pantone_fhi": "19-3951 TCX Clematis Blue"
   },
   {
@@ -126,57 +126,57 @@
   },
   {
     "hex": "#B7C1DA",
-    "name": "Azul Claro (ref. Sirrus)",
+    "name": "Azul Claro",
     "pantone_fhi": "Zuordnung bei Garnbemusterung"
   },
   {
     "hex": "#3A46A0",
-    "name": "Azul (ref. Mansilla Blue)",
+    "name": "Azul (Mansilla)",
     "pantone_fhi": "Zuordnung bei Garnbemusterung"
   },
   {
     "hex": "#232E75",
-    "name": "Azul Fundo (ref. Topaz Pizzazz)",
+    "name": "Azul Fundo",
     "pantone_fhi": "Zuordnung bei Garnbemusterung"
   },
   {
     "hex": "#E7B58C",
-    "name": "Sol Claro (ref. Chrysanthemum Tea)",
+    "name": "Sol Claro",
     "pantone_fhi": "Zuordnung bei Garnbemusterung"
   },
   {
     "hex": "#AD5527",
-    "name": "Sol Fundo (ref. Egyptian Queen)",
+    "name": "Sol Fundo",
     "pantone_fhi": "Zuordnung bei Garnbemusterung"
   },
   {
     "hex": "#EFD2D9",
-    "name": "Rosa Claro (ref. Pantaloon)",
+    "name": "Rosa Claro",
     "pantone_fhi": "Zuordnung bei Garnbemusterung"
   },
   {
     "hex": "#E27FAE",
-    "name": "Rosa Pop (ref. Eye Candy)",
+    "name": "Rosa Pop",
     "pantone_fhi": "Zuordnung bei Garnbemusterung"
   },
   {
     "hex": "#B4788D",
-    "name": "Rosa Fundo (ref. Sophisticated Pink)",
+    "name": "Rosa Fundo",
     "pantone_fhi": "Zuordnung bei Garnbemusterung"
   },
   {
     "hex": "#BCC7A4",
-    "name": "Erva Clara (ref. Tangella)",
+    "name": "Erva Clara",
     "pantone_fhi": "Zuordnung bei Garnbemusterung"
   },
   {
     "hex": "#66794B",
-    "name": "Erva Funda (ref. Olive Twig)",
+    "name": "Erva Funda",
     "pantone_fhi": "Zuordnung bei Garnbemusterung"
   },
   {
     "hex": "#DBC0B4",
-    "name": "Argila Clara (ref. French Rose)",
+    "name": "Argila Clara",
     "pantone_fhi": "Zuordnung bei Garnbemusterung"
   },
   {
@@ -186,7 +186,27 @@
   },
   {
     "hex": "#8A6F60",
-    "name": "Argila Funda (ref. Podsol)",
+    "name": "Argila Funda",
     "pantone_fhi": "Zuordnung bei Garnbemusterung"
+  },
+  {
+    "hex": "#F0EEE4",
+    "name": "Cloud Dancer — Fond Serie 5",
+    "pantone_fhi": "11-4201 TCX Cloud Dancer"
+  },
+  {
+    "hex": "#2B3A66",
+    "name": "Tinta",
+    "pantone_fhi": "~19-3939 TCX Blueprint"
+  },
+  {
+    "hex": "#A45A38",
+    "name": "Ferrugem",
+    "pantone_fhi": "~18-1248 TCX Rust"
+  },
+  {
+    "hex": "#8A9080",
+    "name": "Salva",
+    "pantone_fhi": "~16-0110 TCX Desert Sage"
   }
 ]

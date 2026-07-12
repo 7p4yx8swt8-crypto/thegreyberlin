@@ -13,3 +13,13 @@
 /wannadoes             /wanna-do-collection/  301
 /wanna-does            /wanna-do-collection/  301
 /wanna-do              /wanna-do-collection/  301
+
+# Wanna Do Collection Relaunch (v2, editorialer Edition-Stream, Campo + Trama):
+# Die 4 Serien-Seiten der v1-Struktur existieren als eigene Routen nicht mehr
+# (Serien sind jetzt Filter-Bänder/Query-Parameter im Stream). Die 22 v1-Detailseiten
+# (/wanna-do-collection/campo-01-horizonte/ usw.) brauchen keinen Redirect — dieselben
+# Pfade dienen jetzt als Permalinks der neuen Struktur.
+/wanna-do-collection/serie-1-fond/     /wanna-do-collection/?serie=serie-1-fond   301
+/wanna-do-collection/serie-2-cheio/    /wanna-do-collection/?serie=serie-2-cheio  301
+/wanna-do-collection/serie-3-amanha/   /wanna-do-collection/?serie=serie-3-amanha 301
+/wanna-do-collection/serie-4-elo/      /wanna-do-collection/?serie=serie-4-elo    301

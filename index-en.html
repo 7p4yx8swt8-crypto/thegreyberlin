@@ -147,11 +147,12 @@
         .wd-teaser .section__title { color: #2E2B26; }
         .wd-teaser .section__intro { color: #2E2B26; }
         .wd-teaser .section__eyebrow { color: #6E6A61; }
-        .wd-teaser__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; }
+        .wd-teaser__grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; }
         .wd-teaser__tile { display: block; }
-        .wd-teaser__tile img { width: 100%; height: auto; background-color: #fff; border: 1px solid #E4E0D6; padding: 0.9rem; transition: border-color var(--transition); }
+        .wd-teaser__tile img { width: 100%; height: auto; max-height: 480px; object-fit: contain; background-color: #fff; border: 1px solid #E4E0D6; padding: 1.5rem; transition: border-color var(--transition); }
         .wd-teaser__tile:hover img { border-color: #6E6A61; }
-        .wd-teaser__tile span { display: block; margin-top: 0.75rem; font-size: 0.75rem; letter-spacing: 0.18em; text-transform: uppercase; color: #6E6A61; }
+        .wd-teaser__tile span { display: block; margin-top: 1rem; font-family: var(--font-heading); font-weight: 600; font-size: 1.1rem; letter-spacing: -0.01em; color: #2E2B26; text-transform: none; }
+        .wd-teaser__tile p { margin-top: 0.35rem; font-size: 0.88rem; line-height: 1.55; color: #6E6A61; max-width: 46ch; }
 
         .process-steps { margin-top: clamp(3rem, 6vw, 4.5rem); display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
         .process-step { border-top: 1px solid var(--color-grey-light); padding-top: 2rem; }
@@ -199,7 +200,7 @@
             .hero__container, .design-grid, .about-grid, .contact-grid { grid-template-columns: 1fr; }
             .hero__visual { aspect-ratio: 4/3; max-height: 400px; }
             .features__grid { grid-template-columns: repeat(2, 1fr); gap: 2.5rem 1rem; }
-            .wd-teaser__grid { grid-template-columns: repeat(2, 1fr); }
+            .wd-teaser__grid { grid-template-columns: 1fr; }
             .process-steps { grid-template-columns: 1fr; gap: 2.5rem; }
             .footer__top { grid-template-columns: 1fr 1fr; gap: 2.5rem; }
         }
@@ -319,26 +320,20 @@
         <section class="section wd-teaser" id="wanna-do">
             <div class="section__container">
                 <div class="section__header reveal">
-                    <span class="section__eyebrow">Wanna Do Collection N°1</span>
-                    <h2 class="section__title">CAMPO</h2>
-                    <p class="section__intro">Curated rug designs as inspiration for planners and interior architects: hard-edged geometric colour fields, conceived as starting points for individually crafted rugs. 22 designs in 4 series — in German.</p>
+                    <span class="section__eyebrow">Wanna Do Collection</span>
+                    <h2 class="section__title">Campo &amp;<br><em>Trama.</em></h2>
+                    <p class="section__intro">Curated rug designs as inspiration for planners and interior architects — starting points for individually crafted rugs, not end products. 39 designs across two collections, searchable and filterable — in German.</p>
                 </div>
                 <div class="wd-teaser__grid reveal">
-                <a class="wd-teaser__tile" href="wanna-do-collection/serie-1-fond/">
-                    <img src="/images/campo/campo-01-horizonte_400.webp" alt="CAMPO 01 HORIZONTE — Fond-Entwurf, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection" width="400" height="600" loading="lazy" decoding="async">
-                    <span>Serie 1 — Fond</span>
+                <a class="wd-teaser__tile" href="wanna-do-collection/?kollektion=campo">
+                    <img src="/images-real/campo-17-hora-azul_real_400.webp" alt="CAMPO 17 HORA AZUL — Vollflächig, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection" width="1500" height="2181" loading="lazy" decoding="async">
+                    <span>Kollektion N°1 — CAMPO</span>
+                    <p>Farbfelder, die auf Naturgrund schweben — in fünf Serien.</p>
                 </a>
-                <a class="wd-teaser__tile" href="wanna-do-collection/serie-2-cheio/">
-                    <img src="/images/campo/campo-11-bloco_400.webp" alt="CAMPO 11 BLOCO — Vollflächig, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection" width="400" height="600" loading="lazy" decoding="async">
-                    <span>Serie 2 — CHEIO (vollflächig)</span>
-                </a>
-                <a class="wd-teaser__tile" href="wanna-do-collection/serie-3-amanha/">
-                    <img src="/images/campo/campo-17-hora-azul_400.webp" alt="CAMPO 17 HORA AZUL — Vollflächig, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection" width="400" height="600" loading="lazy" decoding="async">
-                    <span>Serie 3 — AMANHÃ (Trend 2027)</span>
-                </a>
-                <a class="wd-teaser__tile" href="wanna-do-collection/serie-4-elo/">
-                    <img src="/images/campo/campo-22-elo_400.webp" alt="CAMPO 22 ELO — Vollflächig, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection" width="400" height="600" loading="lazy" decoding="async">
-                    <span>Serie 4 — ELO (Farbfamilien 2027)</span>
+                <a class="wd-teaser__tile" href="wanna-do-collection/?kollektion=trama">
+                    <img src="/images-real/trama-01-urdidura_real_400.webp" alt="TRAMA 01 URDIDURA — Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection N°2" width="1500" height="2181" loading="lazy" decoding="async">
+                    <span>Kollektion N°2 — TRAMA</span>
+                    <p>Hommage an die Bauhaus-Weberei: Kette, Schuss und der Fehler im Gewebe — in zwei Reihen.</p>
                 </a>
                 </div>
                 <div class="reveal" style="margin-top: 2.5rem;">
