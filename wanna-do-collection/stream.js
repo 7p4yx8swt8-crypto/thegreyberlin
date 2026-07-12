@@ -2,16 +2,16 @@
 (function () {
   var WD = window.__WD_DATA;
   var BASE = WD.base;
-  var header = document.querySelector('.wd-header');
-  var wdBurger = document.getElementById('wdBurger');
-  var wdNavMenu = document.getElementById('wdNavMenu');
-  wdBurger.addEventListener('click', function () {
-    var isActive = wdNavMenu.classList.toggle('active');
-    wdBurger.classList.toggle('active', isActive);
-    wdBurger.setAttribute('aria-expanded', isActive);
+  var header = document.getElementById('header');
+  var burger = document.getElementById('burger');
+  var navMenu = document.getElementById('navMenu');
+  burger.addEventListener('click', function () {
+    var isActive = navMenu.classList.toggle('active');
+    burger.classList.toggle('active', isActive);
+    burger.setAttribute('aria-expanded', isActive);
   });
-  wdNavMenu.querySelectorAll('.wd-nav__link').forEach(function (l) {
-    l.addEventListener('click', function () { wdNavMenu.classList.remove('active'); wdBurger.classList.remove('active'); wdBurger.setAttribute('aria-expanded', false); });
+  navMenu.querySelectorAll('.nav__link').forEach(function (l) {
+    l.addEventListener('click', function () { navMenu.classList.remove('active'); burger.classList.remove('active'); burger.setAttribute('aria-expanded', false); });
   });
 
   function setHero(chapter) {
@@ -209,7 +209,7 @@
   }
 
   window.addEventListener('scroll', function () {
-    header.classList.toggle('scrolled', window.scrollY > 20);
+    header.classList.toggle('scrolled', window.scrollY > 30);
   });
 
   setHero(state.kollektion);

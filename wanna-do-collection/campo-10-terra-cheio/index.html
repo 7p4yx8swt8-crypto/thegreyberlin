@@ -31,23 +31,36 @@
 .wd-body a { color: inherit; }
 .wd-wrap { max-width: 1280px; margin: 0 auto; padding: 0 clamp(1.25rem, 5vw, 3.5rem); }
 
-.wd-header { position: sticky; top: 0; z-index: 200; padding: 1.1rem clamp(1.25rem, 5vw, 3.5rem); background-color: rgba(246,244,239,.94); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--wd-hair); }
-.wd-nav { display: flex; justify-content: space-between; align-items: center; max-width: 1280px; margin: 0 auto; }
-.wd-nav__logo img { height: 46px; width: auto; }
-.wd-nav__menu { display: flex; gap: 2rem; list-style: none; align-items: center; margin: 0; padding: 0; }
-.wd-nav__link { font-family: var(--wd-sans); font-size: .8rem; font-weight: 500; letter-spacing: .1em; text-transform: uppercase; color: var(--wd-ink); text-decoration: none; }
-.wd-nav__link[aria-current] { border-bottom: 1px solid var(--wd-ink); padding-bottom: .2rem; }
-.wd-nav__cta { border: 1px solid var(--wd-ink); padding: .55rem 1.25rem; border-radius: 999px; }
-.wd-burger { display: none; background: none; border: none; cursor: pointer; width: 32px; height: 32px; padding: 0; position: relative; z-index: 260; }
-.wd-burger span { display: block; width: 22px; height: 1.5px; background-color: var(--wd-ink); margin: 5px auto; transition: transform var(--wd-transition), opacity var(--wd-transition); }
-.wd-burger.active span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
-.wd-burger.active span:nth-child(2) { opacity: 0; }
-.wd-burger.active span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
+/* Header/Nav — 1:1 aus index.html übernommen (gleiche Klassennamen wie auf allen anderen
+   Unterseiten der Website, z. B. impressum.html), damit das Menüband überall identisch ist. */
+.header { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; padding: 1.25rem clamp(1.25rem, 5vw, 4rem); background-color: rgba(255,255,255,0.9); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); transition: background-color .4s cubic-bezier(0.25, 0.46, 0.45, 0.94), padding .4s cubic-bezier(0.25, 0.46, 0.45, 0.94), box-shadow .4s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+.header.scrolled { padding: 0.85rem clamp(1.25rem, 5vw, 4rem); background-color: rgba(255,255,255,0.98); box-shadow: 0 1px 0 rgba(56,56,56,0.06); }
+.nav { display: flex; justify-content: space-between; align-items: center; max-width: 1320px; margin: 0 auto; }
+.nav__logo img { height: 64px; width: auto; transition: height .4s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+.header.scrolled .nav__logo img { height: 52px; }
+.nav__menu { display: flex; gap: 2.5rem; list-style: none; align-items: center; }
+.nav__link { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 0.85rem; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: #383838; position: relative; padding: 0.5rem 0; text-decoration: none; }
+.nav__link::after { content: ''; position: absolute; bottom: 0; left: 0; width: 0; height: 1px; background-color: #383838; transition: width .4s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+.nav__link:hover { opacity: 1; }
+.nav__link:hover::after { width: 100%; }
+.nav__lang { display: flex; align-items: center; gap: 0.4rem; font-size: 0.8rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; }
+.nav__lang a { color: #8a8a8a; padding: 0.5rem 0.15rem; text-decoration: none; transition: color .4s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+.nav__lang a.active { color: #383838; }
+.nav__lang a:hover { color: #383838; opacity: 1; }
+.nav__lang span { color: #e5e3df; font-weight: 300; }
+.nav__cta { border: 1px solid #383838; padding: 0.6rem 1.4rem; border-radius: 999px; transition: background-color .4s cubic-bezier(0.25, 0.46, 0.45, 0.94), color .4s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+.nav__cta:hover { background-color: #383838; color: #fff; opacity: 1; }
+.nav__cta::after { display: none; }
+.burger { display: none; background: none; border: none; cursor: pointer; width: 32px; height: 32px; padding: 0; position: relative; z-index: 1100; }
+.burger span { display: block; width: 24px; height: 1.5px; background-color: #383838; margin: 5px auto; transition: transform .4s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity .4s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+.burger.active span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
+.burger.active span:nth-child(2) { opacity: 0; }
+.burger.active span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
 
 .micro { font-family: var(--wd-sans); font-size: 10px; letter-spacing: .26em; text-transform: uppercase; color: var(--wd-grey); }
 .sdot { display: inline-block; width: 8px; height: 8px; border-radius: 99px; margin-right: 8px; vertical-align: 1px; }
 
-.hero { padding: clamp(3rem, 8vw, 6.5rem) 0 clamp(2.5rem, 6vw, 4.5rem); border-bottom: 1px solid var(--wd-hair); }
+.hero { padding: clamp(7rem, 8vw, 9.5rem) 0 clamp(2.5rem, 6vw, 4.5rem); border-bottom: 1px solid var(--wd-hair); }
 .hero .micro { margin-bottom: 1.5rem; }
 .hero h1 { font-family: var(--wd-serif); font-weight: normal; font-size: clamp(2.4rem, 6vw, 4.75rem); line-height: 1.04; letter-spacing: .003em; max-width: 840px; margin: 0; }
 .hero h1 em { font-style: italic; }
@@ -109,7 +122,7 @@
 .rv.in { opacity: 1; transform: none; }
 @media (prefers-reduced-motion: reduce) { .rv { opacity: 1; transform: none; transition: none; } .work .fimg img { transition: none; } }
 
-.ov { position: fixed; inset: 0; background: rgba(31,29,26,.5); z-index: 500; display: none; align-items: stretch; justify-content: flex-end; }
+.ov { position: fixed; inset: 0; background: rgba(31,29,26,.5); z-index: 2000; display: none; align-items: stretch; justify-content: flex-end; }
 .ov.open { display: flex; }
 .ovbox { background: var(--wd-paper); width: min(1020px, 100%); overflow: auto; display: grid; grid-template-columns: minmax(0,45%) 1fr; }
 @media (max-width: 820px) { .ovbox { grid-template-columns: 1fr; } }
@@ -131,7 +144,7 @@
 .ovcta { display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; }
 .cta { display: inline-block; font-family: var(--wd-sans); font-size: 11px; letter-spacing: .26em; text-transform: uppercase; color: var(--wd-paper); background: var(--wd-ink); padding: 1rem 1.6rem; text-decoration: none; }
 .cta--ghost { color: var(--wd-ink); background: none; border: 1px solid var(--wd-ink); }
-.ovclose { position: fixed; top: 1.35rem; right: clamp(1.25rem, 4vw, 1.9rem); z-index: 510; font-size: 2.1rem; font-family: var(--wd-serif); color: #fff; background: rgba(31,29,26,.35); border: none; cursor: pointer; line-height: 1; width: 46px; height: 46px; border-radius: 50%; }
+.ovclose { position: fixed; top: 1.35rem; right: clamp(1.25rem, 4vw, 1.9rem); z-index: 2010; font-size: 2.1rem; font-family: var(--wd-serif); color: #fff; background: rgba(31,29,26,.35); border: none; cursor: pointer; line-height: 1; width: 46px; height: 46px; border-radius: 50%; }
 .ovclose:hover { background: rgba(31,29,26,.55); }
 
 .wd-downloads { border-top: 1px solid var(--wd-hair); padding: 3rem 0; }
@@ -145,14 +158,20 @@
 .wd-footer { border-top: 1px solid var(--wd-hair); padding: 2.25rem 0 3.5rem; }
 .wd-footer .wd-wrap { font-size: 10px; letter-spacing: .12em; text-transform: uppercase; color: var(--wd-grey); line-height: 2.1; }
 
+/* Header/Nav mobil — 1:1 aus index.html übernommen (dort @media max-width: 720px). */
+@media (max-width: 720px) {
+  .header { backdrop-filter: none !important; -webkit-backdrop-filter: none !important; background-color: rgba(255,255,255,0.98); }
+  .nav__menu { position: fixed; top: 0; right: 0; height: 100vh; height: 100dvh; width: min(320px, 85vw); background-color: #fff; flex-direction: column; justify-content: flex-start; align-items: stretch; gap: 0.25rem; padding: 6rem 2rem 2.5rem; transform: translateX(100%); transition: transform .4s cubic-bezier(0.25, 0.46, 0.45, 0.94); box-shadow: -8px 0 32px rgba(0,0,0,0.12); overflow-y: auto; -webkit-overflow-scrolling: touch; }
+  .nav__menu.active { transform: translateX(0); }
+  .nav__menu li { padding: 0.65rem 0; }
+  .nav__link { font-size: 1rem; display: block; }
+  .nav__lang { padding: 1.25rem 0 0.5rem !important; margin-top: 0.75rem; border-top: 1px solid #e5e3df; justify-content: flex-start; }
+  .nav__cta { display: inline-flex !important; align-self: flex-start; white-space: nowrap; margin-top: 0.75rem; padding: 0.75rem 1.5rem; }
+  .nav__cta::after { display: none; }
+  .burger { display: block; position: relative; z-index: 1101; }
+}
 @media (max-width: 760px) {
-  .wd-header { padding: .9rem 1.25rem; }
-  .wd-nav__menu { position: fixed; top: 0; right: 0; height: 100vh; height: 100dvh; width: min(300px, 82vw); background-color: var(--wd-paper); flex-direction: column; align-items: stretch; justify-content: flex-start; gap: .25rem; padding: 6rem 1.75rem 2rem; margin: 0; transform: translateX(100%); transition: transform var(--wd-transition); box-shadow: -8px 0 32px rgba(0,0,0,.12); overflow-y: auto; }
-  .wd-nav__menu.active { transform: translateX(0); }
-  .wd-nav__menu li { padding: .6rem 0; }
-  .wd-nav__link { font-size: .95rem; display: block; }
-  .wd-nav__cta { display: inline-flex !important; align-self: flex-start; margin-top: .5rem; }
-  .wd-burger { display: block; }
+  .hero { padding-top: 7rem; }
   .fline { top: 62px; }
   .fline .wd-wrap { gap: .35rem .9rem; }
   .ovtxt { padding-top: 3rem; }
@@ -161,16 +180,17 @@
 </head>
 <body class="wd-body">
 <script>window.__WD_OPEN_ID = "campo-10-terra-cheio"; window.__WD_DEFAULT_CHAPTER = "campo";</script>
-    <header class="wd-header">
-        <nav class="wd-nav">
-            <a href="/" class="wd-nav__logo" aria-label="thegrey – Startseite"><img src="https://static.wixstatic.com/media/bdc123_37188656e7a04cebb530fc75bc1a552b~mv2.png/v1/fill/w_201,h_70,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/GREY-logo-383838-freigestellt.png" alt="thegrey Logo" width="201" height="70"></a>
-            <ul class="wd-nav__menu" id="wdNavMenu">
-                <li><a href="/#designs" class="wd-nav__link">Design &amp; Prozess</a></li>
-                <li><a href="/wanna-do-collection/" class="wd-nav__link" aria-current="true">Wanna Do</a></li>
-                <li><a href="/#about" class="wd-nav__link">Über uns</a></li>
-                <li><a href="/#contact" class="wd-nav__link wd-nav__cta">Jetzt entwerfen</a></li>
+    <header class="header" id="header">
+        <nav class="nav">
+            <a href="/index.html" class="nav__logo" aria-label="thegrey - Startseite"><img src="https://static.wixstatic.com/media/bdc123_37188656e7a04cebb530fc75bc1a552b~mv2.png/v1/fill/w_201,h_70,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/GREY-logo-383838-freigestellt.png" alt="thegrey Logo"></a>
+            <ul class="nav__menu" id="navMenu">
+                <li><a href="/index.html#designs" class="nav__link">Design &amp; Prozess</a></li>
+                <li><a href="/wanna-do-collection/" class="nav__link">Wanna Do</a></li>
+                <li><a href="/index.html#about" class="nav__link">Über uns</a></li>
+                <li class="nav__lang"><a href="/wanna-do-collection/" class="active">DE</a><span>/</span><a href="/index-en.html">EN</a></li>
+                <li><a href="/index.html#contact" class="nav__link nav__cta">Jetzt entwerfen</a></li>
             </ul>
-            <button class="wd-burger" id="wdBurger" aria-label="Menü öffnen" aria-expanded="false"><span></span><span></span><span></span></button>
+            <button class="burger" id="burger" aria-label="Menü öffnen" aria-expanded="false"><span></span><span></span><span></span></button>
         </nav>
     </header>
 
