@@ -1,51 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
     <loc>https://www.thegrey.berlin/</loc>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.thegrey.berlin/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.thegrey.berlin/index-en.html"/>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
     <loc>https://www.thegrey.berlin/index-en.html</loc>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.thegrey.berlin/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.thegrey.berlin/index-en.html"/>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://www.thegrey.berlin/wanna-do-collection/</loc>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/serie-1-fond/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/serie-2-cheio/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/serie-3-amanha/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/serie-4-elo/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
 
   <url>
@@ -176,6 +147,108 @@
 
   <url>
     <loc>https://www.thegrey.berlin/wanna-do-collection/campo-22-elo/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/campo-23-nuvem/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/campo-24-neblina/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/campo-25-gelo/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/campo-26-vento/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/campo-27-alvorada/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/trama-01-urdidura/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/trama-02-trama/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/trama-03-xadrez/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/trama-04-franja/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/trama-05-no/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/trama-06-risca/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/trama-07-ponto/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/trama-08-grade/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/trama-09-cesto/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/trama-10-avesso/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/trama-11-degrau/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/trama-12-borda/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
