@@ -14,12 +14,52 @@
 /wanna-does            /wanna-do-collection/  301
 /wanna-do              /wanna-do-collection/  301
 
-# Wanna Do Collection Relaunch (v2, editorialer Edition-Stream, Campo + Trama):
-# Die 4 Serien-Seiten der v1-Struktur existieren als eigene Routen nicht mehr
-# (Serien sind jetzt Filter-Bänder/Query-Parameter im Stream). Die 22 v1-Detailseiten
-# (/wanna-do-collection/campo-01-horizonte/ usw.) brauchen keinen Redirect — dieselben
-# Pfade dienen jetzt als Permalinks der neuen Struktur.
-/wanna-do-collection/serie-1-fond/     /wanna-do-collection/?serie=serie-1-fond   301
-/wanna-do-collection/serie-2-cheio/    /wanna-do-collection/?serie=serie-2-cheio  301
-/wanna-do-collection/serie-3-amanha/   /wanna-do-collection/?serie=serie-3-amanha 301
-/wanna-do-collection/serie-4-elo/      /wanna-do-collection/?serie=serie-4-elo    301
+# Wanna Do Collection: v1-Serienseiten (existierten nur kurz zwischen v1 und v2,
+# nie öffentlich beworben) → direkt auf die aktuelle Kollektionsseite.
+/wanna-do-collection/serie-1-fond/     /wanna-do-collection/    301
+/wanna-do-collection/serie-2-cheio/    /wanna-do-collection/    301
+/wanna-do-collection/serie-3-amanha/   /wanna-do-collection/    301
+/wanna-do-collection/serie-4-elo/      /wanna-do-collection/    301
+
+# PRÓPRIO-Relaunch: Campo (27) + Trama (12) vollständig entfernt, nur noch PRÓPRIO (8).
+# Alle 39 alten Permalinks → 301 auf die Kollektionsseite (Root-Pfad /wanna-do-collection/
+# bleibt unverändert bestehen, zeigt jetzt PRÓPRIO statt Campo/Trama).
+/wanna-do-collection/campo-01-horizonte/       /wanna-do-collection/    301
+/wanna-do-collection/campo-02-sobre/           /wanna-do-collection/    301
+/wanna-do-collection/campo-03-canto/           /wanna-do-collection/    301
+/wanna-do-collection/campo-04-quadras/         /wanna-do-collection/    301
+/wanna-do-collection/campo-05-terra/           /wanna-do-collection/    301
+/wanna-do-collection/campo-06-sequencia/       /wanna-do-collection/    301
+/wanna-do-collection/campo-07-linha/           /wanna-do-collection/    301
+/wanna-do-collection/campo-08-horizonte-cheio/ /wanna-do-collection/    301
+/wanna-do-collection/campo-09-sobre-cheio/     /wanna-do-collection/    301
+/wanna-do-collection/campo-10-terra-cheio/     /wanna-do-collection/    301
+/wanna-do-collection/campo-11-bloco/           /wanna-do-collection/    301
+/wanna-do-collection/campo-12-patio/           /wanna-do-collection/    301
+/wanna-do-collection/campo-13-clarao/          /wanna-do-collection/    301
+/wanna-do-collection/campo-14-campina/         /wanna-do-collection/    301
+/wanna-do-collection/campo-15-mare/            /wanna-do-collection/    301
+/wanna-do-collection/campo-16-pomar/           /wanna-do-collection/    301
+/wanna-do-collection/campo-17-hora-azul/       /wanna-do-collection/    301
+/wanna-do-collection/campo-18-lapis/           /wanna-do-collection/    301
+/wanna-do-collection/campo-19-brasa/           /wanna-do-collection/    301
+/wanna-do-collection/campo-20-jardim/          /wanna-do-collection/    301
+/wanna-do-collection/campo-21-doce/            /wanna-do-collection/    301
+/wanna-do-collection/campo-22-elo/             /wanna-do-collection/    301
+/wanna-do-collection/campo-23-nuvem/           /wanna-do-collection/    301
+/wanna-do-collection/campo-24-neblina/         /wanna-do-collection/    301
+/wanna-do-collection/campo-25-gelo/            /wanna-do-collection/    301
+/wanna-do-collection/campo-26-vento/           /wanna-do-collection/    301
+/wanna-do-collection/campo-27-alvorada/        /wanna-do-collection/    301
+/wanna-do-collection/trama-01-urdidura/        /wanna-do-collection/    301
+/wanna-do-collection/trama-02-trama/           /wanna-do-collection/    301
+/wanna-do-collection/trama-03-xadrez/          /wanna-do-collection/    301
+/wanna-do-collection/trama-04-franja/          /wanna-do-collection/    301
+/wanna-do-collection/trama-05-no/              /wanna-do-collection/    301
+/wanna-do-collection/trama-06-risca/           /wanna-do-collection/    301
+/wanna-do-collection/trama-07-ponto/           /wanna-do-collection/    301
+/wanna-do-collection/trama-08-grade/           /wanna-do-collection/    301
+/wanna-do-collection/trama-09-cesto/           /wanna-do-collection/    301
+/wanna-do-collection/trama-10-avesso/          /wanna-do-collection/    301
+/wanna-do-collection/trama-11-degrau/          /wanna-do-collection/    301
+/wanna-do-collection/trama-12-borda/           /wanna-do-collection/    301

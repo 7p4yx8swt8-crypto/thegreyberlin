@@ -1,9 +1,22 @@
 {
-  "wanna_do_collection": {
+  "kollektion": {
+    "code": "N°4",
+    "name": "PRÓPRIO",
+    "claim": "Das Eigene — acht Entwürfe aus eigener Hand.",
     "absender": "THE GREY — thegrey.berlin",
-    "kurzbeschreibung": "Kuratierte Teppichentwürfe als Inspiration für Planer:innen und Innenarchitekt:innen — Ausgangspunkte für individuell gefertigte Teppiche, keine Endprodukte.",
-    "standard": "Alle Teppiche: handgetuftet, 100 % Neuseelandwolle, matt, geschnittener Flor. Formate frei skalierbar.",
-    "specials_hinweis": "Schlingenflor (Felder/Linien), abweichende Florhöhen und Fransen sind Specials nach individueller Besprechung. Ausgewählte Entwürfe zeigen diese Möglichkeiten (Feld `special`).",
+    "kurzbeschreibung": "Die erste Kollektion aus eigener Hand: bold, warm, gesetzt. Kräftige Farben, farbige Gründe, klare Blöcke, die um eine Ecke kreisen. Kuratierte Teppichentwürfe als Inspiration für Planer:innen und Innenarchitekt:innen — Ausgangspunkte für individuell gefertigte Teppiche, keine Endprodukte.",
+    "hero_id": "proprio-03-giro",
+    "reihenfolge": [
+      "proprio-03-giro",
+      "proprio-01-limiar",
+      "proprio-02-divisa",
+      "proprio-04-planta",
+      "proprio-05-fresta",
+      "proprio-08-repouso",
+      "proprio-06-ocaso",
+      "proprio-07-eco"
+    ],
+    "standard": "Alle Teppiche: handgetuftet, 100 % Neuseelandwolle, matt. Formate frei skalierbar.",
     "prozess": [
       "Auswählen — ein Entwurf als Ausgangspunkt",
       "Anpassen — Format, Proportion, Palette projektspezifisch; Specials individuell",
@@ -12,2876 +25,386 @@
     ],
     "pantone_hinweis": "Pantone-Angaben: nächstliegende Referenz aus dem PANTONE Fashion, Home + Interiors Farbfächer (TCX, Cotton); mit ~ markierte vorläufig. Farbverbindlich sind physischer Fächer und Garnbemusterung."
   },
-  "kollektionen": [
-    {
-      "key": "campo",
-      "name": "Kollektion N°1 — CAMPO",
-      "claim": "Farbfelder, die auf Naturgrund schweben — in fünf Serien.",
-      "hero_id": "campo-17-hora-azul",
-      "edition_stream": [
-        17,
-        {
-          "typ": "g",
-          "nummern": [
-            4,
-            23,
-            11
-          ]
-        },
-        {
-          "typ": "serie",
-          "serie_key": "serie-5-nuvem"
-        },
-        26,
-        {
-          "typ": "g",
-          "nummern": [
-            2,
-            19,
-            21
-          ]
-        },
-        {
-          "typ": "pair"
-        },
-        27,
-        {
-          "typ": "g",
-          "nummern": [
-            8,
-            14,
-            6
-          ]
-        },
-        {
-          "typ": "serie",
-          "serie_key": "serie-1-fond"
-        },
-        1,
-        {
-          "typ": "g",
-          "nummern": [
-            25,
-            3,
-            13
-          ]
-        },
-        {
-          "typ": "serie",
-          "serie_key": "serie-2-cheio"
-        },
-        10,
-        {
-          "typ": "g",
-          "nummern": [
-            9,
-            20,
-            12
-          ]
-        },
-        {
-          "typ": "serie",
-          "serie_key": "serie-4-elo"
-        },
-        22,
-        {
-          "typ": "g",
-          "nummern": [
-            24,
-            16,
-            18
-          ]
-        },
-        {
-          "typ": "serie",
-          "serie_key": "serie-3-amanha"
-        },
-        {
-          "typ": "g",
-          "nummern": [
-            7,
-            15,
-            5
-          ]
-        }
-      ]
-    },
-    {
-      "key": "trama",
-      "name": "Kollektion N°2 — TRAMA",
-      "claim": "Hommage an die Bauhaus-Weberei: Kette, Schuss und der Fehler im Gewebe — in zwei Reihen.",
-      "hero_id": "trama-01-urdidura",
-      "edition_stream": [
-        1,
-        {
-          "typ": "g",
-          "nummern": [
-            2,
-            3,
-            4
-          ]
-        },
-        {
-          "typ": "serie",
-          "serie_key": "trama-reihe-2"
-        },
-        7,
-        {
-          "typ": "g",
-          "nummern": [
-            5,
-            6,
-            8
-          ]
-        },
-        10,
-        {
-          "typ": "g",
-          "nummern": [
-            9,
-            11,
-            12
-          ]
-        }
-      ]
-    }
-  ],
-  "serien": [
-    {
-      "kollektion": "campo",
-      "key": "serie-1-fond",
-      "name": "Serie 1 — Fond",
-      "claim": "Farbfelder schweben auf ungefärbtem Naturgrund — wie gehängte Bilder.",
-      "hero_id": "campo-01-horizonte"
-    },
-    {
-      "kollektion": "campo",
-      "key": "serie-2-cheio",
-      "name": "Serie 2 — CHEIO (vollflächig)",
-      "claim": "Die Farbe läuft bis an die Kante; Linho wird eigenständiges Feld.",
-      "hero_id": "campo-11-bloco"
-    },
-    {
-      "kollektion": "campo",
-      "key": "serie-3-amanha",
-      "name": "Serie 3 — AMANHÃ (Trend 2027)",
-      "claim": "Die WGSN/Coloro-Farbprognose 2027 in der CAMPO-Handschrift.",
-      "hero_id": "campo-17-hora-azul"
-    },
-    {
-      "kollektion": "campo",
-      "key": "serie-4-elo",
-      "name": "Serie 4 — ELO (Farbfamilien 2027)",
-      "claim": "Fünf Farbfamilien in je drei Tonstufen — Interconnectedness als Prinzip.",
-      "hero_id": "campo-22-elo"
-    },
-    {
-      "kollektion": "campo",
-      "key": "serie-5-nuvem",
-      "name": "Serie 5 — NUVEM (Cloud Dancer)",
-      "claim": "Die helle Serie: Cloud Dancer als zweiter Neutralton, kühle Palette, maximale Ruhe.",
-      "hero_id": "campo-26-vento"
-    },
-    {
-      "kollektion": "trama",
-      "key": "trama-reihe-1",
-      "name": "Reihe 1 — Hochformat & Läufer",
-      "claim": "Kette, Schuss, Karo, Franse, Knoten, Nadelstreifen — die Logik des Webstuhls.",
-      "hero_id": "trama-01-urdidura"
-    },
-    {
-      "kollektion": "trama",
-      "key": "trama-reihe-2",
-      "name": "Reihe 2 — Quadrat 250 × 250",
-      "claim": "Das erste Quadrat der Wanna Do Collection: vom leisesten Stich zum dichten Geflecht.",
-      "hero_id": "trama-07-ponto"
-    }
-  ],
   "entwuerfe": [
     {
-      "kollektion": "campo",
-      "code": "CAMPO 01",
-      "nummer": 1,
-      "id": "campo-01-horizonte",
-      "name": "HORIZONTE",
-      "name_bedeutung": "Portugiesisch: Horizont",
-      "serie_key": "serie-1-fond",
-      "typ": "Fond-Entwurf",
-      "format_cm": "200 × 300",
+      "id": "proprio-03-giro",
+      "code": "PRÓPRIO 03",
+      "name": "GIRO",
+      "name_bedeutung": "Portugiesisch: die Drehung",
+      "typ": "Quadrat",
+      "format_cm": "250 × 250 cm",
       "format_hinweis": "frei skalierbar",
-      "fond": "Linho #E7DECB (12-0703 TCX Seedpearl), NZ-Wolle ungefärbt",
       "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie abweichende Florhöhen, Schlingenflor oder Fransen nach individueller Besprechung",
+      "herstellung": "handgetuftet (Standard); Specials nach individueller Besprechung",
       "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
-      "text_kurz": "Die Eröffnung der Kollektion: vier Farbfelder in asymmetrischer Balance, gehalten von einer einzigen feinen Linie. Der Naturfond rahmt wie das Leinen der Referenz-Malereien.",
-      "text_lang": "Die Eröffnung der Kollektion: vier Farbfelder in asymmetrischer Balance, gehalten von einer einzigen feinen Linie. Der Naturfond bleibt an allen Rändern sichtbar und rahmt die Komposition wie das Leinen der Referenz-Malereien. Ein Entwurf für großzügige, ruhige Räume, die einen klaren Mittelpunkt vertragen.",
+      "grund": "farbiger Grund (kein Naturleinen)",
+      "text_kurz": "Vier Felder kreisen um ein rotes Zentrum — ein Windrad im Stillstand.",
+      "text_lang": "Vier Farbfelder kreisen um ein kleines rotes Zentrum wie ein Windrad im Stillstand. Magenta führt, Indigo und Blau antworten — Bewegung, ganz aus rechten Winkeln.",
       "farben": [
         {
-          "hex": "#DE7A40",
-          "name": "Terracotta",
-          "pantone_fhi": "16-1350 TCX Amberglow"
-        },
-        {
-          "hex": "#D98A94",
+          "hex": "#D6408A",
           "name": "Rosa",
-          "pantone_fhi": "15-1912 TCX Sea Pink"
+          "pantone_fhi": "~17-2036 TCX Pink Flambé"
         },
         {
-          "hex": "#AE3A6C",
-          "name": "Beere",
-          "pantone_fhi": "18-2328 TCX Fuchsia Red"
+          "hex": "#E9E2D2",
+          "name": "Creme",
+          "pantone_fhi": "~11-0605 TCX Coconut Milk"
         },
         {
-          "hex": "#4B4844",
-          "name": "Graphit/Grafite",
-          "pantone_fhi": "19-0508 TCX Peat"
-        }
-      ],
-      "stimmungen": [
-        "erdig",
-        "kräftig"
-      ],
-      "farbwelten": [
-        "rot",
-        "rosa"
-      ],
-      "special": null,
-      "edition_feature": true,
-      "auswahl_empfehlung": "empfehlung-serie-fond",
-      "bilder": {
-        "webp_1500": "images/campo-01-horizonte_1500.webp",
-        "webp_800": "images/campo-01-horizonte_800.webp",
-        "webp_400": "images/campo-01-horizonte_400.webp",
-        "jpeg_1500": "images/campo-01-horizonte_1500.jpg"
-      },
-      "bilder_real": {
-        "webp_1500": "images-real/campo-01-horizonte_real_1500.webp",
-        "webp_800": "images-real/campo-01-horizonte_real_800.webp",
-        "webp_400": "images-real/campo-01-horizonte_real_400.webp",
-        "jpeg_1500": "images-real/campo-01-horizonte_real_1500.jpg"
-      },
-      "alt_text": "CAMPO 01 HORIZONTE — Fond-Entwurf, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection"
-    },
-    {
-      "kollektion": "campo",
-      "code": "CAMPO 02",
-      "nummer": 2,
-      "id": "campo-02-sobre",
-      "name": "SOBRE",
-      "name_bedeutung": "Portugiesisch: übereinander",
-      "serie_key": "serie-1-fond",
-      "typ": "Fond-Entwurf",
-      "format_cm": "200 × 300",
-      "format_hinweis": "frei skalierbar",
-      "fond": "Linho #E7DECB (12-0703 TCX Seedpearl), NZ-Wolle ungefärbt",
-      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie abweichende Florhöhen, Schlingenflor oder Fransen nach individueller Besprechung",
-      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
-      "text_kurz": "Wo sich zwei Felder kreuzen, entsteht eine dritte Farbe — das Transparenz-Prinzip der Malerei, in Wolle übersetzt. Erhöhter Flor als Special möglich.",
-      "text_lang": "Sobre — »übereinander«. Wo sich zwei Farbfelder kreuzen, entsteht eine dritte, gemischte Farbe, als läge ein transparentes Tuch über dem anderen. Auf Wunsch lässt sich die Überlagerung zusätzlich als erhöhter Flor absetzen — eine Option, die wir in der individuellen Besprechung anbieten.",
-      "farben": [
-        {
-          "hex": "#20655F",
-          "name": "Petrol",
-          "pantone_fhi": "18-5620 TCX Ivy"
+          "hex": "#D83A1E",
+          "name": "Vermelho",
+          "pantone_fhi": "~18-1662 TCX Flame Scarlet"
         },
         {
-          "hex": "#DDA13D",
-          "name": "Ocker/Ocre",
-          "pantone_fhi": "14-0952 TCX Spicy Mustard"
+          "hex": "#2A1E63",
+          "name": "Índigo",
+          "pantone_fhi": "~19-3730 TCX Gentian Violet"
         },
         {
-          "hex": "#AE3A6C",
-          "name": "Beere",
-          "pantone_fhi": "18-2328 TCX Fuchsia Red"
-        },
-        {
-          "hex": "#2E4E7E",
+          "hex": "#1E6FC8",
           "name": "Azul",
-          "pantone_fhi": "19-4030 TCX True Navy"
+          "pantone_fhi": "~18-4143 TCX Palace Blue"
         }
       ],
-      "stimmungen": [
-        "erdig",
-        "verspielt"
-      ],
-      "farbwelten": [
-        "gruen",
-        "gelb"
-      ],
-      "special": {
-        "typ": "schlingenflor",
-        "text": "Die Überlagerungszonen werden im Schlingenflor ausgeführt — das Transparenz-Prinzip wird strukturell fühlbar."
-      },
-      "edition_feature": false,
-      "auswahl_empfehlung": "empfehlung-serie-fond",
+      "hero": true,
       "bilder": {
-        "webp_1500": "images/campo-02-sobre_1500.webp",
-        "webp_800": "images/campo-02-sobre_800.webp",
-        "webp_400": "images/campo-02-sobre_400.webp",
-        "jpeg_1500": "images/campo-02-sobre_1500.jpg"
+        "webp_1500": "images/proprio-03-giro_1500.webp",
+        "webp_800": "images/proprio-03-giro_800.webp",
+        "webp_400": "images/proprio-03-giro_400.webp",
+        "jpeg_1500": "images/proprio-03-giro_1500.jpg"
       },
-      "bilder_real": {
-        "webp_1500": "images-real/campo-02-sobre_real_1500.webp",
-        "webp_800": "images-real/campo-02-sobre_real_800.webp",
-        "webp_400": "images-real/campo-02-sobre_real_400.webp",
-        "jpeg_1500": "images-real/campo-02-sobre_real_1500.jpg"
-      },
-      "alt_text": "CAMPO 02 SOBRE — Fond-Entwurf, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection"
+      "alt_text": "PRÓPRIO — GIRO (die Drehung), Teppichentwurf 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection"
     },
     {
-      "kollektion": "campo",
-      "code": "CAMPO 03",
-      "nummer": 3,
-      "id": "campo-03-canto",
-      "name": "CANTO",
-      "name_bedeutung": "Portugiesisch: die Ecke",
-      "serie_key": "serie-1-fond",
-      "typ": "Fond-Entwurf",
-      "format_cm": "200 × 300",
+      "id": "proprio-01-limiar",
+      "code": "PRÓPRIO 01",
+      "name": "LIMIAR",
+      "name_bedeutung": "Portugiesisch: die Schwelle",
+      "typ": "Quadrat",
+      "format_cm": "250 × 250 cm",
       "format_hinweis": "frei skalierbar",
-      "fond": "Linho #E7DECB (12-0703 TCX Seedpearl), NZ-Wolle ungefärbt",
       "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie abweichende Florhöhen, Schlingenflor oder Fransen nach individueller Besprechung",
+      "herstellung": "handgetuftet (Standard); Specials nach individueller Besprechung",
       "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
-      "text_kurz": "Vier geschachtelte Farbwinkel wandern diagonal in die Tiefe, ein grünes Feld antwortet aus der Distanz. Funktioniert aus jeder Blickrichtung.",
-      "text_lang": "Canto — »die Ecke«. Vier geschachtelte Farbwinkel wandern diagonal in die Tiefe, ein kleines grünes Feld antwortet aus der Distanz. Der Entwurf spielt mit Sog und Perspektive und funktioniert aus jeder Blickrichtung — ideal für Räume, die von mehreren Seiten betreten werden.",
+      "grund": "farbiger Grund (kein Naturleinen)",
+      "text_kurz": "Ein blauer Raum mit einer Türöffnung — Rot und Creme markieren die Schwelle.",
+      "text_lang": "Ein blauer Raum, in den ein zweiter, tieferer Block wie eine Türöffnung gesetzt ist; Rot und Creme markieren die Schwelle am Boden. Man steht davor und blickt hinein — der Auftakt der Kollektion.",
       "farben": [
         {
-          "hex": "#20655F",
-          "name": "Petrol",
-          "pantone_fhi": "18-5620 TCX Ivy"
+          "hex": "#6FB0D8",
+          "name": "Céu",
+          "pantone_fhi": "~15-4225 TCX Bonnie Blue"
         },
         {
-          "hex": "#DDA13D",
-          "name": "Ocker/Ocre",
-          "pantone_fhi": "14-0952 TCX Spicy Mustard"
-        },
-        {
-          "hex": "#C0402E",
-          "name": "Vermelho",
-          "pantone_fhi": "18-1447 TCX Orange Rust"
-        },
-        {
-          "hex": "#5C3A64",
-          "name": "Aubergine",
-          "pantone_fhi": "19-3542 TCX Purple Magic"
-        },
-        {
-          "hex": "#567F46",
-          "name": "Verde",
-          "pantone_fhi": "18-0119 TCX Willow Bough"
-        }
-      ],
-      "stimmungen": [
-        "erdig",
-        "kräftig"
-      ],
-      "farbwelten": [
-        "gruen",
-        "gelb",
-        "rot"
-      ],
-      "special": null,
-      "edition_feature": false,
-      "auswahl_empfehlung": "reserve",
-      "bilder": {
-        "webp_1500": "images/campo-03-canto_1500.webp",
-        "webp_800": "images/campo-03-canto_800.webp",
-        "webp_400": "images/campo-03-canto_400.webp",
-        "jpeg_1500": "images/campo-03-canto_1500.jpg"
-      },
-      "bilder_real": {
-        "webp_1500": "images-real/campo-03-canto_real_1500.webp",
-        "webp_800": "images-real/campo-03-canto_real_800.webp",
-        "webp_400": "images-real/campo-03-canto_real_400.webp",
-        "jpeg_1500": "images-real/campo-03-canto_real_1500.jpg"
-      },
-      "alt_text": "CAMPO 03 CANTO — Fond-Entwurf, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection"
-    },
-    {
-      "kollektion": "campo",
-      "code": "CAMPO 04",
-      "nummer": 4,
-      "id": "campo-04-quadras",
-      "name": "QUADRAS",
-      "name_bedeutung": "Portugiesisch: die Quadrate",
-      "serie_key": "serie-1-fond",
-      "typ": "Fond-Entwurf",
-      "format_cm": "200 × 300",
-      "format_hinweis": "frei skalierbar",
-      "fond": "Linho #E7DECB (12-0703 TCX Seedpearl), NZ-Wolle ungefärbt",
-      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie abweichende Florhöhen, Schlingenflor oder Fransen nach individueller Besprechung",
-      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
-      "text_kurz": "Die Hommage an die gehängte Bilderwand: zwölf Miniatur-Kompositionen in einem unsichtbaren Raster — man liest den Teppich wie eine Sammlung.",
-      "text_lang": "Die Hommage an die gehängte Bilderwand: zwölf Miniatur-Kompositionen in einem unsichtbaren Raster, jede ein eigenes kleines Farbgedicht. Quadras ist das erzählerischste Stück der Kollektion — man liest den Teppich wie eine Sammlung. Die Miniaturen lassen sich projektspezifisch neu komponieren.",
-      "farben": [
-        {
-          "hex": "#2E4E7E",
+          "hex": "#1E6FC8",
           "name": "Azul",
-          "pantone_fhi": "19-4030 TCX True Navy"
+          "pantone_fhi": "~18-4143 TCX Palace Blue"
         },
         {
-          "hex": "#C0402E",
+          "hex": "#D83A1E",
           "name": "Vermelho",
-          "pantone_fhi": "18-1447 TCX Orange Rust"
+          "pantone_fhi": "~18-1662 TCX Flame Scarlet"
         },
         {
-          "hex": "#567F46",
+          "hex": "#E9E2D2",
+          "name": "Creme",
+          "pantone_fhi": "~11-0605 TCX Coconut Milk"
+        }
+      ],
+      "hero": false,
+      "bilder": {
+        "webp_1500": "images/proprio-01-limiar_1500.webp",
+        "webp_800": "images/proprio-01-limiar_800.webp",
+        "webp_400": "images/proprio-01-limiar_400.webp",
+        "jpeg_1500": "images/proprio-01-limiar_1500.jpg"
+      },
+      "alt_text": "PRÓPRIO — LIMIAR (die Schwelle), Teppichentwurf 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection"
+    },
+    {
+      "id": "proprio-02-divisa",
+      "code": "PRÓPRIO 02",
+      "name": "DIVISA",
+      "name_bedeutung": "Portugiesisch: die Scheide",
+      "typ": "Quadrat",
+      "format_cm": "250 × 250 cm",
+      "format_hinweis": "frei skalierbar",
+      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
+      "herstellung": "handgetuftet (Standard); Specials nach individueller Besprechung",
+      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
+      "grund": "farbiger Grund (kein Naturleinen)",
+      "text_kurz": "Eine orange Säule teilt warm von kühl.",
+      "text_lang": "Eine orange Säule teilt das Bild in zwei Welten — links die Wärme, rechts die kühle Ordnung aus Creme, Indigo und Flieder. Die Grenze selbst ist der Entwurf.",
+      "farben": [
+        {
+          "hex": "#E9E2D2",
+          "name": "Creme",
+          "pantone_fhi": "~11-0605 TCX Coconut Milk"
+        },
+        {
+          "hex": "#E9A63A",
+          "name": "Âmbar",
+          "pantone_fhi": "~15-1054 TCX Golden Orange"
+        },
+        {
+          "hex": "#1F9E77",
           "name": "Verde",
-          "pantone_fhi": "18-0119 TCX Willow Bough"
+          "pantone_fhi": "~17-5638 TCX Vivid Green"
         },
         {
-          "hex": "#D98A94",
-          "name": "Rosa",
-          "pantone_fhi": "15-1912 TCX Sea Pink"
+          "hex": "#2A1E63",
+          "name": "Índigo",
+          "pantone_fhi": "~19-3730 TCX Gentian Violet"
         },
         {
-          "hex": "#DDA13D",
-          "name": "Ocker/Ocre",
-          "pantone_fhi": "14-0952 TCX Spicy Mustard"
-        },
-        {
-          "hex": "#AE3A6C",
-          "name": "Beere",
-          "pantone_fhi": "18-2328 TCX Fuchsia Red"
+          "hex": "#A98FE0",
+          "name": "Lilás",
+          "pantone_fhi": "~16-3720 TCX Lavender Violet"
         }
       ],
-      "stimmungen": [
-        "erdig",
-        "verspielt"
-      ],
-      "farbwelten": [
-        "bunt"
-      ],
-      "special": null,
-      "edition_feature": false,
-      "auswahl_empfehlung": "empfehlung-serie-fond",
+      "hero": false,
       "bilder": {
-        "webp_1500": "images/campo-04-quadras_1500.webp",
-        "webp_800": "images/campo-04-quadras_800.webp",
-        "webp_400": "images/campo-04-quadras_400.webp",
-        "jpeg_1500": "images/campo-04-quadras_1500.jpg"
+        "webp_1500": "images/proprio-02-divisa_1500.webp",
+        "webp_800": "images/proprio-02-divisa_800.webp",
+        "webp_400": "images/proprio-02-divisa_400.webp",
+        "jpeg_1500": "images/proprio-02-divisa_1500.jpg"
       },
-      "bilder_real": {
-        "webp_1500": "images-real/campo-04-quadras_real_1500.webp",
-        "webp_800": "images-real/campo-04-quadras_real_800.webp",
-        "webp_400": "images-real/campo-04-quadras_real_400.webp",
-        "jpeg_1500": "images-real/campo-04-quadras_real_1500.jpg"
-      },
-      "alt_text": "CAMPO 04 QUADRAS — Fond-Entwurf, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection"
+      "alt_text": "PRÓPRIO — DIVISA (die Scheide), Teppichentwurf 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection"
     },
     {
-      "kollektion": "campo",
-      "code": "CAMPO 05",
-      "nummer": 5,
-      "id": "campo-05-terra",
-      "name": "TERRA",
-      "name_bedeutung": "Portugiesisch: Erde",
-      "serie_key": "serie-1-fond",
-      "typ": "Fond-Entwurf",
-      "format_cm": "200 × 300",
+      "id": "proprio-04-planta",
+      "code": "PRÓPRIO 04",
+      "name": "PLANTA",
+      "name_bedeutung": "Portugiesisch: der Grundriss",
+      "typ": "Quadrat",
+      "format_cm": "250 × 250 cm",
       "format_hinweis": "frei skalierbar",
-      "fond": "Linho #E7DECB (12-0703 TCX Seedpearl), NZ-Wolle ungefärbt",
       "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie abweichende Florhöhen, Schlingenflor oder Fransen nach individueller Besprechung",
+      "herstellung": "handgetuftet (Standard); Specials nach individueller Besprechung",
       "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
-      "text_kurz": "Die monochrome Linie der Kollektion: eine tonale Skala in fünf Rotstufen. Farbe als Gewicht — die Komposition sinkt nach unten, der Grund bleibt weit.",
-      "text_lang": "Die monochrome Linie der Kollektion: eine tonale Skala in fünf Rotstufen, von Rosa bis in ein fast schwarzes Braunrot. Farbe wird hier als Gewicht eingesetzt — die Komposition sinkt nach unten, der Naturfond darüber bleibt weit und leer. Terra zeigt, wie die Formensprache in reduzierter Palette trägt; jede andere Farbfamilie ist denkbar.",
+      "grund": "farbiger Grund (kein Naturleinen)",
+      "text_kurz": "Von oben gesehen: ein Teppich wie ein Grundriss.",
+      "text_lang": "Von oben gesehen: ein tiefblauer Winkel, ein oranger Riegel, zwei kleine Räume in Blau und Grün. Ein Teppich wie ein Grundriss — man liest ihn wie eine Wohnung.",
       "farben": [
         {
-          "hex": "#D98A94",
-          "name": "Rosa",
-          "pantone_fhi": "15-1912 TCX Sea Pink"
+          "hex": "#E9E2D2",
+          "name": "Creme",
+          "pantone_fhi": "~11-0605 TCX Coconut Milk"
         },
         {
-          "hex": "#B23A30",
-          "name": "Terra Rot",
-          "pantone_fhi": "18-1354 TCX Burnt Ochre"
+          "hex": "#1E1E64",
+          "name": "Marinho",
+          "pantone_fhi": "~19-3640 TCX Spectrum Indigo"
         },
         {
-          "hex": "#8C2F26",
-          "name": "Terra Dunkel",
-          "pantone_fhi": "19-1541 TCX Red Ochre"
+          "hex": "#F0691E",
+          "name": "Laranja",
+          "pantone_fhi": "~16-1364 TCX Orange Tiger"
         },
         {
-          "hex": "#C75B48",
-          "name": "Terra Rosé",
-          "pantone_fhi": "17-1544 TCX Burnt Sienna"
-        },
-        {
-          "hex": "#5F231D",
-          "name": "Terra Nacht",
-          "pantone_fhi": "19-1337 TCX Fired Brick"
-        }
-      ],
-      "stimmungen": [
-        "erdig",
-        "tonal"
-      ],
-      "farbwelten": [
-        "rot",
-        "rosa"
-      ],
-      "special": null,
-      "edition_feature": false,
-      "auswahl_empfehlung": "empfehlung-serie-fond",
-      "bilder": {
-        "webp_1500": "images/campo-05-terra_1500.webp",
-        "webp_800": "images/campo-05-terra_800.webp",
-        "webp_400": "images/campo-05-terra_400.webp",
-        "jpeg_1500": "images/campo-05-terra_1500.jpg"
-      },
-      "bilder_real": {
-        "webp_1500": "images-real/campo-05-terra_real_1500.webp",
-        "webp_800": "images-real/campo-05-terra_real_800.webp",
-        "webp_400": "images-real/campo-05-terra_real_400.webp",
-        "jpeg_1500": "images-real/campo-05-terra_real_1500.jpg"
-      },
-      "alt_text": "CAMPO 05 TERRA — Fond-Entwurf, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection"
-    },
-    {
-      "kollektion": "campo",
-      "code": "CAMPO 06",
-      "nummer": 6,
-      "id": "campo-06-sequencia",
-      "name": "SEQUÊNCIA",
-      "name_bedeutung": "Portugiesisch: die Folge",
-      "serie_key": "serie-1-fond",
-      "typ": "Läufer (Fond)",
-      "format_cm": "80 × 300",
-      "format_hinweis": "frei skalierbar",
-      "fond": "Linho #E7DECB (12-0703 TCX Seedpearl), NZ-Wolle ungefärbt",
-      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie abweichende Florhöhen, Schlingenflor oder Fransen nach individueller Besprechung",
-      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
-      "text_kurz": "Der Läufer als Partitur: Sieben Farbfelder im Wechsel von Takt und Pause — eine Bildergalerie im Vorbeigehen.",
-      "text_lang": "Der Läufer als Partitur: Sieben Farbfelder folgen einander im Wechsel von Takt und Pause. Beim Durchschreiten eines Flurs erschließt sich der Entwurf sequenziell — Feld für Feld, wie eine Bildergalerie im Vorbeigehen.",
-      "farben": [
-        {
-          "hex": "#20655F",
-          "name": "Petrol",
-          "pantone_fhi": "18-5620 TCX Ivy"
-        },
-        {
-          "hex": "#DDA13D",
-          "name": "Ocker/Ocre",
-          "pantone_fhi": "14-0952 TCX Spicy Mustard"
-        },
-        {
-          "hex": "#C0402E",
-          "name": "Vermelho",
-          "pantone_fhi": "18-1447 TCX Orange Rust"
-        },
-        {
-          "hex": "#567F46",
-          "name": "Verde",
-          "pantone_fhi": "18-0119 TCX Willow Bough"
-        },
-        {
-          "hex": "#5C3A64",
-          "name": "Aubergine",
-          "pantone_fhi": "19-3542 TCX Purple Magic"
-        }
-      ],
-      "stimmungen": [
-        "erdig",
-        "verspielt"
-      ],
-      "farbwelten": [
-        "bunt"
-      ],
-      "special": null,
-      "edition_feature": false,
-      "auswahl_empfehlung": "companion-laeufer",
-      "bilder": {
-        "webp_1500": "images/campo-06-sequencia_1500.webp",
-        "webp_800": "images/campo-06-sequencia_800.webp",
-        "webp_400": "images/campo-06-sequencia_400.webp",
-        "jpeg_1500": "images/campo-06-sequencia_1500.jpg"
-      },
-      "bilder_real": {
-        "webp_1500": "images-real/campo-06-sequencia_real_1500.webp",
-        "webp_800": "images-real/campo-06-sequencia_real_800.webp",
-        "webp_400": "images-real/campo-06-sequencia_real_400.webp",
-        "jpeg_1500": "images-real/campo-06-sequencia_real_1500.jpg"
-      },
-      "alt_text": "CAMPO 06 SEQUÊNCIA — Läufer (Fond), Teppichentwurf 80 × 300 · Läufer cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection"
-    },
-    {
-      "kollektion": "campo",
-      "code": "CAMPO 07",
-      "nummer": 7,
-      "id": "campo-07-linha",
-      "name": "LINHA",
-      "name_bedeutung": "Portugiesisch: die Linie",
-      "serie_key": "serie-1-fond",
-      "typ": "Läufer (Fond)",
-      "format_cm": "80 × 300",
-      "format_hinweis": "frei skalierbar",
-      "fond": "Linho #E7DECB (12-0703 TCX Seedpearl), NZ-Wolle ungefärbt",
-      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie abweichende Florhöhen, Schlingenflor oder Fransen nach individueller Besprechung",
-      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
-      "text_kurz": "Das leiseste Stück: fast nur Grund. Eine feine Linie versetzt sich einmal und wird von drei Feldern gekreuzt.",
-      "text_lang": "Das leiseste Stück der Kollektion: fast nur Grund. Eine feine graphitfarbene Linie durchläuft den Läufer, versetzt sich einmal und wird von drei Farbfeldern gekreuzt. Linha ist für Projekte gedacht, in denen der Teppich Haltung zeigen, aber nicht sprechen soll.",
-      "farben": [
-        {
-          "hex": "#4B4844",
-          "name": "Graphit/Grafite",
-          "pantone_fhi": "19-0508 TCX Peat"
-        },
-        {
-          "hex": "#DE7A40",
-          "name": "Terracotta",
-          "pantone_fhi": "16-1350 TCX Amberglow"
-        },
-        {
-          "hex": "#20655F",
-          "name": "Petrol",
-          "pantone_fhi": "18-5620 TCX Ivy"
-        },
-        {
-          "hex": "#DDA13D",
-          "name": "Ocker/Ocre",
-          "pantone_fhi": "14-0952 TCX Spicy Mustard"
-        }
-      ],
-      "stimmungen": [
-        "leise",
-        "erdig"
-      ],
-      "farbwelten": [
-        "neutral",
-        "rot"
-      ],
-      "special": null,
-      "edition_feature": false,
-      "auswahl_empfehlung": "companion-laeufer",
-      "bilder": {
-        "webp_1500": "images/campo-07-linha_1500.webp",
-        "webp_800": "images/campo-07-linha_800.webp",
-        "webp_400": "images/campo-07-linha_400.webp",
-        "jpeg_1500": "images/campo-07-linha_1500.jpg"
-      },
-      "bilder_real": {
-        "webp_1500": "images-real/campo-07-linha_real_1500.webp",
-        "webp_800": "images-real/campo-07-linha_real_800.webp",
-        "webp_400": "images-real/campo-07-linha_real_400.webp",
-        "jpeg_1500": "images-real/campo-07-linha_real_1500.jpg"
-      },
-      "alt_text": "CAMPO 07 LINHA — Läufer (Fond), Teppichentwurf 80 × 300 · Läufer cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection"
-    },
-    {
-      "kollektion": "campo",
-      "code": "CAMPO 08",
-      "nummer": 8,
-      "id": "campo-08-horizonte-cheio",
-      "name": "HORIZONTE CHEIO",
-      "name_bedeutung": "Portugiesisch: Horizont, voll",
-      "serie_key": "serie-2-cheio",
-      "typ": "Vollflächig",
-      "format_cm": "200 × 300",
-      "format_hinweis": "frei skalierbar",
-      "fond": "Linho #E7DECB (12-0703 TCX Seedpearl), NZ-Wolle ungefärbt",
-      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie abweichende Florhöhen, Schlingenflor oder Fransen nach individueller Besprechung",
-      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
-      "text_kurz": "Die Favoriten-Komposition randlos: Alles trägt, nichts schwebt. Linho wird eigenständiges Feld — als schmaler Strich und ruhiges Bodenfeld.",
-      "text_lang": "Die Favoriten-Komposition der ersten Serie, randlos gedacht: Die Felder stoßen an alle vier Kanten, nichts schwebt mehr — alles trägt. Der Naturton Linho verliert seine Rolle als Fond und wird eigenständiges Feld: als schmaler vertikaler Strich zwischen Rosa und Terracotta und als ruhiges Bodenfeld neben dem Graphit. Die feine Linie bleibt als Kontrapunkt erhalten.",
-      "farben": [
-        {
-          "hex": "#D98A94",
-          "name": "Rosa",
-          "pantone_fhi": "15-1912 TCX Sea Pink"
-        },
-        {
-          "hex": "#DE7A40",
-          "name": "Terracotta",
-          "pantone_fhi": "16-1350 TCX Amberglow"
-        },
-        {
-          "hex": "#AE3A6C",
-          "name": "Beere",
-          "pantone_fhi": "18-2328 TCX Fuchsia Red"
-        },
-        {
-          "hex": "#4B4844",
-          "name": "Graphit/Grafite",
-          "pantone_fhi": "19-0508 TCX Peat"
-        },
-        {
-          "hex": "#E7DECB",
-          "name": "Linho/Cru — Fond, NZ-Wolle ungefärbt",
-          "pantone_fhi": "12-0703 TCX Seedpearl"
-        }
-      ],
-      "stimmungen": [
-        "erdig",
-        "kräftig"
-      ],
-      "farbwelten": [
-        "rosa",
-        "rot"
-      ],
-      "special": {
-        "typ": "fransen",
-        "text": "Fransen oben und unten, jeweils in den Farben der angrenzenden Felder."
-      },
-      "edition_feature": false,
-      "auswahl_empfehlung": "empfehlung-serie-vollflaechig",
-      "bilder": {
-        "webp_1500": "images/campo-08-horizonte-cheio_1500.webp",
-        "webp_800": "images/campo-08-horizonte-cheio_800.webp",
-        "webp_400": "images/campo-08-horizonte-cheio_400.webp",
-        "jpeg_1500": "images/campo-08-horizonte-cheio_1500.jpg"
-      },
-      "bilder_real": {
-        "webp_1500": "images-real/campo-08-horizonte-cheio_real_1500.webp",
-        "webp_800": "images-real/campo-08-horizonte-cheio_real_800.webp",
-        "webp_400": "images-real/campo-08-horizonte-cheio_real_400.webp",
-        "jpeg_1500": "images-real/campo-08-horizonte-cheio_real_1500.jpg"
-      },
-      "alt_text": "CAMPO 08 HORIZONTE CHEIO — Vollflächig, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection"
-    },
-    {
-      "kollektion": "campo",
-      "code": "CAMPO 09",
-      "nummer": 9,
-      "id": "campo-09-sobre-cheio",
-      "name": "SOBRE CHEIO",
-      "name_bedeutung": "Portugiesisch: übereinander, voll",
-      "serie_key": "serie-2-cheio",
-      "typ": "Vollflächig",
-      "format_cm": "200 × 300",
-      "format_hinweis": "frei skalierbar",
-      "fond": "Linho #E7DECB (12-0703 TCX Seedpearl), NZ-Wolle ungefärbt",
-      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie abweichende Florhöhen, Schlingenflor oder Fransen nach individueller Besprechung",
-      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
-      "text_kurz": "Das Transparenz-Prinzip auf ganzer Fläche: Zwei Grundfarben, drei durchscheinende Felder — bis zur Dreifach-Überlagerung in tiefem Pflaumengrau.",
-      "text_lang": "Das Transparenz-Prinzip auf der ganzen Fläche: Zwei Grundfarben teilen den Teppich — Ocker oben, Linho unten. Darüber liegen drei »durchscheinende« Felder, deren Farbe sich mit jedem Untergrund neu mischt. An einer Stelle überlagern sich drei Ebenen zu einem tiefen Pflaumengrau. Was in der Malerei Lasur ist, wird im Teppich zum Mischton im Garn — auf Wunsch zusätzlich als erhöhter Flor, eine Option nach individueller Besprechung.",
-      "farben": [
-        {
-          "hex": "#DDA13D",
-          "name": "Ocker/Ocre",
-          "pantone_fhi": "14-0952 TCX Spicy Mustard"
-        },
-        {
-          "hex": "#E7DECB",
-          "name": "Linho/Cru — Fond, NZ-Wolle ungefärbt",
-          "pantone_fhi": "12-0703 TCX Seedpearl"
-        },
-        {
-          "hex": "#20655F",
-          "name": "Petrol",
-          "pantone_fhi": "18-5620 TCX Ivy"
-        },
-        {
-          "hex": "#AE3A6C",
-          "name": "Beere",
-          "pantone_fhi": "18-2328 TCX Fuchsia Red"
-        },
-        {
-          "hex": "#C0402E",
-          "name": "Vermelho",
-          "pantone_fhi": "18-1447 TCX Orange Rust"
-        }
-      ],
-      "stimmungen": [
-        "erdig",
-        "verspielt"
-      ],
-      "farbwelten": [
-        "gelb",
-        "gruen",
-        "rosa"
-      ],
-      "special": {
-        "typ": "schlingenflor",
-        "text": "Alle transparenten Felder im Schlingenflor — Lasur als Struktur, auf der ganzen Fläche."
-      },
-      "edition_feature": false,
-      "auswahl_empfehlung": "empfehlung-serie-vollflaechig",
-      "bilder": {
-        "webp_1500": "images/campo-09-sobre-cheio_1500.webp",
-        "webp_800": "images/campo-09-sobre-cheio_800.webp",
-        "webp_400": "images/campo-09-sobre-cheio_400.webp",
-        "jpeg_1500": "images/campo-09-sobre-cheio_1500.jpg"
-      },
-      "bilder_real": {
-        "webp_1500": "images-real/campo-09-sobre-cheio_real_1500.webp",
-        "webp_800": "images-real/campo-09-sobre-cheio_real_800.webp",
-        "webp_400": "images-real/campo-09-sobre-cheio_real_400.webp",
-        "jpeg_1500": "images-real/campo-09-sobre-cheio_real_1500.jpg"
-      },
-      "alt_text": "CAMPO 09 SOBRE CHEIO — Vollflächig, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection"
-    },
-    {
-      "kollektion": "campo",
-      "code": "CAMPO 10",
-      "nummer": 10,
-      "id": "campo-10-terra-cheio",
-      "name": "TERRA CHEIO",
-      "name_bedeutung": "Portugiesisch: Erde, voll",
-      "serie_key": "serie-2-cheio",
-      "typ": "Vollflächig",
-      "format_cm": "200 × 300",
-      "format_hinweis": "frei skalierbar",
-      "fond": "Linho #E7DECB (12-0703 TCX Seedpearl), NZ-Wolle ungefärbt",
-      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie abweichende Florhöhen, Schlingenflor oder Fransen nach individueller Besprechung",
-      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
-      "text_kurz": "Die tonale Rotskala vollflächig — nur oben bleibt ein Linho-Band als Atempause. Die Fläche wird nach unten dunkler und schwerer.",
-      "text_lang": "Die tonale Linie der Kollektion, ins Vollflächige übersetzt: Fünf Rotstufen füllen die Fläche von Rosa bis in ein fast schwarzes Braunrot, nur oben bleibt ein Band im Naturton als Atempause. Die Fläche wird nach unten dunkler und schwerer — Farbe als Gewicht, jetzt ohne Rahmen. Wie bei TERRA gilt: Jede andere Farbfamilie ist als Variante denkbar.",
-      "farben": [
-        {
-          "hex": "#D98A94",
-          "name": "Rosa",
-          "pantone_fhi": "15-1912 TCX Sea Pink"
-        },
-        {
-          "hex": "#C75B48",
-          "name": "Terra Rosé",
-          "pantone_fhi": "17-1544 TCX Burnt Sienna"
-        },
-        {
-          "hex": "#B23A30",
-          "name": "Terra Rot",
-          "pantone_fhi": "18-1354 TCX Burnt Ochre"
-        },
-        {
-          "hex": "#8C2F26",
-          "name": "Terra Dunkel",
-          "pantone_fhi": "19-1541 TCX Red Ochre"
-        },
-        {
-          "hex": "#5F231D",
-          "name": "Terra Nacht",
-          "pantone_fhi": "19-1337 TCX Fired Brick"
-        }
-      ],
-      "stimmungen": [
-        "erdig",
-        "tonal",
-        "kräftig"
-      ],
-      "farbwelten": [
-        "rot",
-        "rosa"
-      ],
-      "special": null,
-      "edition_feature": true,
-      "auswahl_empfehlung": "empfehlung-serie-vollflaechig",
-      "bilder": {
-        "webp_1500": "images/campo-10-terra-cheio_1500.webp",
-        "webp_800": "images/campo-10-terra-cheio_800.webp",
-        "webp_400": "images/campo-10-terra-cheio_400.webp",
-        "jpeg_1500": "images/campo-10-terra-cheio_1500.jpg"
-      },
-      "bilder_real": {
-        "webp_1500": "images-real/campo-10-terra-cheio_real_1500.webp",
-        "webp_800": "images-real/campo-10-terra-cheio_real_800.webp",
-        "webp_400": "images-real/campo-10-terra-cheio_real_400.webp",
-        "jpeg_1500": "images-real/campo-10-terra-cheio_real_1500.jpg"
-      },
-      "alt_text": "CAMPO 10 TERRA CHEIO — Vollflächig, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection"
-    },
-    {
-      "kollektion": "campo",
-      "code": "CAMPO 11",
-      "nummer": 11,
-      "id": "campo-11-bloco",
-      "name": "BLOCO",
-      "name_bedeutung": "Portugiesisch: der Block",
-      "serie_key": "serie-2-cheio",
-      "typ": "Vollflächig",
-      "format_cm": "200 × 300",
-      "format_hinweis": "frei skalierbar",
-      "fond": "Linho #E7DECB (12-0703 TCX Seedpearl), NZ-Wolle ungefärbt",
-      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie abweichende Florhöhen, Schlingenflor oder Fransen nach individueller Besprechung",
-      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
-      "text_kurz": "Das architektonischste Stück: Sieben Blöcke teilen die Fläche wie ein Grundriss, ein einzelnes Vermelho-Quadrat setzt den Akzent.",
-      "text_lang": "Das architektonischste Stück der Kollektion: Sieben Blöcke teilen die Fläche wie ein Grundriss — großes Azulfeld, Ockerspur, Beere, Terracotta, Verde und zwei Linho-Kammern. Ein einzelnes kleines Vermelho-Quadrat setzt den Akzent, wie ein Möbel im leeren Raum. BLOCO lebt von der Proportion der Teilung und verträgt Formatänderungen besonders gut.",
-      "farben": [
-        {
-          "hex": "#2E4E7E",
+          "hex": "#1E6FC8",
           "name": "Azul",
-          "pantone_fhi": "19-4030 TCX True Navy"
+          "pantone_fhi": "~18-4143 TCX Palace Blue"
         },
         {
-          "hex": "#DDA13D",
-          "name": "Ocker/Ocre",
-          "pantone_fhi": "14-0952 TCX Spicy Mustard"
-        },
-        {
-          "hex": "#AE3A6C",
-          "name": "Beere",
-          "pantone_fhi": "18-2328 TCX Fuchsia Red"
-        },
-        {
-          "hex": "#DE7A40",
-          "name": "Terracotta",
-          "pantone_fhi": "16-1350 TCX Amberglow"
-        },
-        {
-          "hex": "#567F46",
+          "hex": "#1F9E77",
           "name": "Verde",
-          "pantone_fhi": "18-0119 TCX Willow Bough"
-        },
-        {
-          "hex": "#C0402E",
-          "name": "Vermelho",
-          "pantone_fhi": "18-1447 TCX Orange Rust"
+          "pantone_fhi": "~17-5638 TCX Vivid Green"
         }
       ],
-      "stimmungen": [
-        "erdig",
-        "kräftig"
-      ],
-      "farbwelten": [
-        "blau",
-        "gelb",
-        "rosa"
-      ],
-      "special": null,
-      "edition_feature": false,
-      "auswahl_empfehlung": "empfehlung-serie-vollflaechig",
+      "hero": false,
       "bilder": {
-        "webp_1500": "images/campo-11-bloco_1500.webp",
-        "webp_800": "images/campo-11-bloco_800.webp",
-        "webp_400": "images/campo-11-bloco_400.webp",
-        "jpeg_1500": "images/campo-11-bloco_1500.jpg"
+        "webp_1500": "images/proprio-04-planta_1500.webp",
+        "webp_800": "images/proprio-04-planta_800.webp",
+        "webp_400": "images/proprio-04-planta_400.webp",
+        "jpeg_1500": "images/proprio-04-planta_1500.jpg"
       },
-      "bilder_real": {
-        "webp_1500": "images-real/campo-11-bloco_real_1500.webp",
-        "webp_800": "images-real/campo-11-bloco_real_800.webp",
-        "webp_400": "images-real/campo-11-bloco_real_400.webp",
-        "jpeg_1500": "images-real/campo-11-bloco_real_1500.jpg"
-      },
-      "alt_text": "CAMPO 11 BLOCO — Vollflächig, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection"
+      "alt_text": "PRÓPRIO — PLANTA (der Grundriss), Teppichentwurf 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection"
     },
     {
-      "kollektion": "campo",
-      "code": "CAMPO 12",
-      "nummer": 12,
-      "id": "campo-12-patio",
-      "name": "PÁTIO",
-      "name_bedeutung": "Portugiesisch: der Innenhof",
-      "serie_key": "serie-2-cheio",
-      "typ": "Vollflächig",
-      "format_cm": "200 × 300",
+      "id": "proprio-05-fresta",
+      "code": "PRÓPRIO 05",
+      "name": "FRESTA",
+      "name_bedeutung": "Portugiesisch: der Lichtspalt",
+      "typ": "Hochformat",
+      "format_cm": "200 × 240 cm",
       "format_hinweis": "frei skalierbar",
-      "fond": "Linho #E7DECB (12-0703 TCX Seedpearl), NZ-Wolle ungefärbt",
       "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie abweichende Florhöhen, Schlingenflor oder Fransen nach individueller Besprechung",
+      "herstellung": "handgetuftet (Standard); Specials nach individueller Besprechung",
       "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
-      "text_kurz": "Geschachtelte Felder rücken zur Ecke, der Blick fällt wie in einen Innenhof. Der einzige Entwurf der Stammserien mit kühlem Grundklang.",
-      "text_lang": "CANTO weitergedacht: Geschachtelte Felder rücken zur Ecke, der Blick fällt wie in einen Innenhof. Die kühlere Welt aus Himmel und Azul wird von Vermelho und Aubergine erwärmt; das Ockerquadrat oben links und das Linho-Band am Boden halten die Komposition offen. Der einzige Entwurf der Serie mit kühlem Grundklang — als Gegengewicht zur erdigen Palette.",
+      "grund": "farbiger Grund (kein Naturleinen)",
+      "text_kurz": "Ein schmaler oranger Streifen wie Licht durch einen Türspalt.",
+      "text_lang": "Durch die ruhige Blaufläche fällt ein schmaler oranger Streifen wie Licht durch einen Türspalt, daneben ein Feld in tiefem Beere. Das leiseste Stück mit dem hellsten Akzent.",
       "farben": [
         {
-          "hex": "#7FA9B5",
-          "name": "Himmel",
-          "pantone_fhi": "16-4411 TCX Tourmaline"
+          "hex": "#6FB0D8",
+          "name": "Céu",
+          "pantone_fhi": "~15-4225 TCX Bonnie Blue"
         },
         {
-          "hex": "#2E4E7E",
+          "hex": "#1E6FC8",
           "name": "Azul",
-          "pantone_fhi": "19-4030 TCX True Navy"
+          "pantone_fhi": "~18-4143 TCX Palace Blue"
         },
         {
-          "hex": "#C0402E",
+          "hex": "#F0691E",
+          "name": "Laranja",
+          "pantone_fhi": "~16-1364 TCX Orange Tiger"
+        },
+        {
+          "hex": "#9E1E52",
+          "name": "Bordô",
+          "pantone_fhi": "~19-2039 TCX Cerise"
+        },
+        {
+          "hex": "#D6408A",
+          "name": "Rosa",
+          "pantone_fhi": "~17-2036 TCX Pink Flambé"
+        }
+      ],
+      "hero": false,
+      "bilder": {
+        "webp_1500": "images/proprio-05-fresta_1500.webp",
+        "webp_800": "images/proprio-05-fresta_800.webp",
+        "webp_400": "images/proprio-05-fresta_400.webp",
+        "jpeg_1500": "images/proprio-05-fresta_1500.jpg"
+      },
+      "alt_text": "PRÓPRIO — FRESTA (der Lichtspalt), Teppichentwurf 200 × 240 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection"
+    },
+    {
+      "id": "proprio-08-repouso",
+      "code": "PRÓPRIO 08",
+      "name": "REPOUSO",
+      "name_bedeutung": "Portugiesisch: die Ruhe",
+      "typ": "Quadrat",
+      "format_cm": "250 × 250 cm",
+      "format_hinweis": "frei skalierbar",
+      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
+      "herstellung": "handgetuftet (Standard); Specials nach individueller Besprechung",
+      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
+      "grund": "farbiger Grund (kein Naturleinen)",
+      "text_kurz": "Purpur, Rot und eine große Sandfläche, die alles beruhigt.",
+      "text_lang": "Ein Purpurwinkel, ein roter Block, darunter eine große sandfarbene Fläche, die alles beruhigt. Das Stück, das nach der Bewegung zur Ruhe kommt — der Schlusston der Kollektion.",
+      "farben": [
+        {
+          "hex": "#D8C4A0",
+          "name": "Areia",
+          "pantone_fhi": "~14-1025 TCX Sand"
+        },
+        {
+          "hex": "#8E2E8E",
+          "name": "Roxo",
+          "pantone_fhi": "~18-3027 TCX Byzantium"
+        },
+        {
+          "hex": "#D83A1E",
           "name": "Vermelho",
-          "pantone_fhi": "18-1447 TCX Orange Rust"
-        },
-        {
-          "hex": "#5C3A64",
-          "name": "Aubergine",
-          "pantone_fhi": "19-3542 TCX Purple Magic"
-        },
-        {
-          "hex": "#DDA13D",
-          "name": "Ocker/Ocre",
-          "pantone_fhi": "14-0952 TCX Spicy Mustard"
+          "pantone_fhi": "~18-1662 TCX Flame Scarlet"
         }
       ],
-      "stimmungen": [
-        "kühl",
-        "kräftig"
-      ],
-      "farbwelten": [
-        "blau",
-        "rot"
-      ],
-      "special": null,
-      "edition_feature": false,
-      "auswahl_empfehlung": "reserve",
+      "hero": false,
       "bilder": {
-        "webp_1500": "images/campo-12-patio_1500.webp",
-        "webp_800": "images/campo-12-patio_800.webp",
-        "webp_400": "images/campo-12-patio_400.webp",
-        "jpeg_1500": "images/campo-12-patio_1500.jpg"
+        "webp_1500": "images/proprio-08-repouso_1500.webp",
+        "webp_800": "images/proprio-08-repouso_800.webp",
+        "webp_400": "images/proprio-08-repouso_400.webp",
+        "jpeg_1500": "images/proprio-08-repouso_1500.jpg"
       },
-      "bilder_real": {
-        "webp_1500": "images-real/campo-12-patio_real_1500.webp",
-        "webp_800": "images-real/campo-12-patio_real_800.webp",
-        "webp_400": "images-real/campo-12-patio_real_400.webp",
-        "jpeg_1500": "images-real/campo-12-patio_real_1500.jpg"
-      },
-      "alt_text": "CAMPO 12 PÁTIO — Vollflächig, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection"
+      "alt_text": "PRÓPRIO — REPOUSO (die Ruhe), Teppichentwurf 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection"
     },
     {
-      "kollektion": "campo",
-      "code": "CAMPO 13",
-      "nummer": 13,
-      "id": "campo-13-clarao",
-      "name": "CLARÃO",
-      "name_bedeutung": "Portugiesisch: der Lichtschein",
-      "serie_key": "serie-3-amanha",
-      "typ": "Fond-Entwurf",
-      "format_cm": "200 × 300",
+      "id": "proprio-06-ocaso",
+      "code": "PRÓPRIO 06",
+      "name": "OCASO",
+      "name_bedeutung": "Portugiesisch: der Sonnenuntergang",
+      "typ": "Hochformat",
+      "format_cm": "200 × 240 cm",
       "format_hinweis": "frei skalierbar",
-      "fond": "Linho #E7DECB (12-0703 TCX Seedpearl), NZ-Wolle ungefärbt",
       "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie abweichende Florhöhen, Schlingenflor oder Fransen nach individueller Besprechung",
+      "herstellung": "handgetuftet (Standard); Specials nach individueller Besprechung",
       "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
-      "text_kurz": "Die Colour of the Year 2027 auf Naturgrund: Luminous Blue als schwebende Hauptmasse, Lilac und Clay als ruhige Nachbarn, Energy Orange als Temperatur-Akzent.",
-      "text_lang": "Clarão — »der Lichtschein«. Die Colour of the Year 2027 auf Naturgrund: Luminous Blue als schwebende Hauptmasse, darunter Peaceful Lilac und Clay als ruhige Nachbarn, ein Feld Energy Orange als Temperatur-Akzent. Die feine Linie in Deep Green hält die Komposition. Der Entwurf zeigt, wie selbstverständlich sich die 2027-Töne in die CAMPO-Haltung der ersten Serie fügen.",
+      "grund": "farbiger Grund (kein Naturleinen)",
+      "text_kurz": "Vier Bänder, die sich zur Dämmerung schichten.",
+      "text_lang": "Grün, Orange, Nachtblau, Sand — vier Bänder, die sich wie eine Landschaft zur Dämmerung schichten. Farbe, die eine Stimmung trägt statt eines Motivs.",
       "farben": [
         {
-          "hex": "#333F96",
-          "name": "Luminous Blue — COTY 2027",
-          "pantone_fhi": "19-3951 TCX Clematis Blue"
+          "hex": "#1F9E77",
+          "name": "Verde",
+          "pantone_fhi": "~17-5638 TCX Vivid Green"
         },
         {
-          "hex": "#C6B8D6",
-          "name": "Peaceful Lilac",
-          "pantone_fhi": "14-3812 TCX Pastel Lilac"
+          "hex": "#F0691E",
+          "name": "Laranja",
+          "pantone_fhi": "~16-1364 TCX Orange Tiger"
         },
         {
-          "hex": "#C7A091",
-          "name": "Clay",
-          "pantone_fhi": "15-1512 TCX Mahogany Rose"
+          "hex": "#1E1E64",
+          "name": "Marinho",
+          "pantone_fhi": "~19-3640 TCX Spectrum Indigo"
         },
         {
-          "hex": "#E0752F",
-          "name": "Energy Orange / Sol",
-          "pantone_fhi": "16-1164 TCX Orange Pepper"
-        },
-        {
-          "hex": "#2C4237",
-          "name": "Deep Green",
-          "pantone_fhi": "19-5920 TCX Pineneedle"
+          "hex": "#D8C4A0",
+          "name": "Areia",
+          "pantone_fhi": "~14-1025 TCX Sand"
         }
       ],
-      "stimmungen": [
-        "kühl",
-        "leise"
-      ],
-      "farbwelten": [
-        "blau",
-        "lila"
-      ],
-      "special": null,
-      "edition_feature": false,
-      "auswahl_empfehlung": "empfehlung-serie-fond",
+      "hero": false,
       "bilder": {
-        "webp_1500": "images/campo-13-clarao_1500.webp",
-        "webp_800": "images/campo-13-clarao_800.webp",
-        "webp_400": "images/campo-13-clarao_400.webp",
-        "jpeg_1500": "images/campo-13-clarao_1500.jpg"
+        "webp_1500": "images/proprio-06-ocaso_1500.webp",
+        "webp_800": "images/proprio-06-ocaso_800.webp",
+        "webp_400": "images/proprio-06-ocaso_400.webp",
+        "jpeg_1500": "images/proprio-06-ocaso_1500.jpg"
       },
-      "bilder_real": {
-        "webp_1500": "images-real/campo-13-clarao_real_1500.webp",
-        "webp_800": "images-real/campo-13-clarao_real_800.webp",
-        "webp_400": "images-real/campo-13-clarao_real_400.webp",
-        "jpeg_1500": "images-real/campo-13-clarao_real_1500.jpg"
-      },
-      "alt_text": "CAMPO 13 CLARÃO — Fond-Entwurf, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection"
+      "alt_text": "PRÓPRIO — OCASO (der Sonnenuntergang), Teppichentwurf 200 × 240 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection"
     },
     {
-      "kollektion": "campo",
-      "code": "CAMPO 14",
-      "nummer": 14,
-      "id": "campo-14-campina",
-      "name": "CAMPINA",
-      "name_bedeutung": "Portugiesisch: die Wiese",
-      "serie_key": "serie-3-amanha",
-      "typ": "Fond-Entwurf",
-      "format_cm": "200 × 300",
+      "id": "proprio-07-eco",
+      "code": "PRÓPRIO 07",
+      "name": "ECO",
+      "name_bedeutung": "Portugiesisch: das Echo",
+      "typ": "Quadrat",
+      "format_cm": "250 × 250 cm",
       "format_hinweis": "frei skalierbar",
-      "fond": "Linho #E7DECB (12-0703 TCX Seedpearl), NZ-Wolle ungefärbt",
       "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie abweichende Florhöhen, Schlingenflor oder Fransen nach individueller Besprechung",
+      "herstellung": "handgetuftet (Standard); Specials nach individueller Besprechung",
       "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
-      "text_kurz": "Meadowland Green als großes ruhiges Feld — Slow Living als Farbfeld. Maize antwortet sonnig, die Russet-Linie erdet.",
-      "text_lang": "Campina — »die Wiese«. Meadowland Green steht für das Bedürfnis nach Entschleunigung und Gemeinschaft, das WGSN für 2027 beschreibt — hier als großes, ruhiges Feld auf Naturgrund. Maize antwortet sonnig, ein kleines Pop-Pink-Quadrat setzt die strategische Freude dagegen, und die Russet-Linie erdet das Ganze. Der leiseste Entwurf der Serie.",
+      "grund": "farbiger Grund (kein Naturleinen)",
+      "text_kurz": "Dieselbe Drehung wie GIRO, eine Oktave anders gestimmt.",
+      "text_lang": "Dieselbe Drehung wie in GIRO, eine Oktave anders gestimmt: Sand, Petrol und Nachtblau treten an die Stelle von Blau. Ein Echo, das die Bewegung wiederholt und doch verschiebt — das eingebaute Paar der Kollektion.",
       "farben": [
         {
-          "hex": "#7CA377",
-          "name": "Meadowland Green / Erva",
-          "pantone_fhi": "16-6116 TCX Shale Green"
+          "hex": "#D6408A",
+          "name": "Rosa",
+          "pantone_fhi": "~17-2036 TCX Pink Flambé"
         },
         {
-          "hex": "#E4B54A",
-          "name": "Maize",
-          "pantone_fhi": "15-1050 TCX Golden Glow"
+          "hex": "#D8C4A0",
+          "name": "Areia",
+          "pantone_fhi": "~14-1025 TCX Sand"
         },
         {
-          "hex": "#2C4237",
-          "name": "Deep Green",
-          "pantone_fhi": "19-5920 TCX Pineneedle"
-        },
-        {
-          "hex": "#E687B2",
-          "name": "Pop Pink",
-          "pantone_fhi": "15-2216 TCX Sachet Pink"
-        },
-        {
-          "hex": "#8F4A33",
-          "name": "Russet",
-          "pantone_fhi": "18-1244 TCX Ginger Bread"
-        }
-      ],
-      "stimmungen": [
-        "erdig",
-        "leise"
-      ],
-      "farbwelten": [
-        "gruen",
-        "gelb"
-      ],
-      "special": null,
-      "edition_feature": false,
-      "auswahl_empfehlung": "reserve",
-      "bilder": {
-        "webp_1500": "images/campo-14-campina_1500.webp",
-        "webp_800": "images/campo-14-campina_800.webp",
-        "webp_400": "images/campo-14-campina_400.webp",
-        "jpeg_1500": "images/campo-14-campina_1500.jpg"
-      },
-      "bilder_real": {
-        "webp_1500": "images-real/campo-14-campina_real_1500.webp",
-        "webp_800": "images-real/campo-14-campina_real_800.webp",
-        "webp_400": "images-real/campo-14-campina_real_400.webp",
-        "jpeg_1500": "images-real/campo-14-campina_real_1500.jpg"
-      },
-      "alt_text": "CAMPO 14 CAMPINA — Fond-Entwurf, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection"
-    },
-    {
-      "kollektion": "campo",
-      "code": "CAMPO 15",
-      "nummer": 15,
-      "id": "campo-15-mare",
-      "name": "MARÉ",
-      "name_bedeutung": "Portugiesisch: die Gezeiten",
-      "serie_key": "serie-3-amanha",
-      "typ": "Vollflächig",
-      "format_cm": "200 × 300",
-      "format_hinweis": "frei skalierbar",
-      "fond": "Linho #E7DECB (12-0703 TCX Seedpearl), NZ-Wolle ungefärbt",
-      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie abweichende Florhöhen, Schlingenflor oder Fransen nach individueller Besprechung",
-      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
-      "text_kurz": "Die große blaue Masse: Luminous Blue besetzt zwei Drittel der Fläche, ein Maize-Quadrat leuchtet im Blau. Das Statement-Stück der Trendserie.",
-      "text_lang": "Maré — »die Gezeiten«. Die große blaue Masse: Luminous Blue besetzt zwei Drittel der Fläche, flankiert von Peaceful Lilac und einem schmalen Linho-Strich, der die Herkunft aus der Kollektion sichtbar hält. Clay und Deep Green schichten den Boden, ein Maize-Quadrat leuchtet im Blau. Das Statement-Stück der Serie — mysteriös und vielseitig, wie WGSN die Farbe des Jahres beschreibt.",
-      "farben": [
-        {
-          "hex": "#333F96",
-          "name": "Luminous Blue — COTY 2027",
-          "pantone_fhi": "19-3951 TCX Clematis Blue"
-        },
-        {
-          "hex": "#C6B8D6",
-          "name": "Peaceful Lilac",
-          "pantone_fhi": "14-3812 TCX Pastel Lilac"
-        },
-        {
-          "hex": "#E4B54A",
-          "name": "Maize",
-          "pantone_fhi": "15-1050 TCX Golden Glow"
-        },
-        {
-          "hex": "#C7A091",
-          "name": "Clay",
-          "pantone_fhi": "15-1512 TCX Mahogany Rose"
-        },
-        {
-          "hex": "#2C4237",
-          "name": "Deep Green",
-          "pantone_fhi": "19-5920 TCX Pineneedle"
-        }
-      ],
-      "stimmungen": [
-        "kühl",
-        "kräftig"
-      ],
-      "farbwelten": [
-        "blau",
-        "lila",
-        "gelb"
-      ],
-      "special": null,
-      "edition_feature": false,
-      "auswahl_empfehlung": "reserve",
-      "bilder": {
-        "webp_1500": "images/campo-15-mare_1500.webp",
-        "webp_800": "images/campo-15-mare_800.webp",
-        "webp_400": "images/campo-15-mare_400.webp",
-        "jpeg_1500": "images/campo-15-mare_1500.jpg"
-      },
-      "bilder_real": {
-        "webp_1500": "images-real/campo-15-mare_real_1500.webp",
-        "webp_800": "images-real/campo-15-mare_real_800.webp",
-        "webp_400": "images-real/campo-15-mare_real_400.webp",
-        "jpeg_1500": "images-real/campo-15-mare_real_1500.jpg"
-      },
-      "alt_text": "CAMPO 15 MARÉ — Vollflächig, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection"
-    },
-    {
-      "kollektion": "campo",
-      "code": "CAMPO 16",
-      "nummer": 16,
-      "id": "campo-16-pomar",
-      "name": "POMAR",
-      "name_bedeutung": "Portugiesisch: der Obstgarten",
-      "serie_key": "serie-3-amanha",
-      "typ": "Vollflächig",
-      "format_cm": "200 × 300",
-      "format_hinweis": "frei skalierbar",
-      "fond": "Linho #E7DECB (12-0703 TCX Seedpearl), NZ-Wolle ungefärbt",
-      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie abweichende Florhöhen, Schlingenflor oder Fransen nach individueller Besprechung",
-      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
-      "text_kurz": "Die warme Seite von 2027: Energy Orange und Pop Pink oben, Maize, Russet und Clay unten. Fruchtig, dicht, optimistisch.",
-      "text_lang": "Pomar — »der Obstgarten«. Die warme Seite von 2027 auf einer Fläche: Energy Orange und Pop Pink teilen sich die obere Hälfte, Maize, Russet und Clay schichten die untere. Ein Deep-Green-Quadrat kühlt die Komposition an der rechten Kante. Fruchtig, dicht und optimistisch — der extrovertierteste Entwurf der Kollektion.",
-      "farben": [
-        {
-          "hex": "#E0752F",
-          "name": "Energy Orange / Sol",
-          "pantone_fhi": "16-1164 TCX Orange Pepper"
-        },
-        {
-          "hex": "#E687B2",
-          "name": "Pop Pink",
-          "pantone_fhi": "15-2216 TCX Sachet Pink"
-        },
-        {
-          "hex": "#E4B54A",
-          "name": "Maize",
-          "pantone_fhi": "15-1050 TCX Golden Glow"
-        },
-        {
-          "hex": "#8F4A33",
-          "name": "Russet",
-          "pantone_fhi": "18-1244 TCX Ginger Bread"
-        },
-        {
-          "hex": "#C7A091",
-          "name": "Clay",
-          "pantone_fhi": "15-1512 TCX Mahogany Rose"
-        }
-      ],
-      "stimmungen": [
-        "warm",
-        "kräftig",
-        "verspielt"
-      ],
-      "farbwelten": [
-        "rot",
-        "rosa",
-        "gelb"
-      ],
-      "special": null,
-      "edition_feature": false,
-      "auswahl_empfehlung": "reserve",
-      "bilder": {
-        "webp_1500": "images/campo-16-pomar_1500.webp",
-        "webp_800": "images/campo-16-pomar_800.webp",
-        "webp_400": "images/campo-16-pomar_400.webp",
-        "jpeg_1500": "images/campo-16-pomar_1500.jpg"
-      },
-      "bilder_real": {
-        "webp_1500": "images-real/campo-16-pomar_real_1500.webp",
-        "webp_800": "images-real/campo-16-pomar_real_800.webp",
-        "webp_400": "images-real/campo-16-pomar_real_400.webp",
-        "jpeg_1500": "images-real/campo-16-pomar_real_1500.jpg"
-      },
-      "alt_text": "CAMPO 16 POMAR — Vollflächig, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection"
-    },
-    {
-      "kollektion": "campo",
-      "code": "CAMPO 17",
-      "nummer": 17,
-      "id": "campo-17-hora-azul",
-      "name": "HORA AZUL",
-      "name_bedeutung": "Portugiesisch: die blaue Stunde",
-      "serie_key": "serie-3-amanha",
-      "typ": "Vollflächig",
-      "format_cm": "200 × 300",
-      "format_hinweis": "frei skalierbar",
-      "fond": "Linho #E7DECB (12-0703 TCX Seedpearl), NZ-Wolle ungefärbt",
-      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie abweichende Florhöhen, Schlingenflor oder Fransen nach individueller Besprechung",
-      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
-      "text_kurz": "Vier Horizonte zur blauen Stunde: Linho, Lilac, Luminous Blue, Deep Green — durchbrochen von einer einzigen Maize-Linie wie ein letzter Lichtstrahl.",
-      "text_lang": "Hora Azul — »die blaue Stunde«. Vier Horizonte übereinander: Linho, Peaceful Lilac, Luminous Blue, Deep Green — der Abendhimmel als harte Farbfeld-Schichtung, durchbrochen von einer einzigen feinen Maize-Linie wie ein letzter Lichtstrahl. Der reduzierteste Entwurf der Serie und ihr poetischer Schlusspunkt.",
-      "farben": [
-        {
-          "hex": "#E7DECB",
-          "name": "Linho/Cru — Fond, NZ-Wolle ungefärbt",
-          "pantone_fhi": "12-0703 TCX Seedpearl"
-        },
-        {
-          "hex": "#C6B8D6",
-          "name": "Peaceful Lilac",
-          "pantone_fhi": "14-3812 TCX Pastel Lilac"
-        },
-        {
-          "hex": "#333F96",
-          "name": "Luminous Blue — COTY 2027",
-          "pantone_fhi": "19-3951 TCX Clematis Blue"
-        },
-        {
-          "hex": "#2C4237",
-          "name": "Deep Green",
-          "pantone_fhi": "19-5920 TCX Pineneedle"
-        },
-        {
-          "hex": "#E4B54A",
-          "name": "Maize",
-          "pantone_fhi": "15-1050 TCX Golden Glow"
-        }
-      ],
-      "stimmungen": [
-        "kühl",
-        "leise"
-      ],
-      "farbwelten": [
-        "blau",
-        "lila",
-        "gelb"
-      ],
-      "special": {
-        "typ": "schlingenflor",
-        "text": "Die Maize-Linie läuft als Schlaufenlinie durch die glatten Horizonte."
-      },
-      "edition_feature": true,
-      "auswahl_empfehlung": "empfehlung-serie-vollflaechig",
-      "bilder": {
-        "webp_1500": "images/campo-17-hora-azul_1500.webp",
-        "webp_800": "images/campo-17-hora-azul_800.webp",
-        "webp_400": "images/campo-17-hora-azul_400.webp",
-        "jpeg_1500": "images/campo-17-hora-azul_1500.jpg"
-      },
-      "bilder_real": {
-        "webp_1500": "images-real/campo-17-hora-azul_real_1500.webp",
-        "webp_800": "images-real/campo-17-hora-azul_real_800.webp",
-        "webp_400": "images-real/campo-17-hora-azul_real_400.webp",
-        "jpeg_1500": "images-real/campo-17-hora-azul_real_1500.jpg"
-      },
-      "alt_text": "CAMPO 17 HORA AZUL — Vollflächig, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection"
-    },
-    {
-      "kollektion": "campo",
-      "code": "CAMPO 18",
-      "nummer": 18,
-      "id": "campo-18-lapis",
-      "name": "LAPIS",
-      "name_bedeutung": "Portugiesisch: Lapislazuli-Pigment",
-      "serie_key": "serie-4-elo",
-      "typ": "Fond-Entwurf",
-      "format_cm": "200 × 300",
-      "format_hinweis": "frei skalierbar",
-      "fond": "Linho #E7DECB (12-0703 TCX Seedpearl), NZ-Wolle ungefärbt",
-      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie abweichende Florhöhen, Schlingenflor oder Fransen nach individueller Besprechung",
-      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
-      "text_kurz": "Die blaue Familie in drei Stufen auf Naturgrund — das tonale Prinzip von TERRA, jetzt in Blau. Ein Clay-Quadrat wärmt.",
-      "text_lang": "Lapis — nach dem Pigment, aus dem WGSN die Herkunft der Farbe des Jahres erzählt. Die blaue Familie in drei Stufen auf Naturgrund: Sirrus-Hell schwebt oben, das mittlere Mansilla-Blau trägt, das tiefe Topaz-Blau erdet. Ein Clay-Quadrat wärmt, die feine Linie in gebranntem Orange verbindet die Ebenen. Das tonale Prinzip von TERRA — jetzt in Blau.",
-      "farben": [
-        {
-          "hex": "#B7C1DA",
-          "name": "Azul Claro",
-          "pantone_fhi": "Zuordnung bei Garnbemusterung"
-        },
-        {
-          "hex": "#3A46A0",
-          "name": "Azul (Mansilla)",
-          "pantone_fhi": "Zuordnung bei Garnbemusterung"
-        },
-        {
-          "hex": "#232E75",
-          "name": "Azul Fundo",
-          "pantone_fhi": "Zuordnung bei Garnbemusterung"
-        },
-        {
-          "hex": "#C7998C",
-          "name": "Argila / Clay",
-          "pantone_fhi": "Zuordnung bei Garnbemusterung"
-        },
-        {
-          "hex": "#AD5527",
-          "name": "Sol Fundo",
-          "pantone_fhi": "Zuordnung bei Garnbemusterung"
-        }
-      ],
-      "stimmungen": [
-        "kühl",
-        "tonal"
-      ],
-      "farbwelten": [
-        "blau"
-      ],
-      "special": null,
-      "edition_feature": false,
-      "auswahl_empfehlung": "reserve",
-      "bilder": {
-        "webp_1500": "images/campo-18-lapis_1500.webp",
-        "webp_800": "images/campo-18-lapis_800.webp",
-        "webp_400": "images/campo-18-lapis_400.webp",
-        "jpeg_1500": "images/campo-18-lapis_1500.jpg"
-      },
-      "bilder_real": {
-        "webp_1500": "images-real/campo-18-lapis_real_1500.webp",
-        "webp_800": "images-real/campo-18-lapis_real_800.webp",
-        "webp_400": "images-real/campo-18-lapis_real_400.webp",
-        "jpeg_1500": "images-real/campo-18-lapis_real_1500.jpg"
-      },
-      "alt_text": "CAMPO 18 LAPIS — Fond-Entwurf, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection"
-    },
-    {
-      "kollektion": "campo",
-      "code": "CAMPO 19",
-      "nummer": 19,
-      "id": "campo-19-brasa",
-      "name": "BRASA",
-      "name_bedeutung": "Portugiesisch: die Glut",
-      "serie_key": "serie-4-elo",
-      "typ": "Vollflächig",
-      "format_cm": "200 × 300",
-      "format_hinweis": "frei skalierbar",
-      "fond": "Linho #E7DECB (12-0703 TCX Seedpearl), NZ-Wolle ungefärbt",
-      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie abweichende Florhöhen, Schlingenflor oder Fransen nach individueller Besprechung",
-      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
-      "text_kurz": "Die Glut: Orange-Familie über Clay-Familie, ein tiefes Blau-Band schließt die Fläche. Ein Pop-Pink-Quadrat glimmt im Himmel.",
-      "text_lang": "Brasa — »die Glut«. Die Orange-Familie über der Clay-Familie: helles Apricot als weiter Himmel, darunter das Feld aus Lift-Off- und Egyptian-Queen-Orange, am Boden Podsol und Clay. Ein tiefes Blau-Band schließt die Fläche — die Verbindung der Temperaturen, die das 2027-Thema Interconnectedness fordert. Ein kleines Pop-Pink-Quadrat glimmt im Himmel.",
-      "farben": [
-        {
-          "hex": "#E7B58C",
-          "name": "Sol Claro",
-          "pantone_fhi": "Zuordnung bei Garnbemusterung"
-        },
-        {
-          "hex": "#E0752F",
-          "name": "Energy Orange / Sol",
-          "pantone_fhi": "16-1164 TCX Orange Pepper"
-        },
-        {
-          "hex": "#AD5527",
-          "name": "Sol Fundo",
-          "pantone_fhi": "Zuordnung bei Garnbemusterung"
-        },
-        {
-          "hex": "#8A6F60",
-          "name": "Argila Funda",
-          "pantone_fhi": "Zuordnung bei Garnbemusterung"
-        },
-        {
-          "hex": "#C7998C",
-          "name": "Argila / Clay",
-          "pantone_fhi": "Zuordnung bei Garnbemusterung"
-        },
-        {
-          "hex": "#232E75",
-          "name": "Azul Fundo",
-          "pantone_fhi": "Zuordnung bei Garnbemusterung"
-        }
-      ],
-      "stimmungen": [
-        "warm",
-        "kräftig"
-      ],
-      "farbwelten": [
-        "rot",
-        "blau"
-      ],
-      "special": null,
-      "edition_feature": false,
-      "auswahl_empfehlung": "reserve",
-      "bilder": {
-        "webp_1500": "images/campo-19-brasa_1500.webp",
-        "webp_800": "images/campo-19-brasa_800.webp",
-        "webp_400": "images/campo-19-brasa_400.webp",
-        "jpeg_1500": "images/campo-19-brasa_1500.jpg"
-      },
-      "bilder_real": {
-        "webp_1500": "images-real/campo-19-brasa_real_1500.webp",
-        "webp_800": "images-real/campo-19-brasa_real_800.webp",
-        "webp_400": "images-real/campo-19-brasa_real_400.webp",
-        "jpeg_1500": "images-real/campo-19-brasa_real_1500.jpg"
-      },
-      "alt_text": "CAMPO 19 BRASA — Vollflächig, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection"
-    },
-    {
-      "kollektion": "campo",
-      "code": "CAMPO 20",
-      "nummer": 20,
-      "id": "campo-20-jardim",
-      "name": "JARDIM",
-      "name_bedeutung": "Portugiesisch: der Garten",
-      "serie_key": "serie-4-elo",
-      "typ": "Fond-Entwurf",
-      "format_cm": "200 × 300",
-      "format_hinweis": "frei skalierbar",
-      "fond": "Linho #E7DECB (12-0703 TCX Seedpearl), NZ-Wolle ungefärbt",
-      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie abweichende Florhöhen, Schlingenflor oder Fransen nach individueller Besprechung",
-      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
-      "text_kurz": "Der Garten: Grün-Familie als geschichtete Beete auf Naturgrund, ein zartes Rosa-Feld ruht rechts unten. Die blaue Linie hält alles zusammen.",
-      "text_lang": "Jardim — »der Garten«. Die Grün-Familie als geschichtete Beete auf Naturgrund: Coriander-Grün als Hauptfeld, Tangella-Hell und Olive-Tief als Nachbarn. Ein Feld in zartem Rosa ruht rechts unten — WGSN beschreibt Meadowland Green als Farbe der Rast, und genau das tut dieser Entwurf. Die blaue Linie hält die Komposition zusammen.",
-      "farben": [
-        {
-          "hex": "#BCC7A4",
-          "name": "Erva Clara",
-          "pantone_fhi": "Zuordnung bei Garnbemusterung"
-        },
-        {
-          "hex": "#7CA377",
-          "name": "Meadowland Green / Erva",
-          "pantone_fhi": "16-6116 TCX Shale Green"
-        },
-        {
-          "hex": "#66794B",
-          "name": "Erva Funda",
-          "pantone_fhi": "Zuordnung bei Garnbemusterung"
-        },
-        {
-          "hex": "#EFD2D9",
-          "name": "Rosa Claro",
-          "pantone_fhi": "Zuordnung bei Garnbemusterung"
-        },
-        {
-          "hex": "#3A46A0",
-          "name": "Azul (Mansilla)",
-          "pantone_fhi": "Zuordnung bei Garnbemusterung"
-        }
-      ],
-      "stimmungen": [
-        "leise",
-        "erdig"
-      ],
-      "farbwelten": [
-        "gruen",
-        "rosa"
-      ],
-      "special": null,
-      "edition_feature": false,
-      "auswahl_empfehlung": "empfehlung-serie-fond",
-      "bilder": {
-        "webp_1500": "images/campo-20-jardim_1500.webp",
-        "webp_800": "images/campo-20-jardim_800.webp",
-        "webp_400": "images/campo-20-jardim_400.webp",
-        "jpeg_1500": "images/campo-20-jardim_1500.jpg"
-      },
-      "bilder_real": {
-        "webp_1500": "images-real/campo-20-jardim_real_1500.webp",
-        "webp_800": "images-real/campo-20-jardim_real_800.webp",
-        "webp_400": "images-real/campo-20-jardim_real_400.webp",
-        "jpeg_1500": "images-real/campo-20-jardim_real_1500.jpg"
-      },
-      "alt_text": "CAMPO 20 JARDIM — Fond-Entwurf, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection"
-    },
-    {
-      "kollektion": "campo",
-      "code": "CAMPO 21",
-      "nummer": 21,
-      "id": "campo-21-doce",
-      "name": "DOCE",
-      "name_bedeutung": "Portugiesisch: süß",
-      "serie_key": "serie-4-elo",
-      "typ": "Vollflächig",
-      "format_cm": "200 × 300",
-      "format_hinweis": "frei skalierbar",
-      "fond": "Linho #E7DECB (12-0703 TCX Seedpearl), NZ-Wolle ungefärbt",
-      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie abweichende Florhöhen, Schlingenflor oder Fransen nach individueller Besprechung",
-      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
-      "text_kurz": "Die Pink-Familie in drei Stufen, French-Rose-Clay beruhigt den Boden, ein Mansilla-Blau-Block verankert die Süße.",
-      "text_lang": "Doce — »süß«. Die Pink-Familie vollflächig, in drei Stufen von Pantaloon-Zart über Eye-Candy-Pop bis zum gedeckten Sophisticated Pink. French-Rose-Clay beruhigt den Boden, ein Block in Mansilla-Blau verankert die Süße, ein oranges Quadrat setzt den Kontrapunkt. Strategische Freude — Farbe als Wellness, wie es die Prognose nennt, aber mit Haltung.",
-      "farben": [
-        {
-          "hex": "#EFD2D9",
-          "name": "Rosa Claro",
-          "pantone_fhi": "Zuordnung bei Garnbemusterung"
-        },
-        {
-          "hex": "#E27FAE",
-          "name": "Rosa Pop",
-          "pantone_fhi": "Zuordnung bei Garnbemusterung"
-        },
-        {
-          "hex": "#B4788D",
-          "name": "Rosa Fundo",
-          "pantone_fhi": "Zuordnung bei Garnbemusterung"
-        },
-        {
-          "hex": "#DBC0B4",
-          "name": "Argila Clara",
-          "pantone_fhi": "Zuordnung bei Garnbemusterung"
-        },
-        {
-          "hex": "#3A46A0",
-          "name": "Azul (Mansilla)",
-          "pantone_fhi": "Zuordnung bei Garnbemusterung"
-        }
-      ],
-      "stimmungen": [
-        "warm",
-        "verspielt"
-      ],
-      "farbwelten": [
-        "rosa",
-        "blau"
-      ],
-      "special": null,
-      "edition_feature": false,
-      "auswahl_empfehlung": "reserve",
-      "bilder": {
-        "webp_1500": "images/campo-21-doce_1500.webp",
-        "webp_800": "images/campo-21-doce_800.webp",
-        "webp_400": "images/campo-21-doce_400.webp",
-        "jpeg_1500": "images/campo-21-doce_1500.jpg"
-      },
-      "bilder_real": {
-        "webp_1500": "images-real/campo-21-doce_real_1500.webp",
-        "webp_800": "images-real/campo-21-doce_real_800.webp",
-        "webp_400": "images-real/campo-21-doce_real_400.webp",
-        "jpeg_1500": "images-real/campo-21-doce_real_1500.jpg"
-      },
-      "alt_text": "CAMPO 21 DOCE — Vollflächig, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection"
-    },
-    {
-      "kollektion": "campo",
-      "code": "CAMPO 22",
-      "nummer": 22,
-      "id": "campo-22-elo",
-      "name": "ELO",
-      "name_bedeutung": "Portugiesisch: das Bindeglied",
-      "serie_key": "serie-4-elo",
-      "typ": "Vollflächig",
-      "format_cm": "200 × 300",
-      "format_hinweis": "frei skalierbar",
-      "fond": "Linho #E7DECB (12-0703 TCX Seedpearl), NZ-Wolle ungefärbt",
-      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie abweichende Florhöhen, Schlingenflor oder Fransen nach individueller Besprechung",
-      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
-      "text_kurz": "Das Bindeglied: Alle fünf Farbfamilien greifen wie Kettenglieder ineinander, eine einzige orange Linie durchläuft alle Zonen.",
-      "text_lang": "Elo — »das Bindeglied«, das namensgebende Stück. Alle fünf Farbfamilien greifen wie Kettenglieder ineinander: Blau, Grün, Orange, Clay und Pink teilen sich die Fläche mit einem Linho-Feld, und eine einzige orange Linie durchläuft alle Zonen — Interconnectedness wörtlich genommen. Der Entwurf, der die ganze Serie in einem Bild erzählt.",
-      "farben": [
-        {
-          "hex": "#3A46A0",
-          "name": "Azul (Mansilla)",
-          "pantone_fhi": "Zuordnung bei Garnbemusterung"
-        },
-        {
-          "hex": "#BCC7A4",
-          "name": "Erva Clara",
-          "pantone_fhi": "Zuordnung bei Garnbemusterung"
-        },
-        {
-          "hex": "#AD5527",
-          "name": "Sol Fundo",
-          "pantone_fhi": "Zuordnung bei Garnbemusterung"
-        },
-        {
-          "hex": "#C7998C",
-          "name": "Argila / Clay",
-          "pantone_fhi": "Zuordnung bei Garnbemusterung"
-        },
-        {
-          "hex": "#7CA377",
-          "name": "Meadowland Green / Erva",
-          "pantone_fhi": "16-6116 TCX Shale Green"
-        },
-        {
-          "hex": "#E27FAE",
-          "name": "Rosa Pop",
-          "pantone_fhi": "Zuordnung bei Garnbemusterung"
-        }
-      ],
-      "stimmungen": [
-        "kräftig",
-        "verspielt"
-      ],
-      "farbwelten": [
-        "bunt"
-      ],
-      "special": {
-        "typ": "schlingenflor",
-        "text": "Die orange Verbindungslinie ist als Schlaufenlinie abgesetzt — das Bindeglied wird tastbar."
-      },
-      "edition_feature": true,
-      "auswahl_empfehlung": "empfehlung-serie-vollflaechig",
-      "bilder": {
-        "webp_1500": "images/campo-22-elo_1500.webp",
-        "webp_800": "images/campo-22-elo_800.webp",
-        "webp_400": "images/campo-22-elo_400.webp",
-        "jpeg_1500": "images/campo-22-elo_1500.jpg"
-      },
-      "bilder_real": {
-        "webp_1500": "images-real/campo-22-elo_real_1500.webp",
-        "webp_800": "images-real/campo-22-elo_real_800.webp",
-        "webp_400": "images-real/campo-22-elo_real_400.webp",
-        "jpeg_1500": "images-real/campo-22-elo_real_1500.jpg"
-      },
-      "alt_text": "CAMPO 22 ELO — Vollflächig, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection"
-    },
-    {
-      "kollektion": "campo",
-      "code": "CAMPO 23",
-      "nummer": 23,
-      "id": "campo-23-nuvem",
-      "name": "NUVEM",
-      "name_bedeutung": "Portugiesisch: die Wolke",
-      "serie_key": "serie-5-nuvem",
-      "typ": "Fond-Entwurf",
-      "format_cm": "200 × 300",
-      "format_hinweis": "frei skalierbar",
-      "fond": "Cloud Dancer #F0EEE4 (11-4201 TCX), hell gefärbte NZ-Wolle",
-      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie abweichende Florhöhen, Schlingenflor oder Fransen nach individueller Besprechung",
-      "eignung": "hohe Belastbarkeit; heller Cloud-Dancer-Fond ist schmutzempfindlicher — für stark frequentierte Zonen Linho-Ausführung als Alternative empfohlen",
-      "text_kurz": "Die Wolke: Drei Felder schweben mit maximalem Abstand auf Cloud-Dancer-Grund — die leichteste Komposition der Kollektion.",
-      "text_lang": "Nuvem — »die Wolke«, das namensgebende Stück. Die leichteste Komposition der Kollektion: Drei Felder in Lilac, hellem Blau und Luminous Blue schweben mit maximalem Abstand auf dem weißen Grund, eine feine Maize-Linie hält sie zusammen. Cloud Dancer übernimmt hier zum ersten Mal die Rolle, die Linho in den Serien 1–4 spielt — nur heller, kühler, stiller.",
-      "farben": [
-        {
-          "hex": "#C6B8D6",
-          "name": "Peaceful Lilac",
-          "pantone_fhi": "14-3812 TCX Pastel Lilac"
-        },
-        {
-          "hex": "#B7C1DA",
-          "name": "Azul Claro",
-          "pantone_fhi": "Zuordnung bei Garnbemusterung"
-        },
-        {
-          "hex": "#333F96",
-          "name": "Luminous Blue — COTY 2027",
-          "pantone_fhi": "19-3951 TCX Clematis Blue"
-        },
-        {
-          "hex": "#E4B54A",
-          "name": "Maize",
-          "pantone_fhi": "15-1050 TCX Golden Glow"
-        }
-      ],
-      "stimmungen": [
-        "kühl",
-        "leise"
-      ],
-      "farbwelten": [
-        "blau",
-        "lila",
-        "neutral"
-      ],
-      "special": null,
-      "edition_feature": false,
-      "auswahl_empfehlung": "serie-5-nuvem-gesetzt",
-      "bilder": {
-        "webp_1500": "images/campo-23-nuvem_1500.webp",
-        "webp_800": "images/campo-23-nuvem_800.webp",
-        "webp_400": "images/campo-23-nuvem_400.webp",
-        "jpeg_1500": "images/campo-23-nuvem_1500.jpg"
-      },
-      "bilder_real": {
-        "webp_1500": "images-real/campo-23-nuvem_real_1500.webp",
-        "webp_800": "images-real/campo-23-nuvem_real_800.webp",
-        "webp_400": "images-real/campo-23-nuvem_real_400.webp",
-        "jpeg_1500": "images-real/campo-23-nuvem_real_1500.jpg"
-      },
-      "alt_text": "CAMPO 23 NUVEM — Fond-Entwurf, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection"
-    },
-    {
-      "kollektion": "campo",
-      "code": "CAMPO 24",
-      "nummer": 24,
-      "id": "campo-24-neblina",
-      "name": "NEBLINA",
-      "name_bedeutung": "Portugiesisch: der Nebel",
-      "serie_key": "serie-5-nuvem",
-      "typ": "Fond-Entwurf",
-      "format_cm": "200 × 300",
-      "format_hinweis": "frei skalierbar",
-      "fond": "Cloud Dancer #F0EEE4 (11-4201 TCX), hell gefärbte NZ-Wolle",
-      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie abweichende Florhöhen, Schlingenflor oder Fransen nach individueller Besprechung",
-      "eignung": "hohe Belastbarkeit; heller Cloud-Dancer-Fond ist schmutzempfindlicher — für stark frequentierte Zonen Linho-Ausführung als Alternative empfohlen",
-      "text_kurz": "Der Nebel: Vier Horizonte über die volle Breite, aber zwischen den Bändern bleibt der helle Grund stehen — die Bänder atmen.",
-      "text_lang": "Neblina — »der Nebel«. Vier Horizonte laufen über die volle Breite, aber anders als bei HORA AZUL bleibt zwischen ihnen der helle Grund stehen: Die Bänder atmen. Von Azul Claro über Lilac und Luminous Blue bis Deep Green werden sie nach unten schwerer — Nebel, der sich setzt. Ein Entwurf zwischen Fond und Fläche.",
-      "farben": [
-        {
-          "hex": "#B7C1DA",
-          "name": "Azul Claro",
-          "pantone_fhi": "Zuordnung bei Garnbemusterung"
-        },
-        {
-          "hex": "#C6B8D6",
-          "name": "Peaceful Lilac",
-          "pantone_fhi": "14-3812 TCX Pastel Lilac"
-        },
-        {
-          "hex": "#333F96",
-          "name": "Luminous Blue — COTY 2027",
-          "pantone_fhi": "19-3951 TCX Clematis Blue"
-        },
-        {
-          "hex": "#2C4237",
-          "name": "Deep Green",
-          "pantone_fhi": "19-5920 TCX Pineneedle"
-        }
-      ],
-      "stimmungen": [
-        "kühl",
-        "leise",
-        "tonal"
-      ],
-      "farbwelten": [
-        "blau",
-        "lila",
-        "neutral"
-      ],
-      "special": null,
-      "edition_feature": false,
-      "auswahl_empfehlung": "serie-5-nuvem-gesetzt",
-      "bilder": {
-        "webp_1500": "images/campo-24-neblina_1500.webp",
-        "webp_800": "images/campo-24-neblina_800.webp",
-        "webp_400": "images/campo-24-neblina_400.webp",
-        "jpeg_1500": "images/campo-24-neblina_1500.jpg"
-      },
-      "bilder_real": {
-        "webp_1500": "images-real/campo-24-neblina_real_1500.webp",
-        "webp_800": "images-real/campo-24-neblina_real_800.webp",
-        "webp_400": "images-real/campo-24-neblina_real_400.webp",
-        "jpeg_1500": "images-real/campo-24-neblina_real_1500.jpg"
-      },
-      "alt_text": "CAMPO 24 NEBLINA — Fond-Entwurf, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection"
-    },
-    {
-      "kollektion": "campo",
-      "code": "CAMPO 25",
-      "nummer": 25,
-      "id": "campo-25-gelo",
-      "name": "GELO",
-      "name_bedeutung": "Portugiesisch: das Eis",
-      "serie_key": "serie-5-nuvem",
-      "typ": "Vollflächig",
-      "format_cm": "200 × 300",
-      "format_hinweis": "frei skalierbar",
-      "fond": "Cloud Dancer #F0EEE4 (11-4201 TCX), hell gefärbte NZ-Wolle",
-      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie abweichende Florhöhen, Schlingenflor oder Fransen nach individueller Besprechung",
-      "eignung": "hohe Belastbarkeit; heller Cloud-Dancer-Fond ist schmutzempfindlicher — für stark frequentierte Zonen Linho-Ausführung als Alternative empfohlen",
-      "text_kurz": "Das Eis: Himmelblau und Cloud Dancer über Luminous Blue und tiefem Topaz-Blau — Wasser unter Eis, ein Maize-Quadrat glüht im Weiß.",
-      "text_lang": "Gelo — »das Eis«. Der vollflächige Entwurf der Serie: Himmelblau und Cloud Dancer teilen die obere Hälfte, darunter schichten sich Luminous Blue und tiefes Topaz-Blau wie Wasser unter Eis. Ein Maize-Quadrat glüht im Weiß. Cloud Dancer ist hier keine Pause, sondern eigenständige Masse — ein Viertel der Fläche.",
-      "farben": [
-        {
-          "hex": "#7FA9B5",
-          "name": "Himmel",
-          "pantone_fhi": "16-4411 TCX Tourmaline"
-        },
-        {
-          "hex": "#F0EEE4",
-          "name": "Cloud Dancer — Fond Serie 5",
-          "pantone_fhi": "11-4201 TCX Cloud Dancer"
-        },
-        {
-          "hex": "#E4B54A",
-          "name": "Maize",
-          "pantone_fhi": "15-1050 TCX Golden Glow"
-        },
-        {
-          "hex": "#333F96",
-          "name": "Luminous Blue — COTY 2027",
-          "pantone_fhi": "19-3951 TCX Clematis Blue"
-        },
-        {
-          "hex": "#232E75",
-          "name": "Azul Fundo",
-          "pantone_fhi": "Zuordnung bei Garnbemusterung"
-        }
-      ],
-      "stimmungen": [
-        "kühl",
-        "kräftig"
-      ],
-      "farbwelten": [
-        "blau",
-        "gelb",
-        "neutral"
-      ],
-      "special": null,
-      "edition_feature": false,
-      "auswahl_empfehlung": "serie-5-nuvem-gesetzt",
-      "bilder": {
-        "webp_1500": "images/campo-25-gelo_1500.webp",
-        "webp_800": "images/campo-25-gelo_800.webp",
-        "webp_400": "images/campo-25-gelo_400.webp",
-        "jpeg_1500": "images/campo-25-gelo_1500.jpg"
-      },
-      "bilder_real": {
-        "webp_1500": "images-real/campo-25-gelo_real_1500.webp",
-        "webp_800": "images-real/campo-25-gelo_real_800.webp",
-        "webp_400": "images-real/campo-25-gelo_real_400.webp",
-        "jpeg_1500": "images-real/campo-25-gelo_real_1500.jpg"
-      },
-      "alt_text": "CAMPO 25 GELO — Vollflächig, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection"
-    },
-    {
-      "kollektion": "campo",
-      "code": "CAMPO 26",
-      "nummer": 26,
-      "id": "campo-26-vento",
-      "name": "VENTO",
-      "name_bedeutung": "Portugiesisch: der Wind",
-      "serie_key": "serie-5-nuvem",
-      "typ": "Fond-Entwurf",
-      "format_cm": "200 × 300",
-      "format_hinweis": "frei skalierbar",
-      "fond": "Cloud Dancer #F0EEE4 (11-4201 TCX), hell gefärbte NZ-Wolle",
-      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie abweichende Florhöhen, Schlingenflor oder Fransen nach individueller Besprechung",
-      "eignung": "hohe Belastbarkeit; heller Cloud-Dancer-Fond ist schmutzempfindlicher — für stark frequentierte Zonen Linho-Ausführung als Alternative empfohlen",
-      "text_kurz": "Der Wind: Sieben vertikale Stäbe in eigener Höhe und Breite, sechs kühle Töne und ein warmer Ausreißer — das grafischste Stück der Kollektion.",
-      "text_lang": "Vento — »der Wind«. Ein neues Vokabular für die Kollektion: Sieben vertikale Stäbe in eigener Höhe, Breite und Farbe stehen im Rhythmus auf dem weißen Grund, wie vom Wind gekämmtes Gras. Sechs kühle Töne, ein einziger warmer (Sol) — der Ausreißer, der den Takt erst hörbar macht. Das grafischste Stück der Serie.",
-      "farben": [
-        {
-          "hex": "#333F96",
-          "name": "Luminous Blue — COTY 2027",
-          "pantone_fhi": "19-3951 TCX Clematis Blue"
-        },
-        {
-          "hex": "#C6B8D6",
-          "name": "Peaceful Lilac",
-          "pantone_fhi": "14-3812 TCX Pastel Lilac"
-        },
-        {
-          "hex": "#7FA9B5",
-          "name": "Himmel",
-          "pantone_fhi": "16-4411 TCX Tourmaline"
-        },
-        {
-          "hex": "#2C4237",
-          "name": "Deep Green",
-          "pantone_fhi": "19-5920 TCX Pineneedle"
-        },
-        {
-          "hex": "#E4B54A",
-          "name": "Maize",
-          "pantone_fhi": "15-1050 TCX Golden Glow"
-        },
-        {
-          "hex": "#B7C1DA",
-          "name": "Azul Claro",
-          "pantone_fhi": "Zuordnung bei Garnbemusterung"
-        },
-        {
-          "hex": "#E0752F",
-          "name": "Energy Orange / Sol",
-          "pantone_fhi": "16-1164 TCX Orange Pepper"
-        }
-      ],
-      "stimmungen": [
-        "kühl",
-        "verspielt"
-      ],
-      "farbwelten": [
-        "blau",
-        "bunt",
-        "neutral"
-      ],
-      "special": {
-        "typ": "schlingenflor",
-        "text": "Alle sieben Stäbe im Schlingenflor auf glattem Cloud-Dancer-Grund."
-      },
-      "edition_feature": true,
-      "auswahl_empfehlung": "serie-5-nuvem-gesetzt",
-      "bilder": {
-        "webp_1500": "images/campo-26-vento_1500.webp",
-        "webp_800": "images/campo-26-vento_800.webp",
-        "webp_400": "images/campo-26-vento_400.webp",
-        "jpeg_1500": "images/campo-26-vento_1500.jpg"
-      },
-      "bilder_real": {
-        "webp_1500": "images-real/campo-26-vento_real_1500.webp",
-        "webp_800": "images-real/campo-26-vento_real_800.webp",
-        "webp_400": "images-real/campo-26-vento_real_400.webp",
-        "jpeg_1500": "images-real/campo-26-vento_real_1500.jpg"
-      },
-      "alt_text": "CAMPO 26 VENTO — Fond-Entwurf, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection"
-    },
-    {
-      "kollektion": "campo",
-      "code": "CAMPO 27",
-      "nummer": 27,
-      "id": "campo-27-alvorada",
-      "name": "ALVORADA",
-      "name_bedeutung": "Portugiesisch: die Morgendämmerung",
-      "serie_key": "serie-5-nuvem",
-      "typ": "Vollflächig",
-      "format_cm": "200 × 300",
-      "format_hinweis": "frei skalierbar",
-      "fond": "Cloud Dancer #F0EEE4 (11-4201 TCX), hell gefärbte NZ-Wolle",
-      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie abweichende Florhöhen, Schlingenflor oder Fransen nach individueller Besprechung",
-      "eignung": "hohe Belastbarkeit; heller Cloud-Dancer-Fond ist schmutzempfindlicher — für stark frequentierte Zonen Linho-Ausführung als Alternative empfohlen",
-      "text_kurz": "Die Morgendämmerung: die bewusste Umkehrung von HORA AZUL — die Nacht oben, ein Maize-Lichtstreif, darunter die große helle Fläche.",
-      "text_lang": "Alvorada — »die Morgendämmerung«, die bewusste Umkehrung von HORA AZUL: Dort sinkt der Abend von hellem Grund in tiefes Grün, hier kommt der Tag von unten — die Nacht in zwei Blaustufen oben, dann Lilac, ein schmales Maize-Band als erster Lichtstreif, und darunter die große helle Fläche in Cloud Dancer. Die feine Linie in Deep Green verbindet beide Welten. Das poetische Gegenstück, mit dem sich der Kreis der Kollektion schließt.",
-      "farben": [
-        {
-          "hex": "#232E75",
-          "name": "Azul Fundo",
-          "pantone_fhi": "Zuordnung bei Garnbemusterung"
-        },
-        {
-          "hex": "#333F96",
-          "name": "Luminous Blue — COTY 2027",
-          "pantone_fhi": "19-3951 TCX Clematis Blue"
-        },
-        {
-          "hex": "#C6B8D6",
-          "name": "Peaceful Lilac",
-          "pantone_fhi": "14-3812 TCX Pastel Lilac"
-        },
-        {
-          "hex": "#E4B54A",
-          "name": "Maize",
-          "pantone_fhi": "15-1050 TCX Golden Glow"
-        },
-        {
-          "hex": "#F0EEE4",
-          "name": "Cloud Dancer — Fond Serie 5",
-          "pantone_fhi": "11-4201 TCX Cloud Dancer"
-        }
-      ],
-      "stimmungen": [
-        "kühl",
-        "leise",
-        "tonal"
-      ],
-      "farbwelten": [
-        "blau",
-        "gelb",
-        "neutral"
-      ],
-      "special": null,
-      "edition_feature": true,
-      "auswahl_empfehlung": "serie-5-nuvem-gesetzt",
-      "bilder": {
-        "webp_1500": "images/campo-27-alvorada_1500.webp",
-        "webp_800": "images/campo-27-alvorada_800.webp",
-        "webp_400": "images/campo-27-alvorada_400.webp",
-        "jpeg_1500": "images/campo-27-alvorada_1500.jpg"
-      },
-      "bilder_real": {
-        "webp_1500": "images-real/campo-27-alvorada_real_1500.webp",
-        "webp_800": "images-real/campo-27-alvorada_real_800.webp",
-        "webp_400": "images-real/campo-27-alvorada_real_400.webp",
-        "jpeg_1500": "images-real/campo-27-alvorada_real_1500.jpg"
-      },
-      "alt_text": "CAMPO 27 ALVORADA — Vollflächig, Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection"
-    },
-    {
-      "kollektion": "trama",
-      "code": "TRAMA 01",
-      "nummer": 1,
-      "id": "trama-01-urdidura",
-      "name": "URDIDURA",
-      "name_bedeutung": "Portugiesisch: die Kette",
-      "serie_key": "trama-reihe-1",
-      "typ": "Hochformat, Bahnen auf Cru",
-      "format_cm": "200 × 300",
-      "format_hinweis": "frei skalierbar",
-      "fond": "Cru #E7DECB (12-0703 TCX Seedpearl), NZ-Wolle ungefärbt",
-      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie Schlingenflor-Kreuzungen oder Fransen nach individueller Besprechung",
-      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
-      "text_kurz": "Elf Kettbahnen wie aufgespannte Fäden — die Ockerbahn bricht auf zwei Dritteln zu Zinnober: der Moment, in dem die Weberin eingreift.",
-      "text_lang": "Elf vertikale Kettbahnen in unregelmäßigen Breiten stehen nebeneinander wie aufgespannte Fäden am Webstuhl. Auf zwei Dritteln der Höhe bricht das System: Die Ockerbahn wechselt zu Zinnober. Dieser eine Farbwechsel ist der ganze Entwurf — der Moment, in dem die Weberin eingreift.",
-      "farben": [
-        {
-          "hex": "#E7DECB",
-          "name": "Linho/Cru — Fond, NZ-Wolle ungefärbt",
-          "pantone_fhi": "12-0703 TCX Seedpearl"
-        },
-        {
-          "hex": "#2B3A66",
-          "name": "Tinta",
-          "pantone_fhi": "~19-3939 TCX Blueprint"
-        },
-        {
-          "hex": "#4B4844",
-          "name": "Graphit/Grafite",
-          "pantone_fhi": "19-0508 TCX Peat"
-        },
-        {
-          "hex": "#DDA13D",
-          "name": "Ocker/Ocre",
-          "pantone_fhi": "14-0952 TCX Spicy Mustard"
-        },
-        {
-          "hex": "#A45A38",
-          "name": "Ferrugem",
-          "pantone_fhi": "~18-1248 TCX Rust"
-        },
-        {
-          "hex": "#C0402E",
+          "hex": "#D83A1E",
           "name": "Vermelho",
-          "pantone_fhi": "18-1447 TCX Orange Rust"
+          "pantone_fhi": "~18-1662 TCX Flame Scarlet"
+        },
+        {
+          "hex": "#2A1E63",
+          "name": "Índigo",
+          "pantone_fhi": "~19-3730 TCX Gentian Violet"
+        },
+        {
+          "hex": "#1E6E86",
+          "name": "Petrol",
+          "pantone_fhi": "~18-4525 TCX Ocean Depths"
         }
       ],
-      "stimmungen": [
-        "kräftig",
-        "erdig"
-      ],
-      "farbwelten": [
-        "blau",
-        "gelb",
-        "rot",
-        "neutral"
-      ],
-      "special": {
-        "typ": "fransen",
-        "text": "Mehrfarbige Fransen an der Unterkante — jede Kettbahn franst in ihrer eigenen Farbe aus."
-      },
-      "edition_feature": true,
-      "auswahl_empfehlung": "trama-gesetzt",
+      "hero": false,
       "bilder": {
-        "webp_1500": "images/trama-01-urdidura_1500.webp",
-        "webp_800": "images/trama-01-urdidura_800.webp",
-        "webp_400": "images/trama-01-urdidura_400.webp",
-        "jpeg_1500": "images/trama-01-urdidura_1500.jpg"
+        "webp_1500": "images/proprio-07-eco_1500.webp",
+        "webp_800": "images/proprio-07-eco_800.webp",
+        "webp_400": "images/proprio-07-eco_400.webp",
+        "jpeg_1500": "images/proprio-07-eco_1500.jpg"
       },
-      "bilder_real": {
-        "webp_1500": "images-real/trama-01-urdidura_real_1500.webp",
-        "webp_800": "images-real/trama-01-urdidura_real_800.webp",
-        "webp_400": "images-real/trama-01-urdidura_real_400.webp",
-        "jpeg_1500": "images-real/trama-01-urdidura_real_1500.jpg"
-      },
-      "alt_text": "TRAMA 01 URDIDURA — Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection N°2"
-    },
-    {
-      "kollektion": "trama",
-      "code": "TRAMA 02",
-      "nummer": 2,
-      "id": "trama-02-trama",
-      "name": "TRAMA",
-      "name_bedeutung": "Portugiesisch: der Schuss",
-      "serie_key": "trama-reihe-1",
-      "typ": "Hochformat, Bahnen auf Cru",
-      "format_cm": "200 × 300",
-      "format_hinweis": "frei skalierbar",
-      "fond": "Cru #E7DECB (12-0703 TCX Seedpearl), NZ-Wolle ungefärbt",
-      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie Schlingenflor-Kreuzungen oder Fransen nach individueller Besprechung",
-      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
-      "text_kurz": "Drei Ketten kreuzen fünf Schüsse — an allen fünfzehn Kreuzungen mischt sich die Farbe. Der Teppich sieht gewebt aus, obwohl er getuftet ist.",
-      "text_lang": "Das namensgebende Stück: Drei Kettbahnen kreuzen fünf Schussbänder. An allen fünfzehn Kreuzungen mischt sich die Farbe zu einem eigenen Ton — als läge Garn über Garn. Der Teppich sieht gewebt aus, obwohl er getuftet ist: Das Prinzip der Werkstatt wird zum Bild.",
-      "farben": [
-        {
-          "hex": "#2B3A66",
-          "name": "Tinta",
-          "pantone_fhi": "~19-3939 TCX Blueprint"
-        },
-        {
-          "hex": "#4B4844",
-          "name": "Graphit/Grafite",
-          "pantone_fhi": "19-0508 TCX Peat"
-        },
-        {
-          "hex": "#DDA13D",
-          "name": "Ocker/Ocre",
-          "pantone_fhi": "14-0952 TCX Spicy Mustard"
-        },
-        {
-          "hex": "#C0402E",
-          "name": "Vermelho",
-          "pantone_fhi": "18-1447 TCX Orange Rust"
-        },
-        {
-          "hex": "#8A9080",
-          "name": "Salva",
-          "pantone_fhi": "~16-0110 TCX Desert Sage"
-        },
-        {
-          "hex": "#A45A38",
-          "name": "Ferrugem",
-          "pantone_fhi": "~18-1248 TCX Rust"
-        }
-      ],
-      "stimmungen": [
-        "verspielt",
-        "erdig"
-      ],
-      "farbwelten": [
-        "bunt"
-      ],
-      "special": {
-        "typ": "schlingenflor",
-        "text": "Alle fünfzehn Kreuzungen im Schlingenflor — Kette × Schuss als Relief."
-      },
-      "edition_feature": false,
-      "auswahl_empfehlung": "trama-gesetzt",
-      "bilder": {
-        "webp_1500": "images/trama-02-trama_1500.webp",
-        "webp_800": "images/trama-02-trama_800.webp",
-        "webp_400": "images/trama-02-trama_400.webp",
-        "jpeg_1500": "images/trama-02-trama_1500.jpg"
-      },
-      "bilder_real": {
-        "webp_1500": "images-real/trama-02-trama_real_1500.webp",
-        "webp_800": "images-real/trama-02-trama_real_800.webp",
-        "webp_400": "images-real/trama-02-trama_real_400.webp",
-        "jpeg_1500": "images-real/trama-02-trama_real_1500.jpg"
-      },
-      "alt_text": "TRAMA 02 TRAMA — Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection N°2"
-    },
-    {
-      "kollektion": "trama",
-      "code": "TRAMA 03",
-      "nummer": 3,
-      "id": "trama-03-xadrez",
-      "name": "XADREZ",
-      "name_bedeutung": "Portugiesisch: das Karo",
-      "serie_key": "trama-reihe-1",
-      "typ": "Hochformat, Bahnen auf Cru",
-      "format_cm": "200 × 300",
-      "format_hinweis": "frei skalierbar",
-      "fond": "Cru #E7DECB (12-0703 TCX Seedpearl), NZ-Wolle ungefärbt",
-      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie Schlingenflor-Kreuzungen oder Fransen nach individueller Besprechung",
-      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
-      "text_kurz": "Ein ruhiges Karo aus Tinta und Ocker — ein Schussband sitzt zwölf Zentimeter versetzt: der Webfehler als Signatur.",
-      "text_lang": "Ein breites, ruhiges Karo aus Tinta-Kette und Ocker-Schuss auf Cru — auf den ersten Blick reine Ordnung. Auf den zweiten: Ein Schussband sitzt zwölf Zentimeter versetzt. Der Webfehler als Signatur — man sieht ihn einmal und übersieht ihn nie wieder.",
-      "farben": [
-        {
-          "hex": "#2B3A66",
-          "name": "Tinta",
-          "pantone_fhi": "~19-3939 TCX Blueprint"
-        },
-        {
-          "hex": "#DDA13D",
-          "name": "Ocker/Ocre",
-          "pantone_fhi": "14-0952 TCX Spicy Mustard"
-        },
-        {
-          "hex": "#E7DECB",
-          "name": "Linho/Cru — Fond, NZ-Wolle ungefärbt",
-          "pantone_fhi": "12-0703 TCX Seedpearl"
-        }
-      ],
-      "stimmungen": [
-        "erdig",
-        "kräftig"
-      ],
-      "farbwelten": [
-        "blau",
-        "gelb"
-      ],
-      "special": null,
-      "edition_feature": false,
-      "auswahl_empfehlung": "trama-gesetzt",
-      "bilder": {
-        "webp_1500": "images/trama-03-xadrez_1500.webp",
-        "webp_800": "images/trama-03-xadrez_800.webp",
-        "webp_400": "images/trama-03-xadrez_400.webp",
-        "jpeg_1500": "images/trama-03-xadrez_1500.jpg"
-      },
-      "bilder_real": {
-        "webp_1500": "images-real/trama-03-xadrez_real_1500.webp",
-        "webp_800": "images-real/trama-03-xadrez_real_800.webp",
-        "webp_400": "images-real/trama-03-xadrez_real_400.webp",
-        "jpeg_1500": "images-real/trama-03-xadrez_real_1500.jpg"
-      },
-      "alt_text": "TRAMA 03 XADREZ — Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection N°2"
-    },
-    {
-      "kollektion": "trama",
-      "code": "TRAMA 04",
-      "nummer": 4,
-      "id": "trama-04-franja",
-      "name": "FRANJA",
-      "name_bedeutung": "Portugiesisch: die Franse",
-      "serie_key": "trama-reihe-1",
-      "typ": "Hochformat, Bahnen auf Cru",
-      "format_cm": "200 × 300",
-      "format_hinweis": "frei skalierbar",
-      "fond": "Cru #E7DECB (12-0703 TCX Seedpearl), NZ-Wolle ungefärbt",
-      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie Schlingenflor-Kreuzungen oder Fransen nach individueller Besprechung",
-      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
-      "text_kurz": "Die Kettbahnen laufen offen aus, jede endet woanders — der Teppich franst kontrolliert aus, wie mitten in der Arbeit vom Webstuhl genommen.",
-      "text_lang": "Sieben Kettbahnen laufen von der Oberkante herab — und enden alle woanders. Kein Abschluss, keine Kante: Der Teppich franst kontrolliert aus, als wäre das Gewebe mitten in der Arbeit vom Webstuhl genommen worden. Ein einziger Schussfaden oben hält die Bahnen zusammen.",
-      "farben": [
-        {
-          "hex": "#2B3A66",
-          "name": "Tinta",
-          "pantone_fhi": "~19-3939 TCX Blueprint"
-        },
-        {
-          "hex": "#4B4844",
-          "name": "Graphit/Grafite",
-          "pantone_fhi": "19-0508 TCX Peat"
-        },
-        {
-          "hex": "#C0402E",
-          "name": "Vermelho",
-          "pantone_fhi": "18-1447 TCX Orange Rust"
-        },
-        {
-          "hex": "#DDA13D",
-          "name": "Ocker/Ocre",
-          "pantone_fhi": "14-0952 TCX Spicy Mustard"
-        },
-        {
-          "hex": "#A45A38",
-          "name": "Ferrugem",
-          "pantone_fhi": "~18-1248 TCX Rust"
-        }
-      ],
-      "stimmungen": [
-        "verspielt",
-        "leise"
-      ],
-      "farbwelten": [
-        "blau",
-        "rot",
-        "gelb",
-        "neutral"
-      ],
-      "special": null,
-      "edition_feature": false,
-      "auswahl_empfehlung": "trama-gesetzt",
-      "bilder": {
-        "webp_1500": "images/trama-04-franja_1500.webp",
-        "webp_800": "images/trama-04-franja_800.webp",
-        "webp_400": "images/trama-04-franja_400.webp",
-        "jpeg_1500": "images/trama-04-franja_1500.jpg"
-      },
-      "bilder_real": {
-        "webp_1500": "images-real/trama-04-franja_real_1500.webp",
-        "webp_800": "images-real/trama-04-franja_real_800.webp",
-        "webp_400": "images-real/trama-04-franja_real_400.webp",
-        "jpeg_1500": "images-real/trama-04-franja_real_1500.jpg"
-      },
-      "alt_text": "TRAMA 04 FRANJA — Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection N°2"
-    },
-    {
-      "kollektion": "trama",
-      "code": "TRAMA 05",
-      "nummer": 5,
-      "id": "trama-05-no",
-      "name": "NÓ",
-      "name_bedeutung": "Portugiesisch: der Knoten",
-      "serie_key": "trama-reihe-1",
-      "typ": "Hochformat, Bahnen auf Cru",
-      "format_cm": "200 × 300",
-      "format_hinweis": "frei skalierbar",
-      "fond": "Cru #E7DECB (12-0703 TCX Seedpearl), NZ-Wolle ungefärbt",
-      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie Schlingenflor-Kreuzungen oder Fransen nach individueller Besprechung",
-      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
-      "text_kurz": "Zur Mitte hin rücken die Bahnen zusammen, die Kreuzungen stapeln sich zu einem dunklen Knoten aus Farbe.",
-      "text_lang": "Vier Ketten, vier Schüsse — aber sie verteilen sich nicht gleichmäßig: Zur Mitte hin rücken die Bahnen zusammen, die Kreuzungen stapeln sich, die Mischtöne werden dunkler und dichter. Ein Knoten aus Farbe, der das ganze Gewebe spannt.",
-      "farben": [
-        {
-          "hex": "#2B3A66",
-          "name": "Tinta",
-          "pantone_fhi": "~19-3939 TCX Blueprint"
-        },
-        {
-          "hex": "#4B4844",
-          "name": "Graphit/Grafite",
-          "pantone_fhi": "19-0508 TCX Peat"
-        },
-        {
-          "hex": "#A45A38",
-          "name": "Ferrugem",
-          "pantone_fhi": "~18-1248 TCX Rust"
-        },
-        {
-          "hex": "#DDA13D",
-          "name": "Ocker/Ocre",
-          "pantone_fhi": "14-0952 TCX Spicy Mustard"
-        },
-        {
-          "hex": "#C0402E",
-          "name": "Vermelho",
-          "pantone_fhi": "18-1447 TCX Orange Rust"
-        },
-        {
-          "hex": "#8A9080",
-          "name": "Salva",
-          "pantone_fhi": "~16-0110 TCX Desert Sage"
-        }
-      ],
-      "stimmungen": [
-        "kräftig",
-        "erdig"
-      ],
-      "farbwelten": [
-        "bunt"
-      ],
-      "special": null,
-      "edition_feature": false,
-      "auswahl_empfehlung": "trama-gesetzt",
-      "bilder": {
-        "webp_1500": "images/trama-05-no_1500.webp",
-        "webp_800": "images/trama-05-no_800.webp",
-        "webp_400": "images/trama-05-no_400.webp",
-        "jpeg_1500": "images/trama-05-no_1500.jpg"
-      },
-      "bilder_real": {
-        "webp_1500": "images-real/trama-05-no_real_1500.webp",
-        "webp_800": "images-real/trama-05-no_real_800.webp",
-        "webp_400": "images-real/trama-05-no_real_400.webp",
-        "jpeg_1500": "images-real/trama-05-no_real_1500.jpg"
-      },
-      "alt_text": "TRAMA 05 NÓ — Teppichentwurf 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection N°2"
-    },
-    {
-      "kollektion": "trama",
-      "code": "TRAMA 06",
-      "nummer": 6,
-      "id": "trama-06-risca",
-      "name": "RISCA",
-      "name_bedeutung": "Portugiesisch: der Nadelstreifen",
-      "serie_key": "trama-reihe-1",
-      "typ": "Läufer",
-      "format_cm": "80 × 300",
-      "format_hinweis": "frei skalierbar",
-      "fond": "Cru #E7DECB (12-0703 TCX Seedpearl), NZ-Wolle ungefärbt",
-      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie Schlingenflor-Kreuzungen oder Fransen nach individueller Besprechung",
-      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
-      "text_kurz": "Sieben feine Kettnadeln über drei Meter — eine einzige läuft in Rost. Der Läufer für Flure mit Understatement.",
-      "text_lang": "Der Läufer der Kollektion: Sieben feine Kettnadeln in Tinta ziehen durch, zwei breite Schussbänder kreuzen sie. Eine einzige Nadel läuft in Rost — der kleinste denkbare Bruch, über drei Meter Länge. Für Flure, die Understatement können.",
-      "farben": [
-        {
-          "hex": "#2B3A66",
-          "name": "Tinta",
-          "pantone_fhi": "~19-3939 TCX Blueprint"
-        },
-        {
-          "hex": "#A45A38",
-          "name": "Ferrugem",
-          "pantone_fhi": "~18-1248 TCX Rust"
-        },
-        {
-          "hex": "#DDA13D",
-          "name": "Ocker/Ocre",
-          "pantone_fhi": "14-0952 TCX Spicy Mustard"
-        },
-        {
-          "hex": "#C0402E",
-          "name": "Vermelho",
-          "pantone_fhi": "18-1447 TCX Orange Rust"
-        }
-      ],
-      "stimmungen": [
-        "leise"
-      ],
-      "farbwelten": [
-        "blau",
-        "neutral"
-      ],
-      "special": {
-        "typ": "fransen",
-        "text": "Klassische Läufer-Fransen an beiden Enden."
-      },
-      "edition_feature": false,
-      "auswahl_empfehlung": "trama-gesetzt",
-      "bilder": {
-        "webp_1500": "images/trama-06-risca_1500.webp",
-        "webp_800": "images/trama-06-risca_800.webp",
-        "webp_400": "images/trama-06-risca_400.webp",
-        "jpeg_1500": "images/trama-06-risca_1500.jpg"
-      },
-      "bilder_real": {
-        "webp_1500": "images-real/trama-06-risca_real_1500.webp",
-        "webp_800": "images-real/trama-06-risca_real_800.webp",
-        "webp_400": "images-real/trama-06-risca_real_400.webp",
-        "jpeg_1500": "images-real/trama-06-risca_real_1500.jpg"
-      },
-      "alt_text": "TRAMA 06 RISCA — Teppichentwurf 80 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection N°2"
-    },
-    {
-      "kollektion": "trama",
-      "code": "TRAMA 07",
-      "nummer": 7,
-      "id": "trama-07-ponto",
-      "name": "PONTO",
-      "name_bedeutung": "Portugiesisch: der Stich",
-      "serie_key": "trama-reihe-2",
-      "typ": "Quadrat, vollflächig verwebt",
-      "format_cm": "250 × 250",
-      "format_hinweis": "frei skalierbar",
-      "fond": "Cru #E7DECB (12-0703 TCX Seedpearl), NZ-Wolle ungefärbt",
-      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie Schlingenflor-Kreuzungen oder Fransen nach individueller Besprechung",
-      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
-      "text_kurz": "Eine Kette, ein Schuss, eine Kreuzung — mehr nicht. Das leiseste Stück der Kollektion und ihr erstes Quadrat.",
-      "text_lang": "Das leiseste Stück der Kollektion und ihr erstes Quadrat: eine Kette, ein Schuss, eine Kreuzung — mehr nicht. Die Kreuzung sitzt bewusst aus der Mitte gerückt. PONTO ist die Reduktion des ganzen TRAMA-Prinzips auf einen einzigen Stich.",
-      "farben": [
-        {
-          "hex": "#2B3A66",
-          "name": "Tinta",
-          "pantone_fhi": "~19-3939 TCX Blueprint"
-        },
-        {
-          "hex": "#C0402E",
-          "name": "Vermelho",
-          "pantone_fhi": "18-1447 TCX Orange Rust"
-        },
-        {
-          "hex": "#E7DECB",
-          "name": "Linho/Cru — Fond, NZ-Wolle ungefärbt",
-          "pantone_fhi": "12-0703 TCX Seedpearl"
-        }
-      ],
-      "stimmungen": [
-        "leise"
-      ],
-      "farbwelten": [
-        "blau",
-        "rot",
-        "neutral"
-      ],
-      "special": null,
-      "edition_feature": true,
-      "auswahl_empfehlung": "trama-gesetzt",
-      "bilder": {
-        "webp_1500": "images/trama-07-ponto_1500.webp",
-        "webp_800": "images/trama-07-ponto_800.webp",
-        "webp_400": "images/trama-07-ponto_400.webp",
-        "jpeg_1500": "images/trama-07-ponto_1500.jpg"
-      },
-      "bilder_real": {
-        "webp_1500": "images-real/trama-07-ponto_real_1500.webp",
-        "webp_800": "images-real/trama-07-ponto_real_800.webp",
-        "webp_400": "images-real/trama-07-ponto_real_400.webp",
-        "jpeg_1500": "images-real/trama-07-ponto_real_1500.jpg"
-      },
-      "alt_text": "TRAMA 07 PONTO — Teppichentwurf 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection N°2"
-    },
-    {
-      "kollektion": "trama",
-      "code": "TRAMA 08",
-      "nummer": 8,
-      "id": "trama-08-grade",
-      "name": "GRADE",
-      "name_bedeutung": "Portugiesisch: das Gitter",
-      "serie_key": "trama-reihe-2",
-      "typ": "Quadrat, vollflächig verwebt",
-      "format_cm": "250 × 250",
-      "format_hinweis": "frei skalierbar",
-      "fond": "Cru #E7DECB (12-0703 TCX Seedpearl), NZ-Wolle ungefärbt",
-      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie Schlingenflor-Kreuzungen oder Fransen nach individueller Besprechung",
-      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
-      "text_kurz": "Fünf Ketten, fünf Schüsse, fünfundzwanzig Kreuzungen im gleichmäßigen Takt — hier trägt die Ordnung selbst, ganz ohne Bruch.",
-      "text_lang": "Das Gegenteil von PONTO: fünf Ketten, fünf Schüsse, fünfundzwanzig Kreuzungen im gleichmäßigen Takt. Ein Gewebe-Gitter, das aus der Nähe wie Stoff und aus der Distanz wie Architektur wirkt. Der systematischste Entwurf der Serie — ganz ohne Bruch, hier trägt die Ordnung selbst.",
-      "farben": [
-        {
-          "hex": "#2B3A66",
-          "name": "Tinta",
-          "pantone_fhi": "~19-3939 TCX Blueprint"
-        },
-        {
-          "hex": "#8A9080",
-          "name": "Salva",
-          "pantone_fhi": "~16-0110 TCX Desert Sage"
-        },
-        {
-          "hex": "#E7DECB",
-          "name": "Linho/Cru — Fond, NZ-Wolle ungefärbt",
-          "pantone_fhi": "12-0703 TCX Seedpearl"
-        }
-      ],
-      "stimmungen": [
-        "kräftig",
-        "erdig"
-      ],
-      "farbwelten": [
-        "blau",
-        "gruen",
-        "neutral"
-      ],
-      "special": null,
-      "edition_feature": false,
-      "auswahl_empfehlung": "trama-gesetzt",
-      "bilder": {
-        "webp_1500": "images/trama-08-grade_1500.webp",
-        "webp_800": "images/trama-08-grade_800.webp",
-        "webp_400": "images/trama-08-grade_400.webp",
-        "jpeg_1500": "images/trama-08-grade_1500.jpg"
-      },
-      "bilder_real": {
-        "webp_1500": "images-real/trama-08-grade_real_1500.webp",
-        "webp_800": "images-real/trama-08-grade_real_800.webp",
-        "webp_400": "images-real/trama-08-grade_real_400.webp",
-        "jpeg_1500": "images-real/trama-08-grade_real_1500.jpg"
-      },
-      "alt_text": "TRAMA 08 GRADE — Teppichentwurf 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection N°2"
-    },
-    {
-      "kollektion": "trama",
-      "code": "TRAMA 09",
-      "nummer": 9,
-      "id": "trama-09-cesto",
-      "name": "CESTO",
-      "name_bedeutung": "Portugiesisch: das Korbgeflecht",
-      "serie_key": "trama-reihe-2",
-      "typ": "Quadrat, vollflächig verwebt",
-      "format_cm": "250 × 250",
-      "format_hinweis": "frei skalierbar",
-      "fond": "Cru #E7DECB (12-0703 TCX Seedpearl), NZ-Wolle ungefärbt",
-      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie Schlingenflor-Kreuzungen oder Fransen nach individueller Besprechung",
-      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
-      "text_kurz": "Stehende und liegende Streifenfelder im Wechsel — das Korbgeflecht, monumental vergrößert.",
-      "text_lang": "Die klassischste Webstruktur, monumental vergrößert: Felder aus stehenden und liegenden Streifen wechseln sich ab wie über- und untertauchende Bahnen im Korbgeflecht. Aus zwei Farben und einem Rhythmus entsteht Tiefe — der Teppich scheint sich zu flechten.",
-      "farben": [
-        {
-          "hex": "#2B3A66",
-          "name": "Tinta",
-          "pantone_fhi": "~19-3939 TCX Blueprint"
-        },
-        {
-          "hex": "#4B4844",
-          "name": "Graphit/Grafite",
-          "pantone_fhi": "19-0508 TCX Peat"
-        },
-        {
-          "hex": "#E7DECB",
-          "name": "Linho/Cru — Fond, NZ-Wolle ungefärbt",
-          "pantone_fhi": "12-0703 TCX Seedpearl"
-        }
-      ],
-      "stimmungen": [
-        "verspielt",
-        "kräftig"
-      ],
-      "farbwelten": [
-        "blau",
-        "neutral"
-      ],
-      "special": null,
-      "edition_feature": false,
-      "auswahl_empfehlung": "trama-gesetzt",
-      "bilder": {
-        "webp_1500": "images/trama-09-cesto_1500.webp",
-        "webp_800": "images/trama-09-cesto_800.webp",
-        "webp_400": "images/trama-09-cesto_400.webp",
-        "jpeg_1500": "images/trama-09-cesto_1500.jpg"
-      },
-      "bilder_real": {
-        "webp_1500": "images-real/trama-09-cesto_real_1500.webp",
-        "webp_800": "images-real/trama-09-cesto_real_800.webp",
-        "webp_400": "images-real/trama-09-cesto_real_400.webp",
-        "jpeg_1500": "images-real/trama-09-cesto_real_1500.jpg"
-      },
-      "alt_text": "TRAMA 09 CESTO — Teppichentwurf 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection N°2"
-    },
-    {
-      "kollektion": "trama",
-      "code": "TRAMA 10",
-      "nummer": 10,
-      "id": "trama-10-avesso",
-      "name": "AVESSO",
-      "name_bedeutung": "Portugiesisch: die Rückseite",
-      "serie_key": "trama-reihe-2",
-      "typ": "Quadrat, vollflächig verwebt",
-      "format_cm": "250 × 250",
-      "format_hinweis": "frei skalierbar",
-      "fond": "Cru #E7DECB (12-0703 TCX Seedpearl), NZ-Wolle ungefärbt",
-      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie Schlingenflor-Kreuzungen oder Fransen nach individueller Besprechung",
-      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
-      "text_kurz": "Das Gewebe von hinten: Grafit als Grund, das Cru-Geflecht darüber, und der verborgene rote Spannfaden zieht sich quer.",
-      "text_lang": "Jedes Gewebe hat eine Rückseite — AVESSO zeigt sie: Grafit wird zum Grund, die Cru-Bahnen liegen als helles Geflecht darüber, und ein einzelner roter Faden zieht sich quer — der verborgene Spannfaden, den man auf der Schauseite nie sieht. Der dunkelste und intimste Entwurf der Serie.",
-      "farben": [
-        {
-          "hex": "#4B4844",
-          "name": "Graphit/Grafite",
-          "pantone_fhi": "19-0508 TCX Peat"
-        },
-        {
-          "hex": "#E7DECB",
-          "name": "Linho/Cru — Fond, NZ-Wolle ungefärbt",
-          "pantone_fhi": "12-0703 TCX Seedpearl"
-        },
-        {
-          "hex": "#C0402E",
-          "name": "Vermelho",
-          "pantone_fhi": "18-1447 TCX Orange Rust"
-        }
-      ],
-      "stimmungen": [
-        "leise",
-        "erdig"
-      ],
-      "farbwelten": [
-        "neutral",
-        "rot"
-      ],
-      "special": {
-        "typ": "schlingenflor",
-        "text": "Das helle Cru-Geflecht liegt im Schlingenflor über dem glatten Grafit-Grund."
-      },
-      "edition_feature": true,
-      "auswahl_empfehlung": "trama-gesetzt",
-      "bilder": {
-        "webp_1500": "images/trama-10-avesso_1500.webp",
-        "webp_800": "images/trama-10-avesso_800.webp",
-        "webp_400": "images/trama-10-avesso_400.webp",
-        "jpeg_1500": "images/trama-10-avesso_1500.jpg"
-      },
-      "bilder_real": {
-        "webp_1500": "images-real/trama-10-avesso_real_1500.webp",
-        "webp_800": "images-real/trama-10-avesso_real_800.webp",
-        "webp_400": "images-real/trama-10-avesso_real_400.webp",
-        "jpeg_1500": "images-real/trama-10-avesso_real_1500.jpg"
-      },
-      "alt_text": "TRAMA 10 AVESSO — Teppichentwurf 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection N°2"
-    },
-    {
-      "kollektion": "trama",
-      "code": "TRAMA 11",
-      "nummer": 11,
-      "id": "trama-11-degrau",
-      "name": "DEGRAU",
-      "name_bedeutung": "Portugiesisch: die Stufe",
-      "serie_key": "trama-reihe-2",
-      "typ": "Quadrat, vollflächig verwebt",
-      "format_cm": "250 × 250",
-      "format_hinweis": "frei skalierbar",
-      "fond": "Cru #E7DECB (12-0703 TCX Seedpearl), NZ-Wolle ungefärbt",
-      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie Schlingenflor-Kreuzungen oder Fransen nach individueller Besprechung",
-      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
-      "text_kurz": "Zwei Treppen aus Bahnen — Tinta steigt herab, Ocker herauf — und genau einmal treffen sie sich.",
-      "text_lang": "Zwei Treppen aus Bahnen: Tinta steigt von links oben herab, Ocker von links unten herauf — und genau einmal, kurz vor der rechten Kante, treffen sie sich zu einer einzigen dunklen Kreuzung. Bewegung aus reiner Orthogonalität; der dynamischste Entwurf der Serie.",
-      "farben": [
-        {
-          "hex": "#2B3A66",
-          "name": "Tinta",
-          "pantone_fhi": "~19-3939 TCX Blueprint"
-        },
-        {
-          "hex": "#DDA13D",
-          "name": "Ocker/Ocre",
-          "pantone_fhi": "14-0952 TCX Spicy Mustard"
-        },
-        {
-          "hex": "#E7DECB",
-          "name": "Linho/Cru — Fond, NZ-Wolle ungefärbt",
-          "pantone_fhi": "12-0703 TCX Seedpearl"
-        }
-      ],
-      "stimmungen": [
-        "verspielt",
-        "kräftig"
-      ],
-      "farbwelten": [
-        "blau",
-        "gelb"
-      ],
-      "special": null,
-      "edition_feature": false,
-      "auswahl_empfehlung": "trama-gesetzt",
-      "bilder": {
-        "webp_1500": "images/trama-11-degrau_1500.webp",
-        "webp_800": "images/trama-11-degrau_800.webp",
-        "webp_400": "images/trama-11-degrau_400.webp",
-        "jpeg_1500": "images/trama-11-degrau_1500.jpg"
-      },
-      "bilder_real": {
-        "webp_1500": "images-real/trama-11-degrau_real_1500.webp",
-        "webp_800": "images-real/trama-11-degrau_real_800.webp",
-        "webp_400": "images-real/trama-11-degrau_real_400.webp",
-        "jpeg_1500": "images-real/trama-11-degrau_real_1500.jpg"
-      },
-      "alt_text": "TRAMA 11 DEGRAU — Teppichentwurf 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection N°2"
-    },
-    {
-      "kollektion": "trama",
-      "code": "TRAMA 12",
-      "nummer": 12,
-      "id": "trama-12-borda",
-      "name": "BORDA",
-      "name_bedeutung": "Portugiesisch: die Webkante",
-      "serie_key": "trama-reihe-2",
-      "typ": "Quadrat, vollflächig verwebt",
-      "format_cm": "250 × 250",
-      "format_hinweis": "frei skalierbar",
-      "fond": "Cru #E7DECB (12-0703 TCX Seedpearl), NZ-Wolle ungefärbt",
-      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
-      "herstellung": "handgetuftet (Standard); Specials wie Schlingenflor-Kreuzungen oder Fransen nach individueller Besprechung",
-      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
-      "text_kurz": "Ein gewebter Rahmen, innen nur Grund und ein roter Signaturstich — der Entwurf, der Raum fasst statt ihn zu füllen.",
-      "text_lang": "Ein gewebter Rahmen: Tinta-Schüsse oben und unten, Ocker-Ketten links und rechts, vier Kreuzungen in den Ecken — innen bleibt nur der Grund und ein einzelner roter Signaturstich, leicht aus der Mitte. BORDA fasst einen Raum, statt ihn zu füllen: der Entwurf für Möblierung in der Mitte.",
-      "farben": [
-        {
-          "hex": "#2B3A66",
-          "name": "Tinta",
-          "pantone_fhi": "~19-3939 TCX Blueprint"
-        },
-        {
-          "hex": "#DDA13D",
-          "name": "Ocker/Ocre",
-          "pantone_fhi": "14-0952 TCX Spicy Mustard"
-        },
-        {
-          "hex": "#C0402E",
-          "name": "Vermelho",
-          "pantone_fhi": "18-1447 TCX Orange Rust"
-        },
-        {
-          "hex": "#E7DECB",
-          "name": "Linho/Cru — Fond, NZ-Wolle ungefärbt",
-          "pantone_fhi": "12-0703 TCX Seedpearl"
-        }
-      ],
-      "stimmungen": [
-        "leise"
-      ],
-      "farbwelten": [
-        "blau",
-        "gelb",
-        "rot",
-        "neutral"
-      ],
-      "special": null,
-      "edition_feature": false,
-      "auswahl_empfehlung": "trama-gesetzt",
-      "bilder": {
-        "webp_1500": "images/trama-12-borda_1500.webp",
-        "webp_800": "images/trama-12-borda_800.webp",
-        "webp_400": "images/trama-12-borda_400.webp",
-        "jpeg_1500": "images/trama-12-borda_1500.jpg"
-      },
-      "bilder_real": {
-        "webp_1500": "images-real/trama-12-borda_real_1500.webp",
-        "webp_800": "images-real/trama-12-borda_real_800.webp",
-        "webp_400": "images-real/trama-12-borda_real_400.webp",
-        "jpeg_1500": "images-real/trama-12-borda_real_1500.jpg"
-      },
-      "alt_text": "TRAMA 12 BORDA — Teppichentwurf 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection N°2"
+      "alt_text": "PRÓPRIO — ECO (das Echo), Teppichentwurf 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, THE GREY Wanna Do Collection"
     }
   ]
 }

@@ -15,240 +15,54 @@
 
   <url>
     <loc>https://www.thegrey.berlin/wanna-do-collection/</loc>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/campo-01-horizonte/</loc>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/proprio-03-giro/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/campo-02-sobre/</loc>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/proprio-01-limiar/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/campo-03-canto/</loc>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/proprio-02-divisa/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/campo-04-quadras/</loc>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/proprio-04-planta/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/campo-05-terra/</loc>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/proprio-05-fresta/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/campo-06-sequencia/</loc>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/proprio-08-repouso/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/campo-07-linha/</loc>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/proprio-06-ocaso/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/campo-08-horizonte-cheio/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/campo-09-sobre-cheio/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/campo-10-terra-cheio/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/campo-11-bloco/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/campo-12-patio/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/campo-13-clarao/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/campo-14-campina/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/campo-15-mare/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/campo-16-pomar/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/campo-17-hora-azul/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/campo-18-lapis/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/campo-19-brasa/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/campo-20-jardim/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/campo-21-doce/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/campo-22-elo/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/campo-23-nuvem/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/campo-24-neblina/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/campo-25-gelo/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/campo-26-vento/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/campo-27-alvorada/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/trama-01-urdidura/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/trama-02-trama/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/trama-03-xadrez/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/trama-04-franja/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/trama-05-no/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/trama-06-risca/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/trama-07-ponto/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/trama-08-grade/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/trama-09-cesto/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/trama-10-avesso/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/trama-11-degrau/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.thegrey.berlin/wanna-do-collection/trama-12-borda/</loc>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/proprio-07-eco/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
