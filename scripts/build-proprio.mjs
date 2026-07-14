@@ -503,8 +503,8 @@ function injectTeaser(file, lang) {
         <section class="section wd-teaser" id="wanna-do">
             <div class="section__container">
                 <div class="section__header reveal">
-                    <span class="section__eyebrow">${K.code} · Wanna Do Collection</span>
-                    <h2 class="section__title">${esc(K.name)}<em>.</em></h2>
+                    <span class="section__eyebrow">${K.code} · ${esc(K.name)}</span>
+                    <h2 class="section__title">Wanna Do Collection<em>.</em></h2>
                     <p class="section__intro">${de ? esc(K.kurzbeschreibung) : 'The first collection made in-house: bold, warm, grounded. Eight designs — starting points for individually crafted rugs, not end products — in German.'}</p>
                 </div>
                 <div class="wd-teaser__grid reveal" style="grid-template-columns: 1fr;">
