@@ -47,7 +47,7 @@ function title(e) {
 }
 
 function description(e) {
-  return `${e.text_kurz} Handgetuftet aus 100 % Neuseelandwolle, ${e.format_cm}, frei skalierbar. Aus der Kollektion ${DATA.kollektion.name} (THE GREY, Wanna Do ${DATA.kollektion.code}) — Ausgangspunkt für deinen individuell gefertigten Teppich.`;
+  return `${e.text_kurz} Individueller Teppichentwurf, handgetuftet aus 100 % Neuseelandwolle, ${e.format_cm}, frei skalierbar, hoch belastbar für Wohn- und Objektbereiche. Aus der Kollektion ${DATA.kollektion.name} (THE GREY, Wanna Do ${DATA.kollektion.code}) — Ausgangspunkt für Innenarchitektur, Planung und Einrichtungsberatung.`;
 }
 
 /* --------------------------------------------------------------- Build */
