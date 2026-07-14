@@ -239,6 +239,14 @@ function overlayContent(e) {
     </div>`;
 }
 
+// Meta-/OG-Description für Permalink-Seiten: text_kurz allein nennt weder Material noch
+// Zielgruppe — für Google-Suchergebnis-Snippets und Bild-Kontext ergänzt um Belastbarkeit
+// (Neuseelandwolle, Objektbereiche) und Zielgruppe (Innenarchitektur/Planung), ohne die
+// sichtbare Editorial-Copy (.story) selbst zu verändern.
+function metaDescription(e) {
+  return `${e.text_kurz} Individueller Teppichentwurf, handgetuftet aus 100 % Neuseelandwolle — hoch belastbar für Wohn- und Objektbereiche. Ausgangspunkt für Innenarchitektur, Planung und Einrichtungsberatung — THE GREY PRÓPRIO.`;
+}
+
 /* ------------------------------------------------------------- Seiten */
 
 function pageShell({ path, title, description, ogImage, openId, jsonld }) {
@@ -465,7 +473,7 @@ function buildPermalinks() {
     writeFile(`${BASE}/${e.id}/index.html`, pageShell({
       path: `${BASE}/${e.id}/`,
       title: `${e.code} ${e.name} — Teppichentwurf — THE GREY Wanna Do Collection`,
-      description: e.text_kurz,
+      description: metaDescription(e),
       ogImage: e.bilder.jpeg_1500,
       openId: e.id,
       jsonld,
