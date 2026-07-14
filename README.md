@@ -14,28 +14,27 @@ Handcrafted custom rugs from Berlin. Bilingual static website (DE primary, EN se
 - `imprint.html` – Imprint (English translation)
 - `privacy.html` – Privacy Policy (English translation)
 
-### Wanna Do Collection (Campo N°1 + Trama N°2)
-Editorialer Edition-Stream (kein Seiten-Hopping): ein Stream mit Kapitel-Umschalter
-„Campo N°1 / Trama N°2 / Alles", Filterzeile (Suche, Stimmung, Farbe, Typ, Format, Special),
-Klick auf eine Karte öffnet ein Overlay per History-API. Jeder der 39 Entwürfe hat zusätzlich
-einen eigenen Permalink, der denselben Stream mit bereits geöffnetem Overlay **und vollem
-Text im rohen HTML** rendert (SEO/Teilen, kein JS nötig für den Inhalt).
+### Wanna Do Collection (PRÓPRIO N°4 — einzige Kollektion)
+Eine einzelne, ruhige Kollektionsseite: ein Hero-Bild (frei austauschbar über `hero_id`),
+darunter ein editorialer Stream der übrigen 7 Entwürfe. Kein Kapitel-Umschalter, keine
+Filterzeile, keine zweite Bildwelt — bewusst reduziert gegenüber den Vorgängerversionen
+(Campo/Trama, siehe Git-Historie). Klick auf eine Karte öffnet ein Overlay per History-API.
+Jeder der 8 Entwürfe hat zusätzlich einen eigenen Permalink, der dieselbe Seite mit bereits
+geöffnetem Overlay **und vollem Text im rohen HTML** rendert (SEO/Teilen, kein JS nötig für
+den Inhalt) — inklusive dem Hero-Entwurf selbst (klickbares Hero-Bild).
 
-- `wanna-do-collection/` – der Stream (`index.html`) + 39 Permalink-Ordner (`<id>/index.html`,
-  z. B. `campo-01-horizonte/`, `trama-07-ponto/`)
-- `data/designs.json` – **maßgebliche Datenquelle**: `kollektionen[]` (Campo/Trama, je mit
-  `edition_stream[]`), `serien[]` (5 Campo-Serien + 2 Trama-Reihen), `entwuerfe[]` (39, inkl.
-  `stimmungen`, `farbwelten`, `special`, zwei Bildwelten `bilder`/`bilder_real`)
-- `images-real/` – **primäre Bildwelt** (Woll-Renderings) · `images/` – cleane Plan-Draufsichten
-  (Spezifikations-Ansicht im Overlay, per Toggle)
-- `downloads/` – 6 Serien-/Reihen-Konzept-PDFs + Farbkarte
-- `scripts/build-wanna-do-v2.mjs` – Generator: baut Stream + alle 39 Permalinks, injiziert den
+- `wanna-do-collection/` – Hero + Stream (`index.html`) + 8 Permalink-Ordner (`<id>/index.html`,
+  z. B. `proprio-03-giro/`)
+- `data/designs.json` – **maßgebliche Datenquelle**: `kollektion` (`hero_id`, `reihenfolge[]`,
+  `prozess[]`, Claim) + `entwuerfe[]` (8, Feld heißt `grund` statt `fond`, eine Bildwelt `bilder`)
+- `images/` – 8 Entwürfe, WebP 400/800/1500 + JPEG-Fallback
+- `downloads/` – 1 Konzept-PDF (PRÓPRIO)
+- `scripts/build-proprio.mjs` – Generator: baut Hero/Stream + alle 8 Permalinks, injiziert den
   Teaser in `index.html`/`index-en.html` (Marker `WANNA-DO-TEASER:START/END`) und schreibt die
   `sitemap.xml` neu. **Nichts in `wanna-do-collection/` von Hand editieren** — stattdessen
-  `data/designs.json` oder das Script ändern und `node scripts/build-wanna-do-v2.mjs` ausführen.
-- `_redirects` – 301-Redirects alter Galerie-Pfade; die 4 v1-Serienseiten leiten auf
-  `/wanna-do-collection/?serie=<key>`, die 22 v1-Detailseiten-Pfade dienen unverändert als
-  Permalinks der neuen Struktur (kein Redirect nötig)
+  `data/designs.json` oder das Script ändern und `node scripts/build-proprio.mjs` ausführen.
+- `_redirects` – 301-Redirects alter Galerie-/Kollektions-Pfade auf `/wanna-do-collection/`
+  (Root-Pfad bleibt bestehen, zeigt jetzt PRÓPRIO statt der früheren Kollektionen)
 
 ### Legacy redirects
 0-second redirects to preserve old bookmarks:
