@@ -14,7 +14,18 @@ Handcrafted custom rugs from Berlin. Bilingual static website (DE primary, EN se
 - `imprint.html` – Imprint (English translation)
 - `privacy.html` – Privacy Policy (English translation)
 
-### Wanna Do Collection (PRÓPRIO N°4 — einzige Kollektion)
+### Wanna Do Collection (zwei Kollektionen: PRÓPRIO N°4 + CAMADA N°5)
+
+**CAMADA (N°5)** ist die zweite Kollektion, identischer Seitenaufbau wie PRÓPRIO,
+eigener URL-Raum unter `wanna-do-collection/camada/` (+ 8 Permalinks):
+
+- `data/designs-camada.json` – Datenquelle CAMADA (8 Entwürfe, gleiches Schema wie PRÓPRIO)
+- `scripts/build-camada.mjs` – Generator CAMADA (abgeleitet von `build-proprio.mjs`; schreibt
+  NICHT Sitemap/Teaser — das macht zentral `build-proprio.mjs`, das designs-camada.json mitliest)
+- Nach Daten-Änderungen an CAMADA: erst `node scripts/build-camada.mjs`, dann
+  `node scripts/build-proprio.mjs` (aktualisiert Sitemap + Homepage-Teaser mit beiden Kollektionen)
+
+### PRÓPRIO (N°4)
 Eine einzelne, ruhige Kollektionsseite: ein Hero-Bild (frei austauschbar über `hero_id`),
 darunter ein editorialer Stream der übrigen 7 Entwürfe. Kein Kapitel-Umschalter, keine
 Filterzeile, keine zweite Bildwelt — bewusst reduziert gegenüber den Vorgängerversionen

@@ -1,0 +1,276 @@
+{
+  "kollektion": {
+    "code": "N°5",
+    "name": "CAMADA",
+    "claim": "Die Schichten eines Zuhauses — acht Entwürfe über das Gewachsene.",
+    "absender": "THE GREY — thegrey.berlin",
+    "kurzbeschreibung": "Die zweite Kollektion aus eigener Hand: weicher, vielschichtiger, erzählerischer. Gerundete Formen legen sich übereinander wie die Schichten eines bewohnten Raums — vom Fundament bis zu dem, was das Leben darin ablagert. Kuratierte Teppichentwürfe als Inspiration für Planer:innen und Innenarchitekt:innen — Ausgangspunkte für individuell gefertigte Teppiche, keine Endprodukte.",
+    "hero_id": "camada-06-tesouro",
+    "reihenfolge": [
+      "camada-06-tesouro",
+      "camada-05-alicerce",
+      "camada-01-coluna",
+      "camada-03-abrigo",
+      "camada-02-pilha",
+      "camada-04-mosaico",
+      "camada-07-pendulo",
+      "camada-08-duna"
+    ],
+    "standard": "Alle Teppiche: handgetuftet, 100 % Neuseelandwolle, matt. Formate frei skalierbar.",
+    "prozess": [
+      "Auswählen — ein Entwurf als Ausgangspunkt",
+      "Anpassen — Format, Proportion, Palette projektspezifisch; Specials individuell",
+      "Bemustern — maßstäbliche Zeichnung + Handmuster der Wollfarben",
+      "Fertigen — einzeln von Hand getuftet; jeder realisierte Entwurf erhält einen eigenen Namen"
+    ],
+    "pantone_hinweis": "Pantone-Angaben: nächstliegende Referenz aus dem PANTONE Fashion, Home + Interiors Farbfächer (TCX, Cotton); mit ~ markierte vorläufig. Farbverbindlich sind physischer Fächer und Garnbemusterung."
+  },
+  "entwuerfe": [
+    {
+      "id": "camada-06-tesouro",
+      "code": "CAMADA 06",
+      "name": "TESOURO",
+      "name_bedeutung": "Portugiesisch: der Schatz",
+      "typ": "Quadrat",
+      "format_cm": "250 × 250 cm",
+      "format_hinweis": "frei skalierbar",
+      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
+      "herstellung": "handgetuftet (Standard); Specials nach individueller Besprechung",
+      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
+      "grund": "farbiger Grund (kein Naturleinen)",
+      "text_kurz": "Alle Schichten auf einmal: Mitternachtsblau, Messing und Rosé, übereinandergelegt wie Erinnerungen.",
+      "text_lang": "TESOURO legt alle Schichten der Kollektion übereinander: Mitternachtsblau und Messing, Rosé und Salbei, durchscheinend ineinander verzahnt. Was bleibt, wenn ein Zuhause über Jahre wächst? Der Schatz ist nicht ein einzelnes Stück — er ist die Summe der Schichten.",
+      "farben": [
+        { "hex": "#10253C", "name": "Meia-noite", "pantone_fhi": "~19-4110 TCX Midnight Navy" },
+        { "hex": "#B58866", "name": "Latão", "pantone_fhi": "~16-1235 TCX Sandstorm" },
+        { "hex": "#DAB89E", "name": "Rosé", "pantone_fhi": "~13-1011 TCX Ivory Cream" },
+        { "hex": "#A9B196", "name": "Salva", "pantone_fhi": "~15-6410 TCX Moss Gray" },
+        { "hex": "#895630", "name": "Canela", "pantone_fhi": "~18-1160 TCX Sudan Brown" },
+        { "hex": "#E5DBCE", "name": "Creme", "pantone_fhi": "~11-0907 TCX Pearled Ivory" }
+      ],
+      "hero": true,
+      "bilder": {
+        "webp_1500": "images/camada-06-tesouro_1500.webp",
+        "webp_800": "images/camada-06-tesouro_800.webp",
+        "webp_400": "images/camada-06-tesouro_400.webp",
+        "jpeg_1500": "images/camada-06-tesouro_1500.jpg"
+      },
+      "alt_text": "TESOURO — Mitternachtsblau, Messing und Rosé, übereinandergelegt wie Erinnerungen. Individueller Teppichentwurf, 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- & Objektbereiche."
+    },
+    {
+      "id": "camada-05-alicerce",
+      "code": "CAMADA 05",
+      "name": "ALICERCE",
+      "name_bedeutung": "Portugiesisch: das Fundament",
+      "typ": "Quadrat",
+      "format_cm": "250 × 250 cm",
+      "format_hinweis": "frei skalierbar",
+      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
+      "herstellung": "handgetuftet (Standard); Specials nach individueller Besprechung",
+      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
+      "grund": "farbiger Grund (kein Naturleinen)",
+      "text_kurz": "Sand, Stein und Schwarz — die unterste Schicht, auf der alles ruht.",
+      "text_lang": "Breite Flächen aus Sand und Stein, dazwischen tiefes Schwarz und ein einzelner Bogen aus Messing: ALICERCE ist die unterste Schicht der Kollektion. Ruhig und tragend — gebaut, bevor das Leben einzieht.",
+      "farben": [
+        { "hex": "#D8CAB7", "name": "Areia", "pantone_fhi": "~13-1008 TCX Bleached Sand" },
+        { "hex": "#938F86", "name": "Pedra", "pantone_fhi": "~17-1210 TCX Moon Rock" },
+        { "hex": "#18191B", "name": "Preto", "pantone_fhi": "~19-4005 TCX Black Beauty" },
+        { "hex": "#B2814B", "name": "Latão", "pantone_fhi": "~17-1129 TCX Bone Brown" },
+        { "hex": "#392824", "name": "Café", "pantone_fhi": "~19-0912 TCX Chocolate Brown" }
+      ],
+      "hero": false,
+      "bilder": {
+        "webp_1500": "images/camada-05-alicerce_1500.webp",
+        "webp_800": "images/camada-05-alicerce_800.webp",
+        "webp_400": "images/camada-05-alicerce_400.webp",
+        "jpeg_1500": "images/camada-05-alicerce_1500.jpg"
+      },
+      "alt_text": "ALICERCE — Sand, Stein und Schwarz, die unterste Schicht, auf der alles ruht. Individueller Teppichentwurf, 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- & Objektbereiche."
+    },
+    {
+      "id": "camada-01-coluna",
+      "code": "CAMADA 01",
+      "name": "COLUNA",
+      "name_bedeutung": "Portugiesisch: die Säule",
+      "typ": "Hochformat",
+      "format_cm": "210 × 280 cm",
+      "format_hinweis": "frei skalierbar",
+      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
+      "herstellung": "handgetuftet (Standard); Specials nach individueller Besprechung",
+      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
+      "grund": "farbiger Grund (kein Naturleinen)",
+      "text_kurz": "Ein weinroter Bogen steht auf Rosa und Mint — tragend, ohne schwer zu sein.",
+      "text_lang": "Auf Rosa und Mint steht ein weinroter Bogen, flankiert von Ocker und Petrol. COLUNA trägt die Komposition, wie eine Säule den Raum trägt — aufrecht und selbstverständlich, ohne schwer zu wirken.",
+      "farben": [
+        { "hex": "#D9998A", "name": "Rosa", "pantone_fhi": "~15-1512 TCX Mahogany Rose" },
+        { "hex": "#67130D", "name": "Vinho", "pantone_fhi": "~19-1531 TCX Sun-Dried Tomato" },
+        { "hex": "#8CB0A0", "name": "Menta", "pantone_fhi": "~15-5711 TCX Dusty Jade Green" },
+        { "hex": "#C98245", "name": "Ocre", "pantone_fhi": "~16-1338 TCX Copper Tan" },
+        { "hex": "#3C4634", "name": "Petróleo", "pantone_fhi": "~19-0309 TCX Duffel Bag" },
+        { "hex": "#22130B", "name": "Café", "pantone_fhi": "~19-1016 TCX Java" }
+      ],
+      "hero": false,
+      "bilder": {
+        "webp_1500": "images/camada-01-coluna_1500.webp",
+        "webp_800": "images/camada-01-coluna_800.webp",
+        "webp_400": "images/camada-01-coluna_400.webp",
+        "jpeg_1500": "images/camada-01-coluna_1500.jpg"
+      },
+      "alt_text": "COLUNA — Ein weinroter Bogen auf Rosa und Mint, tragend, ohne schwer zu sein. Individueller Teppichentwurf, 210 × 280 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- & Objektbereiche."
+    },
+    {
+      "id": "camada-03-abrigo",
+      "code": "CAMADA 03",
+      "name": "ABRIGO",
+      "name_bedeutung": "Portugiesisch: der Unterschlupf",
+      "typ": "Hochformat",
+      "format_cm": "210 × 280 cm",
+      "format_hinweis": "frei skalierbar",
+      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
+      "herstellung": "handgetuftet (Standard); Specials nach individueller Besprechung",
+      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
+      "grund": "farbiger Grund (kein Naturleinen)",
+      "text_kurz": "Bögen unter Flieder und Himmelblau — ein Dach aus Farbe.",
+      "text_lang": "Unter Flieder und Himmelblau schieben sich Bögen ineinander: Schokolade, Terrakotta, Gelb. ABRIGO ist die Schicht, die schützt — ein Dach aus Farbe, unter dem man ankommt.",
+      "farben": [
+        { "hex": "#C1B1C4", "name": "Lilás", "pantone_fhi": "~14-3805 TCX Iris" },
+        { "hex": "#8DA2B8", "name": "Céu", "pantone_fhi": "~16-4021 TCX Allure" },
+        { "hex": "#45362E", "name": "Chocolate", "pantone_fhi": "~19-0915 TCX Coffee Bean" },
+        { "hex": "#9E5E42", "name": "Terracota", "pantone_fhi": "~18-1244 TCX Ginger Bread" },
+        { "hex": "#DEB460", "name": "Amarelo", "pantone_fhi": "~13-0946 TCX Jurassic Gold" },
+        { "hex": "#D6C5B2", "name": "Areia", "pantone_fhi": "~13-1008 TCX Bleached Sand" }
+      ],
+      "hero": false,
+      "bilder": {
+        "webp_1500": "images/camada-03-abrigo_1500.webp",
+        "webp_800": "images/camada-03-abrigo_800.webp",
+        "webp_400": "images/camada-03-abrigo_400.webp",
+        "jpeg_1500": "images/camada-03-abrigo_1500.jpg"
+      },
+      "alt_text": "ABRIGO — Bögen unter Flieder und Himmelblau, ein Dach aus Farbe. Individueller Teppichentwurf, 210 × 280 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- & Objektbereiche."
+    },
+    {
+      "id": "camada-02-pilha",
+      "code": "CAMADA 02",
+      "name": "PILHA",
+      "name_bedeutung": "Portugiesisch: der Stapel",
+      "typ": "Hochformat",
+      "format_cm": "200 × 300 cm",
+      "format_hinweis": "frei skalierbar",
+      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
+      "herstellung": "handgetuftet (Standard); Specials nach individueller Besprechung",
+      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
+      "grund": "farbiger Grund (kein Naturleinen)",
+      "text_kurz": "Kisten, Formen, Fundstücke — ein Stapel Leben auf altrosa Grund.",
+      "text_lang": "Auf altrosa Grund stapeln sich Formen wie beim Einzug: Kisten, Fundstücke, Erinnerungen in Beere, Gelb und Schwarz. PILHA ist der Moment, in dem ein Raum zum ersten Mal voll ist — und anfängt, ein Zuhause zu werden.",
+      "farben": [
+        { "hex": "#B37F79", "name": "Rosa-velho", "pantone_fhi": "~16-1518 TCX Rosette" },
+        { "hex": "#862F34", "name": "Framboesa", "pantone_fhi": "~19-1543 TCX Brick Red" },
+        { "hex": "#C38A1C", "name": "Amarelo", "pantone_fhi": "~15-0948 TCX Golden Spice" },
+        { "hex": "#1B1516", "name": "Preto", "pantone_fhi": "~19-4005 TCX Black Beauty" },
+        { "hex": "#7C7462", "name": "Salva", "pantone_fhi": "~17-0510 TCX Silver Sage" },
+        { "hex": "#D9CAB8", "name": "Creme", "pantone_fhi": "~12-0605 TCX Angora" }
+      ],
+      "hero": false,
+      "bilder": {
+        "webp_1500": "images/camada-02-pilha_1500.webp",
+        "webp_800": "images/camada-02-pilha_800.webp",
+        "webp_400": "images/camada-02-pilha_400.webp",
+        "jpeg_1500": "images/camada-02-pilha_1500.jpg"
+      },
+      "alt_text": "PILHA — Gestapelte Formen in Beere, Gelb und Schwarz auf altrosa Grund. Individueller Teppichentwurf, 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- & Objektbereiche."
+    },
+    {
+      "id": "camada-04-mosaico",
+      "code": "CAMADA 04",
+      "name": "MOSAICO",
+      "name_bedeutung": "Portugiesisch: das Mosaik",
+      "typ": "Quadrat",
+      "format_cm": "250 × 250 cm",
+      "format_hinweis": "frei skalierbar",
+      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
+      "herstellung": "handgetuftet (Standard); Specials nach individueller Besprechung",
+      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
+      "grund": "farbiger Grund (kein Naturleinen)",
+      "text_kurz": "Helle Steine, ineinandergeschoben — der Alltag als Muster.",
+      "text_lang": "Pastellene Felder schieben sich ineinander wie die Tage einer Woche: Puder, Himmelblau, Aprikose, dazwischen eine dunkle Pflaume. MOSAICO ist die Schicht des Alltags — viele kleine Teile, die zusammen ein Muster ergeben.",
+      "farben": [
+        { "hex": "#E0C1A1", "name": "Damasco", "pantone_fhi": "~13-1017 TCX Almond Buff" },
+        { "hex": "#9CA9B6", "name": "Céu", "pantone_fhi": "~15-4008 TCX Blue Fog" },
+        { "hex": "#A7838B", "name": "Malva", "pantone_fhi": "~17-1512 TCX Nostalgia Rose" },
+        { "hex": "#412738", "name": "Ameixa", "pantone_fhi": "~19-2514 TCX Italian Plum" },
+        { "hex": "#D8AD80", "name": "Mel", "pantone_fhi": "~14-1122 TCX Sheepskin" },
+        { "hex": "#E2D8C8", "name": "Creme", "pantone_fhi": "~11-0907 TCX Pearled Ivory" }
+      ],
+      "hero": false,
+      "bilder": {
+        "webp_1500": "images/camada-04-mosaico_1500.webp",
+        "webp_800": "images/camada-04-mosaico_800.webp",
+        "webp_400": "images/camada-04-mosaico_400.webp",
+        "jpeg_1500": "images/camada-04-mosaico_1500.jpg"
+      },
+      "alt_text": "MOSAICO — Pastellfelder in Puder, Himmelblau und Aprikose, ineinandergeschoben wie ein Mosaik. Individueller Teppichentwurf, 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- & Objektbereiche."
+    },
+    {
+      "id": "camada-07-pendulo",
+      "code": "CAMADA 07",
+      "name": "PÊNDULO",
+      "name_bedeutung": "Portugiesisch: das Pendel",
+      "typ": "Hochformat",
+      "format_cm": "210 × 280 cm",
+      "format_hinweis": "frei skalierbar",
+      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
+      "herstellung": "handgetuftet (Standard); Specials nach individueller Besprechung",
+      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
+      "grund": "farbiger Grund (kein Naturleinen)",
+      "text_kurz": "Eine Linie fällt durchs Bild, unten schwingt das Gewicht — Zeit, sichtbar gemacht.",
+      "text_lang": "Eine dünne Linie fällt vom oberen Rand durch Beere, Rosé und Gold, unten hängt ihr Gewicht. PÊNDULO bringt Zeit in den Raum: das langsame Schwingen eines Zuhauses, in dem die Uhren nicht drängen.",
+      "farben": [
+        { "hex": "#A32C40", "name": "Framboesa", "pantone_fhi": "~19-1850 TCX Red Bud" },
+        { "hex": "#D4A29A", "name": "Rosé", "pantone_fhi": "~15-1512 TCX Mahogany Rose" },
+        { "hex": "#CF8C4F", "name": "Dourado", "pantone_fhi": "~16-1342 TCX Buckskin" },
+        { "hex": "#7A9187", "name": "Salva", "pantone_fhi": "~16-5810 TCX Green Bay" },
+        { "hex": "#501322", "name": "Bordô", "pantone_fhi": "~19-1725 TCX Tawny Port" },
+        { "hex": "#0D0E0E", "name": "Preto", "pantone_fhi": "~19-4005 TCX Black Beauty" }
+      ],
+      "hero": false,
+      "bilder": {
+        "webp_1500": "images/camada-07-pendulo_1500.webp",
+        "webp_800": "images/camada-07-pendulo_800.webp",
+        "webp_400": "images/camada-07-pendulo_400.webp",
+        "jpeg_1500": "images/camada-07-pendulo_1500.jpg"
+      },
+      "alt_text": "PÊNDULO — Eine Linie fällt durch Beere, Rosé und Gold, unten schwingt das Gewicht. Individueller Teppichentwurf, 210 × 280 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- & Objektbereiche."
+    },
+    {
+      "id": "camada-08-duna",
+      "code": "CAMADA 08",
+      "name": "DUNA",
+      "name_bedeutung": "Portugiesisch: die Düne",
+      "typ": "Quadrat",
+      "format_cm": "250 × 250 cm",
+      "format_hinweis": "frei skalierbar",
+      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
+      "herstellung": "handgetuftet (Standard); Specials nach individueller Besprechung",
+      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
+      "grund": "farbiger Grund (kein Naturleinen)",
+      "text_kurz": "Sandtöne wandern übers Feld, Mitternachtsblau hält dagegen.",
+      "text_lang": "Sand über Sand, Puder über Stein — und mittendrin zwei dunkle Flächen aus Mitternachtsblau, die alles verankern. DUNA ist die oberste Schicht: das, was die Zeit ablagert, wenn ein Zuhause zur Ruhe gekommen ist.",
+      "farben": [
+        { "hex": "#D5C4B1", "name": "Areia", "pantone_fhi": "~13-1008 TCX Bleached Sand" },
+        { "hex": "#0B131B", "name": "Meia-noite", "pantone_fhi": "~19-4110 TCX Midnight Navy" },
+        { "hex": "#998779", "name": "Pedra", "pantone_fhi": "~16-1210 TCX Light Taupe" },
+        { "hex": "#E1D0C5", "name": "Pó", "pantone_fhi": "~12-1105 TCX Salsa Rosa" },
+        { "hex": "#AC8C4E", "name": "Mostarda", "pantone_fhi": "~16-0952 TCX Nugget Gold" }
+      ],
+      "hero": false,
+      "bilder": {
+        "webp_1500": "images/camada-08-duna_1500.webp",
+        "webp_800": "images/camada-08-duna_800.webp",
+        "webp_400": "images/camada-08-duna_400.webp",
+        "jpeg_1500": "images/camada-08-duna_1500.jpg"
+      },
+      "alt_text": "DUNA — Wandernde Sandtöne, verankert von Mitternachtsblau. Individueller Teppichentwurf, 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- & Objektbereiche."
+    }
+  ]
+}
