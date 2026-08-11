@@ -226,8 +226,8 @@
       "code": "PRÓPRIO 05",
       "name": "FRESTA",
       "name_bedeutung": "Portugiesisch: der Lichtspalt",
-      "typ": "Hochformat",
-      "format_cm": "200 × 240 cm",
+      "typ": "Quadrat",
+      "format_cm": "250 × 250 cm",
       "format_hinweis": "frei skalierbar",
       "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
       "herstellung": "handgetuftet (Standard); Specials nach individueller Besprechung",
@@ -269,7 +269,7 @@
         "webp_400": "images/proprio-05-fresta_400.webp",
         "jpeg_1500": "images/proprio-05-fresta_1500.jpg"
       },
-      "alt_text": "FRESTA — Ein schmaler oranger Streifen wie Licht durch einen Türspalt. Individueller Teppichentwurf, 200 × 240 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- & Objektbereiche."
+      "alt_text": "FRESTA — Ein schmaler oranger Streifen wie Licht durch einen Türspalt. Individueller Teppichentwurf, 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- & Objektbereiche."
     },
     {
       "id": "proprio-08-repouso",
@@ -316,8 +316,8 @@
       "code": "PRÓPRIO 06",
       "name": "OCASO",
       "name_bedeutung": "Portugiesisch: der Sonnenuntergang",
-      "typ": "Hochformat",
-      "format_cm": "200 × 240 cm",
+      "typ": "Quadrat",
+      "format_cm": "250 × 250 cm",
       "format_hinweis": "frei skalierbar",
       "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
       "herstellung": "handgetuftet (Standard); Specials nach individueller Besprechung",
@@ -354,7 +354,7 @@
         "webp_400": "images/proprio-06-ocaso_400.webp",
         "jpeg_1500": "images/proprio-06-ocaso_1500.jpg"
       },
-      "alt_text": "OCASO — Vier Bänder, die sich zur Dämmerung schichten. Individueller Teppichentwurf, 200 × 240 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- & Objektbereiche."
+      "alt_text": "OCASO — Vier Bänder, die sich zur Dämmerung schichten. Individueller Teppichentwurf, 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- & Objektbereiche."
     },
     {
       "id": "proprio-07-eco",
