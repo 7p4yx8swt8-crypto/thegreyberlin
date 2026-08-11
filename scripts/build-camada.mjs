@@ -1,18 +1,13 @@
 #!/usr/bin/env node
 /**
- * Build-Script: PRÓPRIO — die einzige Wanna Do Collection auf thegrey.berlin
+ * Build-Script: CAMADA — zweite Wanna Do Collection (N°5) auf thegrey.berlin
  *
- * Ersetzt scripts/build-wanna-do-v2.mjs (Campo+Trama, Kapitel, Filter) durch eine
- * einzelne, ruhige Kollektionsseite: ein Hero-Bild, darunter ein editorialer Stream
- * der übrigen 7 Entwürfe. Kein Kapitel-Umschalter, keine Filterzeile, keine zweite
- * Bildwelt — siehe proprio-web-kit/CLAUDE-CODE-TASK.md.
+ * Abgeleitet von scripts/build-proprio.mjs, identischer Seitenaufbau (Hero + Stream +
+ * Overlay + Permalinks). Eigener URL-Raum unter /wanna-do-collection/camada/.
+ * Sitemap und Homepage-Teaser werden weiterhin zentral von build-proprio.mjs
+ * geschrieben (liest auch designs-camada.json) — dieses Script fasst beides nicht an.
  *
- * Erzeugt aus data/designs.json:
- *   wanna-do-collection/index.html              Hero + Stream (7 Entwürfe)
- *   wanna-do-collection/<id>/index.html   × 8    Permalink = Hero/Stream + offenes Overlay
- * und ersetzt den Kollektions-Teaser in index.html / index-en.html.
- *
- * Aufruf: node scripts/build-proprio.mjs   (vom Repo-Root)
+ * Aufruf: node scripts/build-camada.mjs   (vom Repo-Root)
  */
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync, rmSync, readdirSync } from 'node:fs';
@@ -21,21 +16,15 @@ import { fileURLToPath } from 'node:url';
 import { execFileSync } from 'node:child_process';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const DATA = JSON.parse(readFileSync(join(ROOT, 'data/designs.json'), 'utf8'));
+const DATA = JSON.parse(readFileSync(join(ROOT, 'data/designs-camada.json'), 'utf8'));
 const K = DATA.kollektion;
 const ORIGIN = 'https://www.thegrey.berlin';
-const BASE = '/wanna-do-collection';
+const BASE = '/wanna-do-collection/camada';
 const LOGO = 'https://static.wixstatic.com/media/bdc123_37188656e7a04cebb530fc75bc1a552b~mv2.png/v1/fill/w_201,h_70,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/GREY-logo-383838-freigestellt.png';
-const PDF = 'thegrey-wannado-proprio-konzept.pdf';
 
 /* ---------------------------------------------------------------- Utils */
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-
-// Zweite Kollektion (CAMADA, eigener Build via build-camada.mjs) — hier nur für die
-// zentral verwalteten Teile gelesen: Sitemap und Homepage-Teaser.
-const CAMADA_PATH = join(ROOT, 'data/designs-camada.json');
-const CAMADA = existsSync(CAMADA_PATH) ? JSON.parse(readFileSync(CAMADA_PATH, 'utf8')) : null;
 const entwuerfeById = new Map(DATA.entwuerfe.map((e) => [e.id, e]));
 const streamIds = K.reihenfolge.filter((id) => id !== K.hero_id);
 
@@ -236,7 +225,7 @@ function overlayContent(e) {
       <p class="story">${esc(e.text_lang)}</p>
       <div class="chips ovtxt-chips" style="display:flex;">${chips(e)}</div>
       <ul class="palette-list">${paletteList}</ul>
-      <div class="spec">${esc(e.format_cm)}, ${esc(e.format_hinweis)} · Grund: ${esc(e.grund)}<br>${esc(e.material)}<br>Herstellung: ${esc(e.herstellung)}<br>Eignung: ${esc(e.eignung)}<br>Download: <a href="/downloads/${PDF}">Konzept-PDF PRÓPRIO</a></div>
+      <div class="spec">${esc(e.format_cm)}, ${esc(e.format_hinweis)} · Grund: ${esc(e.grund)}<br>${esc(e.material)}<br>Herstellung: ${esc(e.herstellung)}<br>Eignung: ${esc(e.eignung)}</div>
       <div class="ovcta">
         <a class="cta" href="${kontaktUrl(e)}">Wanna do? — Anfragen</a>
         <a class="cta cta--ghost" href="${mailtoUrl(e)}">Direkt per E-Mail</a>
@@ -312,9 +301,8 @@ ${streamIds.map((id, i) => streamCard(entwuerfeById.get(id), i)).join('\n')}
 
     <section class="wd-downloads">
         <div class="wd-wrap">
-            <h2>Downloads</h2>
+            <h2>Standard</h2>
             <p class="std">${esc(K.standard)}</p>
-            <a href="/downloads/${PDF}">Konzept-PDF PRÓPRIO</a>
         </div>
     </section>
 
@@ -433,9 +421,7 @@ function writeFile(relPath, content) {
 function cleanupObsoletePermalinks() {
   const dir = join(ROOT, BASE.slice(1));
   if (!existsSync(dir)) return;
-  // 'camada' ist keine Entwurfs-ID, sondern der Unterordner der zweiten Kollektion
-  // (scripts/build-camada.mjs) — darf nicht als verwaister Permalink gelöscht werden.
-  const keep = new Set([...DATA.entwuerfe.map((e) => e.id), 'camada']);
+  const keep = new Set(DATA.entwuerfe.map((e) => e.id));
   for (const entry of readdirSync(dir, { withFileTypes: true })) {
     if (entry.isDirectory() && !keep.has(entry.name)) {
       rmSync(join(dir, entry.name), { recursive: true });
@@ -492,79 +478,8 @@ function buildClientJs() {
   writeFile(`${BASE}/stream.js`, CLIENT_JS);
 }
 
-function buildSitemap() {
-  const urls = [];
-  urls.push(`  <url>\n    <loc>${ORIGIN}/</loc>\n    <changefreq>monthly</changefreq>\n    <priority>1.0</priority>\n  </url>`);
-  urls.push(`  <url>\n    <loc>${ORIGIN}/index-en.html</loc>\n    <changefreq>monthly</changefreq>\n    <priority>0.9</priority>\n  </url>`);
-  urls.push(`  <url>\n    <loc>${ORIGIN}${BASE}/</loc>\n    <changefreq>monthly</changefreq>\n    <priority>0.9</priority>\n  </url>`);
-  for (const e of DATA.entwuerfe) {
-    urls.push(`  <url>\n    <loc>${ORIGIN}${BASE}/${e.id}/</loc>\n    <changefreq>monthly</changefreq>\n    <priority>0.7</priority>\n  </url>`);
-  }
-  if (CAMADA) {
-    urls.push(`  <url>\n    <loc>${ORIGIN}${BASE}/camada/</loc>\n    <changefreq>monthly</changefreq>\n    <priority>0.9</priority>\n  </url>`);
-    for (const e of CAMADA.entwuerfe) {
-      urls.push(`  <url>\n    <loc>${ORIGIN}${BASE}/camada/${e.id}/</loc>\n    <changefreq>monthly</changefreq>\n    <priority>0.7</priority>\n  </url>`);
-    }
-  }
-  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n\n${urls.join('\n\n')}\n\n</urlset>\n`;
-  writeFile('sitemap.xml', xml);
-}
-
-function injectTeaser(file, lang) {
-  const p = join(ROOT, file);
-  if (!existsSync(p)) return;
-  let html = readFileSync(p, 'utf8');
-  const start = '<!-- WANNA-DO-TEASER:START -->';
-  const end = '<!-- WANNA-DO-TEASER:END -->';
-  if (!html.includes(start) || !html.includes(end)) { console.warn(`⚠ Teaser-Marker fehlen in ${file}`); return; }
-  const de = lang === 'de';
-  const hero = entwuerfeById.get(K.hero_id);
-  const d = imgDims(hero.bilder.jpeg_1500);
-
-  const tiles = [`                <a class="wd-teaser__tile" href="wanna-do-collection/">
-                    <img src="/${hero.bilder.webp_800}" alt="${esc(hero.alt_text)}" width="${d.w}" height="${d.h}" loading="lazy" decoding="async">
-                    <span>${K.code} · ${esc(K.name)}</span>
-                    <p>${esc(K.claim)}</p>
-                </a>`];
-  if (CAMADA) {
-    const cHero = CAMADA.entwuerfe.find((e) => e.id === CAMADA.kollektion.hero_id);
-    const cd = imgDims(cHero.bilder.jpeg_1500);
-    tiles.push(`                <a class="wd-teaser__tile" href="wanna-do-collection/camada/">
-                    <img src="/${cHero.bilder.webp_800}" alt="${esc(cHero.alt_text)}" width="${cd.w}" height="${cd.h}" loading="lazy" decoding="async">
-                    <span>${CAMADA.kollektion.code} · ${esc(CAMADA.kollektion.name)}</span>
-                    <p>${esc(CAMADA.kollektion.claim)}</p>
-                </a>`);
-  }
-  const eyebrow = CAMADA
-    ? `${K.code} · ${esc(K.name)} &nbsp;&amp;&nbsp; ${CAMADA.kollektion.code} · ${esc(CAMADA.kollektion.name)}`
-    : `${K.code} · ${esc(K.name)}`;
-  const intro = de
-    ? (CAMADA ? 'Zwei Kollektionen aus eigener Hand: PRÓPRIO — bold, warm, gesetzt. CAMADA — weicher, vielschichtiger, erzählerischer. Kuratierte Teppichentwürfe als Ausgangspunkte für individuell gefertigte Teppiche, keine Endprodukte.' : esc(K.kurzbeschreibung))
-    : (CAMADA ? 'Two collections made in-house: PRÓPRIO — bold, warm, grounded. CAMADA — softer, layered, narrative. Curated rug designs as starting points for individually crafted rugs, not end products — in German.' : 'The first collection made in-house: bold, warm, grounded. Eight designs — starting points for individually crafted rugs, not end products — in German.');
-  const teaser = `${start}
-        <section class="section wd-teaser" id="wanna-do">
-            <div class="section__container">
-                <div class="section__header reveal">
-                    <span class="section__eyebrow">${eyebrow}</span>
-                    <h2 class="section__title">Wanna Do Collection<em>.</em></h2>
-                    <p class="section__intro">${intro}</p>
-                </div>
-                <div class="wd-teaser__grid reveal" style="grid-template-columns: repeat(${tiles.length}, 1fr); max-width: ${tiles.length > 1 ? '880px' : '420px'}; margin-left: auto; margin-right: auto;">
-${tiles.join('\n')}
-                </div>
-            </div>
-        </section>
-        ${end}`;
-  html = html.slice(0, html.indexOf(start)) + teaser + html.slice(html.indexOf(end) + end.length);
-  writeFileSync(p, html);
-  console.log('✓ Teaser aktualisiert:', file);
-}
-
 cleanupObsoletePermalinks();
 buildRoot();
 buildPermalinks();
 buildClientJs();
-buildSitemap();
-injectTeaser('index.html', 'de');
-injectTeaser('index-en.html', 'en');
 console.log(`\nFertig: Hero + Stream (${streamIds.length}) + ${DATA.entwuerfe.length} Permalinks generiert.`);

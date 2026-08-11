@@ -67,4 +67,58 @@
     <priority>0.7</priority>
   </url>
 
+  <url>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/camada/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/camada/camada-06-tesouro/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/camada/camada-05-alicerce/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/camada/camada-01-coluna/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/camada/camada-03-abrigo/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/camada/camada-02-pilha/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/camada/camada-04-mosaico/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/camada/camada-07-pendulo/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/camada/camada-08-duna/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
