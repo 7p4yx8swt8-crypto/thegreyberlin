@@ -91,8 +91,10 @@ const CSS = `
 .nav__link::after { content: ''; position: absolute; bottom: 0; left: 0; width: 0; height: 1px; background-color: #383838; transition: width .4s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
 .nav__link:hover { opacity: 1; }
 .nav__link:hover::after { width: 100%; }
-.nav__link--wd { background-image: linear-gradient(90deg, #D6408A 0%, #D83A1E 34%, #C98245 62%, #1E6FC8 100%); -webkit-background-clip: text; background-clip: text; color: transparent; font-weight: 600; }
+.nav__link--wd { background-image: linear-gradient(100deg, #D6408A 0%, #D83A1E 28%, #ffffff 38%, #C98245 48%, #1E6FC8 100%); background-size: 250% 100%; -webkit-background-clip: text; background-clip: text; color: transparent; font-weight: 600; animation: wd-shine 3.2s ease-in-out infinite; }
 .nav__link--wd::after { background-color: transparent; background-image: linear-gradient(90deg, #D6408A, #D83A1E, #C98245, #1E6FC8); height: 2px; }
+@keyframes wd-shine { 0%, 55% { background-position: 110% 0; } 90%, 100% { background-position: -35% 0; } }
+@media (prefers-reduced-motion: reduce) { .nav__link--wd { animation: none; background-image: linear-gradient(90deg, #D6408A 0%, #D83A1E 34%, #C98245 62%, #1E6FC8 100%); background-size: 100% 100%; } }
 .nav__lang { display: flex; align-items: center; gap: 0.4rem; font-size: 0.8rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; }
 .nav__lang a { color: #8a8a8a; padding: 0.5rem 0.15rem; text-decoration: none; transition: color .4s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
 .nav__lang a.active { color: #383838; }
