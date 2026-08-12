@@ -153,12 +153,27 @@
         .wd-teaser .section__title { color: #2E2B26; }
         .wd-teaser .section__intro { color: #2E2B26; }
         .wd-teaser .section__eyebrow { color: #6E6A61; }
-        .wd-teaser__grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; }
+        .wd-teaser__grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2.5rem; max-width: 880px; margin-left: auto; margin-right: auto; }
         .wd-teaser__tile { display: block; }
-        .wd-teaser__tile img { width: 100%; height: auto; max-height: 480px; object-fit: contain; background-color: #fff; border: 1px solid #E4E0D6; padding: 1.5rem; transition: border-color var(--transition); }
-        .wd-teaser__tile:hover img { border-color: #6E6A61; }
-        .wd-teaser__tile span { display: block; margin-top: 1rem; font-family: var(--font-heading); font-weight: 600; font-size: 1.1rem; letter-spacing: -0.01em; color: #2E2B26; text-transform: none; }
+        .wd-tile__name { display: block; margin-top: 1.1rem; font-family: var(--font-heading); font-weight: 600; font-size: 1.1rem; letter-spacing: -0.01em; color: #2E2B26; text-transform: none; }
         .wd-teaser__tile p { margin-top: 0.35rem; font-size: 0.88rem; line-height: 1.55; color: #6E6A61; max-width: 46ch; }
+        /* Kartenstapel + Farbfächer-Hover: zwei Entwürfe lugen hinter dem Hero hervor
+           (immer sichtbar, auch mobil), Hover fächert sie nach unten auf. */
+        .wd-stack__wrap { position: relative; display: block; }
+        .wd-stack__main { position: relative; z-index: 3; display: block; transition: transform .5s var(--transition); }
+        .wd-stack__main img { width: 100%; height: auto; max-height: 480px; object-fit: contain; background-color: #fff; border: 1px solid #E4E0D6; padding: 1.5rem; transition: border-color var(--transition); }
+        .wd-stack__card { position: absolute; inset: 0; background: #fff; border: 1px solid #E4E0D6; padding: 0.6rem; transition: transform .5s var(--transition); }
+        .wd-stack__card img { width: 100%; height: 100%; object-fit: cover; }
+        .wd-stack__card--1 { transform: rotate(2.5deg) translate(9px, 7px); z-index: 2; }
+        .wd-stack__card--2 { transform: rotate(-2deg) translate(-8px, 12px); z-index: 1; }
+        .wd-teaser__tile:hover .wd-stack__main img { border-color: #6E6A61; }
+        .wd-teaser__tile:hover .wd-stack__main { transform: translateY(-10px); }
+        .wd-teaser__tile:hover .wd-stack__card--1 { transform: rotate(-4deg) translate(14px, 26px); }
+        .wd-teaser__tile:hover .wd-stack__card--2 { transform: rotate(3.5deg) translate(-16px, 42px); }
+        .wd-stack__count { display: inline-flex; align-items: center; gap: 0.45rem; margin-top: 0.8rem; font-size: 0.72rem; letter-spacing: 0.16em; text-transform: uppercase; color: #8a8a8a; }
+        .wd-stack__count::before { content: ''; width: 22px; height: 1px; background: #c9c4ba; }
+        @media (max-width: 960px) { .wd-teaser__grid { gap: 3.5rem; } }
+        @media (prefers-reduced-motion: reduce) { .wd-stack__main, .wd-stack__card { transition: none; } }
 
         .process-steps { margin-top: clamp(3rem, 6vw, 4.5rem); display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
         .process-step { border-top: 1px solid var(--color-grey-light); padding-top: 2rem; }
@@ -276,16 +291,26 @@
                     <h2 class="section__title">Wanna Do Collection<em>.</em></h2>
                     <p class="section__intro">Zwei Kollektionen aus eigener Hand: PRÓPRIO — bold, warm, gesetzt. CAMADA — weicher, vielschichtiger, erzählerischer. Kuratierte Teppichentwürfe als Ausgangspunkte für individuell gefertigte Teppiche, keine Endprodukte.</p>
                 </div>
-                <div class="wd-teaser__grid reveal" style="grid-template-columns: repeat(2, 1fr); max-width: 880px; margin-left: auto; margin-right: auto;">
+                <div class="wd-teaser__grid reveal">
                 <a class="wd-teaser__tile" href="wanna-do-collection/">
-                    <img src="/images/proprio-07-eco_800.webp" alt="ECO — Vier Felder kreisen um ein rotes Zentrum, ein Windrad im Stillstand. Individueller Teppichentwurf, 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- &amp; Objektbereiche." width="1500" height="1500" loading="lazy" decoding="async">
-                    <span>N°4 · PRÓPRIO</span>
-                    <p>Das Eigene — acht Entwürfe aus eigener Hand.</p>
+                    <span class="wd-stack__wrap">
+                        <span class="wd-stack__card wd-stack__card--2"><img src="/images/proprio-02-divisa_400.webp" alt="" loading="lazy" decoding="async"></span>
+                        <span class="wd-stack__card wd-stack__card--1"><img src="/images/proprio-01-limiar_400.webp" alt="" loading="lazy" decoding="async"></span>
+                        <span class="wd-stack__main"><img src="/images/proprio-07-eco_800.webp" alt="ECO — Vier Felder kreisen um ein rotes Zentrum, ein Windrad im Stillstand. Individueller Teppichentwurf, 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- &amp; Objektbereiche." width="1500" height="1500" loading="lazy" decoding="async"></span>
+                    </span>
+                    <span class="wd-tile__name">N°4 · PRÓPRIO</span>
+                    <p>Das Eigene — sieben Entwürfe aus eigener Hand.</p>
+                    <span class="wd-stack__count">7 Entwürfe entdecken</span>
                 </a>
                 <a class="wd-teaser__tile" href="wanna-do-collection/camada/">
-                    <img src="/images/camada-06-tesouro_800.webp" alt="TESOURO — Mitternachtsblau, Messing und Rosé, übereinandergelegt wie Erinnerungen. Individueller Teppichentwurf, 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- &amp; Objektbereiche." width="1500" height="1500" loading="lazy" decoding="async">
-                    <span>N°5 · CAMADA</span>
+                    <span class="wd-stack__wrap">
+                        <span class="wd-stack__card wd-stack__card--2"><img src="/images/camada-01-coluna_400.webp" alt="" loading="lazy" decoding="async"></span>
+                        <span class="wd-stack__card wd-stack__card--1"><img src="/images/camada-05-alicerce_400.webp" alt="" loading="lazy" decoding="async"></span>
+                        <span class="wd-stack__main"><img src="/images/camada-06-tesouro_800.webp" alt="TESOURO — Mitternachtsblau, Messing und Rosé, übereinandergelegt wie Erinnerungen. Individueller Teppichentwurf, 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- &amp; Objektbereiche." width="1500" height="1500" loading="lazy" decoding="async"></span>
+                    </span>
+                    <span class="wd-tile__name">N°5 · CAMADA</span>
                     <p>Die Schichten eines Zuhauses — acht Entwürfe über das Gewachsene.</p>
+                    <span class="wd-stack__count">8 Entwürfe entdecken</span>
                 </a>
                 </div>
             </div>

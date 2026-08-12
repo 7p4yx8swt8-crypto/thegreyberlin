@@ -525,20 +525,30 @@ function injectTeaser(file, lang) {
   const hero = entwuerfeById.get(K.hero_id);
   const d = imgDims(hero.bilder.jpeg_1500);
 
-  const tiles = [`                <a class="wd-teaser__tile" href="wanna-do-collection/">
-                    <img src="/${hero.bilder.webp_800}" alt="${esc(hero.alt_text)}" width="${d.w}" height="${d.h}" loading="lazy" decoding="async">
-                    <span>${K.code} · ${esc(K.name)}</span>
-                    <p>${esc(K.claim)}</p>
-                </a>`];
-  if (CAMADA) {
-    const cHero = CAMADA.entwuerfe.find((e) => e.id === CAMADA.kollektion.hero_id);
-    const cd = imgDims(cHero.bilder.jpeg_1500);
-    tiles.push(`                <a class="wd-teaser__tile" href="wanna-do-collection/camada/">
-                    <img src="/${cHero.bilder.webp_800}" alt="${esc(cHero.alt_text)}" width="${cd.w}" height="${cd.h}" loading="lazy" decoding="async">
-                    <span>${CAMADA.kollektion.code} · ${esc(CAMADA.kollektion.name)}</span>
-                    <p>${esc(CAMADA.kollektion.claim)}</p>
-                </a>`);
-  }
+  // Kachel als Kartenstapel: Hero vorn, zwei weitere Entwürfe lugen dahinter hervor
+  // (auch ohne Hover/mobil sichtbar); Hover fächert sie nach unten auf (Farbfächer-Geste).
+  const tileFor = (data, href) => {
+    const k2 = data.kollektion;
+    const byId = new Map(data.entwuerfe.map((e) => [e.id, e]));
+    const hero2 = byId.get(k2.hero_id);
+    const extras = k2.reihenfolge.filter((id) => id !== k2.hero_id).slice(0, 2).map((id) => byId.get(id));
+    const d2 = imgDims(hero2.bilder.jpeg_1500);
+    const n = data.entwuerfe.length;
+    const count = de ? `${n} Entwürfe entdecken` : `Discover ${n} designs`;
+    const claim = de ? k2.claim : (k2.claim_en || k2.claim);
+    return `                <a class="wd-teaser__tile" href="${href}">
+                    <span class="wd-stack__wrap">
+                        <span class="wd-stack__card wd-stack__card--2"><img src="/${extras[1].bilder.webp_400}" alt="" loading="lazy" decoding="async"></span>
+                        <span class="wd-stack__card wd-stack__card--1"><img src="/${extras[0].bilder.webp_400}" alt="" loading="lazy" decoding="async"></span>
+                        <span class="wd-stack__main"><img src="/${hero2.bilder.webp_800}" alt="${esc(hero2.alt_text)}" width="${d2.w}" height="${d2.h}" loading="lazy" decoding="async"></span>
+                    </span>
+                    <span class="wd-tile__name">${k2.code} · ${esc(k2.name)}</span>
+                    <p>${esc(claim)}</p>
+                    <span class="wd-stack__count">${count}</span>
+                </a>`;
+  };
+  const tiles = [tileFor(DATA, 'wanna-do-collection/')];
+  if (CAMADA) tiles.push(tileFor(CAMADA, 'wanna-do-collection/camada/'));
   const eyebrow = CAMADA
     ? `${K.code} · ${esc(K.name)} &nbsp;&amp;&nbsp; ${CAMADA.kollektion.code} · ${esc(CAMADA.kollektion.name)}`
     : `${K.code} · ${esc(K.name)}`;
@@ -553,7 +563,7 @@ function injectTeaser(file, lang) {
                     <h2 class="section__title">Wanna Do Collection<em>.</em></h2>
                     <p class="section__intro">${intro}</p>
                 </div>
-                <div class="wd-teaser__grid reveal" style="grid-template-columns: repeat(${tiles.length}, 1fr); max-width: ${tiles.length > 1 ? '880px' : '420px'}; margin-left: auto; margin-right: auto;">
+                <div class="wd-teaser__grid reveal">
 ${tiles.join('\n')}
                 </div>
             </div>
