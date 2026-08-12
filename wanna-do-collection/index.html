@@ -42,6 +42,8 @@
 .nav__link::after { content: ''; position: absolute; bottom: 0; left: 0; width: 0; height: 1px; background-color: #383838; transition: width .4s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
 .nav__link:hover { opacity: 1; }
 .nav__link:hover::after { width: 100%; }
+.nav__link--wd { background-image: linear-gradient(90deg, #D6408A 0%, #D83A1E 34%, #C98245 62%, #1E6FC8 100%); -webkit-background-clip: text; background-clip: text; color: transparent; font-weight: 600; }
+.nav__link--wd::after { background-color: transparent; background-image: linear-gradient(90deg, #D6408A, #D83A1E, #C98245, #1E6FC8); height: 2px; }
 .nav__lang { display: flex; align-items: center; gap: 0.4rem; font-size: 0.8rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; }
 .nav__lang a { color: #8a8a8a; padding: 0.5rem 0.15rem; text-decoration: none; transition: color .4s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
 .nav__lang a.active { color: #383838; }
@@ -155,7 +157,7 @@
             <a href="/index.html" class="nav__logo" aria-label="thegrey - Startseite"><img src="https://static.wixstatic.com/media/bdc123_37188656e7a04cebb530fc75bc1a552b~mv2.png/v1/fill/w_201,h_70,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/GREY-logo-383838-freigestellt.png" alt="thegrey Logo"></a>
             <ul class="nav__menu" id="navMenu">
                 <li><a href="/index.html#designs" class="nav__link">Design &amp; Prozess</a></li>
-                <li><a href="/wanna-do-collection/" class="nav__link">Wanna Do</a></li>
+                <li><a href="/index.html#wanna-do" class="nav__link nav__link--wd">Wanna Do</a></li>
                 <li><a href="/index.html#about" class="nav__link">Über uns</a></li>
                 <li class="nav__lang"><a href="/wanna-do-collection/" class="active">DE</a><span>/</span><a href="/index-en.html">EN</a></li>
                 <li><a href="/index.html#contact" class="nav__link nav__cta">Jetzt entwerfen</a></li>
