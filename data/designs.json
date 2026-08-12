@@ -2,7 +2,7 @@
   "kollektion": {
     "code": "N°4",
     "name": "PRÓPRIO",
-    "claim": "Das Eigene — acht Entwürfe aus eigener Hand.",
+    "claim": "Das Eigene — sieben Entwürfe aus eigener Hand.",
     "absender": "THE GREY — thegrey.berlin",
     "kurzbeschreibung": "Die erste Kollektion aus eigener Hand: bold, warm, gesetzt. Kräftige Farben, farbige Gründe, klare Blöcke, die um eine Ecke kreisen. Kuratierte Teppichentwürfe als Inspiration für Planer:innen und Innenarchitekt:innen — Ausgangspunkte für individuell gefertigte Teppiche, keine Endprodukte.",
     "hero_id": "proprio-07-eco",
@@ -22,7 +22,8 @@
       "Bemustern — maßstäbliche Zeichnung + Handmuster der Wollfarben",
       "Fertigen — einzeln von Hand getuftet; jeder realisierte Entwurf erhält einen eigenen Namen"
     ],
-    "pantone_hinweis": "Pantone-Angaben: nächstliegende Referenz aus dem PANTONE Fashion, Home + Interiors Farbfächer (TCX, Cotton); mit ~ markierte vorläufig. Farbverbindlich sind physischer Fächer und Garnbemusterung."
+    "pantone_hinweis": "Pantone-Angaben: nächstliegende Referenz aus dem PANTONE Fashion, Home + Interiors Farbfächer (TCX, Cotton); mit ~ markierte vorläufig. Farbverbindlich sind physischer Fächer und Garnbemusterung.",
+    "claim_en": "One's own — seven designs made in-house."
   },
   "entwuerfe": [
     {
