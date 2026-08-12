@@ -82,6 +82,10 @@
         .nav__link::after { content: ''; position: absolute; bottom: 0; left: 0; width: 0; height: 1px; background-color: var(--color-dark); transition: width var(--transition); }
         .nav__link:hover { opacity: 1; }
         .nav__link:hover::after { width: 100%; }
+        /* Wanna-Do-Menüpunkt: Farbverlauf aus den Kollektionsfarben (GIRO-Palette) als
+           auffälliger Einstieg in die bunte Produktwelt — Rest der Nav bleibt monochrom. */
+        .nav__link--wd { background-image: linear-gradient(90deg, #D6408A 0%, #D83A1E 34%, #C98245 62%, #1E6FC8 100%); -webkit-background-clip: text; background-clip: text; color: transparent; font-weight: 600; }
+        .nav__link--wd::after { background-color: transparent; background-image: linear-gradient(90deg, #D6408A, #D83A1E, #C98245, #1E6FC8); height: 2px; }
 
         .nav__lang { display: flex; align-items: center; gap: 0.4rem; font-size: 0.8rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; }
         .nav__lang a { color: var(--color-grey-mid); padding: 0.5rem 0.15rem; transition: color var(--transition); }
@@ -230,7 +234,7 @@
             </a>
             <ul class="nav__menu" id="navMenu">
                 <li><a href="#designs" class="nav__link">Design &amp; Prozess</a></li>
-                <li><a href="wanna-do-collection/" class="nav__link">Wanna Do</a></li>
+                <li><a href="#wanna-do" class="nav__link nav__link--wd">Wanna Do</a></li>
                 <li><a href="#about" class="nav__link">Über uns</a></li>
                 <li class="nav__lang"><a href="index.html" class="active">DE</a><span>/</span><a href="index-en.html">EN</a></li>
                 <li><a href="#contact" class="nav__link nav__cta">Jetzt entwerfen</a></li>
@@ -272,7 +276,7 @@
                 </div>
                 <div class="wd-teaser__grid reveal" style="grid-template-columns: repeat(2, 1fr); max-width: 880px; margin-left: auto; margin-right: auto;">
                 <a class="wd-teaser__tile" href="wanna-do-collection/">
-                    <img src="/images/proprio-03-giro_800.webp" alt="GIRO — Vier Felder kreisen um ein rotes Zentrum, ein Windrad im Stillstand. Individueller Teppichentwurf, 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- &amp; Objektbereiche." width="1500" height="1500" loading="lazy" decoding="async">
+                    <img src="/images/proprio-07-eco_800.webp" alt="ECO — Vier Felder kreisen um ein rotes Zentrum, ein Windrad im Stillstand. Individueller Teppichentwurf, 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- &amp; Objektbereiche." width="1500" height="1500" loading="lazy" decoding="async">
                     <span>N°4 · PRÓPRIO</span>
                     <p>Das Eigene — acht Entwürfe aus eigener Hand.</p>
                 </a>
