@@ -408,7 +408,8 @@
                     <div class="contact-block"><span class="contact-block__label">Instagram</span><a href="https://www.instagram.com/thegrey.berlin/" class="contact-block__value" target="_blank" rel="noopener">@thegrey.berlin</a></div>
                     <div class="contact-block"><span class="contact-block__label">LinkedIn</span><a href="https://www.linkedin.com/company/thegreyberlin/" class="contact-block__value" target="_blank" rel="noopener">thegrey.berlin</a></div>
                 </div>
-                <form class="contact-form reveal" onsubmit="event.preventDefault(); alert('Danke! Wir melden uns kurzfristig bei dir.'); this.reset();">
+                <form class="contact-form reveal" id="contactForm" data-success="Danke! Deine Anfrage ist bei uns eingegangen. Wir melden uns kurzfristig." data-error="Das hat leider nicht geklappt. Schreib uns gern direkt an hallo@thegrey.berlin.">
+                    <div class="contact-form__field" style="position:absolute; left:-9999px;" aria-hidden="true"><input type="text" name="website" tabindex="-1" autocomplete="off"></div>
                     <div class="contact-form__field"><input type="text" name="name" class="contact-form__input" placeholder="Name" required></div>
                     <div class="contact-form__field"><input type="email" name="email" class="contact-form__input" placeholder="E-Mail" required></div>
                     <div class="contact-form__field"><input type="text" name="betreff" class="contact-form__input" placeholder="Betreff (optional)"></div>
@@ -471,6 +472,45 @@
             const feld = document.querySelector('.contact-form input[name="betreff"]');
             if (feld) feld.value = betreff;
         }
+    </script>
+
+    <script>
+        // Kontaktformular: POST an /api/contact (Worker), Feedback inline statt alert()
+        (function () {
+            var form = document.getElementById('contactForm');
+            if (!form) return;
+            form.addEventListener('submit', function (e) {
+                e.preventDefault();
+                var btn = form.querySelector('button[type="submit"]');
+                var oldLabel = btn.innerHTML;
+                btn.disabled = true;
+                btn.textContent = '…';
+                var payload = {};
+                new FormData(form).forEach(function (v, k) { payload[k] = v; });
+                fetch('/api/contact', {
+                    method: 'POST',
+                    headers: { 'content-type': 'application/json' },
+                    body: JSON.stringify(payload)
+                }).then(function (r) { return r.json().then(function (j) { return { ok: r.ok && j.ok, j: j }; }); })
+                  .then(function (res) {
+                    if (res.ok) { form.reset(); showNote(form.dataset.success, false); }
+                    else { showNote((res.j && res.j.error) || form.dataset.error, true); }
+                  })
+                  .catch(function () { showNote(form.dataset.error, true); })
+                  .finally(function () { btn.disabled = false; btn.innerHTML = oldLabel; });
+            });
+            function showNote(text, isError) {
+                var note = form.querySelector('.contact-form__note');
+                if (!note) {
+                    note = document.createElement('p');
+                    note.className = 'contact-form__note';
+                    note.style.cssText = 'margin-top:1rem; font-size:0.9rem; line-height:1.5;';
+                    form.appendChild(note);
+                }
+                note.textContent = text;
+                note.style.color = isError ? '#9b2c2c' : '#2f6b3a';
+            }
+        })();
     </script>
 </body>
 </html>
