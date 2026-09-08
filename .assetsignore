@@ -4,3 +4,9 @@
 # Historie) als Static Asset hochzuladen — das überschreitet irgendwann das 25-MiB-Limit
 # pro Datei und lässt den Deploy fehlschlagen ("Asset too large").
 .git
+# Worker-Quellcode ist kein Static Asset
+src
+# Lokale Arbeitsdateien / Kit-Lieferungen — nie als Static Asset deployen
+*.zip
+pinterest
+docs
