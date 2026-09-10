@@ -74,7 +74,9 @@
         .footer__chips { display: flex; gap: 0.45rem; margin-bottom: 1.2rem; }
         .footer__chips i { width: 12px; height: 12px; border-radius: 50%; }
         .footer__slogan { font-family: var(--font-heading); font-weight: 600; font-size: 0.95rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--color-light); line-height: 1.65; max-width: 320px; margin-bottom: 0.6rem; }
-        .footer__slogan .clash { font-weight: 700; background-image: linear-gradient(95deg, #D6408A 0%, #D83A1E 35%, #C98245 65%, #1E6FC8 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+        .footer__slogan .clash { font-weight: 700; background-image: linear-gradient(95deg, #D6408A 0%, #D83A1E 28%, #ffffff 38%, #C98245 55%, #1E6FC8 100%); background-size: 250% 100%; -webkit-background-clip: text; background-clip: text; color: transparent; animation: clash-shine 3.2s ease-in-out infinite; }
+        @keyframes clash-shine { 0%, 55% { background-position: 110% 0; } 90%, 100% { background-position: -35% 0; } }
+        @media (prefers-reduced-motion: reduce) { .footer__slogan .clash { animation: none; background-image: linear-gradient(95deg, #D6408A 0%, #D83A1E 35%, #C98245 65%, #1E6FC8 100%); background-size: 100% 100%; } }
         .footer__col h4 { font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--color-light); margin-bottom: 1.25rem; font-weight: 500; }
         .footer__col ul { list-style: none; display: grid; gap: 0.65rem; margin: 0; padding: 0; }
         .footer__col a { font-size: 0.9rem; color: var(--color-grey-light); }
