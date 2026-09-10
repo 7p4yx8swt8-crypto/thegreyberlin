@@ -74,6 +74,11 @@
         .footer__top { display: grid; grid-template-columns: 1.5fr 1fr 1.2fr; gap: 3rem; padding-bottom: 3rem; border-bottom: 1px solid rgba(255,255,255,0.1); margin-bottom: 2rem; }
         .footer__brand h3 { font-family: var(--font-heading); font-size: 1.65rem; font-weight: 600; letter-spacing: -0.02em; color: var(--color-light); margin-bottom: 1rem; }
         .footer__brand p { font-size: 0.9rem; line-height: 1.7; color: var(--color-grey-light); max-width: 320px; }
+        .footer__logo { height: 52px; width: auto; filter: invert(1) brightness(1.6); margin-bottom: 1.1rem; }
+        .footer__chips { display: flex; gap: 0.45rem; margin-bottom: 1.2rem; }
+        .footer__chips i { width: 12px; height: 12px; border-radius: 50%; }
+        .footer__slogan { font-family: var(--font-heading); font-weight: 600; font-size: 0.95rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--color-light); line-height: 1.65; max-width: 320px; margin-bottom: 0.6rem; }
+        .footer__slogan .clash { font-weight: 700; background-image: linear-gradient(95deg, #D6408A 0%, #D83A1E 35%, #C98245 65%, #1E6FC8 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
         .footer__col h4 { font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--color-light); margin-bottom: 1.25rem; font-weight: 500; }
         .footer__col ul { list-style: none; display: grid; gap: 0.65rem; margin: 0; padding: 0; }
         .footer__col a { font-size: 0.9rem; color: var(--color-grey-light); }
@@ -222,7 +227,7 @@
     <footer class="footer">
         <div class="footer__container">
             <div class="footer__top">
-                <div class="footer__brand"><h3>thegrey</h3><p>Handcrafted rugs from Berlin. Made from pure wool. For rooms that tell a story.</p></div>
+                <div class="footer__brand"><img class="footer__logo" src="https://static.wixstatic.com/media/bdc123_37188656e7a04cebb530fc75bc1a552b~mv2.png/v1/fill/w_201,h_70,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/GREY-logo-383838-freigestellt.png" alt="thegrey logo" width="201" height="70" loading="lazy"><div class="footer__chips"><i style="background:#D6408A"></i><i style="background:#D83A1E"></i><i style="background:#C98245"></i><i style="background:#2D4C54"></i><i style="background:#1E6FC8"></i><i style="background:#5F6452"></i></div><p class="footer__slogan"><span class="clash">Color Clash,</span> Perfect Harmony: Your Rooms</p><p>Handcrafted rugs from Berlin. Made from pure wool.</p></div>
                 <div class="footer__col"><h4>Studio</h4><ul><li><a href="index-en.html#designs">Design &amp; Process</a></li><li><a href="wanna-do-collection/">Wanna Do Collection</a></li><li><a href="index-en.html#about">About</a></li><li><a href="index-en.html#contact">Contact</a></li></ul></div>
                 <div class="footer__col"><h4>Legal</h4><ul><li><a href="imprint.html">Imprint</a></li><li><a href="privacy.html">Privacy Policy</a></li></ul></div>
             </div>
