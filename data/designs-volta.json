@@ -4,7 +4,7 @@
     "name": "VOLTA",
     "claim": "Die Runde: acht Entwürfe über Bewegung im Raum.",
     "claim_en": "The turn: eight designs about movement that stays.",
-    "absender": "THE GREY — thegrey.berlin",
+    "absender": "THE GREY · thegrey.berlin",
     "kurzbeschreibung": "Die dritte Kollektion aus eigener Hand: kräftiger, rhythmischer, gebauter. Bögen, Kreise und Bahnen setzen den Raum in Bewegung, von der ersten Drehung bis zur Pause. Kuratierte Teppichentwürfe als Inspiration für Planer:innen und Innenarchitekt:innen, Ausgangspunkte für individuell gefertigte Teppiche, keine Endprodukte.",
     "hero_id": "volta-01-ciclo",
     "reihenfolge": [
@@ -42,10 +42,26 @@
       "text_kurz": "Ein Kreis, in der Mitte geteilt: zwei Hälften, die einander weiterdrehen.",
       "text_lang": "CICLO teilt den Kreis in zwei Hälften, die einander endlos weiterdrehen. Petrol dreht nach außen, Weinrot hält dagegen, Creme gibt beiden Raum. Der Anfang der Kollektion: eine Bewegung, die nicht aufhört.",
       "farben": [
-        { "hex": "#2D4C54", "name": "Petróleo", "pantone_fhi": "~19-4316 TCX Stargazer" },
-        { "hex": "#5F1114", "name": "Vinho", "pantone_fhi": "~19-1629 TCX Ruby Wine" },
-        { "hex": "#BC5F3B", "name": "Terracota", "pantone_fhi": "~18-1447 TCX Orange Rust" },
-        { "hex": "#E0D4BF", "name": "Creme", "pantone_fhi": "~12-0605 TCX Angora" }
+        {
+          "hex": "#2D4C54",
+          "name": "Petróleo",
+          "pantone_fhi": "~19-4316 TCX Stargazer"
+        },
+        {
+          "hex": "#5F1114",
+          "name": "Vinho",
+          "pantone_fhi": "~19-1629 TCX Ruby Wine"
+        },
+        {
+          "hex": "#BC5F3B",
+          "name": "Terracota",
+          "pantone_fhi": "~18-1447 TCX Orange Rust"
+        },
+        {
+          "hex": "#E0D4BF",
+          "name": "Creme",
+          "pantone_fhi": "~12-0605 TCX Angora"
+        }
       ],
       "hero": true,
       "bilder": {
@@ -71,11 +87,31 @@
       "text_kurz": "Ein Bogen setzt zum Sprung an, Altrosa fängt ihn weich auf.",
       "text_lang": "Über Petrol und Lachs setzt ein großer Bogen zum Sprung an, Altrosa fängt ihn weich auf, ein Stück Himmel bleibt oben stehen. SALTO ist der Moment, in dem ein Raum Schwung aufnimmt: kurz vor dem Abheben.",
       "farben": [
-        { "hex": "#BB685F", "name": "Rosa-velho", "pantone_fhi": "~17-1424 TCX Brick Dust" },
-        { "hex": "#32606D", "name": "Petróleo", "pantone_fhi": "~18-4718 TCX Hydro" },
-        { "hex": "#D3775B", "name": "Salmão", "pantone_fhi": "~16-1441 TCX Arabesque" },
-        { "hex": "#C8C9C6", "name": "Névoa", "pantone_fhi": "~14-4102 TCX Glacier Gray" },
-        { "hex": "#E5DACA", "name": "Creme", "pantone_fhi": "~11-0907 TCX Pearled Ivory" }
+        {
+          "hex": "#BB685F",
+          "name": "Rosa-velho",
+          "pantone_fhi": "~17-1424 TCX Brick Dust"
+        },
+        {
+          "hex": "#32606D",
+          "name": "Petróleo",
+          "pantone_fhi": "~18-4718 TCX Hydro"
+        },
+        {
+          "hex": "#D3775B",
+          "name": "Salmão",
+          "pantone_fhi": "~16-1441 TCX Arabesque"
+        },
+        {
+          "hex": "#C8C9C6",
+          "name": "Névoa",
+          "pantone_fhi": "~14-4102 TCX Glacier Gray"
+        },
+        {
+          "hex": "#E5DACA",
+          "name": "Creme",
+          "pantone_fhi": "~11-0907 TCX Pearled Ivory"
+        }
       ],
       "hero": false,
       "bilder": {
@@ -101,10 +137,26 @@
       "text_kurz": "Zwei Bögen lehnen sich aneinander, wie Brücke und Spiegelbild.",
       "text_lang": "Zwei Bögen aus Marine und Mauve lehnen sich aneinander, ein weinrotes Dreieck spannt sich dazwischen wie ein Pfeiler. PONTE verbindet: zwei Seiten eines Raums, die erst zusammen tragen.",
       "farben": [
-        { "hex": "#19324F", "name": "Marinho", "pantone_fhi": "~19-4027 TCX Estate Blue" },
-        { "hex": "#846D75", "name": "Malva", "pantone_fhi": "~18-1807 TCX Twilight Mauve" },
-        { "hex": "#8D2D26", "name": "Vinho", "pantone_fhi": "~19-1531 TCX Sun-Dried Tomato" },
-        { "hex": "#E3D3BD", "name": "Creme", "pantone_fhi": "~12-0605 TCX Angora" }
+        {
+          "hex": "#19324F",
+          "name": "Marinho",
+          "pantone_fhi": "~19-4027 TCX Estate Blue"
+        },
+        {
+          "hex": "#846D75",
+          "name": "Malva",
+          "pantone_fhi": "~18-1807 TCX Twilight Mauve"
+        },
+        {
+          "hex": "#8D2D26",
+          "name": "Vinho",
+          "pantone_fhi": "~19-1531 TCX Sun-Dried Tomato"
+        },
+        {
+          "hex": "#E3D3BD",
+          "name": "Creme",
+          "pantone_fhi": "~12-0605 TCX Angora"
+        }
       ],
       "hero": false,
       "bilder": {
@@ -130,12 +182,36 @@
       "text_kurz": "Blattformen sinken durchs Bild, ein dunkler Stiel hält den Takt.",
       "text_lang": "Blattformen in Oliv und Terracotta sinken langsam durchs Bild, ein dunkler Stiel hängt dazwischen wie ein Pendel. FOLHA ist die leiseste Bewegung der Kollektion: das Fallen, das kein Geräusch macht.",
       "farben": [
-        { "hex": "#5F6452", "name": "Oliva", "pantone_fhi": "~18-0316 TCX Olivine" },
-        { "hex": "#BA542F", "name": "Terracota", "pantone_fhi": "~18-1447 TCX Orange Rust" },
-        { "hex": "#792017", "name": "Vinho", "pantone_fhi": "~19-1629 TCX Ruby Wine" },
-        { "hex": "#B19664", "name": "Mostarda", "pantone_fhi": "~16-1126 TCX Antelope" },
-        { "hex": "#4C1912", "name": "Café", "pantone_fhi": "~19-1016 TCX Java" },
-        { "hex": "#E6DAC8", "name": "Creme", "pantone_fhi": "~12-0605 TCX Angora" }
+        {
+          "hex": "#5F6452",
+          "name": "Oliva",
+          "pantone_fhi": "~18-0316 TCX Olivine"
+        },
+        {
+          "hex": "#BA542F",
+          "name": "Terracota",
+          "pantone_fhi": "~18-1447 TCX Orange Rust"
+        },
+        {
+          "hex": "#792017",
+          "name": "Vinho",
+          "pantone_fhi": "~19-1629 TCX Ruby Wine"
+        },
+        {
+          "hex": "#B19664",
+          "name": "Mostarda",
+          "pantone_fhi": "~16-1126 TCX Antelope"
+        },
+        {
+          "hex": "#4C1912",
+          "name": "Café",
+          "pantone_fhi": "~19-1016 TCX Java"
+        },
+        {
+          "hex": "#E6DAC8",
+          "name": "Creme",
+          "pantone_fhi": "~12-0605 TCX Angora"
+        }
       ],
       "hero": false,
       "bilder": {
@@ -161,11 +237,31 @@
       "text_kurz": "Runde Flächen schieben sich ineinander, bis nichts mehr allein steht.",
       "text_lang": "Tannengrün legt sich um Orange, Salbei um Creme: runde Flächen schieben sich ineinander, bis keine mehr allein steht. ABRAÇO ist Bewegung aufeinander zu, festgehalten im Moment der Berührung.",
       "farben": [
-        { "hex": "#142B21", "name": "Floresta", "pantone_fhi": "~19-5920 TCX Pine Grove" },
-        { "hex": "#AC3911", "name": "Laranja-queimado", "pantone_fhi": "~18-1445 TCX Spicy Orange" },
-        { "hex": "#84866C", "name": "Salva", "pantone_fhi": "~17-0510 TCX Silver Sage" },
-        { "hex": "#C3571F", "name": "Laranja", "pantone_fhi": "~16-1448 TCX Burnt Orange" },
-        { "hex": "#E3D4C1", "name": "Creme", "pantone_fhi": "~12-0605 TCX Angora" }
+        {
+          "hex": "#142B21",
+          "name": "Floresta",
+          "pantone_fhi": "~19-5920 TCX Pine Grove"
+        },
+        {
+          "hex": "#AC3911",
+          "name": "Laranja-queimado",
+          "pantone_fhi": "~18-1445 TCX Spicy Orange"
+        },
+        {
+          "hex": "#84866C",
+          "name": "Salva",
+          "pantone_fhi": "~17-0510 TCX Silver Sage"
+        },
+        {
+          "hex": "#C3571F",
+          "name": "Laranja",
+          "pantone_fhi": "~16-1448 TCX Burnt Orange"
+        },
+        {
+          "hex": "#E3D4C1",
+          "name": "Creme",
+          "pantone_fhi": "~12-0605 TCX Angora"
+        }
       ],
       "hero": false,
       "bilder": {
@@ -191,12 +287,36 @@
       "text_kurz": "Senkrechte Bahnen im Wechsel, ein Halbkreis gibt den Takt an.",
       "text_lang": "Bahnen aus Gold, Tanne und Bordeaux laufen nebeneinander her, ein heller Halbkreis setzt den Auftakt. PASSO bringt Rhythmus in den Raum: Schritt für Schritt, ohne Eile.",
       "farben": [
-        { "hex": "#E1811C", "name": "Dourado", "pantone_fhi": "~15-1050 TCX Golden Glow" },
-        { "hex": "#0A3533", "name": "Abeto", "pantone_fhi": "~19-5320 TCX Ponderosa Pine" },
-        { "hex": "#6B1D22", "name": "Bordô", "pantone_fhi": "~19-1725 TCX Tawny Port" },
-        { "hex": "#BCB598", "name": "Salva", "pantone_fhi": "~15-6410 TCX Moss Gray" },
-        { "hex": "#29292B", "name": "Preto", "pantone_fhi": "~19-4005 TCX Black Beauty" },
-        { "hex": "#E9D8BF", "name": "Creme", "pantone_fhi": "~12-0605 TCX Angora" }
+        {
+          "hex": "#E1811C",
+          "name": "Dourado",
+          "pantone_fhi": "~15-1050 TCX Golden Glow"
+        },
+        {
+          "hex": "#0A3533",
+          "name": "Abeto",
+          "pantone_fhi": "~19-5320 TCX Ponderosa Pine"
+        },
+        {
+          "hex": "#6B1D22",
+          "name": "Bordô",
+          "pantone_fhi": "~19-1725 TCX Tawny Port"
+        },
+        {
+          "hex": "#BCB598",
+          "name": "Salva",
+          "pantone_fhi": "~15-6410 TCX Moss Gray"
+        },
+        {
+          "hex": "#29292B",
+          "name": "Preto",
+          "pantone_fhi": "~19-4005 TCX Black Beauty"
+        },
+        {
+          "hex": "#E9D8BF",
+          "name": "Creme",
+          "pantone_fhi": "~12-0605 TCX Angora"
+        }
       ],
       "hero": false,
       "bilder": {
@@ -222,11 +342,31 @@
       "text_kurz": "Eine große Pill ruht in der Mitte, alles andere ordnet sich darum.",
       "text_lang": "Eine große rostrote Pill ruht schwer in der Mitte, Oliv und Creme ordnen sich darum, ein kleines Dreieck stemmt sich dagegen. PESO ist der ruhende Pol der Kollektion: Bewegung braucht etwas, das liegen bleibt.",
       "farben": [
-        { "hex": "#983611", "name": "Ferrugem", "pantone_fhi": "~18-1355 TCX Rooibos Tea" },
-        { "hex": "#6A6B4F", "name": "Oliva", "pantone_fhi": "~18-0322 TCX Bronze Green" },
-        { "hex": "#403323", "name": "Café", "pantone_fhi": "~19-0912 TCX Chocolate Brown" },
-        { "hex": "#CA8C67", "name": "Camelo", "pantone_fhi": "~16-1432 TCX Almond" },
-        { "hex": "#DCCDB4", "name": "Creme", "pantone_fhi": "~12-0605 TCX Angora" }
+        {
+          "hex": "#983611",
+          "name": "Ferrugem",
+          "pantone_fhi": "~18-1355 TCX Rooibos Tea"
+        },
+        {
+          "hex": "#6A6B4F",
+          "name": "Oliva",
+          "pantone_fhi": "~18-0322 TCX Bronze Green"
+        },
+        {
+          "hex": "#403323",
+          "name": "Café",
+          "pantone_fhi": "~19-0912 TCX Chocolate Brown"
+        },
+        {
+          "hex": "#CA8C67",
+          "name": "Camelo",
+          "pantone_fhi": "~16-1432 TCX Almond"
+        },
+        {
+          "hex": "#DCCDB4",
+          "name": "Creme",
+          "pantone_fhi": "~12-0605 TCX Angora"
+        }
       ],
       "hero": false,
       "bilder": {
@@ -252,11 +392,31 @@
       "text_kurz": "Senkrechte Formen kommen zum Stehen, eine feine Linie hält den Atem an.",
       "text_lang": "Marineblaue Bögen und goldene Bahnen kommen zum Stehen, eine feine Linie schwebt dazwischen wie ein angehaltener Atem. PAUSA beendet die Runde: der Moment nach der Bewegung, kurz bevor sie wieder beginnt.",
       "farben": [
-        { "hex": "#0A2039", "name": "Marinho", "pantone_fhi": "~19-4110 TCX Midnight Navy" },
-        { "hex": "#506E90", "name": "Crepúsculo", "pantone_fhi": "~18-3937 TCX Blue Horizon" },
-        { "hex": "#CDA568", "name": "Dourado", "pantone_fhi": "~16-0952 TCX Nugget Gold" },
-        { "hex": "#898082", "name": "Cinza-lilás", "pantone_fhi": "~17-1505 TCX Quicksilver" },
-        { "hex": "#F0DEBD", "name": "Creme", "pantone_fhi": "~12-0710 TCX Shortbread" }
+        {
+          "hex": "#0A2039",
+          "name": "Marinho",
+          "pantone_fhi": "~19-4110 TCX Midnight Navy"
+        },
+        {
+          "hex": "#506E90",
+          "name": "Crepúsculo",
+          "pantone_fhi": "~18-3937 TCX Blue Horizon"
+        },
+        {
+          "hex": "#CDA568",
+          "name": "Dourado",
+          "pantone_fhi": "~16-0952 TCX Nugget Gold"
+        },
+        {
+          "hex": "#898082",
+          "name": "Cinza-lilás",
+          "pantone_fhi": "~17-1505 TCX Quicksilver"
+        },
+        {
+          "hex": "#F0DEBD",
+          "name": "Creme",
+          "pantone_fhi": "~12-0710 TCX Shortbread"
+        }
       ],
       "hero": false,
       "bilder": {

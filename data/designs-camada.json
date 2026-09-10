@@ -2,9 +2,9 @@
   "kollektion": {
     "code": "N°5",
     "name": "CAMADA",
-    "claim": "Die Schichten eines Zuhauses — acht Entwürfe über das Gewachsene.",
-    "absender": "THE GREY — thegrey.berlin",
-    "kurzbeschreibung": "Die zweite Kollektion aus eigener Hand: weicher, vielschichtiger, erzählerischer. Gerundete Formen legen sich übereinander wie die Schichten eines bewohnten Raums — vom Fundament bis zu dem, was das Leben darin ablagert. Kuratierte Teppichentwürfe als Inspiration für Planer:innen und Innenarchitekt:innen — Ausgangspunkte für individuell gefertigte Teppiche, keine Endprodukte.",
+    "claim": "Die Schichten eines Zuhauses: acht Entwürfe über das Gewachsene.",
+    "absender": "THE GREY · thegrey.berlin",
+    "kurzbeschreibung": "Die zweite Kollektion aus eigener Hand: weicher, vielschichtiger, erzählerischer. Gerundete Formen legen sich übereinander wie die Schichten eines bewohnten Raums, vom Fundament bis zu dem, was das Leben darin ablagert. Kuratierte Teppichentwürfe als Inspiration für Planer:innen und Innenarchitekt:innen. Ausgangspunkte für individuell gefertigte Teppiche, keine Endprodukte.",
     "hero_id": "camada-06-tesouro",
     "reihenfolge": [
       "camada-06-tesouro",
@@ -18,13 +18,13 @@
     ],
     "standard": "Alle Teppiche: handgetuftet, 100 % Neuseelandwolle, matt. Formate frei skalierbar.",
     "prozess": [
-      "Auswählen — ein Entwurf als Ausgangspunkt",
-      "Anpassen — Format, Proportion, Palette projektspezifisch; Specials individuell",
-      "Bemustern — maßstäbliche Zeichnung + Handmuster der Wollfarben",
-      "Fertigen — einzeln von Hand getuftet; jeder realisierte Entwurf erhält einen eigenen Namen"
+      "Auswählen: ein Entwurf als Ausgangspunkt",
+      "Anpassen: Format, Proportion, Palette projektspezifisch; Specials individuell",
+      "Bemustern: maßstäbliche Zeichnung + Handmuster der Wollfarben",
+      "Fertigen: einzeln von Hand getuftet; jeder realisierte Entwurf erhält einen eigenen Namen"
     ],
     "pantone_hinweis": "Pantone-Angaben: nächstliegende Referenz aus dem PANTONE Fashion, Home + Interiors Farbfächer (TCX, Cotton); mit ~ markierte vorläufig. Farbverbindlich sind physischer Fächer und Garnbemusterung.",
-    "claim_en": "The layers of a home — eight designs about what has grown."
+    "claim_en": "The layers of a home: eight designs about what has grown."
   },
   "entwuerfe": [
     {
@@ -40,7 +40,7 @@
       "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
       "grund": "farbiger Grund (kein Naturleinen)",
       "text_kurz": "Alle Schichten auf einmal: Mitternachtsblau, Messing und Rosé, übereinandergelegt wie Erinnerungen.",
-      "text_lang": "TESOURO legt alle Schichten der Kollektion übereinander: Mitternachtsblau und Messing, Rosé und Salbei, durchscheinend ineinander verzahnt. Was bleibt, wenn ein Zuhause über Jahre wächst? Der Schatz ist nicht ein einzelnes Stück — er ist die Summe der Schichten.",
+      "text_lang": "TESOURO legt alle Schichten der Kollektion übereinander: Mitternachtsblau und Messing, Rosé und Salbei, durchscheinend ineinander verzahnt. Was bleibt, wenn ein Zuhause über Jahre wächst? Der Schatz ist nicht ein einzelnes Stück, er ist die Summe der Schichten.",
       "farben": [
         {
           "hex": "#10253C",
@@ -80,7 +80,7 @@
         "webp_400": "images/camada-06-tesouro_400.webp",
         "jpeg_1500": "images/camada-06-tesouro_1500.jpg"
       },
-      "alt_text": "TESOURO — Mitternachtsblau, Messing und Rosé, übereinandergelegt wie Erinnerungen. Individueller Teppichentwurf, 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- & Objektbereiche."
+      "alt_text": "TESOURO: Mitternachtsblau, Messing und Rosé, übereinandergelegt wie Erinnerungen. Individueller Teppichentwurf, 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- & Objektbereiche."
     },
     {
       "id": "camada-05-alicerce",
@@ -94,8 +94,8 @@
       "herstellung": "handgetuftet (Standard); Specials nach individueller Besprechung",
       "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
       "grund": "farbiger Grund (kein Naturleinen)",
-      "text_kurz": "Sand, Stein und Schwarz — die unterste Schicht, auf der alles ruht.",
-      "text_lang": "Breite Flächen aus Sand und Stein, dazwischen tiefes Schwarz und ein einzelner Bogen aus Messing: ALICERCE ist die unterste Schicht der Kollektion. Ruhig und tragend — gebaut, bevor das Leben einzieht.",
+      "text_kurz": "Sand, Stein und Schwarz, die unterste Schicht, auf der alles ruht.",
+      "text_lang": "Breite Flächen aus Sand und Stein, dazwischen tiefes Schwarz und ein einzelner Bogen aus Messing: ALICERCE ist die unterste Schicht der Kollektion. Ruhig und tragend, gebaut, bevor das Leben einzieht.",
       "farben": [
         {
           "hex": "#D8CAB7",
@@ -130,7 +130,7 @@
         "webp_400": "images/camada-05-alicerce_400.webp",
         "jpeg_1500": "images/camada-05-alicerce_1500.jpg"
       },
-      "alt_text": "ALICERCE — Sand, Stein und Schwarz, die unterste Schicht, auf der alles ruht. Individueller Teppichentwurf, 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- & Objektbereiche."
+      "alt_text": "ALICERCE: Sand, Stein und Schwarz, die unterste Schicht, auf der alles ruht. Individueller Teppichentwurf, 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- & Objektbereiche."
     },
     {
       "id": "camada-01-coluna",
@@ -144,8 +144,8 @@
       "herstellung": "handgetuftet (Standard); Specials nach individueller Besprechung",
       "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
       "grund": "farbiger Grund (kein Naturleinen)",
-      "text_kurz": "Ein weinroter Bogen steht auf Rosa und Mint — tragend, ohne schwer zu sein.",
-      "text_lang": "Auf Rosa und Mint steht ein weinroter Bogen, flankiert von Ocker und Petrol. COLUNA trägt die Komposition, wie eine Säule den Raum trägt — aufrecht und selbstverständlich, ohne schwer zu wirken.",
+      "text_kurz": "Ein weinroter Bogen steht auf Rosa und Mint, tragend, ohne schwer zu sein.",
+      "text_lang": "Auf Rosa und Mint steht ein weinroter Bogen, flankiert von Ocker und Petrol. COLUNA trägt die Komposition, wie eine Säule den Raum trägt, aufrecht und selbstverständlich, ohne schwer zu wirken.",
       "farben": [
         {
           "hex": "#D9998A",
@@ -185,7 +185,7 @@
         "webp_400": "images/camada-01-coluna_400.webp",
         "jpeg_1500": "images/camada-01-coluna_1500.jpg"
       },
-      "alt_text": "COLUNA — Ein weinroter Bogen auf Rosa und Mint, tragend, ohne schwer zu sein. Individueller Teppichentwurf, 210 × 280 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- & Objektbereiche."
+      "alt_text": "COLUNA: Ein weinroter Bogen auf Rosa und Mint, tragend, ohne schwer zu sein. Individueller Teppichentwurf, 210 × 280 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- & Objektbereiche."
     },
     {
       "id": "camada-03-abrigo",
@@ -199,8 +199,8 @@
       "herstellung": "handgetuftet (Standard); Specials nach individueller Besprechung",
       "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
       "grund": "farbiger Grund (kein Naturleinen)",
-      "text_kurz": "Bögen unter Flieder und Himmelblau — ein Dach aus Farbe.",
-      "text_lang": "Unter Flieder und Himmelblau schieben sich Bögen ineinander: Schokolade, Terrakotta, Gelb. ABRIGO ist die Schicht, die schützt — ein Dach aus Farbe, unter dem man ankommt.",
+      "text_kurz": "Bögen unter Flieder und Himmelblau, ein Dach aus Farbe.",
+      "text_lang": "Unter Flieder und Himmelblau schieben sich Bögen ineinander: Schokolade, Terrakotta, Gelb. ABRIGO ist die Schicht, die schützt, ein Dach aus Farbe, unter dem man ankommt.",
       "farben": [
         {
           "hex": "#C1B1C4",
@@ -240,7 +240,7 @@
         "webp_400": "images/camada-03-abrigo_400.webp",
         "jpeg_1500": "images/camada-03-abrigo_1500.jpg"
       },
-      "alt_text": "ABRIGO — Bögen unter Flieder und Himmelblau, ein Dach aus Farbe. Individueller Teppichentwurf, 210 × 280 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- & Objektbereiche."
+      "alt_text": "ABRIGO: Bögen unter Flieder und Himmelblau, ein Dach aus Farbe. Individueller Teppichentwurf, 210 × 280 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- & Objektbereiche."
     },
     {
       "id": "camada-02-pilha",
@@ -254,8 +254,8 @@
       "herstellung": "handgetuftet (Standard); Specials nach individueller Besprechung",
       "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
       "grund": "farbiger Grund (kein Naturleinen)",
-      "text_kurz": "Kisten, Formen, Fundstücke — ein Stapel Leben auf altrosa Grund.",
-      "text_lang": "Auf altrosa Grund stapeln sich Formen wie beim Einzug: Kisten, Fundstücke, Erinnerungen in Beere, Gelb und Schwarz. PILHA ist der Moment, in dem ein Raum zum ersten Mal voll ist — und anfängt, ein Zuhause zu werden.",
+      "text_kurz": "Kisten, Formen, Fundstücke, ein Stapel Leben auf altrosa Grund.",
+      "text_lang": "Auf altrosa Grund stapeln sich Formen wie beim Einzug: Kisten, Fundstücke, Erinnerungen in Beere, Gelb und Schwarz. PILHA ist der Moment, in dem ein Raum zum ersten Mal voll ist und anfängt, ein Zuhause zu werden.",
       "farben": [
         {
           "hex": "#B37F79",
@@ -295,7 +295,7 @@
         "webp_400": "images/camada-02-pilha_400.webp",
         "jpeg_1500": "images/camada-02-pilha_1500.jpg"
       },
-      "alt_text": "PILHA — Gestapelte Formen in Beere, Gelb und Schwarz auf altrosa Grund. Individueller Teppichentwurf, 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- & Objektbereiche."
+      "alt_text": "PILHA: Gestapelte Formen in Beere, Gelb und Schwarz auf altrosa Grund. Individueller Teppichentwurf, 200 × 300 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- & Objektbereiche."
     },
     {
       "id": "camada-04-mosaico",
@@ -309,8 +309,8 @@
       "herstellung": "handgetuftet (Standard); Specials nach individueller Besprechung",
       "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
       "grund": "farbiger Grund (kein Naturleinen)",
-      "text_kurz": "Helle Steine, ineinandergeschoben — der Alltag als Muster.",
-      "text_lang": "Pastellene Felder schieben sich ineinander wie die Tage einer Woche: Puder, Himmelblau, Aprikose, dazwischen eine dunkle Pflaume. MOSAICO ist die Schicht des Alltags — viele kleine Teile, die zusammen ein Muster ergeben.",
+      "text_kurz": "Helle Steine, ineinandergeschoben, der Alltag als Muster.",
+      "text_lang": "Pastellene Felder schieben sich ineinander wie die Tage einer Woche: Puder, Himmelblau, Aprikose, dazwischen eine dunkle Pflaume. MOSAICO ist die Schicht des Alltags, viele kleine Teile, die zusammen ein Muster ergeben.",
       "farben": [
         {
           "hex": "#E0C1A1",
@@ -350,7 +350,7 @@
         "webp_400": "images/camada-04-mosaico_400.webp",
         "jpeg_1500": "images/camada-04-mosaico_1500.jpg"
       },
-      "alt_text": "MOSAICO — Pastellfelder in Puder, Himmelblau und Aprikose, ineinandergeschoben wie ein Mosaik. Individueller Teppichentwurf, 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- & Objektbereiche."
+      "alt_text": "MOSAICO: Pastellfelder in Puder, Himmelblau und Aprikose, ineinandergeschoben wie ein Mosaik. Individueller Teppichentwurf, 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- & Objektbereiche."
     },
     {
       "id": "camada-07-pendulo",
@@ -364,7 +364,7 @@
       "herstellung": "handgetuftet (Standard); Specials nach individueller Besprechung",
       "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
       "grund": "farbiger Grund (kein Naturleinen)",
-      "text_kurz": "Eine Linie fällt durchs Bild, unten schwingt das Gewicht — Zeit, sichtbar gemacht.",
+      "text_kurz": "Eine Linie fällt durchs Bild, unten schwingt das Gewicht. Zeit, sichtbar gemacht.",
       "text_lang": "Eine dünne Linie fällt vom oberen Rand durch Beere, Rosé und Gold, unten hängt ihr Gewicht. PÊNDULO bringt Zeit in den Raum: das langsame Schwingen eines Zuhauses, in dem die Uhren nicht drängen.",
       "farben": [
         {
@@ -405,7 +405,7 @@
         "webp_400": "images/camada-07-pendulo_400.webp",
         "jpeg_1500": "images/camada-07-pendulo_1500.jpg"
       },
-      "alt_text": "PÊNDULO — Eine Linie fällt durch Beere, Rosé und Gold, unten schwingt das Gewicht. Individueller Teppichentwurf, 210 × 280 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- & Objektbereiche."
+      "alt_text": "PÊNDULO: Eine Linie fällt durch Beere, Rosé und Gold, unten schwingt das Gewicht. Individueller Teppichentwurf, 210 × 280 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- & Objektbereiche."
     },
     {
       "id": "camada-08-duna",
@@ -420,7 +420,7 @@
       "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
       "grund": "farbiger Grund (kein Naturleinen)",
       "text_kurz": "Sandtöne wandern übers Feld, Mitternachtsblau hält dagegen.",
-      "text_lang": "Sand über Sand, Puder über Stein — und mittendrin zwei dunkle Flächen aus Mitternachtsblau, die alles verankern. DUNA ist die oberste Schicht: das, was die Zeit ablagert, wenn ein Zuhause zur Ruhe gekommen ist.",
+      "text_lang": "Sand über Sand, Puder über Stein, und mittendrin zwei dunkle Flächen aus Mitternachtsblau, die alles verankern. DUNA ist die oberste Schicht: das, was die Zeit ablagert, wenn ein Zuhause zur Ruhe gekommen ist.",
       "farben": [
         {
           "hex": "#D5C4B1",
@@ -455,7 +455,7 @@
         "webp_400": "images/camada-08-duna_400.webp",
         "jpeg_1500": "images/camada-08-duna_1500.jpg"
       },
-      "alt_text": "DUNA — Wandernde Sandtöne, verankert von Mitternachtsblau. Individueller Teppichentwurf, 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- & Objektbereiche."
+      "alt_text": "DUNA: Wandernde Sandtöne, verankert von Mitternachtsblau. Individueller Teppichentwurf, 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- & Objektbereiche."
     }
   ]
 }

@@ -232,19 +232,19 @@ function streamCard(e, index) {
 /* --------------------------------------------------------- Overlay-Body */
 
 function overlayContent(e) {
-  const paletteList = e.farben.map((f) => `<li><span class="chip-sm" style="background:${f.hex}"></span><span>${esc(f.name)} — ${esc(f.hex)} · ${esc(f.pantone_fhi)}</span></li>`).join('');
+  const paletteList = e.farben.map((f) => `<li><span class="chip-sm" style="background:${f.hex}"></span><span>${esc(f.name)} · ${esc(f.hex)} · ${esc(f.pantone_fhi)}</span></li>`).join('');
   return `
     <div class="ovimg">${picture(e, { sizes: '46vw', eager: true })}</div>
     <div class="ovtxt">
       <div class="micro">${microLine(e)}</div>
       <h2>${esc(e.name)}</h2>
-      <div class="bed">— ${esc(e.name_bedeutung.replace(/^[^:]+:\s*/, ''))}</div>
+      <div class="bed">${esc(e.name_bedeutung.replace(/^[^:]+:\s*/, ''))}</div>
       <p class="story">${esc(e.text_lang)}</p>
       <div class="chips ovtxt-chips" style="display:flex;">${chips(e)}</div>
       <ul class="palette-list">${paletteList}</ul>
       <div class="spec">${esc(e.format_cm)}, ${esc(e.format_hinweis)} · Grund: ${esc(e.grund)}<br>${esc(e.material)}<br>Herstellung: ${esc(e.herstellung)}<br>Eignung: ${esc(e.eignung)}<br>Download: <a href="/downloads/${PDF}">Konzept-PDF PRÓPRIO</a></div>
       <div class="ovcta">
-        <a class="cta" href="${kontaktUrl(e)}">Wanna do? — Anfragen</a>
+        <a class="cta" href="${kontaktUrl(e)}">Wanna do? Anfragen</a>
         <a class="cta cta--ghost" href="${mailtoUrl(e)}">Direkt per E-Mail</a>
       </div>
     </div>`;
@@ -255,7 +255,7 @@ function overlayContent(e) {
 // (Neuseelandwolle, Objektbereiche) und Zielgruppe (Innenarchitektur/Planung), ohne die
 // sichtbare Editorial-Copy (.story) selbst zu verändern.
 function metaDescription(e) {
-  return `${e.text_kurz} Individueller Teppichentwurf, handgetuftet aus 100 % Neuseelandwolle — hoch belastbar für Wohn- und Objektbereiche. Ausgangspunkt für Innenarchitektur, Planung und Einrichtungsberatung — THE GREY PRÓPRIO.`;
+  return `${e.text_kurz} Individueller Teppichentwurf, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- und Objektbereiche. Ausgangspunkt für Innenarchitektur, Planung und Einrichtungsberatung. THE GREY PRÓPRIO.`;
 }
 
 /* ------------------------------------------------------------- Seiten */
@@ -305,8 +305,8 @@ ${openScript}
     </header>
 
     <header class="hero" id="hero">
-        <div class="micro">The Grey — Wanna Do Collection N° ${esc(K.code.replace('N°', '').trim())}</div>
-        <a class="hero__frame work" href="${BASE}/${hero.id}/" data-id="${hero.id}" aria-label="${esc(hero.name)} — Geschichte lesen">${picture(hero, { sizes: '620px', eager: true, fetchpriority: true })}</a>
+        <div class="micro">The Grey · Wanna Do Collection N° ${esc(K.code.replace('N°', '').trim())}</div>
+        <a class="hero__frame work" href="${BASE}/${hero.id}/" data-id="${hero.id}" aria-label="${esc(hero.name)}: Geschichte lesen">${picture(hero, { sizes: '620px', eager: true, fetchpriority: true })}</a>
         <h1>${esc(K.name)}</h1>
         <p class="claim">${esc(K.claim)}</p>
         <div class="hero__scroll">Entdecken</div>
@@ -455,13 +455,13 @@ function buildRoot() {
   const jsonld = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
-    name: `${K.name} — THE GREY Wanna Do Collection`,
+    name: `${K.name} · THE GREY Wanna Do Collection`,
     description: K.kurzbeschreibung,
     url: `${ORIGIN}${BASE}/`,
   };
   writeFile(`${BASE}/index.html`, pageShell({
     path: `${BASE}/`,
-    title: `${K.name} — THE GREY Wanna Do Collection`,
+    title: `${K.name} · THE GREY Wanna Do Collection`,
     description: K.kurzbeschreibung,
     ogImage: hero.bilder.jpeg_1500,
     openId: null,
@@ -485,7 +485,7 @@ function buildPermalinks() {
     };
     writeFile(`${BASE}/${e.id}/index.html`, pageShell({
       path: `${BASE}/${e.id}/`,
-      title: `${e.code} ${e.name} — Teppichentwurf — THE GREY Wanna Do Collection`,
+      title: `${e.code} ${e.name} · Teppichentwurf · THE GREY Wanna Do Collection`,
       description: metaDescription(e),
       ogImage: e.bilder.jpeg_1500,
       openId: e.id,
