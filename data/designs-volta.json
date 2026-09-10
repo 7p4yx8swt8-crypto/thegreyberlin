@@ -1,0 +1,271 @@
+{
+  "kollektion": {
+    "code": "N°6",
+    "name": "VOLTA",
+    "claim": "Die Runde: acht Entwürfe über Bewegung im Raum.",
+    "claim_en": "The turn: eight designs about movement that stays.",
+    "absender": "THE GREY — thegrey.berlin",
+    "kurzbeschreibung": "Die dritte Kollektion aus eigener Hand: kräftiger, rhythmischer, gebauter. Bögen, Kreise und Bahnen setzen den Raum in Bewegung, von der ersten Drehung bis zur Pause. Kuratierte Teppichentwürfe als Inspiration für Planer:innen und Innenarchitekt:innen, Ausgangspunkte für individuell gefertigte Teppiche, keine Endprodukte.",
+    "hero_id": "volta-01-ciclo",
+    "reihenfolge": [
+      "volta-01-ciclo",
+      "volta-02-salto",
+      "volta-03-ponte",
+      "volta-04-folha",
+      "volta-05-abraco",
+      "volta-06-passo",
+      "volta-07-peso",
+      "volta-08-pausa"
+    ],
+    "standard": "Alle Teppiche: handgetuftet, 100 % Neuseelandwolle, matt. Formate frei skalierbar.",
+    "prozess": [
+      "Auswählen: ein Entwurf als Ausgangspunkt",
+      "Anpassen: Format, Proportion, Palette projektspezifisch; Specials individuell",
+      "Bemustern: maßstäbliche Zeichnung + Handmuster der Wollfarben",
+      "Fertigen: einzeln von Hand getuftet; jeder realisierte Entwurf erhält einen eigenen Namen"
+    ],
+    "pantone_hinweis": "Pantone-Angaben: nächstliegende Referenz aus dem PANTONE Fashion, Home + Interiors Farbfächer (TCX, Cotton); mit ~ markierte vorläufig. Farbverbindlich sind physischer Fächer und Garnbemusterung."
+  },
+  "entwuerfe": [
+    {
+      "id": "volta-01-ciclo",
+      "code": "VOLTA 01",
+      "name": "CICLO",
+      "name_bedeutung": "Portugiesisch: der Kreislauf",
+      "typ": "Quadrat",
+      "format_cm": "250 × 250 cm",
+      "format_hinweis": "frei skalierbar",
+      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
+      "herstellung": "handgetuftet (Standard); Specials nach individueller Besprechung",
+      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
+      "grund": "farbiger Grund (kein Naturleinen)",
+      "text_kurz": "Ein Kreis, in der Mitte geteilt: zwei Hälften, die einander weiterdrehen.",
+      "text_lang": "CICLO teilt den Kreis in zwei Hälften, die einander endlos weiterdrehen. Petrol dreht nach außen, Weinrot hält dagegen, Creme gibt beiden Raum. Der Anfang der Kollektion: eine Bewegung, die nicht aufhört.",
+      "farben": [
+        { "hex": "#2D4C54", "name": "Petróleo", "pantone_fhi": "~19-4316 TCX Stargazer" },
+        { "hex": "#5F1114", "name": "Vinho", "pantone_fhi": "~19-1629 TCX Ruby Wine" },
+        { "hex": "#BC5F3B", "name": "Terracota", "pantone_fhi": "~18-1447 TCX Orange Rust" },
+        { "hex": "#E0D4BF", "name": "Creme", "pantone_fhi": "~12-0605 TCX Angora" }
+      ],
+      "hero": true,
+      "bilder": {
+        "webp_1500": "images/volta-01-ciclo_1500.webp",
+        "webp_800": "images/volta-01-ciclo_800.webp",
+        "webp_400": "images/volta-01-ciclo_400.webp",
+        "jpeg_1500": "images/volta-01-ciclo_1500.jpg"
+      },
+      "alt_text": "CICLO: ein geteilter Kreis in Petrol und Weinrot, der sich weiterdreht. Individueller Teppichentwurf, 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- & Objektbereiche."
+    },
+    {
+      "id": "volta-02-salto",
+      "code": "VOLTA 02",
+      "name": "SALTO",
+      "name_bedeutung": "Portugiesisch: der Sprung",
+      "typ": "Quadrat",
+      "format_cm": "250 × 250 cm",
+      "format_hinweis": "frei skalierbar",
+      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
+      "herstellung": "handgetuftet (Standard); Specials nach individueller Besprechung",
+      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
+      "grund": "farbiger Grund (kein Naturleinen)",
+      "text_kurz": "Ein Bogen setzt zum Sprung an, Altrosa fängt ihn weich auf.",
+      "text_lang": "Über Petrol und Lachs setzt ein großer Bogen zum Sprung an, Altrosa fängt ihn weich auf, ein Stück Himmel bleibt oben stehen. SALTO ist der Moment, in dem ein Raum Schwung aufnimmt: kurz vor dem Abheben.",
+      "farben": [
+        { "hex": "#BB685F", "name": "Rosa-velho", "pantone_fhi": "~17-1424 TCX Brick Dust" },
+        { "hex": "#32606D", "name": "Petróleo", "pantone_fhi": "~18-4718 TCX Hydro" },
+        { "hex": "#D3775B", "name": "Salmão", "pantone_fhi": "~16-1441 TCX Arabesque" },
+        { "hex": "#C8C9C6", "name": "Névoa", "pantone_fhi": "~14-4102 TCX Glacier Gray" },
+        { "hex": "#E5DACA", "name": "Creme", "pantone_fhi": "~11-0907 TCX Pearled Ivory" }
+      ],
+      "hero": false,
+      "bilder": {
+        "webp_1500": "images/volta-02-salto_1500.webp",
+        "webp_800": "images/volta-02-salto_800.webp",
+        "webp_400": "images/volta-02-salto_400.webp",
+        "jpeg_1500": "images/volta-02-salto_1500.jpg"
+      },
+      "alt_text": "SALTO: ein springender Bogen über Petrol und Lachs, aufgefangen von Altrosa. Individueller Teppichentwurf, 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- & Objektbereiche."
+    },
+    {
+      "id": "volta-03-ponte",
+      "code": "VOLTA 03",
+      "name": "PONTE",
+      "name_bedeutung": "Portugiesisch: die Brücke",
+      "typ": "Quadrat",
+      "format_cm": "250 × 250 cm",
+      "format_hinweis": "frei skalierbar",
+      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
+      "herstellung": "handgetuftet (Standard); Specials nach individueller Besprechung",
+      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
+      "grund": "farbiger Grund (kein Naturleinen)",
+      "text_kurz": "Zwei Bögen lehnen sich aneinander, wie Brücke und Spiegelbild.",
+      "text_lang": "Zwei Bögen aus Marine und Mauve lehnen sich aneinander, ein weinrotes Dreieck spannt sich dazwischen wie ein Pfeiler. PONTE verbindet: zwei Seiten eines Raums, die erst zusammen tragen.",
+      "farben": [
+        { "hex": "#19324F", "name": "Marinho", "pantone_fhi": "~19-4027 TCX Estate Blue" },
+        { "hex": "#846D75", "name": "Malva", "pantone_fhi": "~18-1807 TCX Twilight Mauve" },
+        { "hex": "#8D2D26", "name": "Vinho", "pantone_fhi": "~19-1531 TCX Sun-Dried Tomato" },
+        { "hex": "#E3D3BD", "name": "Creme", "pantone_fhi": "~12-0605 TCX Angora" }
+      ],
+      "hero": false,
+      "bilder": {
+        "webp_1500": "images/volta-03-ponte_1500.webp",
+        "webp_800": "images/volta-03-ponte_800.webp",
+        "webp_400": "images/volta-03-ponte_400.webp",
+        "jpeg_1500": "images/volta-03-ponte_1500.jpg"
+      },
+      "alt_text": "PONTE: zwei aneinandergelehnte Bögen in Marine und Mauve mit weinrotem Pfeiler. Individueller Teppichentwurf, 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- & Objektbereiche."
+    },
+    {
+      "id": "volta-04-folha",
+      "code": "VOLTA 04",
+      "name": "FOLHA",
+      "name_bedeutung": "Portugiesisch: das Blatt",
+      "typ": "Quadrat",
+      "format_cm": "250 × 250 cm",
+      "format_hinweis": "frei skalierbar",
+      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
+      "herstellung": "handgetuftet (Standard); Specials nach individueller Besprechung",
+      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
+      "grund": "farbiger Grund (kein Naturleinen)",
+      "text_kurz": "Blattformen sinken durchs Bild, ein dunkler Stiel hält den Takt.",
+      "text_lang": "Blattformen in Oliv und Terracotta sinken langsam durchs Bild, ein dunkler Stiel hängt dazwischen wie ein Pendel. FOLHA ist die leiseste Bewegung der Kollektion: das Fallen, das kein Geräusch macht.",
+      "farben": [
+        { "hex": "#5F6452", "name": "Oliva", "pantone_fhi": "~18-0316 TCX Olivine" },
+        { "hex": "#BA542F", "name": "Terracota", "pantone_fhi": "~18-1447 TCX Orange Rust" },
+        { "hex": "#792017", "name": "Vinho", "pantone_fhi": "~19-1629 TCX Ruby Wine" },
+        { "hex": "#B19664", "name": "Mostarda", "pantone_fhi": "~16-1126 TCX Antelope" },
+        { "hex": "#4C1912", "name": "Café", "pantone_fhi": "~19-1016 TCX Java" },
+        { "hex": "#E6DAC8", "name": "Creme", "pantone_fhi": "~12-0605 TCX Angora" }
+      ],
+      "hero": false,
+      "bilder": {
+        "webp_1500": "images/volta-04-folha_1500.webp",
+        "webp_800": "images/volta-04-folha_800.webp",
+        "webp_400": "images/volta-04-folha_400.webp",
+        "jpeg_1500": "images/volta-04-folha_1500.jpg"
+      },
+      "alt_text": "FOLHA: sinkende Blattformen in Oliv und Terracotta mit dunklem Stiel. Individueller Teppichentwurf, 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- & Objektbereiche."
+    },
+    {
+      "id": "volta-05-abraco",
+      "code": "VOLTA 05",
+      "name": "ABRAÇO",
+      "name_bedeutung": "Portugiesisch: die Umarmung",
+      "typ": "Quadrat",
+      "format_cm": "250 × 250 cm",
+      "format_hinweis": "frei skalierbar",
+      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
+      "herstellung": "handgetuftet (Standard); Specials nach individueller Besprechung",
+      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
+      "grund": "farbiger Grund (kein Naturleinen)",
+      "text_kurz": "Runde Flächen schieben sich ineinander, bis nichts mehr allein steht.",
+      "text_lang": "Tannengrün legt sich um Orange, Salbei um Creme: runde Flächen schieben sich ineinander, bis keine mehr allein steht. ABRAÇO ist Bewegung aufeinander zu, festgehalten im Moment der Berührung.",
+      "farben": [
+        { "hex": "#142B21", "name": "Floresta", "pantone_fhi": "~19-5920 TCX Pine Grove" },
+        { "hex": "#AC3911", "name": "Laranja-queimado", "pantone_fhi": "~18-1445 TCX Spicy Orange" },
+        { "hex": "#84866C", "name": "Salva", "pantone_fhi": "~17-0510 TCX Silver Sage" },
+        { "hex": "#C3571F", "name": "Laranja", "pantone_fhi": "~16-1448 TCX Burnt Orange" },
+        { "hex": "#E3D4C1", "name": "Creme", "pantone_fhi": "~12-0605 TCX Angora" }
+      ],
+      "hero": false,
+      "bilder": {
+        "webp_1500": "images/volta-05-abraco_1500.webp",
+        "webp_800": "images/volta-05-abraco_800.webp",
+        "webp_400": "images/volta-05-abraco_400.webp",
+        "jpeg_1500": "images/volta-05-abraco_1500.jpg"
+      },
+      "alt_text": "ABRAÇO: ineinandergeschobene Rundformen in Tannengrün, Orange und Salbei. Individueller Teppichentwurf, 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- & Objektbereiche."
+    },
+    {
+      "id": "volta-06-passo",
+      "code": "VOLTA 06",
+      "name": "PASSO",
+      "name_bedeutung": "Portugiesisch: der Schritt",
+      "typ": "Quadrat",
+      "format_cm": "250 × 250 cm",
+      "format_hinweis": "frei skalierbar",
+      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
+      "herstellung": "handgetuftet (Standard); Specials nach individueller Besprechung",
+      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
+      "grund": "farbiger Grund (kein Naturleinen)",
+      "text_kurz": "Senkrechte Bahnen im Wechsel, ein Halbkreis gibt den Takt an.",
+      "text_lang": "Bahnen aus Gold, Tanne und Bordeaux laufen nebeneinander her, ein heller Halbkreis setzt den Auftakt. PASSO bringt Rhythmus in den Raum: Schritt für Schritt, ohne Eile.",
+      "farben": [
+        { "hex": "#E1811C", "name": "Dourado", "pantone_fhi": "~15-1050 TCX Golden Glow" },
+        { "hex": "#0A3533", "name": "Abeto", "pantone_fhi": "~19-5320 TCX Ponderosa Pine" },
+        { "hex": "#6B1D22", "name": "Bordô", "pantone_fhi": "~19-1725 TCX Tawny Port" },
+        { "hex": "#BCB598", "name": "Salva", "pantone_fhi": "~15-6410 TCX Moss Gray" },
+        { "hex": "#29292B", "name": "Preto", "pantone_fhi": "~19-4005 TCX Black Beauty" },
+        { "hex": "#E9D8BF", "name": "Creme", "pantone_fhi": "~12-0605 TCX Angora" }
+      ],
+      "hero": false,
+      "bilder": {
+        "webp_1500": "images/volta-06-passo_1500.webp",
+        "webp_800": "images/volta-06-passo_800.webp",
+        "webp_400": "images/volta-06-passo_400.webp",
+        "jpeg_1500": "images/volta-06-passo_1500.jpg"
+      },
+      "alt_text": "PASSO: senkrechte Bahnen in Gold, Tanne und Bordeaux mit hellem Halbkreis. Individueller Teppichentwurf, 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- & Objektbereiche."
+    },
+    {
+      "id": "volta-07-peso",
+      "code": "VOLTA 07",
+      "name": "PESO",
+      "name_bedeutung": "Portugiesisch: das Gewicht",
+      "typ": "Quadrat",
+      "format_cm": "250 × 250 cm",
+      "format_hinweis": "frei skalierbar",
+      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
+      "herstellung": "handgetuftet (Standard); Specials nach individueller Besprechung",
+      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
+      "grund": "farbiger Grund (kein Naturleinen)",
+      "text_kurz": "Eine große Pill ruht in der Mitte, alles andere ordnet sich darum.",
+      "text_lang": "Eine große rostrote Pill ruht schwer in der Mitte, Oliv und Creme ordnen sich darum, ein kleines Dreieck stemmt sich dagegen. PESO ist der ruhende Pol der Kollektion: Bewegung braucht etwas, das liegen bleibt.",
+      "farben": [
+        { "hex": "#983611", "name": "Ferrugem", "pantone_fhi": "~18-1355 TCX Rooibos Tea" },
+        { "hex": "#6A6B4F", "name": "Oliva", "pantone_fhi": "~18-0322 TCX Bronze Green" },
+        { "hex": "#403323", "name": "Café", "pantone_fhi": "~19-0912 TCX Chocolate Brown" },
+        { "hex": "#CA8C67", "name": "Camelo", "pantone_fhi": "~16-1432 TCX Almond" },
+        { "hex": "#DCCDB4", "name": "Creme", "pantone_fhi": "~12-0605 TCX Angora" }
+      ],
+      "hero": false,
+      "bilder": {
+        "webp_1500": "images/volta-07-peso_1500.webp",
+        "webp_800": "images/volta-07-peso_800.webp",
+        "webp_400": "images/volta-07-peso_400.webp",
+        "jpeg_1500": "images/volta-07-peso_1500.jpg"
+      },
+      "alt_text": "PESO: eine große rostrote Pill, ruhend zwischen Oliv und Creme. Individueller Teppichentwurf, 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- & Objektbereiche."
+    },
+    {
+      "id": "volta-08-pausa",
+      "code": "VOLTA 08",
+      "name": "PAUSA",
+      "name_bedeutung": "Portugiesisch: die Pause",
+      "typ": "Quadrat",
+      "format_cm": "250 × 250 cm",
+      "format_hinweis": "frei skalierbar",
+      "material": "100 % Neuseelandwolle, matt, ohne Glanzfasern",
+      "herstellung": "handgetuftet (Standard); Specials nach individueller Besprechung",
+      "eignung": "hohe Belastbarkeit, auch für stark frequentierte Objektbereiche empfohlen",
+      "grund": "farbiger Grund (kein Naturleinen)",
+      "text_kurz": "Senkrechte Formen kommen zum Stehen, eine feine Linie hält den Atem an.",
+      "text_lang": "Marineblaue Bögen und goldene Bahnen kommen zum Stehen, eine feine Linie schwebt dazwischen wie ein angehaltener Atem. PAUSA beendet die Runde: der Moment nach der Bewegung, kurz bevor sie wieder beginnt.",
+      "farben": [
+        { "hex": "#0A2039", "name": "Marinho", "pantone_fhi": "~19-4110 TCX Midnight Navy" },
+        { "hex": "#506E90", "name": "Crepúsculo", "pantone_fhi": "~18-3937 TCX Blue Horizon" },
+        { "hex": "#CDA568", "name": "Dourado", "pantone_fhi": "~16-0952 TCX Nugget Gold" },
+        { "hex": "#898082", "name": "Cinza-lilás", "pantone_fhi": "~17-1505 TCX Quicksilver" },
+        { "hex": "#F0DEBD", "name": "Creme", "pantone_fhi": "~12-0710 TCX Shortbread" }
+      ],
+      "hero": false,
+      "bilder": {
+        "webp_1500": "images/volta-08-pausa_1500.webp",
+        "webp_800": "images/volta-08-pausa_800.webp",
+        "webp_400": "images/volta-08-pausa_400.webp",
+        "jpeg_1500": "images/volta-08-pausa_1500.jpg"
+      },
+      "alt_text": "PAUSA: stehende Bögen und Bahnen in Marine und Gold mit feiner Linie. Individueller Teppichentwurf, 250 × 250 cm, handgetuftet aus 100 % Neuseelandwolle, hoch belastbar für Wohn- & Objektbereiche."
+    }
+  ]
+}

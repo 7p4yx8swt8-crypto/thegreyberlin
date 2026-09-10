@@ -14,7 +14,14 @@ Handcrafted custom rugs from Berlin. Bilingual static website (DE primary, EN se
 - `imprint.html` – Imprint (English translation)
 - `privacy.html` – Privacy Policy (English translation)
 
-### Wanna Do Collection (zwei Kollektionen: PRÓPRIO N°4 + CAMADA N°5)
+### Wanna Do Collection (drei Kollektionen: PRÓPRIO N°4 + CAMADA N°5 + VOLTA N°6)
+
+**VOLTA (N°6)** ist die dritte Kollektion, identischer Seitenaufbau, eigener URL-Raum
+unter `wanna-do-collection/volta/` (+ 8 Permalinks):
+
+- `data/designs-volta.json` – Datenquelle VOLTA (8 Entwürfe, gleiches Schema)
+- `scripts/build-volta.mjs` – Generator VOLTA (abgeleitet von `build-camada.mjs`;
+  Sitemap/Teaser macht zentral `build-proprio.mjs`, das alle drei Datenquellen liest)
 
 **CAMADA (N°5)** ist die zweite Kollektion, identischer Seitenaufbau wie PRÓPRIO,
 eigener URL-Raum unter `wanna-do-collection/camada/` (+ 8 Permalinks):

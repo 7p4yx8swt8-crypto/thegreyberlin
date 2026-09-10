@@ -115,4 +115,58 @@
     <priority>0.7</priority>
   </url>
 
+  <url>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/volta/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/volta/volta-01-ciclo/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/volta/volta-02-salto/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/volta/volta-03-ponte/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/volta/volta-04-folha/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/volta/volta-05-abraco/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/volta/volta-06-passo/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/volta/volta-07-peso/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.thegrey.berlin/wanna-do-collection/volta/volta-08-pausa/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
